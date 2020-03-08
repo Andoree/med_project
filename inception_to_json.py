@@ -1,48 +1,65 @@
 import codecs
+import json
 import os
 import random
+import re
+import shutil
 from argparse import ArgumentParser
 from sys import stderr
 
 import pandas as pd
-import re
-import json
 
 EFFICIENCY_LABEL_PATTERN = r'^(?P<status>INF|EF)\[\d+\]$'
-AMBIGOUS_EFFICIENCY_PATTERN = r'^(EF\[\d+\]\|INF\[\d+\])|(INF\[\d+\]\|EF\[\d+\])$'
-# TODO:
-RE_PATTERN = r'^(DI|ADR|Other)\[\d+\]$'
+AMBIGUOUS_EFFICIENCY_PATTERN = r'^(EF\[\d+\]\|INF\[\d+\])|(INF\[\d+\]\|EF\[\d+\])$'
+DI_ADR_OTHER_PATTERN = r'^(DI|ADR|Other)\[\d+\]$'
 
-# todo: Сделать словарём, по ключу получать строку
-# todo: Проверить, что индексы здесь и там правильные
-# todo: Ввести счётчик строк с началом "#Text=",
-# todo: Ключ в словарь подсчитывать исходя из этого индекса
+
 def load_sentence_texts(file_path):
     texts = {}
     with codecs.open(file_path, 'r', encoding='utf-8') as inp:
         sentence_counter = 0
-        #line = [line for line in inp]
         for line in inp:
             if line.startswith('#Text='):
                 sentence_counter += 1
                 texts[sentence_counter] = line[6:].strip()
-                # texts.append(line[6:].strip())
-                #
-                # if line[6:].strip().startswith('2.'):
-                #     print(file_path)
-                #     print(line)
-                #     print('--')
     return texts
 
 
-if __name__ == '__main__':
+def add_sentence_to_datalist(data, sentence_id, sentence_texts, sentences_starts, sentences_ends, efficiency_label,
+                             review_id):
+    sentence_text = sentence_texts[sentence_id]
+    sentence_start = sentences_starts[sentence_id]
+    sentence_end = sentences_ends[sentence_id]
+    assert len(sentence_text) == sentence_end - sentence_start
+    sentence = {
+        'text': sentence_text,
+        'start': int(sentence_start),
+        'end': int(sentence_end),
+        'type': efficiency_label,
+        'id': int(review_id),
+        'sent_id': int(sentence_id)
+    }
+    data.append(sentence)
+
+
+def copy_ambiguous_file(amb_files_folder, review_folder, file_path):
+    amb_review_folder = os.path.join(amb_files_folder, review_folder)
+    if not os.path.exists(amb_review_folder):
+        os.makedirs(amb_review_folder)
+    amb_fname = os.path.join(amb_review_folder, 'admin.tsv')
+    shutil.copy2(file_path, amb_fname)
+
+
+def main():
     parser = ArgumentParser()
-    parser.add_argument('--input_folder')
-    parser.add_argument('--save_to')
+    parser.add_argument('--input_folder', required=True)
+    parser.add_argument('--save_to', required=True)
+    parser.add_argument('--amb_folder', required=True, help='directory for files with ambiguous sentences '
+                                                            '(sentences that have both INF and EF annotations)')
     args = parser.parse_args()
     data = []
+    ambiguous_files_folder = args.amb_folder
     for review_folder in os.listdir(args.input_folder):
-        print(review_folder)
         review_id = int(review_folder.split('.')[0])
         file_path = os.path.join(args.input_folder, review_folder, 'admin.tsv')
         try:
@@ -57,13 +74,10 @@ if __name__ == '__main__':
             sentences_starts = annotation_data.groupby('sentence_id')['start'].min()
             sentences_ends = annotation_data.groupby('sentence_id')['end'].max()
 
-            # added_sentences_ids = set()
             annotated_sentences_ids = set()
             effiency_sentence_flag = False
-            sentences_count = annotation_data['sentence_id'].max()
             for row in annotation_data.iterrows():
                 row_series = row[1]
-                token = row_series['token']
                 efficiency_annotation = row_series['efficiency']
                 sentence_id = row_series['sentence_id']
 
@@ -75,73 +89,40 @@ if __name__ == '__main__':
                     efficiency_label = m.group('status')
                     effiency_sentence_flag = True
                     annotated_sentences_ids.add(sentence_id)
-                    sentence_text = sentence_texts[sentence_id]
-                    token_start = sentences_starts[sentence_id]
-                    token_end = sentences_ends[sentence_id]
-
-                    sentence = {
-                        'text': sentence_text,
-                        'start': token_start,
-                        'end': token_end,
-                        'type': efficiency_label,
-                        'id': review_id,
-                        'sent_id': sentence_id
-                    }
-                    data.append(sentence)
+                    add_sentence_to_datalist(data=data, sentence_id=sentence_id, sentence_texts=sentence_texts,
+                                             sentences_starts=sentences_starts, sentences_ends=sentences_ends,
+                                             efficiency_label=efficiency_label, review_id=review_id)
                     annotated_sentences_ids.add(sentence_id)
-                # todo: такие кейсы удалить из рассмотрения, не давать им быть рандомными
-                # todo: NEUTRAL
-                elif re.fullmatch(AMBIGOUS_EFFICIENCY_PATTERN, efficiency_annotation):
-                    print(efficiency_annotation)
-                    pass
-                elif re.fullmatch(RE_PATTERN, efficiency_annotation):
-                    print('Case 3', efficiency_annotation)
-                    pass
-                elif review_folder == '811884.tsv':
-                    print(':(')
-                    pass
+                elif re.fullmatch(AMBIGUOUS_EFFICIENCY_PATTERN, efficiency_annotation):
+                    annotated_sentences_ids.add(sentence_id)
+                    copy_ambiguous_file(amb_files_folder=ambiguous_files_folder, review_folder=review_folder,
+                                        file_path=file_path)
+                elif re.fullmatch(DI_ADR_OTHER_PATTERN, efficiency_annotation) or len(
+                        efficiency_annotation.split('|')) == 3:
+                    annotated_sentences_ids.add(sentence_id)
                 else:
-                    # print(efficiency_annotation)
                     assert efficiency_annotation == '_'
             if effiency_sentence_flag:
-                sent_ids = set([i + 1 for i in range(sentences_count)])
+                sent_ids = set(annotation_data['sentence_id'].unique())
                 not_annotated_sent_ids = sent_ids.difference(annotated_sentences_ids)
                 not_annot_sent_id = random.choice(tuple(not_annotated_sent_ids))
 
-                sent_text = sentence_texts[not_annot_sent_id]
-                token_start = sentences_starts[not_annot_sent_id]
-                token_end = sentences_ends[not_annot_sent_id]
-                assert len(sent_text) == token_end - token_start
-
-                sentence = {
-                    'text': sent_text,
-                    'start': token_start,
-                    'end': token_end,
-                    'type': 'NEUTRAL',
-                    'id': review_id,
-                    'sent_id': not_annot_sent_id
-                }
-                data.append(sentence)
-            # for d in data:
-            #     print(d['text'])
-            #     print('\t', d['start'])
-            #     print('\t', d['end'])
-            #     print('\t', d['type'])
-            #     print('\t', d['id'])
-            #     print('\t', d['sent_id'])
-
-
-
+                add_sentence_to_datalist(data=data, sentence_id=not_annot_sent_id, sentence_texts=sentence_texts,
+                                         sentences_starts=sentences_starts, sentences_ends=sentences_ends,
+                                         efficiency_label='NEUTRAL', review_id=review_id)
         except pd.errors.ParserError as err:
             err_msg = str(err)
             if err_msg == 'Too many columns specified: expected 7 and found 6':
                 stderr.write(f'File is not properly annotated: {file_path}\n')
             else:
                 stderr.write(f'{err_msg}\n')
-        except KeyError as err:
-            err_msg = str(err)
-    # TODO: Fix serialization
-    # TODO: Добавить директорию неоднозначных случаев
+    for d in data:
+        print(d)
     with open(args.save_to, 'w', encoding='utf-8') as output:
-        serialized_data = json.dumps(data, ensure_ascii=False)
-        output.write(serialized_data + '\n')
+        for sentence_dictionary in data:
+            serialized_sentence = json.dumps(sentence_dictionary, ensure_ascii=False)
+            output.write(serialized_sentence + '\n')
+
+
+if __name__ == '__main__':
+    main()
