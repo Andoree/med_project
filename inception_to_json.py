@@ -10,7 +10,7 @@ from sys import stderr
 import pandas as pd
 
 EFFICIENCY_LABEL_PATTERN = r'^(?P<status>INF|EF)\[\d+\]$'
-AMBIGUOUS_EFFICIENCY_PATTERN = r'^(EF\[\d+\]\|INF\[\d+\])|(INF\[\d+\]\|EF\[\d+\])$'
+MULTICLASS_EFFICIENCY_PATTERN = r'^(EF\[\d+\]\|INF\[\d+\])|(INF\[\d+\]\|EF\[\d+\])$'
 DI_ADR_OTHER_PATTERN = r'^(DI|ADR|Other)\[\d+\]$'
 
 
@@ -42,23 +42,23 @@ def add_sentence_to_datalist(data, sentence_id, sentence_texts, sentences_starts
     data.append(sentence)
 
 
-def copy_ambiguous_file(amb_files_folder, review_folder, file_path):
-    amb_review_folder = os.path.join(amb_files_folder, review_folder)
-    if not os.path.exists(amb_review_folder):
-        os.makedirs(amb_review_folder)
-    amb_fname = os.path.join(amb_review_folder, 'admin.tsv')
-    shutil.copy2(file_path, amb_fname)
+def copy_multiclass_file(mulclass_files_folder, review_folder, file_path):
+    mulclass_review_folder = os.path.join(mulclass_files_folder, review_folder)
+    if not os.path.exists(mulclass_review_folder):
+        os.makedirs(mulclass_review_folder)
+    mulclass_fname = os.path.join(mulclass_review_folder, 'admin.tsv')
+    shutil.copy2(file_path, mulclass_fname)
 
 
 def main():
     parser = ArgumentParser()
     parser.add_argument('--input_folder', required=True)
     parser.add_argument('--save_to', required=True)
-    parser.add_argument('--amb_folder', required=True, help='directory for files with ambiguous sentences '
+    parser.add_argument('--multiclass_folder', required=True, help='directory for files with multiclass sentences '
                                                             '(sentences that have both INF and EF annotations)')
     args = parser.parse_args()
     data = []
-    ambiguous_files_folder = args.amb_folder
+    multiclass_files_folder = args.multiclass_folder
     for review_folder in os.listdir(args.input_folder):
         review_id = int(review_folder.split('.')[0])
         file_path = os.path.join(args.input_folder, review_folder, 'admin.tsv')
@@ -93,10 +93,10 @@ def main():
                                              sentences_starts=sentences_starts, sentences_ends=sentences_ends,
                                              efficiency_label=efficiency_label, review_id=review_id)
                     annotated_sentences_ids.add(sentence_id)
-                elif re.fullmatch(AMBIGUOUS_EFFICIENCY_PATTERN, efficiency_annotation):
+                elif re.fullmatch(MULTICLASS_EFFICIENCY_PATTERN, efficiency_annotation):
                     annotated_sentences_ids.add(sentence_id)
-                    copy_ambiguous_file(amb_files_folder=ambiguous_files_folder, review_folder=review_folder,
-                                        file_path=file_path)
+                    copy_multiclass_file(mulclass_files_folder=multiclass_files_folder, review_folder=review_folder,
+                                         file_path=file_path)
                 elif re.fullmatch(DI_ADR_OTHER_PATTERN, efficiency_annotation) or len(
                         efficiency_annotation.split('|')) == 3:
                     annotated_sentences_ids.add(sentence_id)
@@ -116,12 +116,10 @@ def main():
                 stderr.write(f'File is not properly annotated: {file_path}\n')
             else:
                 stderr.write(f'{err_msg}\n')
-    for d in data:
-        print(d)
+
     with open(args.save_to, 'w', encoding='utf-8') as output:
-        for sentence_dictionary in data:
-            serialized_sentence = json.dumps(sentence_dictionary, ensure_ascii=False)
-            output.write(serialized_sentence + '\n')
+        serialized_data = json.dumps(data, ensure_ascii=False)
+        output.write(serialized_data + '\n')
 
 
 if __name__ == '__main__':
