@@ -4,7 +4,7 @@ from collections import Counter
 
 
 def main():
-    with codecs.open("data.json", "r", encoding="utf-8") as json_input:
+    with codecs.open("annotated_reviews.json", "r", encoding="utf-8") as json_input:
         data = json.load(json_input)
         counter = Counter()
         for sentence in data:
