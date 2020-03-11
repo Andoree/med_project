@@ -13,7 +13,9 @@ EFFICIENCY_LABEL_TO_ID = {
 }
 
 
-def write_samples_to_file(output_file, sentences, labels):
+def write_samples_to_file(output_file, sentences, labels, header=False):
+    if header:
+        output_file.write(f'label_id\ttext\n')
     for ind in range(len(sentences)):
         sentence_text = sentences[ind]
         sentence_label = labels[ind]
@@ -43,7 +45,7 @@ def main():
 
         sentences = np.array(sentences)
         label_ids = np.array(label_ids)
-        kf = KFold(n_splits=args.n_splits, random_state=42)
+        kf = KFold(n_splits=args.n_splits)
         for ind, (train_index, test_index) in enumerate(kf.split(sentences)):
             print(f"Creating split {ind}")
             train_sentences, train_label_ids = sentences[train_index], label_ids[train_index]
@@ -55,7 +57,7 @@ def main():
                 os.makedirs(fold_directory)
             train_path = os.path.join(fold_directory, 'train.tsv')
             train_sentences, dev_sentences, train_label_ids, dev_label_ids = \
-                train_test_split(train_sentences, train_label_ids, test_size=0.15, random_state=42)
+                train_test_split(train_sentences, train_label_ids, test_size=0.1, random_state=42)
             dev_path = os.path.join(fold_directory, 'dev.tsv')
             test_path = os.path.join(fold_directory, 'test.tsv')
             with codecs.open(train_path, "w+", encoding="utf-8") as train_file, \
@@ -63,7 +65,7 @@ def main():
                     codecs.open(dev_path, "w+", encoding="utf-8") as dev_file:
                 write_samples_to_file(output_file=train_file, sentences=train_sentences, labels=train_label_ids)
                 write_samples_to_file(output_file=dev_file, sentences=dev_sentences, labels=dev_label_ids)
-                write_samples_to_file(output_file=test_file, sentences=test_sentences, labels=test_labels_ids)
+                write_samples_to_file(output_file=test_file, sentences=test_sentences, labels=test_labels_ids, header=True)
             print(f"Split {ind} succesfully created")
 
 
