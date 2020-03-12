@@ -4,9 +4,7 @@ from argparse import ArgumentParser
 
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import KFold
 
-from crossval_corpus_split import load_sentences_labels
 
 ID_TO_EFFICIENCY_LABEL = {
     0: "NEUTRAL",
@@ -19,42 +17,44 @@ def main():
     parser = ArgumentParser()
     parser.add_argument('--classes_folder', required=True)
     parser.add_argument('--num_folds', type=int, default=5)
-    parser.add_argument('--sentences_json', required=True)
+    parser.add_argument('--kfold_dir', required=True)
+    parser.add_argument('--save_to', required=True)
     args = parser.parse_args()
 
-    kf = KFold(n_splits=args.num_folds)
-    sentence_texts, label_ids = load_sentences_labels(args.sentences_json)
-    print(len(sentence_texts))
-    assert len(sentence_texts) == len(label_ids)
-    human_markup_labels = [ID_TO_EFFICIENCY_LABEL[label_ids[i]] for i in range(len(sentence_texts))]
-    # human_markup_labels = {i: ID_TO_EFFICIENCY_LABEL[label_ids[i]] for i in range(len(sentence_texts))}
-    predicted_labels = {}
-    for ind, (train_index, test_index) in enumerate(kf.split(sentence_texts)):
-        print(ind, len(train_index), len(test_index))
+    doc_ids = []
+    sent_ids = []
+    sentence_texts = []
+    human_labels = []
+    predicted_labels = []
+    for ind in range(args.num_folds):
+        fold_testset_path = os.path.join(args.kfold_dir, f'fold_{ind}', 'test.tsv')
+        fold_test_df = pd.read_csv(fold_testset_path, sep='\t', encoding='utf-8', quoting=3)
+
+        fold_test_labels = [ID_TO_EFFICIENCY_LABEL[label_id] for label_id in fold_test_df.label_id.values]
+        fold_test_texts = fold_test_df.text.values
+        fold_test_doc_ids = fold_test_df.doc_id.values
+        fold_test_sent_ids = fold_test_df.sent_id.values
+
+        doc_ids.extend(fold_test_doc_ids)
+        sent_ids.extend(fold_test_sent_ids)
+        sentence_texts.extend(fold_test_texts)
+        human_labels.extend(fold_test_labels)
+
         fold_fname = f'fold_{ind}.tsv'
         fold_path = os.path.join(args.classes_folder, fold_fname)
-        print(fold_fname)
         with codecs.open(fold_path, "r", encoding="utf-8") as fold_file:
             for sent_number, line in enumerate(fold_file):
-                global_sent_id = test_index[sent_number]
                 class_probabilities = [float(x) for x in line.split()]
                 class_id = np.argmax(class_probabilities)
                 predicted_eff_label = ID_TO_EFFICIENCY_LABEL[class_id]
-                predicted_labels[global_sent_id] = predicted_eff_label
-            #     print(class_id, line)
-            # print('--\n' * 4)
-    predicted_labels_list = [predicted_labels[sent_id] for sent_id in sorted(predicted_labels.keys())]
+                predicted_labels.append(predicted_eff_label)
 
     eff_labels_df = pd.DataFrame.from_dict(
-        {'text': sentence_texts, 'human_label': human_markup_labels, 'predicted_label': predicted_labels_list})
+        {'human_label': human_labels, 'predicted_label': predicted_labels, 'doc_id': doc_ids, 'sent_id': sent_ids,
+         'text': sentence_texts})
     mismatched_labels_df = eff_labels_df[eff_labels_df.human_label != eff_labels_df.predicted_label]
-
-
-    # for sent_id in sorted(predicted_labels.keys(), key=lambda x: -x):
-    #     print(sent_id)
-    # print(len(predicted_labels.keys()))
-    # for k, v in predicted_labels.items():
-    #     print(k, v)
+    mismatched_labels_df.reset_index()
+    mismatched_labels_df.to_csv(args.save_to, sep='\t', quoting=3, index=False)
 
 
 if __name__ == '__main__':
