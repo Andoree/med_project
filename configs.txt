@@ -1,0 +1,7 @@
+get_annotated_review_info.py
+    --all_reviews \
+    /media/an/Windows/University/NLP/lab_tasks/data/all_reviews_texts_lemm.txt \
+    --anno_reviews \
+    annotation/ \
+    --save_to \
+    review_info.csv
