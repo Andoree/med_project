@@ -5,7 +5,6 @@ from argparse import ArgumentParser
 import numpy as np
 import pandas as pd
 
-
 ID_TO_EFFICIENCY_LABEL = {
     0: "NEUTRAL",
     1: "EF",
@@ -26,6 +25,7 @@ def main():
     sentence_texts = []
     human_labels = []
     predicted_labels = []
+    class_condifences = []
     for ind in range(args.num_folds):
         fold_testset_path = os.path.join(args.kfold_dir, f'fold_{ind}', 'test.tsv')
         fold_test_df = pd.read_csv(fold_testset_path, sep='\t', encoding='utf-8', quoting=3)
@@ -46,12 +46,14 @@ def main():
             for sent_number, line in enumerate(fold_file):
                 class_probabilities = [float(x) for x in line.split()]
                 class_id = np.argmax(class_probabilities)
+                class_confidence = np.max(class_probabilities)
                 predicted_eff_label = ID_TO_EFFICIENCY_LABEL[class_id]
                 predicted_labels.append(predicted_eff_label)
+                class_condifences.append(class_confidence)
 
     eff_labels_df = pd.DataFrame.from_dict(
-        {'human_label': human_labels, 'predicted_label': predicted_labels, 'doc_id': doc_ids, 'sent_id': sent_ids,
-         'text': sentence_texts})
+        {'human_label': human_labels, 'predicted_label': predicted_labels, 'class_confidence': class_condifences,
+         'doc_id': doc_ids, 'sent_id': sent_ids, 'text': sentence_texts})
     mismatched_labels_df = eff_labels_df[eff_labels_df.human_label != eff_labels_df.predicted_label]
     mismatched_labels_df.reset_index()
     mismatched_labels_df.to_csv(args.save_to, sep='\t', quoting=3, index=False)
