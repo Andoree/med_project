@@ -44,7 +44,7 @@ def get_value_from_list_field(json_object_dict, field_name, re_pattern, re_group
             stderr.write(f'INVALID RATING STRING: {field_string}\n')
     return field_value
 
-# todo: analyze what reviews are absent in the resulting csv file
+
 def main():
     parser = ArgumentParser()
     parser.add_argument('--all_reviews', required=True)
