@@ -5,3 +5,17 @@ get_annotated_review_info.py
     annotation/ \
     --save_to \
     review_info.csv
+
+inception_to_json.py
+--input_folder
+../reviews_project_2020-03-17_1131/annotation
+--multiclass_folder
+reviews_2020-03-17_1131/mulclass_cases
+--save_to
+reviews_2020-03-17_1131/annotated_sentences.json
+
+get_absent_review_ids.py
+--review_info
+reviews_2020-03-17_1131/review_info.csv
+--sent_json
+reviews_2020-03-17_1131/annotated_sentences.json

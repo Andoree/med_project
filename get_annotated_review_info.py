@@ -1,13 +1,16 @@
 import codecs
+import distutils
 import json
 import os
 import re
 from argparse import ArgumentParser
+from distutils.util import strtobool
 from sys import stderr
 import pandas as pd
 
 PRODUCT_RATING_PATTERN = r'^Общий рейтинг: (?P<rating_value>\d)$'
 PRODUCT_TITLE_PATTERN = r'^Все отзывы о (?P<product_title>.+)$'
+IGNORED_CATEGORIES_LIST = ['Гомеопатические препараты']
 
 
 def get_reviews_ids_set(reviews_directory):
@@ -50,6 +53,7 @@ def main():
     parser.add_argument('--all_reviews', required=True)
     parser.add_argument('--anno_reviews', required=True)
     parser.add_argument('--save_to', required=True)
+    parser.add_argument('--filter_category', type=strtobool, default=False)
     args = parser.parse_args()
 
     annotated_reviews_ids = get_reviews_ids_set(reviews_directory=args.anno_reviews)
@@ -67,6 +71,9 @@ def main():
                 if review_id not in annotated_reviews_ids:
                     continue
                 category_3 = doc['cat3']
+                if args.filter_category:
+                    if category_3 in IGNORED_CATEGORIES_LIST:
+                        continue
                 product_rating = get_value_from_list_field(
                     doc, field_name="product-rating", re_pattern=PRODUCT_RATING_PATTERN,
                     re_group_name="rating_value")
