@@ -1,4 +1,5 @@
 import os
+
 import pandas as pd
 
 
@@ -29,6 +30,19 @@ def main():
     ssi_df["ssi_count"] = ssi_df.apply(lambda row: row[ssi_range].notnull().sum(), axis=1)
     di_range = [f"DI{i}" for i in range(1, 10)]
     di_df["di_count"] = di_df.apply(lambda row: row[di_range].notnull().sum(), axis=1)
+
+    # todo: Попробовать validate на foreign key
+    resulting_df = resulting_df \
+        .merge(adr_df[['drug_id', 'sentence_index', 'adr_count']], how='left', on=['drug_id', 'sentence_index']) \
+        .merge(wd_df[['drug_id', 'sentence_index', 'wd_count']], how='left', on=['drug_id', 'sentence_index']) \
+        .merge(ssi_df[['drug_id', 'sentence_index', 'ssi_count']], how='left', on=['drug_id', 'sentence_index']) \
+        .merge(di_df[['drug_id', 'sentence_index', 'di_count']], how='left', on=['drug_id', 'sentence_index'])
+    # todo: Change datatypes
+    # todo: Replace nans with zeros
+    # todo: Replace ! and * with zero
+    print(resulting_df)
+    print(resulting_df.dtypes)
+
     # todo: Select only neeed columns, merge
 
     # todo: Для того, что сделать агрегацию, взять строки, у которых нужный каунт не нулевой
