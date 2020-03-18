@@ -19,3 +19,9 @@ get_absent_review_ids.py
 reviews_2020-03-17_1131/review_info.csv
 --sent_json
 reviews_2020-03-17_1131/annotated_sentences.json
+
+merge_psytar.py
+--psytar_csvs_dir
+PsyTar/
+--save_to_csv
+psytar_stat.csv
