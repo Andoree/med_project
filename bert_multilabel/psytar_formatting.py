@@ -38,11 +38,11 @@ def main():
         fold_directory = os.path.join(args.output_crossval_dir, f'fold_{ind}/')
         if not os.path.exists(fold_directory):
             os.makedirs(fold_directory)
-        train_path = os.path.join(fold_directory, 'train.tsv')
+        train_path = os.path.join(fold_directory, 'train.csv')
         train_df, dev_df, _, _ = train_test_split \
             (train_df, train_df, test_size=0.1, random_state=42)
-        dev_path = os.path.join(fold_directory, 'dev.tsv')
-        test_path = os.path.join(fold_directory, 'test.tsv')
+        dev_path = os.path.join(fold_directory, 'dev.csv')
+        test_path = os.path.join(fold_directory, 'test.csv')
 
         train_df.to_csv(train_path)
         test_df.to_csv(test_path)

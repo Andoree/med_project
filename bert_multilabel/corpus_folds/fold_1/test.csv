@@ -1,0 +1,1209 @@
+,id,comment_id,drug_id,sentence_index,sentences,ADR,WD,EF,INF,SSI,DI,Findings,others,rating,category
+1202,1203.0,178.0,lexapro.178,10.0,And he was right!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1203,1204.0,178.0,lexapro.178,11.0,Almost exactly after the second week I woke up one morning and I felt 100% better.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1204,1205.0,178.0,lexapro.178,12.0,Xanax was the godsend to get me through the side effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1205,1206.0,178.0,lexapro.178,13.0,Take it as prescribed and it is your best friend.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1206,1207.0,178.0,lexapro.178,14.0,I've read nothing but negative reviews on this drug.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1207,1208.0,178.0,lexapro.178,15.0,Some people even claim that the first day of taking the pill it was either aweful or amazing.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1208,1209.0,178.0,lexapro.178,16.0,Just know that you WILL NOT feel any effect for 3-5 days as it takes time for it to build up in your body.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1209,1210.0,178.0,lexapro.178,17.0,I started taking this for my Post Partum.,0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+1210,1211.0,178.0,lexapro.178,18.0,I was to the point that if I even looked at my baby or heard his voice I wanted to vomit.,0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1211,1212.0,178.0,lexapro.178,19.0,I wanted nothing to do with him.,0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1212,1213.0,178.0,lexapro.178,20.0,I wanted him away from me as far as possible.,0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1213,1214.0,178.0,lexapro.178,21.0,"I knew there was something wrong with that, so I spoke to a psychologist and he prescribed me lexapro.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1214,1215.0,178.0,lexapro.178,22.0,I started off on 2.5 mg for one week.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1215,1216.0,178.0,lexapro.178,23.0,Then 5 the next week (those 2 weeks were the worst) then I worked up to 10mg.,0,0.0,0,1,0.0,0,0.0,0,5.0,ssri
+1216,1217.0,178.0,lexapro.178,24.0,I felt so much better but I still had the feeling of uneasiness.,0,0.0,1,1,1.0,0,0.0,0,5.0,ssri
+1217,1218.0,178.0,lexapro.178,25.0,So he bumped me up to 15)  That was the magic number.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1218,1219.0,178.0,lexapro.178,26.0,I was totally back to normal.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1219,1220.0,178.0,lexapro.178,27.0,It's been 1yr now and my little baby is now 1.5 yrs old.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1220,1221.0,178.0,lexapro.178,28.0,I feel like I don't need it any more.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1221,1222.0,178.0,lexapro.178,29.0,So my dr has me stepping off.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1222,1223.0,178.0,lexapro.178,30.0,I've gradually taken down the dose by 2.5mgs each month just to be sure I don't experience withdrawals and guess what?,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1223,1224.0,178.0,lexapro.178,31.0,THERE HAVE BEEN NONE!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1224,1225.0,178.0,lexapro.178,32.0,Yay.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1225,1226.0,178.0,lexapro.178,33.0,I'm literally down to my last 30 days of this medicine and I feel awesome!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1226,1227.0,178.0,lexapro.178,34.0,DO NOT JUST QUIT COLD TURKEY.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1227,1228.0,178.0,lexapro.178,35.0,you must must must gradually lower the dose by a month at a time or you will suffer TERRIBLE consequences.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1228,1229.0,179.0,lexapro.179,1.0,Sleepiness.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1229,1230.0,179.0,lexapro.179,2.0,"all the time, yet will have trouble falling asleep at night, can nap for half a day no problem.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1230,1231.0,179.0,lexapro.179,3.0,"Jaw clenching at night and during the day, Nausea, Stomache pain, loose bowel movements, followed by constipation, Feeling dehydrated, and dry mouth, Headaches, blurred vision, increased episodes of vertigo.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1231,1232.0,179.0,lexapro.179,4.0,"Some initial weight gain, but has now setteled down and am experiencing the reverse.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1232,1233.0,179.0,lexapro.179,5.0,Episodes of ravenous hunger and loss of appetite.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1233,1234.0,179.0,lexapro.179,6.0,Indifference to food.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1234,1235.0,179.0,lexapro.179,7.0,"Difficulty achieving orgasm, less intense orgasm.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1235,1236.0,179.0,lexapro.179,8.0,Despite the many side effects I love this drug.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1236,1237.0,179.0,lexapro.179,9.0,"I am taking 30mg, started on 10mg, a month late went to 20, a month later went to 30mg.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1237,1238.0,179.0,lexapro.179,10.0,"I now feel so much calmer and happier, no anxiety attacks or feelings of dread.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1238,1239.0,179.0,lexapro.179,11.0,Did gain some weight but after being on the drug for 9 months that seems to have settled down.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1239,1240.0,179.0,lexapro.179,12.0,I had increased appetite which may account for that.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1240,1241.0,179.0,lexapro.179,13.0,My appetite has lowered significantly since being on higher dose.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1241,1242.0,179.0,lexapro.179,14.0,"The fatigue and sleepiness is a pain, but am willing to put up with it as it beats not being able to get out of bed.",1,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1242,1243.0,180.0,lexapro.180,1.0,takes much longer to climax.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1243,1244.0,180.0,lexapro.180,2.0,at first some 'hung-over' feeling.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1244,1245.0,180.0,lexapro.180,3.0,It's very hard to cry.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1245,1246.0,180.0,lexapro.180,4.0,It has reduced my anxiety attacks to near nothing!,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1246,1247.0,180.0,lexapro.180,5.0,"Automatic anxiety occasions (elevator rides, big crowds) now don't trigger automatic responses, which helps a ton.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1247,1248.0,180.0,lexapro.180,6.0,"I started with 10mg and moved up to 20 pretty quickly, with very little problem.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1248,1249.0,180.0,lexapro.180,7.0,"The pros far outweigh the cons, and I've found this drug to be very good for a drug-sensitive person like myself.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1249,1250.0,181.0,lexapro.181,1.0,This is great.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1250,1251.0,181.0,lexapro.181,2.0,Felt better w/in days.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1251,1252.0,181.0,lexapro.181,3.0,Changed my life.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1252,1253.0,181.0,lexapro.181,4.0,"Only side effect could be lack of libido but not sure I can blame it on drug as I am post menopausal, o",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1253,1254.0,182.0,lexapro.182,1.0,Really no negative side effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1254,1255.0,182.0,lexapro.182,2.0,Lost weight at first.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1255,1256.0,182.0,lexapro.182,3.0,After a month back to normal (very petite).,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1256,1257.0,182.0,lexapro.182,4.0,No sexual issues or side effects of any kind.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1257,1258.0,182.0,lexapro.182,5.0,Life Changing Drug!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1258,1259.0,182.0,lexapro.182,6.0,"Struggled with a horrible cycle of insomnia, anxiety, depression, life changes and hormonal changes for a year.",0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1259,1260.0,182.0,lexapro.182,7.0,On day one of taking Lexapro I fell asleep within an half hour for the first time in a year.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1260,1261.0,182.0,lexapro.182,8.0,"Within a week I felt like my old self but even better, The worries, and the major (and i mean MAJOR deep dark hole depression) I experienced (especially PMS depression) is gone and has stayed gone.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1261,1262.0,182.0,lexapro.182,9.0,I can feel emotion but don't fall apart all the time and I CAN SLEEP up to 6 total hours a night.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1262,1263.0,182.0,lexapro.182,10.0,A huge improvement from 2 or 3 hours.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1263,1264.0,182.0,lexapro.182,11.0,I plan on embracing this drug as long as I need to,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1264,1265.0,183.0,lexapro.183,1.0,"Sleepy, lethargic, zombie like state.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1265,1266.0,183.0,lexapro.183,2.0,Overall does help my depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1266,1267.0,184.0,lexapro.184,1.0,lower libido than usual.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1267,1268.0,184.0,lexapro.184,2.0,"I'm lucky to have great success with it, Reading others' entries, it's obvious everyone's experience will be different, and you can't predict your own body's response based on others' responses.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1268,1269.0,185.0,lexapro.185,1.0,I posted back in July after I went up from 1/4 of a pill to 1/2 of a 10mg.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1269,1270.0,185.0,lexapro.185,2.0,Side effects were sleepiness and excessive sweating.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1270,1271.0,185.0,lexapro.185,3.0,I DID make it to the beach!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1271,1272.0,185.0,lexapro.185,4.0,Twice in less than 8 days.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1272,1273.0,185.0,lexapro.185,5.0,I haven't been 45 mins.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1273,1274.0,185.0,lexapro.185,6.0,from my home in 39 years!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1274,1275.0,185.0,lexapro.185,7.0,"The 2nd time we went to the beach (1 hr, 45 mins away) we spent the night.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1275,1276.0,185.0,lexapro.185,8.0,My sister was so proud of me she got us a beautiful oceanfront room.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1276,1277.0,185.0,lexapro.185,9.0,"I NEVER thought I'd see the ocean again, already have a reservation for 5 days next summer.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1277,1278.0,185.0,lexapro.185,10.0,I thank God for Lexapro.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1278,1279.0,185.0,lexapro.185,11.0,"The excessive sweating seems to have stopped about a week ago, sex drive has been as great as always, and right now at 5mg Lex with 1 1/2 mg of Alprazolam a day.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1279,1280.0,185.0,lexapro.185,12.0,I seem to have discovered a miracle!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1280,1281.0,186.0,lexapro.186,1.0,"Loss of sex drive; massive weight gain, forgetfulness.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1281,1282.0,186.0,lexapro.186,2.0,I would not be here today if it weren't for Lexapro.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1282,1283.0,186.0,lexapro.186,3.0,I took this because I began to have severe panic attacks and issues with depression.,0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+1283,1284.0,186.0,lexapro.186,4.0,I started at 10mg.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1284,1285.0,186.0,lexapro.186,5.0,I went up to 20mg and found I was putting on a lot of weight.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1285,1286.0,186.0,lexapro.186,6.0,"There are down sides to it, but this medication helped me through a very, very tough time in my life.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1286,1287.0,187.0,lexapro.187,1.0,"Tiredness a few hours after taking, ""the munchies"" -> some weight gain, dulled emotions (though this improved with time), slight sexual side effects.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1287,1288.0,187.0,lexapro.187,2.0,Gave me my life back after completely breaking down six months ago.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1288,1289.0,187.0,lexapro.187,3.0,Helped not only with the issues I was immediately experiencing (extreme panic and hypochondria) but long-standing social anxiety and obsessive thoughts have also been relieved.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1289,1290.0,187.0,lexapro.187,4.0,Still have mild depression.,0,0.0,0,1,1.0,0,0.0,0,5.0,ssri
+1290,1291.0,187.0,lexapro.187,5.0,Side effects are annoying but a small price to pay for my life back.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1291,1292.0,188.0,lexapro.188,1.0,Sweating at night.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1292,1293.0,188.0,lexapro.188,2.0,"Initial weight gain, but have since lost it.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1293,1294.0,188.0,lexapro.188,3.0,Other than an initial difficulty reaching orgasm I've had no problems achieving orgasm after the first 4-6 weeks of being on Lexapro.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1294,1295.0,188.0,lexapro.188,4.0,I feel so much better emotionally and physically than I did when I was on Celexa.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1295,1296.0,188.0,lexapro.188,5.0,"I've gotten back to exercising and enjoying my life in ways that I haven't been able to for years, Thank you!",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1296,1297.0,189.0,lexapro.189,1.0,Originally I was prescribed Zoloft for depression & anxiety attacks and was given 50mg dose from the start.,0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+1297,1298.0,189.0,lexapro.189,2.0,Within a few hours I was trippin from the side effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1298,1299.0,189.0,lexapro.189,3.0,"I was unable to carry on a conversation, racing thoughts, room spinning, looked like a zombie, emotionally numb.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1299,1300.0,189.0,lexapro.189,4.0,"I felt i was high, nauseous for 4 days.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1300,1301.0,189.0,lexapro.189,5.0,Finally my Dr. switched me to Lexapro.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1301,1302.0,189.0,lexapro.189,6.0,"The first day was great, no side effects whatsoever.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1302,1303.0,189.0,lexapro.189,7.0,"Until I woke up nauseous, as soon as I ate I was fine, 2nd day: no side effects.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1303,1304.0,189.0,lexapro.189,8.0,"I was social, but that night woke up at 2:15 sweating and in a terrible panic attack(not from a dream) but heart racing, swallowed breath, felt emotionally traumatized.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1304,1305.0,189.0,lexapro.189,9.0,"but quickly fell back to sleep, Day 3: great!",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1305,1306.0,189.0,lexapro.189,10.0,"Social, happy to have company, emotionally well & stable, Again, woke up at 4am (no anxiety) for no reason but fell asleep an hour later.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1306,1307.0,189.0,lexapro.189,11.0,"Over all I'd say these side effects are much easier go deal with than before & am very happy to be on the route to a steady, happy life!",1,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1307,1308.0,190.0,lexapro.190,1.0,"none, ",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1308,1309.0,191.0,lexapro.191,1.0,WEIGHT GAIN first two weeks a little dizzy.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1309,1310.0,191.0,lexapro.191,2.0,"then fine must take in AM, keeps me awake at night, love it, amazing.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1310,1311.0,191.0,lexapro.191,3.0,changed my life,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1311,1312.0,192.0,lexapro.192,1.0,some weight gain.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1312,1313.0,192.0,lexapro.192,2.0,This stuff is the bomb!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1313,1314.0,192.0,lexapro.192,3.0,Works great for me,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1314,1315.0,193.0,lexapro.193,1.0,"Bad: Nauseated and jittery for the first few days, like a sugar crash or a caffeine high, Good: I am sleeping like a baby for the first time in years.",1,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1315,1316.0,193.0,lexapro.193,2.0,"I wake up feeling refreshed and rested, almost instantly alert.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1316,1317.0,193.0,lexapro.193,3.0,"If I am sleepy at all the next day, it is because I was unable (due to my schedule) to get a full eight hours' sleep, not because of the Lexapro.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1317,1318.0,193.0,lexapro.193,4.0,When I get eight hours.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1318,1319.0,193.0,lexapro.193,5.0,I have no sleepiness at all.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1319,1320.0,193.0,lexapro.193,6.0,I was on Wellbutrin prescribed by my PCP but she sent me to a psychiatrist because I was still very depressed.,0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1320,1321.0,193.0,lexapro.193,7.0,"The psychiatrist prescribed Lexapro because I was also having severe mood swings and rage along with the depression, completely stressed out and unhappy.",0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+1321,1322.0,193.0,lexapro.193,8.0,"He started me on 10 mg per day, and I can honestly say that I feel better than I have ever felt in my life.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1322,1323.0,193.0,lexapro.193,9.0,Crises are quickly put into perspective.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1323,1324.0,193.0,lexapro.193,10.0,"I feel hopeful and happy and content, the kids' antics don't wig me out like they used to.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1324,1325.0,193.0,lexapro.193,11.0,"The fact that I am sleeping better, too, is a bonus, because I was having a terrible time sleeping more than three hours at a time and spent a couple of hours each night tossing and turning, Not anymore!",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1325,1326.0,193.0,lexapro.193,12.0,I love it!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1326,1327.0,193.0,lexapro.193,13.0,I am so happy to have finally found something that is working for me.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1327,1328.0,194.0,lexapro.194,1.0,First three days of taking Lexapro to made my head feel like it was going to blow up.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1328,1329.0,194.0,lexapro.194,2.0,"There was a lot of pressure, After that, day four was when I felt great.",1,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1329,1330.0,194.0,lexapro.194,3.0,I couldn't be sad and I couldn't care about anything.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1330,1331.0,194.0,lexapro.194,4.0,It was a relief.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1331,1332.0,194.0,lexapro.194,5.0,"- Most people don't start on 20mg, it was an emergency.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1332,1333.0,194.0,lexapro.194,6.0,"If you have an ""inner critic"", it takes that voice away and you feel like you're allowed to feel happy again.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1333,1334.0,194.0,lexapro.194,7.0,- DO NOT STOP COLD TURKEY.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1334,1335.0,194.0,lexapro.194,8.0,I stopped after three months because I felt better.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1335,1336.0,194.0,lexapro.194,9.0,I gained ten pounds.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1336,1337.0,194.0,lexapro.194,10.0,"The depression took about for months after to come back, Not pleasant.",0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1337,1338.0,194.0,lexapro.194,11.0,"- Loved this drug, but if you don't like the feeling of uninterrupted calm.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1338,1339.0,194.0,lexapro.194,12.0,I don't recommend it.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1339,1340.0,194.0,lexapro.194,13.0,"You aren't overly happy or overly sad, just stable.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1340,1341.0,195.0,lexapro.195,1.0,"Help with anxiety and depression (bipolar related) Had dry mouth for a month when first starting it, None",1,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1341,1342.0,196.0,lexapro.196,1.0,"Slight headache, upset stomach, decreased libidio but able to climax, slight increase in anxiety in the begining, increased dreaming.",1,0.0,0,1,1.0,0,0.0,0,5.0,ssri
+1342,1343.0,196.0,lexapro.196,2.0,I started at 5mg for 4 weeks and just recently increased to 10mg.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1343,1344.0,196.0,lexapro.196,3.0,Since being on Lexapro my depression has lifted.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1344,1345.0,196.0,lexapro.196,4.0,It seems to be helping for anxiety as well but I also take .5mg of Klonopin twice a day.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1345,1346.0,196.0,lexapro.196,5.0,I am sleeping better much better.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1346,1347.0,196.0,lexapro.196,6.0,"The side effects seem to get better each day and are nothing compared to those of the other meds I have tried, Prozac, Wellbutrin, Cymbalta and Zoloft weren't the right fit but Lexapro seems to be.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1347,1348.0,196.0,lexapro.196,7.0,Hang in there and don't give up!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1348,1349.0,197.0,lexapro.197,1.0,weight gain.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1349,1350.0,197.0,lexapro.197,2.0,but so worth it.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1350,1351.0,197.0,lexapro.197,3.0,"I have been on Lexapro for a while and my doctor took me off and switched me to Wellbutrin because I had gained 18 pounds in 2 months, BIG MISTAKE.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1351,1352.0,197.0,lexapro.197,4.0,I felt alive and clearheaded with Lexapro.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1352,1353.0,197.0,lexapro.197,5.0,I felt like a normal person.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1353,1354.0,197.0,lexapro.197,6.0,I even kept a clean house.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1354,1355.0,197.0,lexapro.197,7.0,With my depression everything stays jumbled up in my head and Lexapro helps me sort it all out.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1355,1356.0,197.0,lexapro.197,8.0,I LOVE LEXAPRO.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1356,1357.0,197.0,lexapro.197,9.0,"Wellbutrin is making me mean, angry, nervous, anxious, suicidal, homisidal.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1357,1358.0,197.0,lexapro.197,10.0,I HATE WELLBUTRIN,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1358,1359.0,198.0,lexapro.198,1.0,Slight nausea after taking the pill but nothing noticable after that.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1359,1360.0,198.0,lexapro.198,2.0,I was on a large dose of Zoloft a few years back and it made me feel like a zombie.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1360,1361.0,198.0,lexapro.198,3.0,Now I take a small dose of Lexapro and feel much happier and normal than I used to in addition to having little to no side effects.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1361,1362.0,198.0,lexapro.198,4.0,"It really helped a lot, though my anxiety is still present it is not crippling like it used to be.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1362,1363.0,199.0,lexapro.199,1.0,"night sweats, trouble sleeping, heart racing, nervousness, weightloss but all of these gone away after a few weeks.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1363,1364.0,199.0,lexapro.199,2.0,"Started on Effexor first hated the way it made me feel, Dr. switched me to lexapro without getting the effexor out of my system so I thought side effects were from the Lexapro and I quit.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1364,1365.0,199.0,lexapro.199,3.0,Few months later after effexor was out of my system I tried lexapro again first at 5mg and then went up to 10mg.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1365,1366.0,199.0,lexapro.199,4.0,I love it and I am finally feeling my old self again.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1366,1367.0,200.0,lexapro.200,1.0,"None, though maybe decreased sexual drive?",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1367,1368.0,200.0,lexapro.200,2.0,Made me happy on day two.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1368,1369.0,200.0,lexapro.200,3.0,Thinking that I should take more than the 20mg as perscribed.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1369,1370.0,200.0,lexapro.200,4.0,"Reduced my anxiety and depression by at least 80%, Love it,",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1370,1371.0,201.0,lexapro.201,1.0,"First few weeks: fatigue, dry mouth, jaw clenching, night sweats, always feeling too warm, vivid dreams, What's still with me today?",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1371,1372.0,201.0,lexapro.201,2.0,": extreme fatigue, night sweats, always too warm, slight jaw clenching, vivid dreams.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1372,1373.0,201.0,lexapro.201,3.0,Weight loss of about 10 lbs and I'm not complaining about that.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1373,1374.0,201.0,lexapro.201,4.0,"I can deal with all these side effects, but would love to get rid of the fatigue.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1374,1375.0,201.0,lexapro.201,5.0,Even if I get 10 hours sleep.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1375,1376.0,201.0,lexapro.201,6.0,I always seem to want more.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1376,1377.0,201.0,lexapro.201,7.0,"Sometimes I think the vivid dreaming keeps you from getting quality sleep, However, this medicine has been great-I had anxiety from divorce, new home, new job and dealing with a severely depressed ex-spouse (who is now on Effexor).",1,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1377,1378.0,201.0,lexapro.201,8.0,The Lexapro has helped me to keep from dwelling on things I can't change.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1378,1379.0,201.0,lexapro.201,9.0,"By the way, my counselor says that anxiety can be an inherited trait (my grandmother is on Paxil and my mom NEEDS to be on something).",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1379,1380.0,202.0,lexapro.202,1.0,"Some typical antidepressant side effects, but nothing too serious.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1380,1381.0,202.0,lexapro.202,2.0,"Lexapro really helps anxiety, Depression too.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1381,1382.0,202.0,lexapro.202,3.0,Use with a mood stabilizer if Bipolar.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1382,1383.0,202.0,lexapro.202,4.0,This drug has my stamp of approval.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1383,1384.0,203.0,lexapro.203,1.0,"None - I virtually experienced no side effects, At first.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1384,1385.0,203.0,lexapro.203,2.0,"I had a few emotional side effects, but they went away very quickly.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1385,1386.0,203.0,lexapro.203,3.0,This has worked very well for me.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1386,1387.0,204.0,lexapro.204,1.0,slight loss of libido.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1387,1388.0,204.0,lexapro.204,2.0,"took l0 mg lexapro in combination with .5 klonpin 3x a day, eliminated a cycle of depression and anxiety I had for 2 yrs.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1388,1389.0,205.0,lexapro.205,1.0,"Decrease in Sex Drive, Flat Mood, Sleeplessness.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1389,1390.0,205.0,lexapro.205,2.0,This drug has helped me a great deal.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1390,1391.0,205.0,lexapro.205,3.0,My anxiety is almost completely gone and my depressed mood has mostly lifted.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1391,1392.0,205.0,lexapro.205,4.0,My only complaints thus far are my lack of sex drive and my mood can be a little flat at times.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1392,1393.0,205.0,lexapro.205,5.0,I have had a hard time falling asleep on this drug.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1393,1394.0,205.0,lexapro.205,6.0,so I take Trazadone at night to help me fall and stay asleep.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1394,1395.0,206.0,lexapro.206,1.0,When I forget to take it on a daily basis.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1395,1396.0,206.0,lexapro.206,2.0,I have a general feeling of malaise; I also had some insomnia when I first started taking it (that was resolved by taking in the morning instead of the evening).,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1396,1397.0,206.0,lexapro.206,3.0,"It took me a long time to admit to myself, and my doctor, that I was a little ""off"" (I am talking about 20+ years here).",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1397,1398.0,206.0,lexapro.206,4.0,I took another anti-depressant with disastrous results.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1398,1399.0,206.0,lexapro.206,5.0,"I began to take Lexapro about a year ago and, except for some initial bumps at the start.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1399,1400.0,206.0,lexapro.206,6.0,I am doing really well on it!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1400,1401.0,206.0,lexapro.206,7.0,"I am much happier than I have been in years, and actually enjoying life for the first time in many, many years.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1401,1402.0,206.0,lexapro.206,8.0,Lexapro may not be for everybody.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1402,1403.0,206.0,lexapro.206,9.0,I am glad I did not give up when the first meds failed.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1403,1404.0,206.0,lexapro.206,10.0,"If you have a similar experience with meds, do not give up, For me, it has been certainly worth it.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1404,1405.0,207.0,lexapro.207,1.0,"Fatique (hard to get out of bed in morning), difficulty (but not impossible) to have orgasm and weight gain.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1405,1406.0,207.0,lexapro.207,2.0,I have been taking meds for 6 years to treat anxiety and depression.,0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+1406,1407.0,207.0,lexapro.207,3.0,Celexa knocked me out.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1407,1408.0,207.0,lexapro.207,4.0,I was so exhausted I couldn't moved.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1408,1409.0,207.0,lexapro.207,5.0,I felt drugged.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1409,1410.0,207.0,lexapro.207,6.0,Lexapro was the perfect drug for me.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1410,1411.0,207.0,lexapro.207,7.0,I took it for four years.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1411,1412.0,207.0,lexapro.207,8.0,I felt like myself on it (not drugged or sedated at all).,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1412,1413.0,207.0,lexapro.207,9.0,I stopped taking it because I missed having orgasms and was sick of the weight gain and fatigue.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1413,1414.0,207.0,lexapro.207,10.0,That was a mistake.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1414,1415.0,207.0,lexapro.207,11.0,"I tried Cymbalta with good effects (especially for muscle tension), but always felt like I was on medication.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1415,1416.0,207.0,lexapro.207,12.0,Did not feel natural.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1416,1417.0,207.0,lexapro.207,13.0,Went off cold turkey.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1417,1418.0,207.0,lexapro.207,14.0,DO NOT DO THIS!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1418,1419.0,207.0,lexapro.207,15.0,IT WAS HORRIBLE!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1419,1420.0,207.0,lexapro.207,16.0,I felt like I was going through heroin withdrawls (not like I know what that is like).,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1420,1421.0,207.0,lexapro.207,17.0,Cymbalta was just too powerful for me.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1421,1422.0,207.0,lexapro.207,18.0,I have been on Wellbutrin for one month.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1422,1423.0,207.0,lexapro.207,19.0,"No sexual side effects, but it has not helped my anxiety or depression at all.",0,0.0,0,1,1.0,0,0.0,0,5.0,ssri
+1423,1424.0,207.0,lexapro.207,20.0,I am going back to my old friend Lexapro.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1424,1425.0,207.0,lexapro.207,21.0,It has very mild side effects when starting or stopping.,1,1.0,0,0,0.0,0,0.0,0,5.0,ssri
+1425,1426.0,207.0,lexapro.207,22.0,It is mild but very effective.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1426,1427.0,207.0,lexapro.207,23.0,Guess I will just have to exercis,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1427,1428.0,208.0,lexapro.208,1.0,"some dizziness, nausea, tiredness.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1428,1429.0,208.0,lexapro.208,2.0,Lexapro has been a great drug for me.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1429,1430.0,208.0,lexapro.208,3.0,I was on Paxil CR b4 and wanted to kill myself and everything in my path.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1430,1431.0,208.0,lexapro.208,4.0,Lexapro has steadied my emotions greatly.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1431,1432.0,208.0,lexapro.208,5.0,I don't cry about every little thing anymore.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1432,1433.0,208.0,lexapro.208,6.0,I don't have the night sweats or fits of rage anymore.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1433,1434.0,208.0,lexapro.208,7.0,"It is a wonderful drug, although.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1434,1435.0,208.0,lexapro.208,8.0,i don't want to be on antidepressants the rest of my life.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1435,1436.0,208.0,lexapro.208,9.0,but this is the one i choose since i have to.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1436,1437.0,209.0,lexapro.209,1.0,"At 15 mg, nothing, but depression was not completely under control.",0,0.0,1,1,1.0,0,0.0,0,5.0,ssri
+1437,1438.0,209.0,lexapro.209,2.0,"At 20 mg, depression was completely under control, but had weight gain and mild insomnia, o",1,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1438,1439.0,210.0,lexapro.210,1.0,I was shaky and could not sleep.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1439,1440.0,210.0,lexapro.210,2.0,I had no appetite.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1440,1441.0,211.0,lexapro.211,1.0,"naseau, tiredness,.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1441,1442.0,211.0,lexapro.211,2.0,I love it!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1442,1443.0,211.0,lexapro.211,3.0,It's a life saver.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1443,1444.0,211.0,lexapro.211,4.0,"I could hardly get out of bed I would have lost my job, because I had already called in to work a bit and was unable to function before I started lexapro.",0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+1444,1445.0,211.0,lexapro.211,5.0,I now can function.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1445,1446.0,211.0,lexapro.211,6.0,I feel better!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1446,1447.0,211.0,lexapro.211,7.0,It's GREAT!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1447,1448.0,212.0,lexapro.212,1.0,None.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1448,1449.0,212.0,lexapro.212,2.0,"I have a feeling of wellness and contentment; no anxiety attacks, no weight gain, no night sweats - i just feel like my old self - optimistic and upbeat.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1449,1450.0,212.0,lexapro.212,3.0,I think this is the best Rx I have ever had although I have no experience with other antidepressants and have only taken Xanax once a day - but I've never felt better!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1450,1451.0,213.0,lexapro.213,1.0,5 lb weight gain initially.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1451,1452.0,213.0,lexapro.213,2.0,"This has saved my life, literally.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1452,1453.0,213.0,lexapro.213,3.0,I had been through several antidepressants trying to get something to work.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1453,1454.0,213.0,lexapro.213,4.0,Finally came across Lexapro.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1454,1455.0,213.0,lexapro.213,5.0,"It worked at 10mg, but only relieved about 50% of a very severe depression.",0,0.0,1,1,1.0,1,0.0,0,5.0,ssri
+1455,1456.0,213.0,lexapro.213,6.0,Increased to 20mg 3 months ago and it fully resolved my depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1456,1457.0,213.0,lexapro.213,7.0,"I feel with feelings (not ""numbed""), can cry, laugh and enjoy life.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1457,1458.0,213.0,lexapro.213,8.0,I am much more enjoyable to be around and work well at my job now.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1458,1459.0,214.0,lexapro.214,1.0,"horrible inability to swallow, shortness of breath, extreme decreased appetite, increase in energy, vivid nightmares, extreme decrease in the amount it takes to get drunk.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1459,1460.0,214.0,lexapro.214,2.0,"my 5th day on it was the best day of my life, amazing.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1460,1461.0,214.0,lexapro.214,3.0,working well i am 100 times better with people.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1461,1462.0,214.0,lexapro.214,4.0,i love it.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1462,1463.0,214.0,lexapro.214,5.0,started at 10 then 20)  looking forward to future increased effects and hopefully some weight loss and HOPEFULLY the swallowing thing will go away.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1463,1464.0,214.0,lexapro.214,6.0,i also get crazy drunk with less alcohol.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1464,1465.0,215.0,lexapro.215,1.0,"None, Great stuff.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1465,1466.0,215.0,lexapro.215,2.0,No noticible side effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1466,1467.0,215.0,lexapro.215,3.0,They should put this stuff in the water system.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1467,1468.0,216.0,lexapro.216,1.0,"Decreased sex drive (but no problem performing), delayed orgasm (however, orgasms seem a bit more intense), moderate night sweats (primarily legs and groin area), slight tremor in right hand (only briefly and immediately upon waking up).",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1468,1469.0,216.0,lexapro.216,2.0,My experience with Lexapro has been extremely positive.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1469,1470.0,216.0,lexapro.216,3.0,The side effects have been very minor for me.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1470,1471.0,216.0,lexapro.216,4.0,"The most striking thing about Lexapro compared to other anti-depressants I have taken is that I do not feel ""medicated"" or somehow altered.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1471,1472.0,216.0,lexapro.216,5.0,The improvement in mood and outlook feels perfectly natural.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1472,1473.0,217.0,lexapro.217,1.0,Sometimes prolongs ability to go to sleep.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1473,1474.0,217.0,lexapro.217,2.0,Lexapro has given me my life back.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1474,1475.0,217.0,lexapro.217,3.0,"Suffered from sporadic depression/anxiety for over 20 years, and had been in and out of counseling for about 18 years before trying lexapro.",0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+1475,1476.0,217.0,lexapro.217,4.0,"I had previously taken prozac and valium and had horrible experiences with both, so was hesitant about trying medication again.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1476,1477.0,217.0,lexapro.217,5.0,"Life had literally gotten unbearable, so about two years ago.",0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+1477,1478.0,217.0,lexapro.217,6.0,I decided to try counseling once again coupled with medication.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1478,1479.0,217.0,lexapro.217,7.0,I found a terrific counselor who prescribed me lexapro after informing her of my previous experiences with prozac and valium.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1479,1480.0,217.0,lexapro.217,8.0,I am now able to live a normal life.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1480,1481.0,217.0,lexapro.217,9.0,I had to give it time to work and find the correct dosage for it to be effective.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1481,1482.0,217.0,lexapro.217,10.0,"I initially took 10mgs for one week,no effect, 20mgs second week,no effect, then 30mgs.",0,0.0,0,1,0.0,0,0.0,0,5.0,ssri
+1482,1483.0,217.0,lexapro.217,11.0,worked and continues to work like a charm!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1483,1484.0,218.0,lexapro.218,1.0,None.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1484,1485.0,218.0,lexapro.218,2.0,Effective in reducing anxiety and depression in less than a week.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1485,1486.0,218.0,lexapro.218,3.0,I highly recommend and am so thankful for this medication.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1486,1487.0,218.0,lexapro.218,4.0,Life changing for me!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1487,1488.0,219.0,lexapro.219,1.0,Routine Side Effects for 4 weeks.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1488,1489.0,219.0,lexapro.219,2.0,Now no side effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1489,1490.0,219.0,lexapro.219,3.0,Changed my life for the better in all ways.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1490,1491.0,219.0,lexapro.219,4.0,"I can think, laugh, and work again.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1491,1492.0,219.0,lexapro.219,5.0,"The drug does not ""do"" anything to me, except permit me to be myself.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1492,1.0,1.0,zoloft.1,1.0,"trying to come of has gotta be worse than herion, Uncontrollable rage, no sex drive, and loss of emotional attachment with partner.",0,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+1493,2.0,1.0,zoloft.1,2.0,"This drug has ruined mine and my partners life, as soon as she got past the withdrawal symtoms",0,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+1494,3.0,2.0,zoloft.2,1.0,"This medication caused me, like so many other people with bipolar disorder, to freak out.",1,0.0,0,0,1.0,0,0.0,0,1.0,ssri
+1495,4.0,2.0,zoloft.2,2.0,I cut off all my hair and took the remaining 40 pills after taking about 10 pills as prescribed so it did not take long for me to get into this semi-suicidal state.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1496,5.0,2.0,zoloft.2,3.0,Be careful of taking this if you have bipolar disorder!,0,0.0,0,0,1.0,0,0.0,0,1.0,ssri
+1497,6.0,3.0,zoloft.3,1.0,Never experienced a panic attack until AFTER taking only 4 doses (25 mg.) of this medication.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1498,7.0,3.0,zoloft.3,2.0,"Had 2 panick attacks while on Zoloft, quit taking the drug and have not had any more attacks, but now I am dealing with the fear of when/where the next one will take place.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1499,8.0,3.0,zoloft.3,3.0,"I know a lot of people have had success with Zoloft, but it is not the right one for me.",0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1500,9.0,3.0,zoloft.3,4.0,Be careful of the side effects that your doctor may not tell you about .,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1501,10.0,3.0,zoloft.3,5.0,that is  increased anxiety.,1,0.0,0,0,1.0,0,0.0,0,1.0,ssri
+1502,11.0,4.0,zoloft.4,1.0,oh gawd.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1503,12.0,4.0,zoloft.4,2.0,"I was on Paxil for 12 years, but THOUGHT it was wearing off.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1504,13.0,4.0,zoloft.4,3.0,Think menopause is a huge factor in this.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1505,14.0,4.0,zoloft.4,4.0,i have only been on generic zoloft for about a week and a half.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1506,15.0,4.0,zoloft.4,5.0,"our doggie is very sick, and i was up with her all night last nite, didn't sleep.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1507,16.0,4.0,zoloft.4,6.0,My stomach is a wreck.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1508,17.0,4.0,zoloft.4,7.0,burning and diarrhea all nite.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1509,18.0,4.0,zoloft.4,8.0,had to pee every five minutes all night.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1510,19.0,4.0,zoloft.4,9.0,I feel very speedy and my heart is racing.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1511,20.0,4.0,zoloft.4,10.0,"My stomach is on fire, and feels like i drank draino.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1512,21.0,4.0,zoloft.4,11.0,I hate this so much sometimes i don't know how long i can go on.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1513,22.0,4.0,zoloft.4,12.0,Just dont know yet.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1514,23.0,4.0,zoloft.4,13.0,Paxil seemed to calm me down so much.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1515,24.0,4.0,zoloft.4,14.0,"Yes i gained a ton of weight on it, but i haven't on the zoloft so far.
+
+",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1516,25.0,5.0,zoloft.5,1.0,"Took the pill for depression for a year and a half, extreme weight gain, no sex drive, even more depressed",1,0.0,0,1,1.0,1,0.0,0,1.0,ssri
+1517,26.0,6.0,zoloft.6,1.0,"Made me really forgettful, weakness so bad it was a struggle just to comb my hair.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1518,27.0,6.0,zoloft.6,2.0,My useless former doctor just dismissed my concerns.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1519,28.0,6.0,zoloft.6,3.0,Also made me extremely angry.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1520,29.0,6.0,zoloft.6,4.0,It takes months to get off this poison (which is another thing the useless doctor conveniently didn't tell me).,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1521,30.0,6.0,zoloft.6,5.0,Should be pulled from the market.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1522,31.0,7.0,zoloft.7,1.0,"suicidal thoughts, no sexual satisfaction, horrible drug.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1523,32.0,7.0,zoloft.7,2.0,this drug sucks.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1524,33.0,7.0,zoloft.7,3.0,might work for some peeps but didn't work for me.,0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1525,34.0,7.0,zoloft.7,4.0,"I got so depressed on it that I swollowed the whole bottle hoping to end my life, but luckilly Iam still here",1,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1526,35.0,8.0,zoloft.8,1.0,"Increase in panic attacks / anxiety,  weight gain (10lbs), headaches and vivid dreams.",1,0.0,0,1,1.0,0,0.0,0,1.0,ssri
+1527,36.0,8.0,zoloft.8,2.0,The side effects from this drug were from day one but I was told by my doctor to give it a chance.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1528,37.0,8.0,zoloft.8,3.0,Six months later and I don't feel any better.,0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1529,38.0,8.0,zoloft.8,4.0,I have decided to wean myself off.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1530,39.0,8.0,zoloft.8,5.0,Yesterday I started taking 25mg and I feel horrible.,0,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1531,40.0,8.0,zoloft.8,6.0,I hope others have better results from this medication but I would recommend trying something different.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1532,41.0,9.0,zoloft.9,1.0,"Made me have tremors, also made me feel like I wanted to crawl out of my skin.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1533,42.0,9.0,zoloft.9,2.0,I have been off this drug for almost 3 years and I still feel like this!,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1534,43.0,9.0,zoloft.9,3.0,This is the worst drug on the market!,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1535,44.0,10.0,zoloft.10,1.0,"Severe chest pain, huge weight gain, onset of fibromyalgia and horrible arthritis pain.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1536,45.0,10.0,zoloft.10,2.0,Drs thought I had Lupus.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1537,46.0,10.0,zoloft.10,3.0,Have been off work for 8 months due to the effects of Zoloft.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1538,47.0,10.0,zoloft.10,4.0,Within 45 days of starting Zoloft I gained 50+ lbs I started having sever chest pains.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1539,48.0,10.0,zoloft.10,5.0,"I had to have a heart cath, echo, stress echo and several other heart test.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1540,49.0,10.0,zoloft.10,6.0,Was in ER 4 times and Was in CCU 2 times.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1541,50.0,10.0,zoloft.10,7.0,Finally the third Cardiologist said it was the Zoloft and took me off.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1542,51.0,10.0,zoloft.10,8.0,I was so sick I thought I would die.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1543,52.0,10.0,zoloft.10,9.0,Stayed away from my grandkids cuz I didn't want them to find me dead.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1544,53.0,10.0,zoloft.10,10.0,Lost all of my energy.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1545,54.0,10.0,zoloft.10,11.0,"developed Shortness of breath, fibromyalgia type pain, arthritis pain.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1546,55.0,10.0,zoloft.10,12.0,Could barely walk.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1547,56.0,10.0,zoloft.10,13.0,Broke my leg (had to have surgury) trying to walk up my porch steps.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1548,57.0,10.0,zoloft.10,14.0,I have been off work for 8 months.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1549,58.0,10.0,zoloft.10,15.0,I have suffered many side effects from the prednisone used to treat the symptoms.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1550,59.0,10.0,zoloft.10,16.0,I am just now starting to feel better.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1551,60.0,10.0,zoloft.10,17.0,Maybe I can return to work when I get the cast off of my leg.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1552,61.0,10.0,zoloft.10,18.0,I lost my job and will have to find another one.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1553,62.0,10.0,zoloft.10,19.0,This stuff is very scary.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1554,63.0,10.0,zoloft.10,20.0,My sister went on it and started having chest pain and I told her to STOP immediatly.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1555,64.0,11.0,zoloft.11,1.0,"Not sleeping for over 48 hours, heart palpitations, ending up in hospital in a manic state.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1556,65.0,11.0,zoloft.11,2.0,Total sexual dysfunction which has continued for six months with no improvement after stopping the medication.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1557,66.0,11.0,zoloft.11,3.0,Taking this drug was the worst decision I've ever made.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1558,67.0,11.0,zoloft.11,4.0,Quite simply this medication has destroyed my life.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1559,68.0,11.0,zoloft.11,5.0,Facing the possibility of a lifetime with no sexual enjoyment (and the impaired relationships this implies) has been devastating.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1560,69.0,11.0,zoloft.11,6.0,Ironically I am much more anxious and depressed than before I took this drug.,0,0.0,0,1,1.0,0,0.0,0,1.0,ssri
+1561,70.0,12.0,zoloft.12,1.0,"Suicidal ideation, weight gain, suicidal tendencies, tingling fingers, dizzy, tremor, insomnia.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1562,71.0,12.0,zoloft.12,2.0,I was given zoloft from my pyschiatrist and started at 50mg per day and was steadily increased to 100mg.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1563,72.0,12.0,zoloft.12,3.0,After taking this for three weeks I began to not process thoughts well and found it difficult to concentrate and function well.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1564,73.0,12.0,zoloft.12,4.0,I felt very shakey in my hands especially in the afternoons making tying a bow or a knot very difficult.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1565,74.0,12.0,zoloft.12,5.0,I found work hard to focus on and suffered some memory difficulties.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1566,75.0,12.0,zoloft.12,6.0,I was carrying out 'risky' behaviours and after 4 weeks of taking it I ended up in the emergency department of the hospital twice in 4 days for over-dosing.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1567,76.0,12.0,zoloft.12,7.0,This medication has not been at all pleasant and when put in hospital the doctors increased my dose to 150mg and this was terrible.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1568,77.0,12.0,zoloft.12,8.0,"I am now on my first complete day with taking no zoloft after slowing decreasing the dose and the withdrawal isn't pleasant but survivable so far,  Headache, slight confusion, temperature and feeling very tired are some of the withdrawal symptoms I have so far felt but they are better than what zoloft was doing for me.",0,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+1569,78.0,12.0,zoloft.12,9.0,Zoloft was prescribed to me to help with depression and if I knew that there were reported cases that this anti-depressant could increase the risk of suicide I NEVER would have agreed to take the medication.,0,0.0,0,0,1.0,1,0.0,0,1.0,ssri
+1570,79.0,12.0,zoloft.12,10.0,I have learnt that it is very important that you should ask your doctor questions when they prescribe you a medication and that it is essential to research the side effects.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1571,80.0,12.0,zoloft.12,11.0,I had never previously carried out any risky suicidal behaviours until after taking zoloft for 3 weeks.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1572,81.0,13.0,zoloft.13,1.0,"Long-term use of SSRIs (not just this one) caused Serotonin Syndrome, which included incontinence.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1573,82.0,13.0,zoloft.13,2.0,"Stopped once I went off them, restarted when I restarted them, so it was definitely them causing it.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1574,83.0,13.0,zoloft.13,3.0,"I'm fine now that I'm off them, but these drugs shouldn't be on the market in my opinion.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1575,84.0,13.0,zoloft.13,4.0,"Avoid if possible, or only take for a very short time if you do take them.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1576,85.0,14.0,zoloft.14,1.0,"Weight gain (20lbs), no sexual feelings at all, inability to reach orgasm, terrible night sweats, tremor in hands, headaches, feeling of foggyness, and fatigue, At first, I din't realize all of these side effects were related to Zoloft.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1577,86.0,14.0,zoloft.14,2.0,"I am planning to switch back to 
+
+Wellbutrin SR as soon as I can get to my doctor.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1578,87.0,14.0,zoloft.14,3.0,"I see Zoloft works for some people, it's scary to think how different we all react to this widely prescribed drug!",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1579,88.0,15.0,zoloft.15,1.0,didn't notice much difference until 75 mg- where i completely freaked out.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1580,89.0,15.0,zoloft.15,2.0,i thought about suicide and was VERY scared to continue any other sort of SSRI.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1581,90.0,15.0,zoloft.15,3.0,-later they found out i was bipolar so this could be the reason for the adverse reactions.,0,0.0,0,0,1.0,0,0.0,0,1.0,ssri
+1582,91.0,15.0,zoloft.15,4.0,this drug works well for my dad with unipolar major depression.,0,0.0,0,0,1.0,1,0.0,0,1.0,ssri
+1583,92.0,15.0,zoloft.15,5.0,"-it didn't work for me, but i am bipolar.",0,0.0,0,1,1.0,0,0.0,0,1.0,ssri
+1584,93.0,15.0,zoloft.15,6.0,can be  dangerous to those who are manic depressive.,0,0.0,0,0,1.0,0,0.0,0,1.0,ssri
+1585,94.0,16.0,zoloft.16,1.0,"severe agitation , really lightheadnessed , suicidal thoughts .",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1586,95.0,16.0,zoloft.16,2.0,depression got a lot worse after just being on it for just 3 days .,0,0.0,0,1,1.0,0,0.0,0,1.0,ssri
+1587,96.0,16.0,zoloft.16,3.0,being sick all the time .,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1588,97.0,16.0,zoloft.16,4.0,"feeling really weird on it sevre visual disturbances and extreme weakness
+
+.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1589,98.0,16.0,zoloft.16,5.0,i hate it .,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1590,99.0,16.0,zoloft.16,6.0,"if ur considering taking this drug , just don't .",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1591,100.0,16.0,zoloft.16,7.0,it will make you alot worse than before .,0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1592,101.0,17.0,zoloft.17,1.0,HORRID.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1593,102.0,17.0,zoloft.17,2.0,"Within a few days of taking it, horrible anxiety.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1594,103.0,17.0,zoloft.17,3.0,"I would look in the mirror and think ""what is wrong with me!""",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1595,104.0,17.0,zoloft.17,4.0,"I slept a lot, had no appetite whatsoever, lost weight, felt like I was not myself at all.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1596,105.0,17.0,zoloft.17,5.0,I practically had a nervous breakdown on it.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1597,106.0,17.0,zoloft.17,6.0,Yawning A LOT.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1598,107.0,17.0,zoloft.17,7.0,"I just felt so weird all the time, I HAD to come off it.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1599,108.0,17.0,zoloft.17,8.0,It's been the worst anti depressant I ever took.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1600,109.0,17.0,zoloft.17,9.0,(This was 10 years ago) and I have much better anti depressants since then.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1601,110.0,17.0,zoloft.17,10.0,I was initially scared of ANY anti depressant after my experience with the Z.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1602,111.0,17.0,zoloft.17,11.0,But about a year later I tried others and could tolerate them much better  (Such as Lexapro and Prozac.).,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1603,112.0,17.0,zoloft.17,12.0,"I had a very bad reaction to this, though it does appear to help some, Don't be afraid to tell your doctor what it is doing to you and don't just go along with their ""the side effects will go away.""",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1604,113.0,17.0,zoloft.17,13.0,Not every med is for everyone.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1605,114.0,17.0,zoloft.17,14.0,Tell them how you are feeling.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1606,115.0,18.0,zoloft.18,1.0,"Weight gain (20lbs), no sexual feelings at all, inability to reach orgasm, terrible night sweats, tremor in hands, headaches, feeling of, At first, I din't realize all of these side effects were related to Zoloft.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1607,116.0,18.0,zoloft.18,2.0,I am planning to switch back to  Wellbutrin SR as soon as I can get to my doctor.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1608,117.0,18.0,zoloft.18,3.0,"I see Zoloft works for some people, it's scary to think how different we all react to this widely prescribed drug!",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1609,118.0,19.0,zoloft.19,1.0,"distrust of all include myself, insomnia, dizziness, lose weight, anxiety, panic attack, swoon.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1610,119.0,19.0,zoloft.19,2.0,IT MADE EVERYTHING WORSE.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1611,120.0,20.0,zoloft.20,1.0,Six hours after my first small (25mg) dose I had diarrhea.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1612,121.0,20.0,zoloft.20,2.0,Then I was okay for a few days.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1613,122.0,20.0,zoloft.20,3.0,On day 3 I tried to exercise and began sweating profusely after about 10 minutes.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1614,123.0,20.0,zoloft.20,4.0,I awoke on day 4 with nausea and listlessness.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1615,124.0,20.0,zoloft.20,5.0,I tried to go to work but could not.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1616,125.0,20.0,zoloft.20,6.0,"I laid on my sofa for hours, sometimes awake, sometimes asleep, feeling nauseated and  listless.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1617,126.0,20.0,zoloft.20,7.0,I was not about to take pill #5.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1618,127.0,20.0,zoloft.20,8.0,"My doctor told me it was an easily tolerated medication, Well, not for me, o",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1619,128.0,21.0,zoloft.21,1.0,"after taking just 2nd low dose sent my anxiety through the roofracing thoughts,didnt sleep on it plus a volcano of negative emotions racing inside me.",1,0.0,0,1,1.0,0,0.0,0,1.0,ssri
+1620,129.0,21.0,zoloft.21,2.0,ended up physch primary care with it.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1621,130.0,21.0,zoloft.21,3.0,"also been on nearly every AD going none did this to me,been put on seroquel.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1622,131.0,21.0,zoloft.21,4.0,horrible for me,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1623,132.0,22.0,zoloft.22,1.0,"Night terrors, Vivid dreams, Nightmares.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1624,133.0,22.0,zoloft.22,2.0,auditory hallucinations everyday!,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1625,134.0,22.0,zoloft.22,3.0,never take this drug!,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1626,135.0,23.0,zoloft.23,1.0,Severe teeth clenching/TMJ which caused excruciating headaches .,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1627,136.0,23.0,zoloft.23,2.0,clenching came on right after taking the dose and would gradually wear off .,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1628,137.0,23.0,zoloft.23,3.0,"took me three days to figure out the connection, during which I was laying in a darkened room with a migraine.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1629,138.0,23.0,zoloft.23,4.0,Do NOT take this drug if you have a history of migraines or TMJ .,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1630,139.0,23.0,zoloft.23,5.0,this was the worst three days of my life till I figured out the connection from Googleing it .,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1631,140.0,23.0,zoloft.23,6.0,the manufacturer doesn't say anything about this but there are thousands of hits on the topic.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1632,141.0,24.0,zoloft.24,1.0,"Excessive sweating, nervousness, sick stomach, zombie-like feeling, tiredness, etc.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1633,142.0,24.0,zoloft.24,2.0,"I would not recommend this drug to anyone, it is not worth the hell you go through, due to the side effects.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1634,143.0,24.0,zoloft.24,3.0,I had to stop taking it.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1635,144.0,25.0,zoloft.25,1.0,"extreme nervousness, uncontrollable urge for innappropriate laughter,emotional numbness, profuse sweating, the list goes on and on.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1636,145.0,25.0,zoloft.25,2.0,"Extremely unpleasant withdrawal, So addictive, electric 'shocks' to the brain when trying to quit.",0,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+1637,146.0,25.0,zoloft.25,3.0,Am now on my fifth and final attempt to quit.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1638,147.0,26.0,zoloft.26,1.0,"NONE, This anti-depressant did absolutely nothing for me.",0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1639,148.0,26.0,zoloft.26,2.0,"I mean, literally, nothing.",0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1640,149.0,26.0,zoloft.26,3.0,"No side effects, no results.",0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+1641,150.0,26.0,zoloft.26,4.0,I was severly depressed and breast-feeding my son so this was the only option I had at the time (it is considered safe for nursing babies).,0,0.0,0,0,1.0,1,0.0,0,1.0,ssri
+1642,151.0,26.0,zoloft.26,5.0,I struggled with the decision to take it because I was so worried that it may harm him because it does pass into breast milk in tiny amounts.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1643,152.0,26.0,zoloft.26,6.0,Then I condidered not breastfeeding and taking an antidepressant.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1644,153.0,26.0,zoloft.26,7.0,"After much thought, I decided that the benefits of nursing outweighed the negligable risks of the meds,  And, to not treat the depression would have been plain stupid.",0,0.0,0,0,1.0,0,0.0,0,1.0,ssri
+1645,154.0,26.0,zoloft.26,8.0,"I was VERY depressed,  Also, I was working full-time and pumping milk at work so that he could be exclusively fed breast milk for 4 months,  Well, I may as well have not taken anything as it did not help at all.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1646,155.0,26.0,zoloft.26,9.0,"Now I take Cymbalta and that helps a lot more (I am no longer nursing, my son is 16 months).",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1647,156.0,26.0,zoloft.26,10.0,It's just weird how certain meds work for some people and not others.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1648,157.0,27.0,zoloft.27,1.0,"Total loss of libido, horrific nightmares, insomnia, weight fluctuations, irritability/angry all the time.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1649,158.0,27.0,zoloft.27,2.0,"I was on Zoloft for about 4 months, and after the first 2 weeks I had absolutely no sex drive.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1650,159.0,27.0,zoloft.27,3.0,"After the first 3 weeks, the nightmares began, and became increasingly gorey and horrific, to the point I would become paranoid.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1651,160.0,27.0,zoloft.27,4.0,"I began sleeping in odd patterns, for only a few hours at a time.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1652,161.0,27.0,zoloft.27,5.0,"My weight would increase, then decrease, then increase again.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1653,162.0,27.0,zoloft.27,6.0,"When I went off of it, it was because I had become so angry and irritable I couldn't be around anyone because I would become violent at nothing.",1,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+1654,163.0,28.0,zoloft.28,1.0,"soon after take it, knocked out feeling, extreme yawning, foggy brain, and absolutely no sleep at 3 consecutive nights even with sleep aid!",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1655,164.0,28.0,zoloft.28,2.0,Took doctors to figure out to give me Trazodone to sleep.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1656,165.0,28.0,zoloft.28,3.0,"NEVER ever try this, go and get Prozac!",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1657,166.0,28.0,zoloft.28,4.0,I had it for 1.5 years with no side effect at all.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1658,167.0,29.0,zoloft.29,1.0,"didnt feel like myself, irritability.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1659,168.0,29.0,zoloft.29,2.0,loss of feelings.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1660,169.0,29.0,zoloft.29,3.0,I don't recommend it.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1661,170.0,29.0,zoloft.29,4.0,Unless you want to be a walking zombie,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1662,171.0,30.0,zoloft.30,1.0,"nausea, gases, diarrhea, eructation, o",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1663,172.0,31.0,zoloft.31,1.0,"Gained weight, moodswings, wasn't able to sleep at all.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1664,173.0,31.0,zoloft.31,2.0,Had to take Zopiclone to get any more sleep than one or two hours of shallow sleep but the combination of the two gave me hallucinations.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1665,174.0,31.0,zoloft.31,3.0,I had to quit taking them because of all the side effects that just wouldn't pass.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1666,175.0,32.0,zoloft.32,1.0,"Sexual dysfunction, no orgasm, very low libido, persistent brain fog.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1667,176.0,32.0,zoloft.32,2.0,I went to doctor for my acid reflux and as it turned out he prescribed this poison to me without even telling me what this shit is and what does it do to my body.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1668,177.0,32.0,zoloft.32,3.0,i have stopped taking sertraline for 4 days now and the side effects haven't worn off yet.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1669,178.0,33.0,zoloft.33,1.0,"Tinnitus, zaps, vertigo, weight gain, sleeplessness, horrible withdrawal even with tapering off.",0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1670,179.0,33.0,zoloft.33,2.0,I wish I had never taken it.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1671,180.0,34.0,zoloft.34,1.0,caused muscle tension - especially painful jaw clenching - took myself off. ,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1672,181.0,35.0,zoloft.35,1.0,At first it was great.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1673,182.0,35.0,zoloft.35,2.0,I had some minor gastrointestinal issues.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1674,183.0,35.0,zoloft.35,3.0,But lately I have feel like it is not working any longer.,0,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1675,184.0,35.0,zoloft.35,4.0,"I am tired, have headaches, and don't really want to take it anymore.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1676,185.0,35.0,zoloft.35,5.0,I worry about the side effects.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1677,186.0,35.0,zoloft.35,6.0,I am concerned about side effects that I will have when I stop taking it.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1678,187.0,35.0,zoloft.35,7.0,I know I have to consult my physician.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1679,188.0,36.0,zoloft.36,1.0,Insomnia no appetite anger mania crying spells anxiety.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1680,189.0,36.0,zoloft.36,2.0,"finding it really hard to cope on this, have to take something to make me sleep, force myself to eat.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1681,190.0,36.0,zoloft.36,3.0,I havent been on this long was taking 100mg but cut it in half.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1682,191.0,36.0,zoloft.36,4.0,"Please anyone does this go if so when, can you ever sleep, feel so low have to take dizapan to sleep and thats not good long tern please email me thanku",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1683,192.0,37.0,zoloft.37,1.0,have never cut myself before I started taking Zoloft.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1684,193.0,37.0,zoloft.37,2.0,A week after the commencement of my treatment I took a razor blade and cut my wrists.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1685,194.0,37.0,zoloft.37,3.0,This medication has made me more suicidal than I used to be.,1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+1686,195.0,37.0,zoloft.37,4.0,"It was the time of my exams at university, and unfortunately I was unable to think and concentrate on anything and therefore failed. ",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1687,196.0,38.0,zoloft.38,1.0,"Horrible isomnia, felt like I was in a fog.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1688,197.0,38.0,zoloft.38,2.0,Absolutely no libido or orgasms.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1689,198.0,38.0,zoloft.38,3.0,Asked my doctor for a different drug after 30 days of taking Zoloft.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1690,199.0,38.0,zoloft.38,4.0,It did give me a sense of well-being,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1691,200.0,39.0,zoloft.39,1.0,"worked like a low dose of extacy for about 1 mo, then became complacent.",0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1692,201.0,39.0,zoloft.39,2.0,"No feelings at all, happy sad, nothing.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1693,202.0,39.0,zoloft.39,3.0,then went suicidal.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1694,203.0,39.0,zoloft.39,4.0,"I stoped cold turkey after taking 150 ml 5 days later ended up in the ER for a suicide attempt, next day, paramedics at my house for talking suicidal thoughts, 7th day tried again spent 2 1/2 weeks in phych word.",0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1695,204.0,39.0,zoloft.39,5.0,I couldn't even remember acting this way.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1696,205.0,39.0,zoloft.39,6.0,"I'm now back on it and ""stable"" , but planning to wean slowly very slowly off it, take coution when weaning, start only as a last resault IMO, herbals, exersize and therapy, spiritual or other wise, anything but a drug as ADDICTIVE gravely so as this type, Yea, don't talk to me about so called addictive medicationsie opiates or benzos.",0,1.0,1,0,0.0,0,0.0,0,2.0,ssri
+1697,206.0,39.0,zoloft.39,7.0,I never tried to kill myself coming off those.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1698,207.0,39.0,zoloft.39,8.0,and never went insain either.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1699,208.0,39.0,zoloft.39,9.0,feel free to contact me I'm a research junky when it comes to meds!,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1700,209.0,39.0,zoloft.39,10.0,I've got more to talk about!,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1701,210.0,40.0,zoloft.40,1.0,"GI Distress, Headaches at base of skull, Lethargy, Blurred Vision, Sleep Disturbances (nightmares), anxiety.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1702,211.0,40.0,zoloft.40,2.0,I would NEVER take this medication again.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1703,212.0,40.0,zoloft.40,3.0,Zoloft withdrawal was one of the worst experiences that I ever had in my life!,0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1704,213.0,41.0,zoloft.41,1.0,"increased anxiety, nausea, loss of appetite and weight,heartburn, diarrhea, eye twitching, jaw clenching, insomnia, have to take xanax in order to take Zoloft.",1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+1705,214.0,41.0,zoloft.41,2.0,"I have only been on this for five days, after coming off of Prozac.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1706,215.0,41.0,zoloft.41,3.0,I'm not sure that I'm going to like this med.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1707,216.0,41.0,zoloft.41,4.0,Will report if it gets any better.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1708,217.0,42.0,zoloft.42,1.0,"Weight gain, tiredness, completely killed sex drive.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1709,218.0,42.0,zoloft.42,2.0,"Mild withdrawal symptoms are dizziness, irritability, and upset stomach.",0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1710,219.0,42.0,zoloft.42,3.0,The medication helped somewhat.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1711,220.0,42.0,zoloft.42,4.0,I taped up to 100mg/day over a several week period.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1712,221.0,42.0,zoloft.42,5.0,I was definitely more relaxed about things and Zoloft created an overall sense of well being.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1713,222.0,42.0,zoloft.42,6.0,Even though I gained weight and had no sex drive I didn't much care about it.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1714,223.0,42.0,zoloft.42,7.0,"I was sleeping at least 9 hours a day and still felt tired upon waking, yawned throughout much of the day, However, over time I felt it was becoming less and less effective.",1,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1715,224.0,42.0,zoloft.42,8.0,The side effects were tough to take and it no longer seemed like a good tradeoff.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1716,225.0,42.0,zoloft.42,9.0,Now tapering down over several weeks.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1717,226.0,42.0,zoloft.42,10.0,"I am experiencing some of the side effects mentioned elsewhere, dizziness, irritability, upset stomach, although they are fairly mild.",0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1718,227.0,43.0,zoloft.43,1.0,"headache on left side of head, left eye pain, numbness in face hand s arms legs, stiff neck and shoulders, vivid dreams,no sex drive.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1719,228.0,43.0,zoloft.43,2.0,Seems to make my anxiety worse.,1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+1720,229.0,43.0,zoloft.43,3.0,I'm too worried about the side effects I'm having.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1721,230.0,43.0,zoloft.43,4.0,Pain in left arm as well makes me nervous.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1722,231.0,43.0,zoloft.43,5.0,Has made my hypochondria worse.,1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+1723,232.0,44.0,zoloft.44,1.0,increased anxiety during the afternoon which i dread.,1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+1724,233.0,44.0,zoloft.44,2.0,will this pass?,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1725,234.0,44.0,zoloft.44,3.0,"I dont know if I should stay on this or not, i'm only on 25mg for 6 days so far but i cant take much more of this afternoon anxiety.",1,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1726,235.0,44.0,zoloft.44,4.0,should I up the dose or go off it?,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1727,236.0,44.0,zoloft.44,5.0,help!,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1728,237.0,45.0,zoloft.45,1.0,"Weight gain, hair loss, headaches, insomnia.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1729,238.0,45.0,zoloft.45,2.0,"Bad side effects when weaned off like brain zaps, anxiety.",0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1730,239.0,45.0,zoloft.45,3.0,"My depression was eleviated but I still wasn't myself, even when I went up to 200 mg.",0,0.0,1,0,1.0,1,0.0,0,2.0,ssri
+1731,240.0,45.0,zoloft.45,4.0,"The side effects got to be too much (headaches everyday, problems sleeping, gained 10 pounds, would lose a handful of hair everyday) and I weaned myself off of it, only to experience strange seizure-like zaps in my brain that would last for just a second but were very distressing.",1,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1732,241.0,46.0,zoloft.46,1.0,"Vastly increased moodiness, extreme levels of excess energy, minor hallucinations, irritability, reduced sex drive, lasting dissociative symptoms.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1733,242.0,46.0,zoloft.46,2.0,"I was on Zoloft when I was in high school, and it worked fine.",0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1734,243.0,46.0,zoloft.46,3.0,"Went back on it after a couple of years of no meds, and it made almost all of my symptoms worse.",0,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1735,244.0,46.0,zoloft.46,4.0,"I had multiple recurrent thoughts of suicide, the worst self harm I have ever done, all culminating in an overdose on the drugs, leading to an overnight hospital stay.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1736,245.0,46.0,zoloft.46,5.0,"Zoloft works really well for some people, just make sure you have people around to see how you react to it.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1737,246.0,47.0,zoloft.47,1.0,"Initially loose bowels, headache, flu-like feeling.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1738,247.0,47.0,zoloft.47,2.0,"Ongoing loss of appetite, insomnia, jittery feeling, increased anxiety and depression.",1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+1739,248.0,47.0,zoloft.47,3.0,This was on 50mg a day.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1740,249.0,47.0,zoloft.47,4.0,Obviously not the SSRI for me.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1741,250.0,47.0,zoloft.47,5.0,It seemed to make me worse rather than better.,0,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1742,251.0,33.0,zoloft.47,6.0,Switched to Luvox which I am finding much more beneficial.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1743,252.0,48.0,zoloft.48,1.0,"weight gain, hairloss, hallucinations, back pain, muscle spasms, numbness in hands.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1744,253.0,48.0,zoloft.48,2.0,The drug has made a difference in my life.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1745,254.0,48.0,zoloft.48,3.0,I have people who work for me that have seen a change and don't know I am taking an anti-depressant.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1746,255.0,48.0,zoloft.48,4.0,I only take 50mg and life is a lot nicer.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1747,256.0,48.0,zoloft.48,5.0,I am more tolerating and less judgemental.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1748,257.0,48.0,zoloft.48,6.0,But the side effects I am experiencing are bothersome.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1749,258.0,48.0,zoloft.48,7.0,I was suprised to read through the comments and no one elses experienced hairloss.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1750,259.0,49.0,zoloft.49,1.0,Woke up this morning with jitters.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1751,260.0,49.0,zoloft.49,2.0,"That subsided around 10am, That's when I noticed how much of a space cadet I was feeling.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1752,261.0,49.0,zoloft.49,3.0,My head was in an unbelievable fog.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1753,262.0,49.0,zoloft.49,4.0,I was able to focus and concentrate and hold conversations but I just felt in a daze.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1754,263.0,49.0,zoloft.49,5.0,It is now almost time for bed/my next dose and I still have that feeling in my head and slight headache.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1755,264.0,49.0,zoloft.49,6.0,I wish I could give this time to kick in but really I had problems while I was at work today and can't do the adjustment period.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1756,265.0,49.0,zoloft.49,7.0,If you can hang in there like other people on this forum than god bless you.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1757,266.0,49.0,zoloft.49,8.0,But I think I'm going to try other methods right now .,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1758,267.0,49.0,zoloft.49,9.0,I just don't think I can put myself through hell for a few weeks like this.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1759,268.0,49.0,zoloft.49,10.0,You seriously feel worse than you did without the medication .,0,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1760,269.0,49.0,zoloft.49,11.0,its hard but if you can hang in there then do it.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1761,270.0,50.0,zoloft.50,1.0,have had continuous diarrhea since I started taking this pill.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1762,271.0,50.0,zoloft.50,2.0,I've gained 15 pounds.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1763,272.0,50.0,zoloft.50,3.0,"I feel bloated all the time, Very tired.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1764,273.0,50.0,zoloft.50,4.0,Anxiety is gone but still feel down. ,0,0.0,1,0,1.0,1,0.0,0,2.0,ssri
+1765,274.0,51.0,zoloft.51,1.0,"Some days constant hunger, other days no appetite at all.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1766,275.0,51.0,zoloft.51,2.0,"NO SEX DRIVE whatsoever,insomina, no motivation, lack of energy.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1767,276.0,51.0,zoloft.51,3.0,I've had major depression since my early teens.,0,0.0,0,0,1.0,0,0.0,0,2.0,ssri
+1768,277.0,51.0,zoloft.51,4.0,Got some help several years ago after a sucide attempt.,0,0.0,0,0,1.0,0,0.0,0,2.0,ssri
+1769,278.0,51.0,zoloft.51,5.0,Was on prozac back then but it didn't seem to be helping so stopped it after 3 months.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1770,279.0,51.0,zoloft.51,6.0,Just recently started zoloft after my husband told me he couldn't handle it anymore.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1771,280.0,51.0,zoloft.51,7.0,Been taking it for the last month and I can tell it is helping but the side effects are awful!,1,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1772,281.0,51.0,zoloft.51,8.0,This is my second marriage and my husband is the only man I have ever been with that can make me have an orgasm.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1773,282.0,51.0,zoloft.51,9.0,I'm 29 years old and have been with him for almost 3 years now.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1774,283.0,51.0,zoloft.51,10.0,I knew that anti-depressants causes decrease in sex drive but this is off the charts.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1775,284.0,51.0,zoloft.51,11.0,I cannot have an orgasm to save my life!,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1776,285.0,51.0,zoloft.51,12.0,"It really pisses me off because if you spend most of your adult life married to someone who could care less if you cum or not, and then meet and marry a man that refuses to cum until you do its really bad for both of us.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1777,286.0,51.0,zoloft.51,13.0,On top of that I cant sleep without a trazdone or ambien pill and when I get home from work,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1778,287.0,52.0,zoloft.52,1.0,"Nausea, Increased perspiration, Increased heart rate, Weight loss (I've lost about 10-15 lbs, now I'm under 100lbs), Restlessness, Clenching my jaw, loss of appetite.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1779,288.0,52.0,zoloft.52,2.0,I was on Zoloft for about a year.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1780,289.0,52.0,zoloft.52,3.0,I stopped taking a year ago and have started again.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1781,290.0,52.0,zoloft.52,4.0,"It worked wonders the first time, but this time around I have been getting all of those symptoms.",1,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1782,291.0,52.0,zoloft.52,5.0,I take them at night with Trazadone for insomnia.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1783,292.0,52.0,zoloft.52,6.0,So it doesn't keep me up like the doc told me it would.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1784,293.0,53.0,zoloft.53,1.0,"Headache, dry mouth, dizziness, chronic fatigue, increased appetite, stiffed jaw, decreased libido, weight gain, brain fog.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1785,294.0,53.0,zoloft.53,2.0,Zoloft did help with my anxiety but the side effects were just to much to handle to the point that I would rather live with anxiety than to live with these ugly side effects.,1,0.0,1,0,1.0,1,0.0,0,2.0,ssri
+1786,295.0,53.0,zoloft.53,3.0,the doctor started me at 25mg up to 75mg in two months.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1787,296.0,53.0,zoloft.53,4.0,"The side effects got stronger and stronger as I felt brain fog, chronic fatigue and all those other side effects I mentioned on a daily basis.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1788,297.0,53.0,zoloft.53,5.0,"I would also wake up in the mornings drained out feeling dizzy, making it real hard for me to get ready and go to work.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1789,298.0,53.0,zoloft.53,6.0,I also gained like 7lb while on zoloft.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1790,299.0,53.0,zoloft.53,7.0,I believe if i took this drug any longer I would most likely gain 30+lbs real fast.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1791,300.0,53.0,zoloft.53,8.0,No thank you.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1792,301.0,53.0,zoloft.53,9.0,Never will i take this crap again.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1793,302.0,54.0,zoloft.54,1.0,can't stop eating.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1794,303.0,54.0,zoloft.54,2.0,"Hungry all the time, Tired, Can't get out of bed, More irritable.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1795,304.0,54.0,zoloft.54,3.0,I got a lot worse after going on Zoloft.,0,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1796,305.0,55.0,zoloft.55,1.0,Shortly after taking this medication I would get severe stomach cramps that would last a few minutes.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1797,306.0,55.0,zoloft.55,2.0,I also had the desire to drink alcohol heavily and got really drunk really fast.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1798,307.0,55.0,zoloft.55,3.0,"I was on Lexapro before going into remission, but since I didnt have insurance and Lexapro cost moe than $100 per month my Dr. put me on Zoloft as a cheap alternative.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1799,308.0,55.0,zoloft.55,4.0,"Zoloft did nothing for my depression, just made me crave alcohol ( I was not a heavy drinker before or after taking Zoloft).",1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+1800,309.0,55.0,zoloft.55,5.0,Only stayed on it for a couple of weeks then Dr. switched me back to Lexapro.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1801,310.0,56.0,zoloft.56,1.0,"initial nausea, eventual lack of emotion (both positive and negative). ",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1802,311.0,57.0,zoloft.57,1.0,Yawning every minute or two.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1803,312.0,57.0,zoloft.57,2.0,Quit counting yesterday at 100 by lunch time.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1804,313.0,57.0,zoloft.57,3.0,Diarrhea for two weeks.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1805,314.0,57.0,zoloft.57,4.0,Have felt no effects at 25mg/day week one and 50mg/day week two.,0,0.0,0,1,0.0,0,0.0,0,2.0,ssri
+1806,315.0,57.0,zoloft.57,5.0,Side effects so far outweigh the lack of benefits.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1807,316.0,57.0,zoloft.57,6.0,I have averaged 6 hours of sleep per night for years.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1808,317.0,57.0,zoloft.57,7.0,The last 4 days I have sleep 8-10 hours and then wanted to lay in bed another 4)  I can't take the side effects and go to work.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1809,318.0,57.0,zoloft.57,8.0,I have never taken meds of this type before and wonder if it worth the trouble to try and tough it out until the effects to kick in.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1810,319.0,58.0,zoloft.58,1.0,"At first, terrible diarrhea.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1811,320.0,58.0,zoloft.58,2.0,"After a few days, insomnia and headaches.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1812,321.0,58.0,zoloft.58,3.0,"After a few weeks, extreme apathy and lack of initiative/drive/motivation.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1813,322.0,58.0,zoloft.58,4.0,"It did, however, fix the seratonin related imbalance, such as excessive crying and worrying.",0,0.0,1,0,1.0,1,0.0,0,2.0,ssri
+1814,323.0,58.0,zoloft.58,5.0,"I would NOT recommend this med to anyone, especially those who have an active social life.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1815,324.0,58.0,zoloft.58,6.0,"This medication caused a horrible dopamine imbalance, which current medicine can, but WILL NOT TREAT.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1816,325.0,58.0,zoloft.58,7.0,"I have been treating myself with dopamine agonists and dopamine precursors, which are definetely working.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1817,326.0,58.0,zoloft.58,8.0,If you suspect depression.,0,0.0,0,0,1.0,0,0.0,0,2.0,ssri
+1818,327.0,58.0,zoloft.58,9.0,"it would be worth your while to do some research about neurotransmitters, etc I have found that medical trends fail to recognize how dangerous these medications can be; the medical community is saturated by mass loads of marketing by pharmecutical companies, which I think is sad because any seller WILL MOST LIKELY NOT state side effects, in an effort to sell the drug.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1819,328.0,58.0,zoloft.58,10.0,"It's very sad, but it proves to me that medicine is just a money making field, instead of a people helping field.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1820,329.0,59.0,zoloft.59,1.0,"dizziness, nausea, extreme loss of appetite, diarrhoea, lethargy, tingling in fingers, sleeplessness, low blood sugar from loss of appetite.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1821,330.0,59.0,zoloft.59,2.0,Took 1 50mg tab at 10pm and woke at 1am feeling weird.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1822,331.0,59.0,zoloft.59,3.0,"Was bedridden that day, Didn't take another tab but still feeling side effects a day later.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1823,332.0,59.0,zoloft.59,4.0,"I know Zoloft works for a lot of people, but I am breastfeeding and have a 2-year-old to look after, so I can't keep taking it in the hope that the side effects might go away after a week or 2)  I need to be able to eat and function.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1824,333.0,59.0,zoloft.59,5.0,The doctor told me that it seems I have a hypersensitivity.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1825,334.0,59.0,zoloft.59,6.0,My depression is not serious so it looks like I will have to go down a more natural path to help myself.,0,0.0,0,0,1.0,0,0.0,0,2.0,ssri
+1826,335.0,60.0,zoloft.60,1.0,zomby-like emotionlessness.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1827,336.0,60.0,zoloft.60,2.0,I felt dead on this stuff.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1828,337.0,60.0,zoloft.60,3.0,I wasn't really depressed.,0,0.0,1,0,0.0,0,1.0,0,2.0,ssri
+1829,338.0,60.0,zoloft.60,4.0,"but I wasn't anything positive either, just BLAH.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1830,339.0,60.0,zoloft.60,5.0,"I had no reactions, no emotions, no laughter, nothing.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1831,340.0,60.0,zoloft.60,6.0,I guess it just didn't agree with me.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1832,341.0,61.0,zoloft.61,1.0,"had a very strange reaction to this drug, one which some people also seem to experience.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1833,342.0,61.0,zoloft.61,2.0,If you have ever taken amphetamine (Dexedrine) you will know what I mean.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1834,343.0,61.0,zoloft.61,3.0,I got very speedy and high off of this drug in addition to feeling standard SSRI effects.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1835,344.0,61.0,zoloft.61,4.0,"However, these speedy effects completely negate any sexual side effects and if anything will improve your sex life, making it great if you find SSRI's sexual side effects distressing.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1836,345.0,61.0,zoloft.61,5.0,"I found this drug to not do much in the way of improving my anxiety problem, although it did work very well on depression.",0,0.0,1,1,1.0,1,0.0,0,3.0,ssri
+1837,346.0,61.0,zoloft.61,6.0,"The ""speed"" side effect was very unusual, and I could see it casuing addiction in some people.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1838,347.0,61.0,zoloft.61,7.0,"This is a great, fairly mild drug with few long-term side effects if your symptoms are depression-specific.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1839,348.0,62.0,zoloft.62,1.0,"Dizziness, loss of appetite (initially), ""staring into space"".",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1840,349.0,62.0,zoloft.62,2.0,"I originally was on Zoloft for two or three years and then stopped taking it, but had started to develop symptoms of depression again about 2 1/2 years ago.",0,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+1841,350.0,62.0,zoloft.62,3.0,"When I first starting retaking it, I had no appetite for about 2 months, but that went away.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1842,351.0,62.0,zoloft.62,4.0,"More recently, I have experienced dizziness when standing, especially after I get out of the car.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1843,352.0,62.0,zoloft.62,5.0,My dosage was increased earlier this year after a traumatic episode and I found the dizziness to be worse.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1844,353.0,62.0,zoloft.62,6.0,I haven't fainted but I started to see black spots.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1845,354.0,62.0,zoloft.62,7.0,My doctor recommended that I try decreasing it.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1846,355.0,62.0,zoloft.62,8.0,I am still dizzy but a little better I also find that I will sometimes zone out.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1847,356.0,62.0,zoloft.62,9.0,"Despite the side effects, I have found Zoloft helpful in keeping my moods moderated, especially when I feel low (though, on the other hand, I also don't really ever feel extremely happy on it either).",0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1848,357.0,63.0,zoloft.63,1.0,big weight gain!,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1849,358.0,63.0,zoloft.63,2.0,no sex drive at all.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1850,359.0,63.0,zoloft.63,3.0,"zoloft worked wonders for my depression,but after gaining a ton of weight and losing the desire to be intimate with my husband i have switched to wellbutrin xl.",1,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1851,360.0,63.0,zoloft.63,4.0,i hope i can lose the weight and regain my libido.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1852,361.0,64.0,zoloft.64,1.0,Side effects only lasted for a week.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1853,362.0,64.0,zoloft.64,2.0,Right now I don't have any.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1854,363.0,64.0,zoloft.64,3.0,"But the effectiveness seems to have disappead, too!  ",0,0.0,1,1,0.0,0,0.0,0,3.0,ssri
+1855,364.0,65.0,zoloft.65,1.0,The first time I took Zoloft was for depression and explosive anger when I was 19 and it worked like a dream.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1856,365.0,65.0,zoloft.65,2.0,"Now im 28 and it gave me restless leg syndrome, paranoia, anxiety and I craved sweets constantly.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1857,366.0,65.0,zoloft.65,3.0,On the plus side my memory did improve alot ( im ADD) Now im on Lexapro lets see how this goes. ,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1858,367.0,66.0,zoloft.66,1.0,"severe migraines, extremely low sex drive, mania, excitability, difficulty sleeping, weight gain, rapid thinking.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1859,368.0,66.0,zoloft.66,2.0,"i think there are better drugs out there now to treat anxiety and depression, this drug has far too many side effects for anyone to feel comfortable taking it.",1,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+1860,369.0,66.0,zoloft.66,3.0,"however, it does make your mood much better.",0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1861,370.0,66.0,zoloft.66,4.0,thoughts of suicide decreased.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1862,371.0,66.0,zoloft.66,5.0,i generally became more optimistic and active.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1863,372.0,66.0,zoloft.66,6.0,if you can handle the side effects this drug does wonders.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1864,373.0,66.0,zoloft.66,7.0,i came off this drug successfully 2 years ago.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1865,374.0,66.0,zoloft.66,8.0,but am now on celexa (which has way less side effects) and clonezipam for panic attacks.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1866,375.0,66.0,zoloft.66,9.0,in conclusion there are better drugs out there to treat depression.,0,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+1867,376.0,67.0,zoloft.67,1.0,"hands shake, memory isnt as good. ",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1868,377.0,68.0,zoloft.68,1.0, ,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1869,378.0,69.0,zoloft.69,1.0,"Headaches, mood swings, grinding teeth, feeling low, loss of concentration,anger, suicidal and omicidal thoughts.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1870,379.0,69.0,zoloft.69,2.0,I started taking it at 100mg and then went on 50mg due to headaches I was also using endep 50mg for insomnia and pain.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1871,380.0,69.0,zoloft.69,3.0,At the moment I can say that I felt better on 100mg.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1872,381.0,69.0,zoloft.69,4.0,I still feel depressed and have negative thoughts racing through my mind so I don't think 50mg is really enough for me.,0,0.0,0,1,1.0,0,0.0,0,3.0,ssri
+1873,382.0,70.0,zoloft.70,1.0,Having to up my dosage twice.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1874,383.0,70.0,zoloft.70,2.0,Then i realized it was just the kind of drug that stopped working.,0,0.0,0,1,0.0,0,0.0,0,3.0,ssri
+1875,384.0,70.0,zoloft.70,3.0,"If zoloft isn't working for you, you should try another anti depressant.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1876,385.0,70.0,zoloft.70,4.0,i recommend cymbalta but it might not be right for you.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1877,386.0,71.0,zoloft.71,1.0,No sex drive.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1878,387.0,71.0,zoloft.71,2.0,Vivid dreams/nightmares.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1879,388.0,71.0,zoloft.71,3.0,EXTREME acne around mouth and jaw.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1880,389.0,71.0,zoloft.71,4.0,But it did help with depression.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1881,390.0,71.0,zoloft.71,5.0,However after dealing with this acne I'm going to try another med.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1882,391.0,71.0,zoloft.71,6.0,no over the counter facial lotions washes worked. ,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1883,392.0,72.0,zoloft.72,1.0,"Sexual dysfunction, extreme hunger, carbohydrate cravings, weight gain, insomnia, acid reflux, fatigue, water retention, eating disorder thoughts, spacey thinking.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1884,393.0,72.0,zoloft.72,2.0,"Medicine would stop working and I'd have to up the dose, anything above 25 MG and the side effects start to very badly effect my life.",1,0.0,1,1,0.0,0,0.0,0,3.0,ssri
+1885,394.0,73.0,zoloft.73,1.0,"weight gain,agitation,hair loss,sleep disturbance. ",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1886,395.0,74.0,zoloft.74,1.0,completely destroyed what was left of my sex drive (and almost my marriage).,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1887,396.0,74.0,zoloft.74,2.0,I only take it now when I am having a particularly BAD day (suicidal).,0,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+1888,397.0,74.0,zoloft.74,3.0,Good part is it works immediately.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1889,398.0,74.0,zoloft.74,4.0,Also helped me gain over 40 lbs that won't come off no matter what I do.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1890,399.0,74.0,zoloft.74,5.0,"Chronic constipation, too.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1891,400.0,74.0,zoloft.74,6.0,"Don't like that feeling of not caring about anything, though, good or bad.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1892,401.0,75.0,zoloft.75,1.0,"Lack of sex drive, no orgasms.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1893,402.0,75.0,zoloft.75,2.0,Weight loss.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1894,403.0,75.0,zoloft.75,3.0,Sweats.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1895,404.0,75.0,zoloft.75,4.0,It seemed to stop severe depression and helped my mood enough so that with counselling and support I could eventually get on with my life.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1896,405.0,75.0,zoloft.75,5.0,It could have been any ssri though.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1897,406.0,76.0,zoloft.76,1.0,Today was my 3rd dose of Zolft (50mg).,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1898,407.0,76.0,zoloft.76,2.0,First 2 days had loose stools.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1899,408.0,76.0,zoloft.76,3.0,This morning my jaw felt tight and then I suddenly was hit with an overwhelming feeling of panic.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1900,409.0,76.0,zoloft.76,4.0,"My heart was racing, skin tingling, and even oddly numb.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1901,410.0,76.0,zoloft.76,5.0,Basically felt very very strange.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1902,411.0,76.0,zoloft.76,6.0,As I'm a nurse I was convinced I was having an allergic reaction and was terrified I was going to pass out.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1903,412.0,76.0,zoloft.76,7.0,Pulled myself together and spoke to GP & psych who feel it's anxiety and side-effects but even with my worst anxiety I have never felt quite like that.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1904,413.0,76.0,zoloft.76,8.0,Am determined to persevere but fearful of experiencing the same thing tomorrow.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1905,414.0,76.0,zoloft.76,9.0,Am reassured by reading other people's comments but would like to know if anyhone else felt anything similar in first few days.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1906,415.0,76.0,zoloft.76,10.0,Have trouble rating Zoloft as I have not been on it long enough to really know yet.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1907,416.0,77.0,zoloft.77,1.0,"Initially - zombie like feeling, no emotions, intense yawning; Ongoing - extreme fatigue, ZERO sex drive, chills (that is  feeling like someone is walking over my grave.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1908,417.0,77.0,zoloft.77,2.0,"not cold chills), TMJ (from clenching jaw at night).",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1909,418.0,77.0,zoloft.77,3.0,I've been taking Zoloft for a year.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1910,419.0,77.0,zoloft.77,4.0,During the first month or so I noticed a definite decrease in my anger and anxiety.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1911,420.0,77.0,zoloft.77,5.0,"However, after a few months, I feel like all I want to do is drink.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1912,421.0,77.0,zoloft.77,6.0,I'm still depressed pretty bad and that has yet to go away.,0,0.0,1,1,1.0,0,0.0,0,3.0,ssri
+1913,422.0,77.0,zoloft.77,7.0,"My anxiety is more under control, but not gone.",0,0.0,1,1,1.0,1,0.0,0,3.0,ssri
+1914,423.0,77.0,zoloft.77,8.0,I'm thinking about upping my dose and going to AA for the drinking.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1915,424.0,77.0,zoloft.77,9.0,It seems like I've become an alcoholic since starting Zoloft.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1916,425.0,77.0,zoloft.77,10.0,I have NO sex drive and am always tired.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1917,426.0,77.0,zoloft.77,11.0,I also get bouts of suicidal thoughts.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1918,427.0,78.0,zoloft.78,1.0,"Lack of sexual desire, harder to reach orgasm.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1919,428.0,78.0,zoloft.78,2.0,Helped with depression but total lack of desire for sex,1,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1920,429.0,79.0,zoloft.79,1.0,weight gain of 30 pounds. ,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1921,430.0,80.0,zoloft.80,1.0,"Lack of sex drive, weight gain, sleep problems.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1922,431.0,80.0,zoloft.80,2.0,"Still depressed, some times worse than others.",0,0.0,0,1,1.0,0,0.0,0,3.0,ssri
+1923,432.0,80.0,zoloft.80,3.0,Started taking it after Prozac and (can't remember the name) made my stomach hurt so bad.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1924,433.0,80.0,zoloft.80,4.0,I really cannot tell if it is helping.,0,0.0,0,1,0.0,0,0.0,0,3.0,ssri
+1925,434.0,80.0,zoloft.80,5.0,But I haven't committed suicide either.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1926,435.0,81.0,zoloft.81,1.0,non-existent sex drive. ,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1927,436.0,82.0,zoloft.82,1.0,"Dry mouth, nausea,no sex drive, and RLS worsened.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1928,437.0,82.0,zoloft.82,2.0,I was put on Zoloft for severe depression.,0,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+1929,438.0,82.0,zoloft.82,3.0,It has worked for my depression but the Dr. told me that it would help my RLS.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1930,439.0,82.0,zoloft.82,4.0,It made my RLS 4xs worse.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1931,440.0,82.0,zoloft.82,5.0,Also my sex drive went from brooooom brooom to put put if any.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1932,441.0,82.0,zoloft.82,6.0,In the first couple of weeks I had SEVERE drymouth and hated that.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1933,442.0,82.0,zoloft.82,7.0,But it works great for my depression,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1934,443.0,83.0,zoloft.83,1.0,Just started taking it a few days ago.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1935,444.0,83.0,zoloft.83,2.0,"I find that I am constantly clenching my jaw and it feels ""funny"" when I yawn or smile.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1936,445.0,83.0,zoloft.83,3.0,"I also feel very, very groggy in the mornings and have to force myself out of bed, but once I'm up, the grogginess fades pretty quickly and I actually have energy throughout the day.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1937,446.0,83.0,zoloft.83,4.0,I have also noticed that my mood has improved and I'm not weepy like before.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1938,447.0,83.0,zoloft.83,5.0,So far so good.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1939,448.0,84.0,zoloft.84,1.0,The only side effect I've had is it has completly shut down my sex drive.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1940,449.0,84.0,zoloft.84,2.0,"I'm 45 years old,so all it's done for me is swap one problem for another.",0,0.0,0,1,0.0,0,0.0,0,3.0,ssri
+1941,450.0,84.0,zoloft.84,3.0,"I plan on trying something else,this drug is also too expensive.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1942,451.0,84.0,zoloft.84,4.0,Cost is too high.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1943,452.0,84.0,zoloft.84,5.0,Can't tell if it really works.,0,0.0,0,1,0.0,0,0.0,0,3.0,ssri
+1944,453.0,85.0,zoloft.85,1.0,"MAJOR head pressure, dizziness, moodiness, agitation, no patience, insomnia, suicidal thoughts.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1945,454.0,85.0,zoloft.85,2.0,Switched to Zoloft because Paxil didn't work anymore.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1946,455.0,85.0,zoloft.85,3.0,The first dosage was 50 mg and after that increased to 100mg.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1947,456.0,85.0,zoloft.85,4.0,"The depression lifted a bit but the anxiety, head pressure, dizziness, insomnia were unbearable.",1,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1948,457.0,85.0,zoloft.85,5.0,Then the doctor increased it to 150 mg which made the head pressure worse so I slowly got back down to 100mg.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1949,458.0,85.0,zoloft.85,6.0,I am still feeling head pressure which is causing my moodiness but the doctor doesn't believe me.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1950,459.0,85.0,zoloft.85,7.0,"If this head pressure will go away, I think I would be able to cope much better.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1951,460.0,85.0,zoloft.85,8.0,I'm afraid to switch to another anti-depressent because the withdrawals that I've experienced from Paxil & Effexor was a nightmare and I know Zoloft has similar withdrawals.,0,1.0,0,0,0.0,0,0.0,0,3.0,ssri
+1952,461.0,85.0,zoloft.85,9.0,I guess I'll wait to see if this head pressure will ever go away.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1953,462.0,86.0,zoloft.86,1.0,The first couple of days I noticed slight dizziness within an hour or so of taking it but it resolved itself.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1954,463.0,86.0,zoloft.86,2.0,Dry mouth also for the first few days.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1955,464.0,86.0,zoloft.86,3.0,"Insomnia was horrid the first 2-3 days, not sleeping but 2-3 hours each night.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1956,465.0,86.0,zoloft.86,4.0,"Other than that, nothing - until week 3 when I all of the sudden experienced moderate nausea/vomiting and pretty good dizziness constantly.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1957,466.0,86.0,zoloft.86,5.0,"Also, about a 5 lb.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1958,467.0,86.0,zoloft.86,6.0,weight loss in the 3 weeks I took it.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1959,468.0,86.0,zoloft.86,7.0,Decreased appetite.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1960,469.0,86.0,zoloft.86,8.0,I'm disappointed.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1961,470.0,86.0,zoloft.86,9.0,I debated and debated whether to try an anti-depressant and finally decided to go with Zoloft because I am nursing my 1 year old.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1962,471.0,86.0,zoloft.86,10.0,I decided at this point the potential risk to my daughter was outweighed by my extreme mood swings/impatience/anger in general towards my kids.,0,0.0,0,0,1.0,0,0.0,0,3.0,ssri
+1963,472.0,86.0,zoloft.86,11.0,"I started low, 25 mg's the first 7 days, then increased to 50)  The first couple of days were rough with the insomnia but when that cleared up I felt fine, like I wasn't taking anything.",1,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1964,473.0,86.0,zoloft.86,12.0,It wasn't until the 3rd week that I started to feel as though I had the flu.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1965,474.0,86.0,zoloft.86,13.0,"I went to the dr. and he said no way could it be the Zoloft, said I had the stomach flu.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1966,475.0,86.0,zoloft.86,14.0,"Well, this lasted for 7 full days and I stay home with my 3 small children, it wasn't working!",1,0.0,0,1,0.0,0,0.0,0,3.0,ssri
+1967,476.0,86.0,zoloft.86,15.0,"Today, I decided enough and did not take it.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1968,477.0,86.0,zoloft.86,16.0,"So far, no ""withdrawal"" effects but I'll be darned if I feel great.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1969,478.0,86.0,zoloft.86,17.0,No nausea/dizziness like I experienced yesterday and the 7 days prior.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1970,479.0,86.0,zoloft.86,18.0,"I really wanted this to work and I do think it mellowed me out a bit, I wasn't so on edge, so jumpy and moody and irritable.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1971,480.0,86.0,zoloft.86,19.0,I just can't go on indefinitely feeling like I was going to fall over or vomit all day.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1972,481.0,87.0,zoloft.87,1.0,"Tired, dry mouth, dizziness on occassion.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1973,482.0,87.0,zoloft.87,2.0,For treating major depression.,0,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+1974,483.0,87.0,zoloft.87,3.0,"Started with 25mg for first 2 weeks, started with 50 mg for next 2 weeks.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1975,484.0,87.0,zoloft.87,4.0,Not really doing better yet.,0,0.0,0,1,0.0,0,0.0,0,3.0,ssri
+1976,485.0,87.0,zoloft.87,5.0,"Heard that 100 mg is the typical dose for treatment, but have to gradually increase dose to lessen side effects.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1977,486.0,87.0,zoloft.87,6.0,Haven't started therapy yet.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1978,487.0,87.0,zoloft.87,7.0,Maybe it will help.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1979,488.0,88.0,zoloft.88,1.0,no orgasm during sex.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1980,489.0,88.0,zoloft.88,2.0,no orgasm during sex,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1981,490.0,89.0,zoloft.89,1.0,was very tried until I started taking concerta for add.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1982,491.0,89.0,zoloft.89,2.0,I have gained 15 lbs in about 3 months.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1983,492.0,89.0,zoloft.89,3.0,I think due to the fact the zoloft has numbed any feeling of guilt of what I'm eating.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1984,493.0,89.0,zoloft.89,4.0,It's been a free for all.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1985,494.0,89.0,zoloft.89,5.0,Also I had a very slow metab.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1986,495.0,89.0,zoloft.89,6.0,to begin with. ,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1987,496.0,90.0,zoloft.90,1.0,"Lack of ability to obtain erection (before taking, it was almost as if I could just think about something sexual to obtain erection, now my girlfriend and I both need about 10 minutes of heavy passionate kissing to even get horny (she is also on Zoloft now), Ejaculating problems, mainly sexual side effects.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1988,497.0,90.0,zoloft.90,2.0,"Has helped me with my anxiety and depression, though I still do worry alot, maybe more than before.",0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1989,498.0,90.0,zoloft.90,3.0,Bad sexual side effects.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1990,499.0,90.0,zoloft.90,4.0,I'm going to talk it over with my doctor to see what I'd like to have done.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1991,500.0,91.0,zoloft.91,1.0,"sweating, dry mouth, increased anxiety.",1,0.0,0,1,1.0,0,0.0,0,3.0,ssri
+1992,501.0,91.0,zoloft.91,2.0,worked wonderfully in the beginning.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+1993,502.0,91.0,zoloft.91,3.0,took away all the depression I was experiencing for three months.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+1994,503.0,91.0,zoloft.91,4.0,"after 2 years, I built up a tolerance and had to increase it from 50 mg to 100 mg. the depression was creeping back again.",0,0.0,0,1,1.0,1,0.0,0,3.0,ssri
+1995,504.0,91.0,zoloft.91,5.0,I found nutritional supplements to deal with the depression.,0,0.0,0,0,1.0,0,0.0,0,3.0,ssri
+1996,505.0,91.0,zoloft.91,6.0,I am still on 25mg of Zoloft b/c it is IMPOSSIBLE to come off of.,0,1.0,0,0,0.0,0,0.0,0,3.0,ssri
+1997,506.0,91.0,zoloft.91,7.0,withdrawal is HORRIBLE!,0,1.0,0,0,0.0,0,0.0,0,3.0,ssri
+1998,507.0,91.0,zoloft.91,8.0,It does nothing for the depression anymore but my body is too used to it to stop it,0,1.0,0,1,1.0,0,0.0,0,3.0,ssri
+1999,508.0,92.0,zoloft.92,1.0,"dry mouth, increased sweating, sexual problems (libido and ability).",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2000,509.0,92.0,zoloft.92,2.0,"I was taking 200mg every morning, however I now only take 50mg as I am trying to get my sexual problems to improve.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2001,510.0,92.0,zoloft.92,3.0,"In addition, I am taking 300mg of wellbutrin, soon 450mg, and I am feeling sexual again.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2002,511.0,92.0,zoloft.92,4.0,It has also helped me out of a deep depression that zoloft could not do.,0,0.0,0,1,1.0,1,0.0,0,3.0,ssri
+2003,512.0,92.0,zoloft.92,5.0,I love the extra energy!,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2004,513.0,92.0,zoloft.92,6.0,I also take klonopin 1mg 3 times daily.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2005,514.0,93.0,zoloft.93,1.0,"No appetite I went 3 days without eating and didn't realise until my partner was ramming a sandwich down me, now just a smaller appetite and still forget to eat.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2006,515.0,93.0,zoloft.93,2.0,"Blurred vision, diarrhoea, nausea, heart burn, hyper/wired can stay awake for 48hrs so have to take a sedative to sleep, insomnia, brain zaps/waves like vertigo but whilst sitting, speech problems and speech block, memory loss, suicidal thoughts with one attempt, dry mouth, involuntary movements like jerking.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2007,516.0,93.0,zoloft.93,3.0,Reading through this yes the side effects have been awful and pretty persistent but I'll now explain below.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2008,517.0,93.0,zoloft.93,4.0,"Basically I anise these tablets no end and take up to 800-1000mg hence all the side effects, but because I abused them so heavily at the start a normal dose now gives me withdrawal which gives all the above side effects.",0,1.0,0,0,0.0,0,0.0,0,3.0,ssri
+2009,518.0,93.0,zoloft.93,5.0,So they work just don't abuse them or get blinding drunk as trying to kill yourself happens.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+2010,519.0,94.0,zoloft.94,1.0,"with zoloft of 50mg then 100 mg, I experienced a decreased sex drive- and inability to have orgasm.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2011,520.0,94.0,zoloft.94,2.0,more tiredness and irritable when I had to get up.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2012,521.0,94.0,zoloft.94,3.0,monotone in emotion.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2013,522.0,94.0,zoloft.94,4.0,I felt like I existed- monotone.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2014,523.0,94.0,zoloft.94,5.0,nothing was funny and nothing made me too upset either.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2015,524.0,94.0,zoloft.94,6.0,just shrug my shoulders as my living room curtains caught fire from melted heater wire that sparked.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2016,525.0,94.0,zoloft.94,7.0,(not kidding- literally oh well.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2017,526.0,94.0,zoloft.94,8.0,ho hum!),0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2018,527.0,94.0,zoloft.94,9.0,"It did only allow me to think about one subject at a time other than my previous 9,846 thoughts in 2 minutes.",0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+2019,528.0,94.0,zoloft.94,10.0,(which was good),0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2020,529.0,95.0,zoloft.95,1.0,"Loss of sex drive, manic episodes, trouble sleeping.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2021,530.0,95.0,zoloft.95,2.0,Was placed on Zoloft after suicide attempt.,0,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+2022,531.0,95.0,zoloft.95,3.0,"Although side effects were minimal, I started having severe manic episodes after a few weeks - driving 500 miles for no reason, not sleeping for days, etc Eventually I was taken off Zoloft and placed on Lamictal, which is now slowly reducing my manic episodes.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2023,532.0,95.0,zoloft.95,4.0,"Zoloft helped balance my mood after about a month, but the mania made my life more difficult.",1,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+2024,533.0,96.0,zoloft.96,1.0,"loss of sex drive, increase in anxiety.",1,0.0,0,1,1.0,0,0.0,0,3.0,ssri
+2025,534.0,96.0,zoloft.96,2.0,not sure if this is going to work.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2026,535.0,96.0,zoloft.96,3.0,dr says that it can take up to 8 weeks .,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2027,536.0,96.0,zoloft.96,4.0,I hope it works soon,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2028,537.0,97.0,zoloft.97,1.0,none.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2029,538.0,97.0,zoloft.97,2.0,It didn't alleviate my depression or anxiety,0,0.0,0,1,1.0,0,0.0,0,3.0,ssri
+2030,539.0,98.0,zoloft.98,1.0,feel like when i get upset it just makes it worse and i dont feel like myself. ,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2031,540.0,99.0,zoloft.99,1.0,"Vivid dreams, night sweats, extreme lethargy, decreased interest in sex, feeling emotionless, nausea.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2032,541.0,99.0,zoloft.99,2.0,"I felt an almost instant change with this drug, but ended up spending a lot of time in bed feeling tired and indifferent instead of going to class.",1,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+2033,542.0,99.0,zoloft.99,3.0,"I guess that's always better than feeling suicidal, right?",0,0.0,0,0,1.0,1,0.0,0,3.0,ssri
+2034,543.0,99.0,zoloft.99,4.0,"No sex=no good, though.And you'll probably scare your partner away anyway after they realize that you've soaked yourself, your pj's, and the sheets through with night sweats.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2035,544.0,99.0,zoloft.99,5.0,After you threw up 30 minutes after taking your pill.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2036,545.0,99.0,zoloft.99,6.0,Wellbutrin worked MUCH better!,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2037,546.0,100.0,zoloft.100,1.0,"weight gain, extreme spaciness and forgetfulness, loss of vocabulary, lethargic, cloudy head, lack of concentration.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2038,547.0,100.0,zoloft.100,2.0,The first few months i was on Zoloft my depression and anxiety were definitely lifted.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+2039,548.0,100.0,zoloft.100,3.0,"But in the past month, things have a taken a turn.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2040,549.0,100.0,zoloft.100,4.0,"I'm tired all the time, have gained 10 pounds and can't think straight.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2041,550.0,100.0,zoloft.100,5.0,This drug has made me feel really stupid and I find myself at aloss for words quite often - simply because I can't think of the right words to use.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2042,551.0,100.0,zoloft.100,6.0,But my overall mood has been much better which I guess is a good thing.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+2043,552.0,100.0,zoloft.100,7.0,But do i want to be dumb and happy or smart and depressed?,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2044,553.0,100.0,zoloft.100,8.0,Hmmm.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2045,554.0,100.0,zoloft.100,9.0,I saw my doctor today and am going to switch drugs.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2046,555.0,100.0,zoloft.100,10.0,I'm a little nervous about the withdrawl from Zoloft after hearing other reports here.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2047,556.0,100.0,zoloft.100,11.0,I'll be sure to write back with my experience.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2048,557.0,101.0,zoloft.101,1.0,None.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2049,558.0,101.0,zoloft.101,2.0,Initially Zoloft was great.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2050,559.0,101.0,zoloft.101,3.0,It leveled me out and made coping with circumstances manageable.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2051,560.0,101.0,zoloft.101,4.0,"I must have developed a tolerance however, as my dosage was increased and now my doc is transitioning me to Lexapro.",0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2052,561.0,102.0,zoloft.102,1.0,"for the first 2 weeks, ""jittery"", and tired in the day, but these went away totally, still sexual dysfunction.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2053,562.0,102.0,zoloft.102,2.0,Works great other than side effects,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2054,563.0,103.0,zoloft.103,1.0,"Sexual side-effects, insomnia.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2055,564.0,103.0,zoloft.103,2.0,This medicine works wonderfully for it's intended purpose.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2056,565.0,103.0,zoloft.103,3.0,I have switched to 5-htp though since it doesn't have the side-effects of Zoloft.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2057,566.0,103.0,zoloft.103,4.0,The 5-HTP is great for mild serotonin disorders.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2058,567.0,103.0,zoloft.103,5.0,I did fine at 50 mg ZOloft and fine on supplements too.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2059,568.0,104.0,zoloft.104,1.0,"night sweats, yawning, vivid dreams (but not bad ones); the first week felt dizzy; slightly reduced libido but more difficulty in reaching orgasm.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2060,569.0,104.0,zoloft.104,2.0,Within a week I felt my energy level increase and depressed/suicidal thoughts decrease.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2061,570.0,104.0,zoloft.104,3.0,"After a month some of the anxiety and self-destructive urges returned, but I feel more able to manage these episodes and they are less crushing.",0,0.0,1,1,1.0,1,0.0,0,4.0,ssri
+2062,571.0,104.0,zoloft.104,4.0,"Increased dose from 50 to 75 mg, maybe will increase to 100 mg.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2063,572.0,104.0,zoloft.104,5.0,"I still feel like ""myself"" but just less miserable and irritable.",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2064,573.0,104.0,zoloft.104,6.0,I feel tired a lot in the middle of the day but I always have in the winter anyway!,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2065,574.0,104.0,zoloft.104,7.0,"Sex is still enjoyable but it's harder to climax, which is annoying, but I think is getting better with time.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2066,575.0,104.0,zoloft.104,8.0,It has really helped for symptoms of depression and with less side affects than I was afraid of.,1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2067,576.0,104.0,zoloft.104,9.0,I recommend it.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2068,577.0,105.0,zoloft.105,1.0,stayed awake for the first week or so.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2069,578.0,105.0,zoloft.105,2.0,None others.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2070,579.0,105.0,zoloft.105,3.0,Don't ever run out.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2071,580.0,105.0,zoloft.105,4.0,Cold turkey is dangerous.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2072,581.0,105.0,zoloft.105,5.0,"After 3 days stopping 100 mg a day, I should not have been behind the wheel.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2073,582.0,105.0,zoloft.105,6.0,A whole weekend went by and I didn't know where I was or what time or day it was.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2074,583.0,105.0,zoloft.105,7.0,"A nurse at the emergency room that checked me vitals, was the only person I remember, beside my two children.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2075,584.0,105.0,zoloft.105,8.0,"She looked at me and said I was being ridiculous, ""Zoloft is a day to day medicine and there is no effects from stopping!""",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2076,585.0,105.0,zoloft.105,9.0,This was 5 years ago and I will never forget her stupidity or condescending face.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2077,586.0,105.0,zoloft.105,10.0,Both my children started laughing at her.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2078,587.0,105.0,zoloft.105,11.0,"On the positive side, I'm much more relaxed in tense situations.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2079,588.0,105.0,zoloft.105,12.0,"If I'm cut off in traffic, I don't flip anymore.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2080,589.0,105.0,zoloft.105,13.0,I let them in and give a polite wave.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2081,590.0,105.0,zoloft.105,14.0,the anger is just not there.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2082,591.0,106.0,zoloft.106,1.0,Absolutely no libido!  ,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2083,592.0,107.0,zoloft.107,1.0,Dry mouth.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2084,593.0,107.0,zoloft.107,2.0,"Worse trying to go off it, so I'm still on it.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2085,594.0,108.0,zoloft.108,1.0,"At first nausea,diareah,shakiness, sleeplessness, brain zaps, muscle twitches, jaw tightness, vivid/scary dreams,loss of sex drive.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2086,595.0,108.0,zoloft.108,2.0,The side effects were like living a second version of my personal hell.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2087,596.0,108.0,zoloft.108,3.0,"I stuck with it, and now I am realizing what a sad, pathetic, lonley, afraid, antisocial, hermit I used to be.",0,0.0,0,0,1.0,1,0.0,0,4.0,ssri
+2088,597.0,108.0,zoloft.108,4.0,Now people enjoy being around me.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2089,598.0,108.0,zoloft.108,5.0,I am actually funny!,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2090,599.0,108.0,zoloft.108,6.0,I can make friends.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2091,600.0,108.0,zoloft.108,7.0,"I miss orgasms, but I like the person I am now a lot better than I was.",1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2092,601.0,108.0,zoloft.108,8.0,I think I will stay on it for a while!,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2093,602.0,109.0,zoloft.109,1.0,WEIGHT GAIN!,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2094,603.0,109.0,zoloft.109,2.0,HOLY COW!,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2095,604.0,109.0,zoloft.109,3.0,allot of weight gain.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2096,605.0,109.0,zoloft.109,4.0,The other nasty side effect is if you forget to take it.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2097,606.0,109.0,zoloft.109,5.0,"You will end up with a light headed feeling and what I call ""trailers' meaning that it takes your eyes a second to catch up with your focus. ",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2098,607.0,110.0,zoloft.110,1.0,"very low libido, no sex drive, intensified affects of alcohol tremendously, it relieved crying episodes, it helped me get my life back as far as enjoying things. ",1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2099,608.0,111.0,zoloft.111,1.0,had no negative side-effects and loved Seratraline.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2100,609.0,111.0,zoloft.111,2.0,It has helped me a lot more than earlier meds.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2101,610.0,111.0,zoloft.111,3.0,"However, I have tried to taper and quit several times and CAN'T.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2102,611.0,111.0,zoloft.111,4.0,"I become dizzy, nauseus and can't function; feel as though I'm poisoned.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2103,612.0,111.0,zoloft.111,5.0,One tiny dose makes all that badness go away in less than 30 minutes!,0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2104,613.0,111.0,zoloft.111,6.0,"So, yeah, I know I'm an addict.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2105,614.0,111.0,zoloft.111,7.0,TODAY I'd like to know if my recent muscular twitches are related to this medicine.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2106,615.0,111.0,zoloft.111,8.0,"My belief is that once a person is on a med like this, his/her chemistry is changed, and, s/he can't ""revert to the earlier version"" of his/herself, so to speak.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2107,616.0,111.0,zoloft.111,9.0,One is forever changed and cannot function as expected without the drug.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2108,617.0,112.0,zoloft.112,1.0,Initially went cycling like a yo-yo with mild mania and depression.,1,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2109,618.0,112.0,zoloft.112,2.0,Had to go up gradually from 12.5 mg every two weeks until I reached 200 mg in a YEAR.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2110,619.0,112.0,zoloft.112,3.0,It was stimulating and I was hyper for a few months.,1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2111,620.0,112.0,zoloft.112,4.0,This is the only SSRI that didn't give me gastric side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2112,621.0,112.0,zoloft.112,5.0,It felt stimulating and made me hyper for quite a while.,1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2113,622.0,112.0,zoloft.112,6.0,"However, having severe depression, I had no choice but to stick with it Slow titration helped a lot.",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2114,623.0,112.0,zoloft.112,7.0,Didn't have depression under control until I added Lithium 300 mg as adjunct.,0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2115,624.0,112.0,zoloft.112,8.0,Now depression-free for 5 years or so.,0,0.0,0,0,1.0,1,0.0,0,4.0,ssri
+2116,625.0,112.0,zoloft.112,9.0,To avoid poop-out I have a day off a week.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2117,626.0,113.0,zoloft.113,1.0,At first I had super dry mouth and wanted to sleep forever.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2118,627.0,113.0,zoloft.113,2.0,That went away and then I had terrible problems reaching orgasm.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2119,628.0,113.0,zoloft.113,3.0,After 6 weeks or so my sex drive vanished completely.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2120,629.0,113.0,zoloft.113,4.0,My depression was gone until after about 5 months then the Zoloft just stopped working.,0,0.0,1,1,1.0,1,0.0,0,4.0,ssri
+2121,630.0,113.0,zoloft.113,5.0,"I found if I took a year off the Zoloft, it would work again later so that's what I do.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2122,631.0,113.0,zoloft.113,6.0,I have tried almost all classes of anti depressants and so far this works the best.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2123,632.0,113.0,zoloft.113,7.0,"I get all aspects of my life back together; career, social, family, spiritual.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2124,633.0,113.0,zoloft.113,8.0,My love life suffers due to the lack of sex but it lets me focus on other areas.,1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2125,634.0,113.0,zoloft.113,9.0,I have been on and off Zoloft for 5 years and found that staying at a dose of 25mg each morning is the best.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2126,635.0,113.0,zoloft.113,10.0,Increasing the dose only increased the side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2127,636.0,113.0,zoloft.113,11.0,"Zoloft let me still feel sad or angry at times, it didn't make me a complacent, happy person.",0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2128,637.0,113.0,zoloft.113,12.0,It helpped me to feel the appropriate feelings for a situation instead of the all consuming feelings of doom and self loathing.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2129,638.0,113.0,zoloft.113,13.0,Without antidepressants I am sure I would have kiled myself by now.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2130,639.0,113.0,zoloft.113,14.0,No matter what the side effects are it's worth it to get me back on my feet and let me feel good for a change.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2131,640.0,114.0,zoloft.114,1.0,greatly decreased libido.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2132,641.0,114.0,zoloft.114,2.0,weight loss/maintenance.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2133,642.0,114.0,zoloft.114,3.0,seem to have more breakthrough symptoms after 10 years.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2134,643.0,114.0,zoloft.114,4.0,Am considering switch.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2135,644.0,114.0,zoloft.114,5.0,Lack of interest in sex ruined my marriage.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2136,645.0,115.0,zoloft.115,1.0,smile more and laugh more.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2137,646.0,115.0,zoloft.115,2.0,"Difficulty reaching orgasm, wierd dreams, weight gain.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2138,647.0,115.0,zoloft.115,3.0,I no longer cry everyday and think of suicide everyday.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2139,648.0,115.0,zoloft.115,4.0,I can still orgasm it just takes longer.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2140,649.0,115.0,zoloft.115,5.0,Binge eating like I haven't done since I was a child!,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2141,650.0,116.0,zoloft.116,1.0,"Dizziness, dry mouth, mild sour stomach(no vomitting), slight insomnia, weight loss, mild apathy, decreased sex drive, and fatigue.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2142,651.0,116.0,zoloft.116,2.0,I'm a nurse who works on nightshift.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2143,652.0,116.0,zoloft.116,3.0,"I've always had bouts of depression, I have a history of major anxiety to the point of it being physically painful, and developed OCD over time.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2144,653.0,116.0,zoloft.116,4.0,When I switched to nights I became a complete mess.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2145,654.0,116.0,zoloft.116,5.0,"I could not even lift my head up because of how depressed I felt, and it scared me.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2146,655.0,116.0,zoloft.116,6.0,"I asked my PNP to give me zoloft, after thinking long and hard.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2147,656.0,116.0,zoloft.116,7.0,"I was extremely skeptical and afraid to take it, terrified to say the least, because I had a horrible reaction to a few other anti-Ds.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2148,657.0,116.0,zoloft.116,8.0,"After having it on my nightstand for about a week, I finally started taking the first weeks 25mg and then upped it to 50mg the following week, which I am on now.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2149,658.0,116.0,zoloft.116,9.0,"I must say that I noticed a dramatic difference- I'm always tired because of night shift, but I feel NO depression.",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2150,659.0,116.0,zoloft.116,10.0,"I find myself able to fully concentrate, despite the slight dizziness and brainfog it gives.",1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2151,660.0,116.0,zoloft.116,11.0,"I stated I feel apathy, but I believe its because I feel apathy towards things that used to make me sad and depressed, and anxious.",1,0.0,0,0,1.0,1,0.0,0,4.0,ssri
+2152,661.0,116.0,zoloft.116,12.0,"As far as my OCD, I have less trouble dealing with my intrusive thoughts and am not a nervous wreck following my episodes.",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2153,662.0,116.0,zoloft.116,13.0,"Even though I feel slightly numbed out, I notice I'm more relaxed than I have ever been-the brainfog does not interefere with my patient care and safety.",1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2154,663.0,116.0,zoloft.116,14.0,"I have not had to take as much lorazepam 0.5mg PRN like before, that is an improvement.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2155,664.0,116.0,zoloft.116,15.0,"Honestly, I get nervous about feeling good on this medication and almost believe too-good-to-be-true, but I t",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2156,665.0,117.0,zoloft.117,1.0,"beginning it I was first on ""cloud 9"" then I leveled off and life was back to normal.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2157,666.0,117.0,zoloft.117,2.0,I have gradually incrased dosages and now I take 200mg/day.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2158,667.0,117.0,zoloft.117,3.0,again I'm depressed and ho-hum not to mention I've gained 20lbs I wholeheartedly blame on the zoloft.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2159,668.0,117.0,zoloft.117,4.0,I feel great otherwise until I hit this low.,0,0.0,1,1,0.0,0,0.0,0,4.0,ssri
+2160,669.0,117.0,zoloft.117,5.0,Question?,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2161,670.0,117.0,zoloft.117,6.0,is there a higher dosage of zoloft that brings you back to life after 200mg that my doc.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2162,671.0,117.0,zoloft.117,7.0,"isnt telling me, or is it time to quit and change?",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2163,672.0,117.0,zoloft.117,8.0,On occasion for money reasons i run out of my prescription for zoloft and may go days w/out it.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2164,673.0,117.0,zoloft.117,9.0,"i suffer from upset stomach, headache (always over my lft eye) terrible highs and lows and hot flashes.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2165,674.0,117.0,zoloft.117,10.0,is this typical?,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2166,675.0,118.0,zoloft.118,1.0,"Nausea, weight loss in beginning.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2167,676.0,118.0,zoloft.118,2.0,"0% sex drive, difficulty sleeping, nightmares, profuse sweating.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2168,677.0,118.0,zoloft.118,3.0,For the 1st.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2169,678.0,118.0,zoloft.118,4.0,time on med in 1993 it worked great for me for about 2 years.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2170,679.0,118.0,zoloft.118,5.0,2nd time on med in 1999 it seemed to not even touch my anxiety/depression.,0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2171,680.0,118.0,zoloft.118,6.0,The nightmares and seeing things at night made me opt for another med.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2172,681.0,118.0,zoloft.118,7.0,Effexor XR 150 mgs.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2173,682.0,118.0,zoloft.118,8.0,has worked wonders on me.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2174,683.0,119.0,zoloft.119,1.0,"WEIGHT GAIN!, WEIGHT GAIN!, AND WEIGHT GAIN.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2175,684.0,119.0,zoloft.119,2.0,That is the only negative thing about the medication.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2176,685.0,119.0,zoloft.119,3.0,It didn't make me feel like I was zoned out or numb.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2177,686.0,119.0,zoloft.119,4.0,I loved the way I felt while I was taking it.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2178,687.0,119.0,zoloft.119,5.0,The weight gain is the only reason I stopped taking it.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2179,688.0,120.0,zoloft.120,1.0,"Brain fog, derealization/depersonalization, lack of concentration, hard time remembering things.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2180,689.0,120.0,zoloft.120,2.0,"I had MAJOR panic attacks, obsessive thoughts, intrusive thoughts, general anxiety.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2181,690.0,120.0,zoloft.120,3.0,Zoloft is helping.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2182,691.0,120.0,zoloft.120,4.0,"No weight gain, no extreme side effects.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2183,692.0,120.0,zoloft.120,5.0,I just dont like the brain fog and detached feeling.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2184,693.0,121.0,zoloft.121,1.0,None worth mentioning.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2185,694.0,121.0,zoloft.121,2.0,This medication has turned my life around; I'd been suffering from moderate to severe depression for decades and was afraid to take antidepressents until my doctor convinced me to at least try Zoloft for a while.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2186,695.0,121.0,zoloft.121,3.0,It's been about 4 years and I truly feel like a new person.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2187,696.0,122.0,zoloft.122,1.0,"The first 2 weeks I had a headache, I couldn't stop grinding my teeth and I was a little restless but it all went away.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2188,697.0,122.0,zoloft.122,2.0,I currently take 150 mgs and it's great!,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2189,698.0,122.0,zoloft.122,3.0,It's a great medicine once you get past the side effects!,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2190,699.0,123.0,zoloft.123,1.0,"loss of libido, drowsiness.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2191,700.0,123.0,zoloft.123,2.0,Before being prescribed Zoloft I was very depressed and suicidal.,0,0.0,0,0,1.0,1,0.0,0,4.0,ssri
+2192,701.0,123.0,zoloft.123,3.0,"After a few weeks on Zoloft it was amazing to me the way I felt (that is , not constantly depressed).",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2193,702.0,123.0,zoloft.123,4.0,"I think it did make me sleepy because I was constantly napping, but that may also partly have been carried over from when I was depressed and unmedicated (I slept to avoid how I was feeling).",1,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2194,703.0,123.0,zoloft.123,5.0,"After a year or so I realized I didn't have much of a libido anymore and after about 2.5 years on Zoloft I finally changed my medication, but if it wasn't for that side effect, I most likely would have stayed on it.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2195,704.0,124.0,zoloft.124,1.0,weight gain and jaw clenching.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2196,705.0,124.0,zoloft.124,2.0,"The first 3 weeks of Zoloft (25mg), the anxiety had pretty much subsided (the clenched feeling in my chest was gone!",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2197,706.0,124.0,zoloft.124,3.0,what a relief!),0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2198,707.0,124.0,zoloft.124,4.0,but no real difference (some good days some bad days) with the depression.,0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2199,708.0,124.0,zoloft.124,5.0,Moved up to 50mg.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2200,709.0,124.0,zoloft.124,6.0,At the end of 6 weeks I still felt no difference but my best friend and boyfriend both said they noticed a difference and that I seemed to take things in stride better.,0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2201,710.0,124.0,zoloft.124,7.0,Moved up to 75mg.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2202,711.0,124.0,zoloft.124,8.0,"Here- sometimes I felt more depressed, lethargic, and would get upset at things that normally wouldnt upset me, or felt too ""whatever happens is fine"" Went back down to 50mg 2x a week, 25mg5x a week.",0,0.0,0,1,1.0,1,0.0,0,4.0,ssri
+2203,712.0,124.0,zoloft.124,9.0,Slowly I noticed my mood feeling better.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2204,713.0,124.0,zoloft.124,10.0,Feeling happier.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2205,714.0,124.0,zoloft.124,11.0,More easy going.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2206,715.0,124.0,zoloft.124,12.0,"Also, my feeling of being able to trust others improved (guess I had mild paranoia that I didnt know I had).",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2207,716.0,124.0,zoloft.124,13.0,"I love the effects of this med, except that now I am noticing weight gain (7lbs in last 2 mo.)",1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2208,717.0,124.0,zoloft.124,14.0,"thats not coming off with diet and exercise, so I am switching to Wellbutrin SR, and hopefully will have success with my mood and get back to a body fat % I am happy with.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2209,718.0,124.0,zoloft.124,15.0,"It gets a ""4"" because of weight gain and how long it took to work (2 months).",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2210,719.0,124.0,zoloft.124,16.0,"Otherwise, it's a 5.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2211,720.0,125.0,zoloft.125,1.0,"Jittery, clenching/grinding teeth, insomnia, lack of libido.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2212,721.0,125.0,zoloft.125,2.0,"It certainly works for what I'm taking it for, but sometimes it can be very hard to handle the side effects I experience with it.",1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2213,722.0,126.0,zoloft.126,1.0,"Severe diarrhea, which caused bad abdominal cramping.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2214,723.0,126.0,zoloft.126,2.0,It worked better than any other medication I have ever taken for depression.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2215,724.0,126.0,zoloft.126,3.0,Only had to stop it because the diarrhea never stopped.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2216,725.0,127.0,zoloft.127,1.0,only experienced side effects such as Nausea for the first week or two of taking this medication.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2217,726.0,127.0,zoloft.127,2.0,Though I do have extreme withdrawal symptoms if I skip more than one day.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2218,727.0,127.0,zoloft.127,3.0,Withdrawal for me is being dizzy and extremely sleepy.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2219,728.0,127.0,zoloft.127,4.0,"This medication is supposedly supposed to help with anxiety, but for me, I have to take a second medication for that.",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2220,729.0,128.0,zoloft.128,1.0,These are side effects that continued throughout treatment with the drug.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2221,730.0,128.0,zoloft.128,2.0,"tiredness, increase in alcohol abuse/depenence (not near as bad as paxil), slightly decreased sexual desire(again not nearly as bad as paxil), somewhat decrease in energy, occasional euphoria.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2222,731.0,128.0,zoloft.128,3.0,"compared to paxil, zoloft reacts much better with me.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2223,732.0,128.0,zoloft.128,4.0,"I've been on and off of zoloft for a lot of years, and it has helped fairly well.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2224,733.0,128.0,zoloft.128,5.0,"However, it seemed to lose effectiveness after a few months.",0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2225,734.0,128.0,zoloft.128,6.0,Then i had to increase the dosage (up from 50 mg).,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2226,735.0,128.0,zoloft.128,7.0,This always made me a little bit manicky.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2227,736.0,128.0,zoloft.128,8.0,"Now that i just started back on it, i'm experiencing the usual side effects when starting(tiredness, nausea, constipation, flucuations in mood and appetite, sweating).",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2228,737.0,128.0,zoloft.128,9.0,These subsided for me after about a week previous times i've been on it.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2229,738.0,128.0,zoloft.128,10.0,It's a good first stab at trying an ssri in my opinion.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2230,739.0,128.0,zoloft.128,11.0,"if you are starting zoloft, start at low dosages and increase only if needed.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2231,740.0,128.0,zoloft.128,12.0,Less is more.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2232,741.0,128.0,zoloft.128,13.0,*Note* I am not a medical professional and have no medical training.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2233,742.0,128.0,zoloft.128,14.0,"This information is simply compiled from personal experience and remember that everyone reacts differently to these drugs so you may experience some/all/none ,or have other side effects i didn't mention.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2234,743.0,129.0,zoloft.129,1.0,"sleeping a lot, low energy, sometimes hungry sometimes not, jaw grinding quite a bit, feeling ok then really down unexpectedly, sometimes not able to sleep until 4am, not much feeling down below, want to express myself and cry but can't, dry mouth sometimes, cigarettes don't taste as good, alchohol cravings sometimes, zombie like feeling but this improved on taking med at night.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2235,744.0,129.0,zoloft.129,2.0,"6 weeks now and today i am starting 100mg dose, previously 50)  Generally feeling better but will comment again in due course.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2236,745.0,129.0,zoloft.129,3.0,There is light at the end of the tunnel.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2237,746.0,130.0,zoloft.130,1.0,"Initially, some insomnia which subsided.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2238,747.0,130.0,zoloft.130,2.0,"Long term: low libido, fatigue.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2239,748.0,130.0,zoloft.130,3.0,I currently take 200mg.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2240,749.0,130.0,zoloft.130,4.0,Zoloft has made all the difference in my life: I'm no longer depressed.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2241,750.0,130.0,zoloft.130,5.0,"The anxiety I experience is somewhat resistant, however, and Zoloft isn't really helping.",0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2242,751.0,130.0,zoloft.130,6.0,"My doctor has prescribed a very low dose of Seroquel (off-label) to help the anxiety, but I haven't taken it.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2243,752.0,130.0,zoloft.130,7.0,Its an antipsychotic with lots of serious side effects (I'm not psychotic).,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2244,753.0,130.0,zoloft.130,8.0,"So, I may need to try a different SSRI to see if it will help with the anxiety.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2245,754.0,131.0,zoloft.131,1.0,"Memory loss, sweating.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2246,755.0,131.0,zoloft.131,2.0,I started taking 50 mg per day after a car accident that left me with a back injury.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2247,756.0,131.0,zoloft.131,3.0,"I am now up to 200 mg per day of Zoloft and I can say I no longer dwell on certain things, but I worry about other things more.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2248,757.0,131.0,zoloft.131,4.0,"I have a high tolerence to meds, I also take 2000-3000 mg lortab per day for pain and it just barely takes the edge off.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2249,758.0,131.0,zoloft.131,5.0,"I also take flexeril 4 times a day and take 10mg of Ambien nightly to sleep, and a blood pressure pill daily (I am not overweight).",0,0.0,0,0,0.0,0,1.0,0,4.0,ssri
+2250,759.0,131.0,zoloft.131,6.0,"Even with all this I function normally & I am self employed, which is extremely stressful.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+2251,760.0,131.0,zoloft.131,7.0,No one who knows me would ever believe I take this much medication!,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2252,761.0,131.0,zoloft.131,8.0,I would love to say Zoloft is a life saver but it only slightly helps me.,0,0.0,1,1,0.0,0,0.0,0,4.0,ssri
+2253,762.0,131.0,zoloft.131,9.0,"If I miss a dose though, I feel like I have little lightening strikes in my head.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2254,763.0,131.0,zoloft.131,10.0,"Overall, it does help some, but I have not tried to come off of it, YET!",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2255,764.0,132.0,zoloft.132,1.0,helped me alot.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2256,765.0,132.0,zoloft.132,2.0,Helped a great deal then put on the generic and had a totally negative reaction.,0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2257,766.0,132.0,zoloft.132,3.0,I had terrible panic and anxiety.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2258,767.0,132.0,zoloft.132,4.0,Now my dr put me back on name brand He puts on script that it is medically necesary so my ins covers it.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2259,768.0,132.0,zoloft.132,5.0,Believe me the generic vs the name brand makes a big difference.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2260,769.0,133.0,zoloft.133,1.0,Sexual side effects.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2261,770.0,133.0,zoloft.133,2.0,Virtually impossible to ejaculate. ,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2262,771.0,134.0,zoloft.134,1.0,"gained 5lbs, decreased sexual desire.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2263,772.0,134.0,zoloft.134,2.0,"I was on 50mg for 8 years, after a while it wasn't helping so the doc increased it and I am much happier now.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2264,773.0,134.0,zoloft.134,3.0,Really very few side effects-I think it's great.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2265,774.0,135.0,zoloft.135,1.0,"None at first, but over time I realized 1) I had gained 50 lbs in the last 3 years, 2) I had anxiety attacks that I previously never had , 3) Restless Leg Syndrome, 4) Sweaty and HOT nearly all of the time.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2266,775.0,135.0,zoloft.135,2.0,5) Still had several months during the year when I was fatigued and too tired to function.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2267,776.0,135.0,zoloft.135,3.0,I stopped taking Zoloft because I was still having several months out of the year when I felt like it wasn't helping - I had no motivation and just wanted to sleep all day.,1,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2268,777.0,135.0,zoloft.135,4.0,"Plus, in the last year, I experienced anxiety attacks more frequently which slowly created phobias I never had before.",1,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2269,778.0,135.0,zoloft.135,5.0,The last straw was feeling hot all of the time.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2270,779.0,135.0,zoloft.135,6.0,People look at you strange when you wear short sleeves in 40 degree weather.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2271,780.0,135.0,zoloft.135,7.0,";) HOWEVER, it did help a majority of the time, especially in the first 2 years.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2272,781.0,135.0,zoloft.135,8.0,It helped get rid of the depression yet I still felt completely myself - not like a zombie at all.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2273,782.0,135.0,zoloft.135,9.0,"It was mild enough that I could switch the dosages when I had a bad ""phase"" (maybe SAD?)",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2274,783.0,135.0,zoloft.135,10.0,without any immediate side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2275,784.0,135.0,zoloft.135,11.0,Thought it was a miracle drug at first!,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2276,785.0,135.0,zoloft.135,12.0,"Unfortunately, the side effects began to be too much for it to be worth it.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2277,786.0,135.0,zoloft.135,13.0,Currently in the process of switching over to Wellbutrin XL.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2278,787.0,136.0,zoloft.136,1.0, IT SAVED MY LIFE,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2279,788.0,137.0,zoloft.137,1.0,At greater then 50 mg experience sexual side effects.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2280,789.0,137.0,zoloft.137,2.0,Bad vivid dreams.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2281,790.0,137.0,zoloft.137,3.0,Been on 50 mg for 10 years.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2282,791.0,137.0,zoloft.137,4.0,I am sure it probably isn't doing anything for me except a crutch.,0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2283,792.0,137.0,zoloft.137,5.0,If I increase to 100 I have sexual side effects immediate.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2284,793.0,137.0,zoloft.137,6.0,It helped a lot at the beginning when I had anxiety attacks and depression.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2285,794.0,137.0,zoloft.137,7.0,Really can affect sleep.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2286,795.0,137.0,zoloft.137,8.0,"Have many dreams, usually bad, that sometimes can not determine from reality.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2287,796.0,138.0,zoloft.138,1.0,Decreased libido and insomnia. ,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2288,797.0,139.0,zoloft.139,1.0,Headaches & mild nausea for a few hours after taking it for the first few weeks.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2289,798.0,139.0,zoloft.139,2.0,Both subsided in a couple of weeks.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2290,799.0,139.0,zoloft.139,3.0,I experience some drowsiness so I take it at night.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2291,800.0,139.0,zoloft.139,4.0,I started taking zoloft for depression and insomnia.,0,0.0,0,0,1.0,1,0.0,0,4.0,ssri
+2292,801.0,139.0,zoloft.139,5.0,"Thankfully, it took care of insomnia from the very first night.",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2293,802.0,139.0,zoloft.139,6.0,I had the best sleep I'd had in months.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2294,803.0,139.0,zoloft.139,7.0,"Now, after taking it for 9 months or so, I still sleep deeply (this can be both a blessing and a curse).",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2295,804.0,139.0,zoloft.139,8.0,"For the first couple of weeks, I'd get headaches and have mild nausea after taking the pill.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2296,805.0,139.0,zoloft.139,9.0,"But again, that stopped after about two weeks.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2297,806.0,139.0,zoloft.139,10.0,"During the first 6 to 8 weeks on zoloft, I couldn't remember any of my dreams.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2298,807.0,139.0,zoloft.139,11.0,But they came back after that - as colorful as before.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2299,808.0,139.0,zoloft.139,12.0,"I read where others have experienced vivid dreams as a side effect, but I've always dreamed pretty vividly so this doesn't bother me.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2300,809.0,139.0,zoloft.139,13.0,"I do still get the drowsiness about an hour after I take it, so I take it at night.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2301,810.0,139.0,zoloft.139,14.0,"For the first 3 or 4 months, I noticed a slight decrease in libido, but at this point my sex drive is back in full force plus some.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2302,811.0,139.0,zoloft.139,15.0,"Zoloft helped me a great deal, really helped me get out of a deep depression.",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2303,812.0,139.0,zoloft.139,16.0,In a few months my doctor and I hav,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2304,813.0,140.0,zoloft.140,1.0,"weight gain that I cannot shake, but other than that it is much easier staying on an even keel in my PM week, and my family doesn't have to tolerate an anxious B**** who wants nothing but to run away during that week. ",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2305,814.0,141.0,zoloft.141,1.0,"Started w/ 50MG to build up to 100/day and during first week period experienced horrible side effects; tremors, nausea, etc After that week, no side effects whatsoever.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2306,815.0,141.0,zoloft.141,2.0,Only long term effect is that I can't cry - literally.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2307,816.0,141.0,zoloft.141,3.0,"not that I'd want to be cry often but it is a good stress relief and now, nothing.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2308,817.0,141.0,zoloft.141,4.0,"Overall I'm glad I'm on it, have been for around 4-5 years now.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2309,818.0,141.0,zoloft.141,5.0,I can tell I get less angry at things and sometimes less sad - the only complaint is not being able to express sadness.,1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2310,819.0,141.0,zoloft.141,6.0,I'd still recommend at least giving it a shot.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2311,820.0,142.0,zoloft.142,1.0,"tremor (especially in hands), zombie feeling at too high a dosage, tiredness, lack of energy, numbing.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2312,821.0,142.0,zoloft.142,2.0,Zoloft has helped me a great deal since I began taking it 10 years ago.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2313,822.0,142.0,zoloft.142,3.0,It worked well but then I decided to try and get off of it .,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2314,823.0,142.0,zoloft.142,4.0,I tapered down from 75mg very carefully and slowly.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2315,824.0,142.0,zoloft.142,5.0,"At first, it felt great - I felt happier and better than I had since beginning the medication, and continued to feel that way emotionally until I reached 0mg.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2316,825.0,142.0,zoloft.142,6.0,"About a week later, however, the withdrawal hit and it was HORRIBLE.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2317,826.0,142.0,zoloft.142,7.0,"I was rapid cycling between being ""okay"" and crying uncontrollably about nothing, my anxiety was absolutely awful, I had a headache from hell, I was irritable and actually ANGRY at everyone and everything in spite of never having an anger problem in my life, and everything felt hopeless to me.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2318,827.0,142.0,zoloft.142,8.0,"I eventually struggled with whether it was withdrawal or the original problem, but then at my lowest point I decided to take 12.5mg and within two hours EVERY problem went away.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2319,828.0,142.0,zoloft.142,9.0,"This tells me (and my doctors) that what I had been feeling was the withdrawal, and not the or",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2320,829.0,143.0,zoloft.143,1.0,"increased migraine and headaches frequency (went from very rarely to frequently), vomitting, nausea, initially constipated then just diarrhea, disturbing twitching while trying to fall asleep, not the usual twitching, very dry mouth, loss of libido ( got better when I decreased from 150mg to 100 mg after 3 months), also have occasional yawnitis as I call it which was worse in the beginning, also had terrible motion sickness I have never had before from flying, alot of dizziness if I forget my dose after just an hour since I decreased to 100mg a month ago, irritability, fall asleep at work sometimes lasting all day, somewhat better after taking the medicine at noontime, waking up in the middle of the night is completely resolved since taking the meds at noontime rather than before bed, definitely I am not losing weight, had panic attacks and that weird tingly feeling for first 2 weeks but these went away.",1,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2321,830.0,143.0,zoloft.143,2.0,the irritablility is less than the irritability I had from PMS before taking zoloft.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2322,831.0,143.0,zoloft.143,3.0,despite the side effects the medicine works very well for anxiety.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2323,832.0,143.0,zoloft.143,4.0,I still have trouble waking up in the morning which I thought was depression but maybe I just have a sleep disorder.,0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2324,833.0,143.0,zoloft.143,5.0,I am going to switch back to celexa if possible since I took that before and the side effects were minimal and also to try and avoid zoloft withdrawl .,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2325,834.0,143.0,zoloft.143,6.0,from there on I don't know what I will do b/c celexa seemed to stop working after a year which was why I switched to zoloft.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2326,835.0,143.0,zoloft.143,7.0,"my doctor wanted to just increase my dose of celexa but this made me very dizzy, almost blind when I would stand up fast or get out of bed.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2327,836.0,143.0,zoloft.143,8.0,looking back this seems not half as bad as the side effects from zoloft.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2328,837.0,144.0,zoloft.144,1.0,major weight gain that led to high systolic blood pressure.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2329,838.0,144.0,zoloft.144,2.0,Headaches for a couple of days of withdrawal.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2330,839.0,144.0,zoloft.144,3.0,"Zoloft worked quickly and effectively at first, but eventually the weight gain it caused led to more depression (not to mention other health problems!)",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2331,840.0,145.0,zoloft.145,1.0,"No noticeable side effects until dosage was increased from 50 to 100mgs, then I noticed decrease in sex drive and increase in weight gain.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2332,841.0,145.0,zoloft.145,2.0,I love Zoloft because of the very few side effects and its effectiveness in treating my anxiety and depression.,1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2333,842.0,145.0,zoloft.145,3.0,I haven't needed to take a Xanax in a long time.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2334,843.0,145.0,zoloft.145,4.0,"Unfortunately, the weight gain and sex drive issue is driving me crazy, and I am considering switching to another drug because of this, but it appears that the other SSRIs have the same issues.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2335,844.0,145.0,zoloft.145,5.0,"I do highly recommend this drug, but everyone is different.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2336,845.0,145.0,zoloft.145,6.0,"My mom tried taking it and she broke out in hives, or hive-like bumps all over her body.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2337,846.0,146.0,zoloft.146,1.0,"jittery, can't sleep, no sex drive.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2338,847.0,146.0,zoloft.146,2.0,"It did help me with my depression and suicidal thoughts, but I have gained quite a bit of weight.",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2339,848.0,146.0,zoloft.146,3.0,I have to take an additional medication for anxiety.,0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2340,849.0,147.0,zoloft.147,1.0,"Night sweats (really annoying), loose stool (no big deal), difficulty reaching orgasm when i first when on, then it returned to normal for years, but in the last 6 months orgasm is very elusive again.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2341,850.0,147.0,zoloft.147,2.0,"Took a few years to figure out right time of day to take it to feel ok, evenings work for me (always been 50mg).",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2342,851.0,147.0,zoloft.147,3.0,"When i miss a day i feel very spaced out, thick, groggy, sad.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2343,852.0,147.0,zoloft.147,4.0,Zoloft totally changed my life for the better.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2344,853.0,147.0,zoloft.147,5.0,The difference was like night and day with feeling like i had a purpose in the world and motivation and joy.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2345,854.0,147.0,zoloft.147,6.0,in the last 6 months I feel like Zoloft has stopped working.,0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2346,855.0,147.0,zoloft.147,7.0,"i have great social anxiety again, lots of self-doubt, have not felt joy in a very long time.",0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+2347,856.0,147.0,zoloft.147,8.0,even though zoloft worked well for so long i have wanted to go off for years due to trendyness/social stigma and belief that i should be able to handle this w/o meds but have had much trouble with the withdrawal the 2 times i tried.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2348,857.0,147.0,zoloft.147,9.0,now that i am feeling bad again i wonder if it would be a good time to try going off because the drop might be less than if i were feeling great.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2349,858.0,147.0,zoloft.147,10.0,i never liked the idea of being on zoloft but i can't deny that it worked brilliantly for years.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2350,859.0,148.0,zoloft.148,1.0,slight headache. ,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2351,860.0,149.0,zoloft.149,1.0,"Neck stiffness and pain, Headache, Muscle pain in legs and lower back, Difficult sleep.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2352,861.0,149.0,zoloft.149,2.0,I just wanted to report on day 1 of use and will continue to update as I go.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2353,862.0,149.0,zoloft.149,3.0,Anxiety was greatly decreased within one hour of taking medication.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2354,863.0,149.0,zoloft.149,4.0,I did feel that I needed to slow down and take it easy due a general sense of instability.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2355,864.0,150.0,zoloft.150,1.0,"Severe insomnia,weight fluctuations.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2356,865.0,150.0,zoloft.150,2.0,"Once you eat a bite, you don't feel full and crave SUGAR.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2357,866.0,150.0,zoloft.150,3.0,"Works for my form of depression, however it has destroyed my sleeping patterns.",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2358,867.0,150.0,zoloft.150,4.0,Dosage of zoloft is 50 to 150 mg range.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2359,868.0,150.0,zoloft.150,5.0,I started taking AmbienCR to sleep but at 12.5mg it only helped for 4 hours.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2360,869.0,150.0,zoloft.150,6.0,I asked doctor about supplementing Zoloft with Trazadone(antidepressant) and he agreed.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2361,870.0,150.0,zoloft.150,7.0,Trazadone puts me to sleep in 20 minutes.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2362,871.0,150.0,zoloft.150,8.0,There is synergism (works well together) with the two antidepressants.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2363,872.0,150.0,zoloft.150,9.0,Currently 50mg Zoloft and 125mg Trazadone.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2364,873.0,150.0,zoloft.150,10.0,"Not sure what ratio will work yet but if I can't sleep, I can't function so I will continue to find balance.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2365,874.0,150.0,zoloft.150,11.0,I researched Zoloft and literature says 50mg is max dosage.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2366,875.0,150.0,zoloft.150,12.0,Anything over and it does not help(but I see many take it at higher dosage and my psych.,0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+2367,876.0,150.0,zoloft.150,13.0,doctor typically prescribes at much higher dosages to patients.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2368,877.0,150.0,zoloft.150,14.0,This worries me.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2369,878.0,150.0,zoloft.150,15.0,If sleep is still issue over long term I will look into subsituting Zoloft for something else.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+2370,879.0,151.0,zoloft.151,1.0,"Difficulty Orgasming, less of a sex drive, DROWSINESS.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2371,880.0,151.0,zoloft.151,2.0,"It works well with both the OCD and the depression, but I feel numb: nothing seems to affect my mood in good or bad ways.",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2372,881.0,152.0,zoloft.152,1.0,"Very sleepy, would doze off at work at my desk and during meetings.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2373,882.0,152.0,zoloft.152,2.0,Weight gain.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2374,883.0,152.0,zoloft.152,3.0,VERY vivid dreams to the point of not really knowing what I dreamt and what really happened.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2375,884.0,152.0,zoloft.152,4.0,"Helped the depression only quit taking it because it affected my job (the sleepiness) think it may have helped the anxiety, I remember I was able to cut back on my dosage of xanax.",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2376,885.0,153.0,zoloft.153,1.0,"vaginal dryness, decreased libido.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2377,886.0,153.0,zoloft.153,2.0,I've been taking it for 12 years for suicidal depression.,0,0.0,0,0,1.0,1,0.0,0,4.0,ssri
+2378,887.0,153.0,zoloft.153,3.0,"This drug has worked really well for my depression, and I feel is worth the side effects.",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+2379,888.0,154.0,zoloft.154,1.0,none.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2380,889.0,154.0,zoloft.154,2.0,It cured my symptoms within 6 months.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2381,890.0,155.0,zoloft.155,1.0,headache.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+2382,891.0,155.0,zoloft.155,2.0,"good, much better than the effexor I was on.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2383,892.0,156.0,zoloft.156,1.0,intese dislike for people who use these forums to use language that clearly idenitfies them as an IDIOT.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2384,893.0,156.0,zoloft.156,2.0,"As I am reading this forum, I noticed one or two (maybe same person) people using bad language & ""dissing"" the use of Zoloft.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2385,894.0,156.0,zoloft.156,3.0,"Personally I have had success in using Zoloft and feel that if a person has an honest opinion, then by all means, express it.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2386,895.0,156.0,zoloft.156,4.0,"But, words like this person is using (you know which words I am referring to) simply confirms that this person is sorely uneducated and is ignorant of the fact that the english language has many more options than what they are aware of.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2387,896.0,156.0,zoloft.156,5.0,My suggestion is to get a Thesaurus & a Dictionary & get studying!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2388,897.0,156.0,zoloft.156,6.0,(and leave this forum to those who want to help themselves & others),0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2389,898.0,157.0,zoloft.157,1.0,none. ,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2390,899.0,158.0,zoloft.158,1.0,"mild, a little dizzy at first!",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+2391,900.0,158.0,zoloft.158,2.0,"Great stuff, after 10 years I think I have found my medicine!",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2392,901.0,158.0,zoloft.158,3.0,sexual appetite went away,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+2393,902.0,159.0,zoloft.159,1.0,"Loose stool, loss of sex drive, headaches.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+2394,903.0,159.0,zoloft.159,2.0,I was on zoloft 50 mg for over a year.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2395,904.0,159.0,zoloft.159,3.0,"I thought I was better went off it, but became worse than before when not on medication.",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2396,905.0,159.0,zoloft.159,4.0,My doctor up my dose to 100 mg and I feel great.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2397,906.0,159.0,zoloft.159,5.0,I am better an ever and so is my mood.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2398,907.0,160.0,zoloft.160,1.0,little dry mouth.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+2399,908.0,160.0,zoloft.160,2.0,"This drug has taken the ""EDGE"" off of my symptoms and has help me stabilize my mood.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2400,909.0,160.0,zoloft.160,3.0,"An increase in dose caused insomnia, went back down, no problems.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+2401,910.0,161.0,zoloft.161,1.0,"Loss of sex drive, however, the side effects of depression are much worse.",1,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+2402,911.0,161.0,zoloft.161,2.0,Yes?,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+2403,912.0,161.0,zoloft.161,3.0,Stopped me from thinking about suicide every single day for years.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
