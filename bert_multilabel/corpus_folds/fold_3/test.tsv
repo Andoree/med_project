@@ -1,0 +1,1203 @@
+,id,comment_id,drug_id,sentence_index,sentences,ADR,WD,EF,INF,SSI,DI,Findings,others,rating,category
+3606,854.0,113.0,cymbalta.113,2.0,Severe palpitations and irregular heartbeat.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3607,855.0,113.0,cymbalta.113,3.0,Stopped taking it and two weeks later still irregular.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3608,856.0,113.0,cymbalta.113,4.0,Seeking cardiovascular treatment.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3609,857.0,113.0,cymbalta.113,5.0,It DID help combat fatigue.,0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3610,858.0,113.0,cymbalta.113,6.0,"I was able to function physically like a normal human being again for the first time in years, but I had no emotion whatsoever.",1,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3611,859.0,114.0,cymbalta.114,1.0,"loss of appetite, weight loss, nausea (subsided after a few days).",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3612,860.0,114.0,cymbalta.114,2.0,I switched off of Prozac after being on that for around 2 years or so.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3613,861.0,114.0,cymbalta.114,3.0,I was hit with a lot of side effects of Cymbalta.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3614,862.0,114.0,cymbalta.114,4.0,My psychiatrist wants to now switch me to Zoloft.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3615,863.0,114.0,cymbalta.114,5.0,"The loss of appetite and weight loss was one of the main side effects I had, I am already underweight, and losing weight isn't good for me",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3616,864.0,115.0,cymbalta.115,1.0,definatly get real nausious.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3617,865.0,115.0,cymbalta.115,2.0,I am having strong flu like symtoms but I am coming off of effexor and that has always been hardcore.,1,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3618,866.0,115.0,cymbalta.115,3.0,"I have been on effexor for 11 years and it has help me funtion and provide for my family, but I have been really tired and have to contantly fight weight gain.",1,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3619,867.0,115.0,cymbalta.115,4.0,I have noticed that I have a little more energy and more mental clarity in the short time that I have been on Cymbalta.,0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3620,868.0,115.0,cymbalta.115,5.0,I'm going to stick it out and give this new drug several months before making a decision.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3621,869.0,115.0,cymbalta.115,6.0,God bless,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3622,870.0,116.0,cymbalta.116,1.0,Occasional dryness of mouth & constipation at first.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3623,871.0,116.0,cymbalta.116,2.0,Slept like a baby.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3624,872.0,116.0,cymbalta.116,3.0,"No real mood change, but decision making became a lot easier.",0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3625,873.0,116.0,cymbalta.116,4.0,Rapid heart beat at times.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3626,874.0,116.0,cymbalta.116,5.0,"Felt calmer, but also had less energy.",0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3627,875.0,116.0,cymbalta.116,6.0,Some blurriness of vision which I didn't attribute to the medicine until I went off 2 wks.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3628,876.0,116.0,cymbalta.116,7.0,ago.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3629,877.0,116.0,cymbalta.116,8.0,Mild headaches.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3630,878.0,116.0,cymbalta.116,9.0,Lightheadedness.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3631,879.0,116.0,cymbalta.116,10.0,"Low dose (20 mg) One weird side effect I had was an occasional feeling of heaviness in my calves that gradually increased and became painful, almost like the blood was pooling in my legs.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3632,880.0,116.0,cymbalta.116,11.0,"Discontinued medication, using Motrin to pre-empt headaches.",0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3633,881.0,116.0,cymbalta.116,12.0,Still feel lightheaded now & then.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3634,882.0,116.0,cymbalta.116,13.0,Next: Wellbutrin(energy) or nothing.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3635,883.0,117.0,cymbalta.117,1.0,"constant numbness on the right side of my body, tingling fingers, unexplained extreme yawning, trouble staying asleep, anxiety, accelerated heart rate in mornings, dry-mouth when working out, new sweating that continues hours after working out, constipation, loss of appetite/cravings.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3636,884.0,117.0,cymbalta.117,2.0,"I had lots of side effects the first 2-3 days of being on the 30 mg tablet, but most went away.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3637,885.0,117.0,cymbalta.117,3.0,"I was kicked up to 60 mg starting week 2)  I felt much better, although not completely better.",0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3638,886.0,117.0,cymbalta.117,4.0,"4-5 weeks into 60 mg I started to have extreme numbness & tingling on my right hand, arm, side, shoulder blade.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3639,887.0,117.0,cymbalta.117,5.0,I continued having the listed side effects at week 5)  Doctors are unable to explain the numbness and think it is not associated with cymbalta.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3640,888.0,117.0,cymbalta.117,6.0,Numbness diminished after stopping the medicine & starting a new anti-depressant.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3641,889.0,118.0,cymbalta.118,1.0,"decreased appetite, fatigue, maybe a little ""foggy"".",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3642,890.0,118.0,cymbalta.118,2.0,"It's only been four days, but I'm not experiencing anything negative with this drug.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3643,891.0,118.0,cymbalta.118,3.0,"Not feeling much happier, but I know it takes a couple weeks for the drug to kick in completely.",0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3644,892.0,118.0,cymbalta.118,4.0,"Due to my depression, I am always fatigued so that part doesn't bother me.",0,0.0,0,0,1.0,0,0.0,0,3.0,snri
+3645,893.0,118.0,cymbalta.118,5.0,"And I'm 50 pounds overweight, so I'm not complaining about the decreased appetite!",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3646,894.0,118.0,cymbalta.118,6.0,"I'm taking 30 mg each morning, I'm sure I'll be posting again in a week or two.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3647,895.0,119.0,cymbalta.119,1.0,"Short term: dizziness,nausea,confusion, and headaches for about 10 days or so.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3648,896.0,119.0,cymbalta.119,2.0,"Long term: extremely graphic nightmares, night sweats(especially in winter), 30 lb.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3649,897.0,119.0,cymbalta.119,3.0,"weight gain, sexual side effects, extremely unhappy with all of these side effects.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3650,898.0,119.0,cymbalta.119,4.0,"I feel somewhat more stable than when off of this type of medicine, but I am also so unhappy with the long term side effects.",1,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3651,899.0,119.0,cymbalta.119,5.0,"Also, I am still experiencing some major depressive episodes and invasive thoughts, which makes me question if the cure is worse than the disease.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3652,900.0,119.0,cymbalta.119,6.0,"I want to get off of it, but I fear feeling the way I did prior to taking any antidepressant, which was horrible.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3653,901.0,119.0,cymbalta.119,7.0,Others taken include Paxil and Lexapro.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3654,902.0,119.0,cymbalta.119,8.0,I am at a real crossroad right now and don't know what to do.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3655,903.0,119.0,cymbalta.119,9.0,Help?,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3656,904.0,120.0,cymbalta.120,1.0,have gained 30 lbs since I began taking this.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3657,905.0,120.0,cymbalta.120,2.0,I have never been overweight before.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3658,906.0,120.0,cymbalta.120,3.0,"Also, oddly my cholesterol has jumped up over 50 points in the last year.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3659,907.0,120.0,cymbalta.120,4.0,Which can be a side effect of Cymbalta.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3660,908.0,120.0,cymbalta.120,5.0,Very sleepy all the time.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3661,909.0,120.0,cymbalta.120,6.0,Hard time focusing and if I miss dose look out.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3662,910.0,120.0,cymbalta.120,7.0,"I become very irritable, not to mention I experience brain zaps similar to paxil withdrawal.",0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3663,911.0,120.0,cymbalta.120,8.0,Having been involved in a lawsuit with glaxosmithkline due to the effects of paxil withdrawal I am very concerned about stopping this drug.,0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3664,912.0,120.0,cymbalta.120,9.0,"However, I am not willing to be a depressed huge woman either.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3665,913.0,120.0,cymbalta.120,10.0,"The drug has helped with the depression, however the side effects are awful.",1,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3666,914.0,120.0,cymbalta.120,11.0,"If you think giving a depressed woman who has never had a weight problem, an extra 30 lbs to carry around is a good idea you would be mistaken.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3667,915.0,120.0,cymbalta.120,12.0,So mostly the weight issue is a big deal.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3668,916.0,120.0,cymbalta.120,13.0,"I swear the drug makes me very, very hungry.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3669,917.0,120.0,cymbalta.120,14.0,It is quite bizarre.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3670,918.0,120.0,cymbalta.120,15.0,"Also, I also just seem mostly numb which is pretty scary.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3671,919.0,120.0,cymbalta.120,16.0,I dont like feeling like that.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3672,920.0,121.0,cymbalta.121,1.0,"Vivid dreams, and remember them in such great detail !",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3673,921.0,121.0,cymbalta.121,2.0,"Increased sex drive, reduced appetite,neck pain.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3674,922.0,121.0,cymbalta.121,3.0,I haven't been taking this drug too long and I am stopping because of the dryness it causes in my eyes (swollen) and my scalp (scratching).,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3675,923.0,121.0,cymbalta.121,4.0,"I can't read or focus my eyes because of the dryness and burning, my eyelids are swollen and, although it has helped somewhat with fibro pain, it's not worth it.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3676,924.0,121.0,cymbalta.121,5.0,"Also, affects sleep patterns, I'm exhausted earlier, but can't sleep well.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3677,925.0,121.0,cymbalta.121,6.0,"I've been on Zoloft for years, and we tried Cymbalta because my doctor felt I had gotten too used to Zoloft and it wasn't helping as much.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3678,926.0,121.0,cymbalta.121,7.0,"When I first tried Cymbalta, I stopped after a week or two because I was so angry, I was biting off everyone's head.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3679,927.0,121.0,cymbalta.121,8.0,Stopped and started again and now experienced this dryness.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3680,928.0,121.0,cymbalta.121,9.0,I won't try it again.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3681,929.0,122.0,cymbalta.122,1.0,"HUGE costipation, somnolence, loss of libido.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3682,930.0,122.0,cymbalta.122,2.0,it seems to be uneffective to me.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3683,931.0,122.0,cymbalta.122,3.0,I completely had to change med to stay well al least of my real state.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3684,932.0,122.0,cymbalta.122,4.0,i don't recommend it.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3685,933.0,123.0,cymbalta.123,1.0,"insomnia, loss of appetite*.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3686,934.0,123.0,cymbalta.123,2.0,I took Cymbalta because I was out of Lexapro.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3687,935.0,123.0,cymbalta.123,3.0,Cymbalta lifted my mood more.,0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3688,936.0,123.0,cymbalta.123,4.0,"My mind raced at 100 miles a minute, but my body was exhausted, so sleep was slim.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3689,937.0,123.0,cymbalta.123,5.0,"The loss of appetite I wasn't sure to attritube to the Cymbalta because I'm a finicky eater anyway, but I couldn't function with only 5 hours of sleep in 10 days.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3690,938.0,124.0,cymbalta.124,1.0,"didnt want to eat first two weeks, cant sleep, felt sick when working out/shaking.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3691,939.0,124.0,cymbalta.124,2.0,when i first started taking cymbalta i started at 30 mg and i took that for a month.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3692,940.0,124.0,cymbalta.124,3.0,and i saw no differneces in my depression but my mom said i was a little happier.,0,0.0,0,1,1.0,1,0.0,0,3.0,snri
+3693,941.0,124.0,cymbalta.124,4.0,then i was given 60 mg and i have been taking that for about 3 weeks now and i have highs and lows all the time.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3694,942.0,124.0,cymbalta.124,5.0,i either wanna go out or stay in bed.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3695,943.0,124.0,cymbalta.124,6.0,it really hasnt made me much happier though.,0,0.0,0,1,0.0,0,0.0,0,3.0,snri
+3696,944.0,124.0,cymbalta.124,7.0,but i hope with time it will help me.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3697,945.0,125.0,cymbalta.125,1.0,"Sweating, hand tremors, racing heart, insomnia, bizarre dreams.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3698,946.0,125.0,cymbalta.125,2.0,Cymbalta definitely helped with the depression.,0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3699,947.0,125.0,cymbalta.125,3.0,"In 3 weeks it was gone, as was my anger and inability to focus.",0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3700,948.0,125.0,cymbalta.125,4.0,"It's been somewhat effective with the anxiety, but I find valium works much better for that.",0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3701,949.0,125.0,cymbalta.125,5.0,"As with any antidepressant, please, please be careful when taking this.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3702,950.0,125.0,cymbalta.125,6.0,"And even though I found it effective, I agree that it is horrid to wean off of it.",0,1.0,1,0,0.0,0,0.0,0,3.0,snri
+3703,951.0,125.0,cymbalta.125,7.0,"I've been going down 5 mg at a time a week at a time, and even so I've had withdrawls.",0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3704,952.0,125.0,cymbalta.125,8.0,I find taking just 1 mg of valium per day has helped a lot with the withdrawls.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3705,953.0,125.0,cymbalta.125,9.0,I had a friend who also went off Cymbalta and she took Adivan to help with withdrawls and that worked for her.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3706,954.0,126.0,cymbalta.126,1.0,No physical side effects.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3707,955.0,126.0,cymbalta.126,2.0,I felt better .,0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+3708,956.0,126.0,cymbalta.126,3.0,"but at the same time felt completely ""flat"" emotionally.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3709,957.0,126.0,cymbalta.126,4.0,I chose to go off the medication for that reason.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3710,958.0,126.0,cymbalta.126,5.0,Had no difficulty with going off cymbalta.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3711,959.0,127.0,cymbalta.127,1.0,"first 3-4 months I was doing great, then disrupted sleep began, waking up every hour, night sweats, craving for sugar, low motivation to do anything.",1,0.0,1,1,0.0,0,0.0,0,3.0,snri
+3712,960.0,127.0,cymbalta.127,2.0,"I started on 30mg and went up to 60mg Couldn't tolerate 60mg, it rendered me completely sleepless and with metallic taste in my mouth.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3713,961.0,127.0,cymbalta.127,3.0,The cravings for sweets are annoying.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3714,962.0,127.0,cymbalta.127,4.0,I feel like a junkie.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3715,963.0,127.0,cymbalta.127,5.0,As of today I'm switching to Lexapro.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3716,964.0,128.0,cymbalta.128,1.0,"major constipation, weight gain, night sweats, excessive sweating (mostly face and head).",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3717,965.0,128.0,cymbalta.128,2.0,I started on this and immediately noticed the constipation and sweating.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3718,966.0,128.0,cymbalta.128,3.0,My hair would be drenched by the time I got to work in the morning - even with the AC on in the car.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3719,967.0,128.0,cymbalta.128,4.0,Doc put me on something for that and it worked during the day but I wake up nightly with soaked clothes.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3720,968.0,128.0,cymbalta.128,5.0,"I thought I could deal with it but after 4 months, I am feeling the exhaustion of not getting full nights' sleep.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3721,969.0,128.0,cymbalta.128,6.0,"I like the overall way I feel - not too pumped up but not depressed, but the lack of sleep has led me to yet another failed medication.",0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3722,970.0,129.0,cymbalta.129,1.0,"extreme dry mouth, to the point where I constantly felt as if something was stuck in my throat which would in turn cause me to have an anxiety/panic attack, decreased appetite, severe insomnia.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3723,971.0,129.0,cymbalta.129,2.0,Cybalta definitely helped with my depression but the side effects really took a toll on me after only a week.,1,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3724,972.0,129.0,cymbalta.129,3.0,I had barely slept and had lost over 6 pounds within the first week because just the thought of food would make me sick to my stomach.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3725,973.0,129.0,cymbalta.129,4.0,"I was constantly drinking water and had to have a bottle by my side at all times, it was just incredibly uncomfortable.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3726,974.0,130.0,cymbalta.130,1.0,"Nausea, diarrhea, upset stomach, dry mouth, sleepiness.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3727,975.0,130.0,cymbalta.130,2.0,I have only been on 30mg for 4 days and have the extreme runs.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3728,976.0,130.0,cymbalta.130,3.0,Upset stomach and no appetite.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3729,977.0,130.0,cymbalta.130,4.0,Pain in minimal though and I feel less anxious and depressed.,0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3730,978.0,131.0,cymbalta.131,1.0,"started out on 60mg, which was a way too high dosage to start out on- lay on my bed for 2 days staring at the ceiling, not being able to move; also experienced blurred vision, nausea, excessive sleepiness, yet inability to sleep - Was so paranoid after this episode that I didn't take it for a month again, but t my doctor recommended that I rather slowly get used to the drug, taking 30 mg every second day, and gradually increasing the dosage - Second time round the side effects in the first week were minimal and even quite pleasant- had so much energy that I could get by with 4 hours sleep.",1,0.0,1,1,0.0,0,0.0,0,3.0,snri
+3731,979.0,131.0,cymbalta.131,2.0,"This stabilised later on though - As I upped my dosage, my libido started taking strain though and I had trouble sleeping - At 60mg, I started experiencing excessive sleepiness, needing a nap at least once every afternoon.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3732,980.0,131.0,cymbalta.131,3.0,I tried Cymbalta at difference dosages and my general impression when I was taking 30mg and later 60mg day was that Cymbalta helped a great deal for my anxiety- I just felt in control again and stupid chores didn't seem like such a big deal anymore.,0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3733,981.0,131.0,cymbalta.131,4.0,"At 60mg however, my sleepiness just became unbearable.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3734,982.0,131.0,cymbalta.131,5.0,Needing a nap every afternoon just isn't OK for me.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3735,983.0,131.0,cymbalta.131,6.0,"My libido also just did a disappearance act, which I simply couldn't handle.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3736,984.0,131.0,cymbalta.131,7.0,"Despite helping with anxiety, I just didn't feel like my mood was lifted sufficiently and that I almost didn't feel like myself anymore- almost just too calm (where I like certain of my manic traits).",0,0.0,1,1,1.0,1,0.0,0,3.0,snri
+3737,985.0,131.0,cymbalta.131,8.0,"- I quit Cymbalta two weeks ago and I must comment that I didn't experience the horror withdrawal symptoms that everyone talks about, but perhaps because I slowly reduced my dosages.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3738,986.0,131.0,cymbalta.131,9.0,I'm now taking Wellbutrin SR and this seems to be doing the trick for me.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3739,987.0,131.0,cymbalta.131,10.0,"I reckon that I perhaps just needed a difference class of drugs - So, in my experience, C",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3740,988.0,132.0,cymbalta.132,1.0,"Nausea, vertigo and extreme fatigue to begin with (first week or so).",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3741,989.0,132.0,cymbalta.132,2.0,Emotions were very flat for the first month or so.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3742,990.0,132.0,cymbalta.132,3.0,The nausea subsided but still suffer from the fatigue and horrible night sweats.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3743,991.0,132.0,cymbalta.132,4.0,Also very low libido and anorgasmic (difficulty achieving orgasm).,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3744,992.0,132.0,cymbalta.132,5.0,Finding it very difficult to come off the medication now.,0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3745,993.0,132.0,cymbalta.132,6.0,"Very severe withdrawl after only one day of not taking the drug, which include disorientation, vertigo, nausea and what they (weblog which supports users coming off Cymbalta) call 'brain-zaps' where you experience some kind of electrical shock type feeling in your brain.",0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3746,994.0,132.0,cymbalta.132,7.0,Very disconcerting and unpleasant!,0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3747,995.0,132.0,cymbalta.132,8.0,As a result I am afraid of coming off the medication.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3748,996.0,133.0,cymbalta.133,1.0,"dry mouth,insomnia,anxiety.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3749,997.0,133.0,cymbalta.133,2.0,"it only somewhat works,i still need to take buspar to help relieve residual anxiety",0,0.0,1,1,1.0,1,0.0,0,3.0,snri
+3750,998.0,134.0,cymbalta.134,1.0,I've been on this medication for years.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3751,999.0,134.0,cymbalta.134,2.0,Major constipation; fiber does not help.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3752,1000.0,134.0,cymbalta.134,3.0,"Confusion is really bad, lack of concentration is very bad.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3753,1001.0,134.0,cymbalta.134,4.0,Short term memory loss.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3754,1002.0,134.0,cymbalta.134,5.0,Loss interest in doing anything.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3755,1003.0,134.0,cymbalta.134,6.0,I can sit for hours day in and day out with no interest in usual pastimes.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3756,1004.0,134.0,cymbalta.134,7.0,I lost touch with all my friends because I have no interest in seeing them.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3757,1005.0,134.0,cymbalta.134,8.0,"However, I have no anxiety while taking the medication.",0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3758,1006.0,134.0,cymbalta.134,9.0,Is it worth it?,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3759,1007.0,134.0,cymbalta.134,10.0,Helped me with anxiety.,0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3760,1008.0,134.0,cymbalta.134,11.0,I don't think anything helps with depression.,0,0.0,0,1,1.0,0,0.0,0,3.0,snri
+3761,1009.0,134.0,cymbalta.134,12.0,I've taken one medication after another for 20 years.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3762,1010.0,135.0,cymbalta.135,1.0,"was fine for the first month, but now I am experiencing severe joint discomfort in my wrists.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3763,1011.0,135.0,cymbalta.135,2.0,It truly is odd.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3764,1012.0,135.0,cymbalta.135,3.0,I will continue and talk to a professional about these side effect.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3765,1013.0,135.0,cymbalta.135,4.0,Disturbed about the major joint discomfort in my wrists.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3766,1014.0,135.0,cymbalta.135,5.0,"I like the weight loss, but have also felt heart palpatations and have had extreme dreams.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3767,1015.0,136.0,cymbalta.136,1.0,"spaced out, difficulty sleeping, headaches(shocks), night sweats.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3768,1016.0,136.0,cymbalta.136,2.0,"For the first two weeks I felt very spacey and drugged, a feeling similar to taking extasy.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3769,1017.0,136.0,cymbalta.136,3.0,"But after my body adjusted, I did notice quite a difference in my anxiety, and length of dressions bouts.",0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+3770,1018.0,136.0,cymbalta.136,4.0,"I have suffered from anxiety (anxiety attacks), bouts of depression, sadness and anger since I was a young teen.",0,0.0,0,0,1.0,0,0.0,0,3.0,snri
+3771,1019.0,136.0,cymbalta.136,5.0,"I am almost 30 and have tried several other medications which had much worse side effects and no positive effects, such as: paxil and celexa.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3772,1020.0,136.0,cymbalta.136,6.0,"The only current side effect I have is the night sweats and I do get ""headshocks"" as I call them, if I forget to take my pill on time.",1,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3773,1021.0,137.0,cymbalta.137,1.0,"Night sweats, constipation, taking longer to climax during sexual intercourse.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3774,1022.0,137.0,cymbalta.137,2.0,I am glad that I started Cymbalta before I came to this site.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3775,1023.0,137.0,cymbalta.137,3.0,I have only been on Cymbalta for 10 days but I am already starting to feel so much better.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3776,1024.0,137.0,cymbalta.137,4.0,"I've gone years and years being depressed, sometimes severe sometimes moderately.",0,0.0,0,0,1.0,0,0.0,0,4.0,snri
+3777,1025.0,137.0,cymbalta.137,5.0,The disheartening thing is that the people who are most likely to post on sites like this are the few that have had bad side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3778,1026.0,137.0,cymbalta.137,6.0,"However, remember that everyone is different and out of ALL those taking this medication only 20-30% end up with severe side effects if any at all.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3779,1027.0,137.0,cymbalta.137,7.0,Every person physiologically is different and processes meds such as Cymbalta differently.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3780,1028.0,137.0,cymbalta.137,8.0,There is a balance.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3781,1029.0,137.0,cymbalta.137,9.0,"there are many who are taking this medication and have not had any side effects at all and even the ones that have, it has been worth the side effects.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3782,1030.0,137.0,cymbalta.137,10.0,I am hoping that my experience with this med continues and that it gets more effective as time goes on.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3783,1031.0,138.0,cymbalta.138,1.0,"nausea at first, which subsided after a couple of weeks.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3784,1032.0,138.0,cymbalta.138,2.0,"Still a bit sleepy during the day (I take it in the morning), but then frequent waking at night, with very vivid, weird dreams!",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3785,1033.0,138.0,cymbalta.138,3.0,"I do feel more relaxed and able to handle life's ups and downs, as well as some serious family issues.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3786,1034.0,138.0,cymbalta.138,4.0,"I've gotten used to the side effects, and am sticking with it.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3787,1035.0,138.0,cymbalta.138,5.0,"Tough it out - things do get better, and your body will adjust!",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3788,1036.0,139.0,cymbalta.139,1.0,feel good!,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3789,1037.0,139.0,cymbalta.139,2.0,I'm on day 5 and read all these posts before starting.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3790,1038.0,139.0,cymbalta.139,3.0,I was previously on Paxil which was not effective.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3791,1039.0,139.0,cymbalta.139,4.0,I feel good!,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3792,1040.0,139.0,cymbalta.139,5.0,"I know its too soon, but I do not have any side effects, I feel more alert, focused and worry-free.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3793,1041.0,139.0,cymbalta.139,6.0,I usually have very vivid dreams but I have slept well and have had calm dreams the last few nights.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3794,1042.0,139.0,cymbalta.139,7.0,"I do not feel ""zombie-like"" or tired, in fact I feel like I have more clarity and energy.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3795,1043.0,139.0,cymbalta.139,8.0,"I am on the low dose, 30mg daily.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3796,1044.0,139.0,cymbalta.139,9.0,"I don't see any correlation to this med and diarrea and I am not worried about the effects of ""going off it"" as I plan to ""stay on it"" as long as I feel this good.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3797,1045.0,139.0,cymbalta.139,10.0,"I have advice for those who still suffer: Get some sunshine on your face, just a few minutes will make you feel great.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3798,1046.0,139.0,cymbalta.139,11.0,"Get an old dog, not a puppy, an old dog that Needs you, that you can care for and that will love you back.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3799,1047.0,139.0,cymbalta.139,12.0,If you can't handle a dog get a fish.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3800,1048.0,139.0,cymbalta.139,13.0,Smile at a baby!,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3801,1049.0,139.0,cymbalta.139,14.0,They usually smile back at you :) Think of positive thoughts even if you have to make them up.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3802,1050.0,139.0,cymbalta.139,15.0,I dare you!,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3803,1051.0,139.0,cymbalta.139,16.0,Buy something new even if its just a pair of underwear.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3804,1052.0,139.0,cymbalta.139,17.0,Women know this really does work wonders.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3805,1053.0,139.0,cymbalta.139,18.0,"Give it a fair chance, good luck.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3806,1054.0,139.0,cymbalta.139,19.0,Aloha~,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3807,1055.0,140.0,cymbalta.140,1.0,very tired.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3808,1056.0,140.0,cymbalta.140,2.0,head fog.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3809,1057.0,140.0,cymbalta.140,3.0,went from effexor to cymbalta.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3810,1058.0,140.0,cymbalta.140,4.0,felt tingling for the first 5 days.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3811,1059.0,140.0,cymbalta.140,5.0,I have been on it for 2 weeks and I have finally seen the light.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3812,1060.0,140.0,cymbalta.140,6.0,I have been feeling really good.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3813,1061.0,140.0,cymbalta.140,7.0,Mood is great.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3814,1062.0,140.0,cymbalta.140,8.0,"but I can tell when it is time to take it I get this tingling feeling,like when I turn my head my brain is a bit behind.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3815,1063.0,140.0,cymbalta.140,9.0,but other than that its been good to feel like life is worth living again.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3816,1064.0,141.0,cymbalta.141,1.0,"On 90 mg I had sweating at night so that my clothes are drenched, somtimes multiple times at night.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3817,1065.0,141.0,cymbalta.141,2.0,I also have had a lot of gas and some constipation.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3818,1066.0,141.0,cymbalta.141,3.0,"On 60 mg, I was irritated with my boyfriend when he wasn't being irritating at all.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3819,1067.0,141.0,cymbalta.141,4.0,"On the whole, this drug has helped very much.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3820,1068.0,141.0,cymbalta.141,5.0,The side effects for me are less than for Effexor.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3821,1069.0,142.0,cymbalta.142,1.0,"Possibly dry mouth (whatever that is exactly), drowsiness for the first few weeks.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3822,1070.0,142.0,cymbalta.142,2.0,"Unlike the other people on here, I haven't really experienced that many side effects, or really any that are any sort of bother to me.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3823,1071.0,142.0,cymbalta.142,3.0,Cymbalta has helped quite a bit (along with therapy and some life style changes) to help me get through depression.,0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+3824,1072.0,142.0,cymbalta.142,4.0,I wouldn't deter people from taking it.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3825,1073.0,142.0,cymbalta.142,5.0,"It definately hasn't been a miracle cure, but it hasn't been bad at all.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3826,1074.0,143.0,cymbalta.143,1.0,"Feelings of a band around my head, memory loss.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3827,1075.0,143.0,cymbalta.143,2.0,"unable to recall names etcdiarrhea, delayed processing,insomnia,late day fatigue.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3828,1076.0,143.0,cymbalta.143,3.0,Some hair loss and some weight loss.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3829,1077.0,143.0,cymbalta.143,4.0,These side effects are slowly letting up.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3830,1078.0,143.0,cymbalta.143,5.0,Coming out of such a paralyzing depression is worth it!,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3831,1079.0,143.0,cymbalta.143,6.0,I'm just afraid it will eventually render me apathetic and flat the way Prozac eventually did.,0,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3832,1080.0,143.0,cymbalta.143,7.0,"I'm also afraid my appetite will come back with a vengeance, as it has on other meds.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3833,1081.0,143.0,cymbalta.143,8.0,"If I end up a fat, bald middle aged woman I do think my depression will return in a different way.",0,0.0,0,0,1.0,0,1.0,0,4.0,snri
+3834,1082.0,144.0,cymbalta.144,1.0,Really I haven't noticed any side effects when taking it but a bit of sleepiness initially.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3835,1083.0,144.0,cymbalta.144,2.0,It has worked exceptionally well for my depression.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3836,1084.0,144.0,cymbalta.144,3.0,I can tell you from mine and others experiences that the drug withdrawal symptoms are very severe and affect every body system you have.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3837,1085.0,144.0,cymbalta.144,4.0,I missed a couple once and the side effects are the worst I have ever encountered from my many medications I have taken over the course of 30 years with this disorder.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3838,1086.0,144.0,cymbalta.144,5.0,I have been on almost the whole array of psychiatric drugs and withdrawal from this one is the worst I have ever encountered.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3839,1087.0,144.0,cymbalta.144,6.0,"I have a friend whose husband takes this drug for fibromyalgia and tried to get off it because they can't afford this medicine, but the withdrawal was so bad for him.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3840,1088.0,144.0,cymbalta.144,7.0,I guess they will have to keep the extra job to pay for the medicine.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3841,1089.0,144.0,cymbalta.144,8.0,I looked online to find at least 15 pages of withdrawal symptoms and over 30 pages to document the symptoms.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3842,1090.0,144.0,cymbalta.144,9.0,When I started with the medicine it was pretty new and I guess they did not know about the withdrawal side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3843,1091.0,145.0,cymbalta.145,1.0,"at start dry mouth& metallic taste; started clinching jaws which causes headache, tooth and gum pain & neck pain.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3844,1092.0,145.0,cymbalta.145,2.0,The dry mouth is very insignificant compared to depression.,1,0.0,0,0,1.0,0,0.0,0,4.0,snri
+3845,1093.0,145.0,cymbalta.145,3.0,For those people who do not understand why anyone would take these drugs with all the side effects YOU HAVE NEVER SUFFERED REAL DEPRESSION.,0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+3846,1094.0,145.0,cymbalta.145,4.0,It is necessary to find one with fewest side effects and everyone is different.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3847,1095.0,145.0,cymbalta.145,5.0,What can you live with?,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3848,1096.0,145.0,cymbalta.145,6.0,I am assuming the Cymbalta is the cause of the clinching.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3849,1097.0,145.0,cymbalta.145,7.0,I had the same thing with Lexapro along with some other things.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3850,1098.0,146.0,cymbalta.146,1.0,"nausea, cotton mouth, and lack of appetite.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3851,1099.0,146.0,cymbalta.146,2.0,"Tried paxil, celexa, buspar, and depakote.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3852,1100.0,146.0,cymbalta.146,3.0,Cymbalta works better than anything I have tried.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3853,1101.0,146.0,cymbalta.146,4.0,I have been on Cymbalta for 2 days and I can all ready feel the positive effects.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3854,1102.0,147.0,cymbalta.147,1.0,"Yawning, which subsided after a few weeks.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3855,1103.0,147.0,cymbalta.147,2.0,"Itching, which comes and goes.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3856,1104.0,147.0,cymbalta.147,3.0,"Vivid dreams, which can be rather interesting.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3857,1105.0,147.0,cymbalta.147,4.0,"Decreased appetite, which is rather nice.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3858,1106.0,147.0,cymbalta.147,5.0,"Diarrhea, which can be extremely annoying, but I am figuring ways to minimize it (taking it on a full stomach is helping).",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3859,1107.0,147.0,cymbalta.147,6.0,This medication has changed my life for the better.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3860,1108.0,147.0,cymbalta.147,7.0,"I felt its positive effects within a day or two, and pressed through the initial side effects because I was so encouraged by the anti-depressive features.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3861,1109.0,147.0,cymbalta.147,8.0,"After one week on 30mg, my MD increased my dosage to 60mg This did not help me!",0,0.0,0,1,0.0,0,0.0,0,4.0,snri
+3862,1110.0,147.0,cymbalta.147,9.0,"My condition deteriorated rapidly, at which point my doctor wanted to increase the dosage further.",0,0.0,0,1,0.0,0,0.0,0,4.0,snri
+3863,1111.0,147.0,cymbalta.147,10.0,"I insisted that 30mg was working wonders, and he reluctantly prescribed a 2 week course at 30mg Well, that's where I've remained for 3 months now.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3864,1112.0,147.0,cymbalta.147,11.0,I'm very glad that I persisted with my opinion regarding the dosage.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3865,1113.0,147.0,cymbalta.147,12.0,"The doctor still claims that 30mg is not even considered a therapeutic dose, but I know what works.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3866,1114.0,147.0,cymbalta.147,13.0,"I do continue to have digestive issues with Cymbalta, but through trial and error, am learning to minimize this.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3867,1115.0,147.0,cymbalta.147,14.0,Taking it mid-day on a full stomach seems to be working for me most days.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3868,1116.0,148.0,cymbalta.148,1.0,"dry mouth(first couple days), tremors(spasms), sleeping more, loss of energy, sweating, lost interest in sex because had trouble climaxing.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3869,1117.0,148.0,cymbalta.148,2.0,overall this medicine worked.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3870,1118.0,148.0,cymbalta.148,3.0,noticed change in a day or two.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3871,1119.0,148.0,cymbalta.148,4.0,i took 60mg for four maybe five months but have gone off cold turkey.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3872,1120.0,148.0,cymbalta.148,5.0,been six days so far.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3873,1121.0,148.0,cymbalta.148,6.0,only problem so far is vertigo.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3874,1122.0,148.0,cymbalta.148,7.0,feels like my brain is riding a wave every once in a while,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3875,1123.0,149.0,cymbalta.149,1.0,"The primary ""side effect"" for me is a CONSTANT ringing (buzz) in the ears.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3876,1124.0,149.0,cymbalta.149,2.0,"In reviewing others comments, I seem to be the only one experiencing this side effect.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3877,1125.0,149.0,cymbalta.149,3.0,"Overall, I am very pleased with the effect it's had on my outlook and interaction with family and friends.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3878,1126.0,149.0,cymbalta.149,4.0,My daily dosage is 60mg ,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3879,1127.0,150.0,cymbalta.150,1.0,"Not sleeping, chills and fever, inability to drink alcohol.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3880,1128.0,150.0,cymbalta.150,2.0,"This drug works wonders, can feel it working immediately.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3881,1129.0,150.0,cymbalta.150,3.0,This is the best I have felt in many years.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3882,1130.0,150.0,cymbalta.150,4.0,I didnt realize how bad I was.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3883,1131.0,150.0,cymbalta.150,5.0,All the anxiety and doom and gloom have just dissappeared.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3884,1132.0,150.0,cymbalta.150,6.0,"This is a very powerful drug and anyone that takes it needs to decide what is important, the drug works but it is a seriously strong drug and has many many crazy side effects.",1,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3885,1133.0,150.0,cymbalta.150,7.0,"I only sleep a few hours a night, have chills, and feel like I am on speed or extacy, but wow, i feel so much happier.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3886,1134.0,150.0,cymbalta.150,8.0,My family and friends have all noticed how happier I am.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3887,1135.0,150.0,cymbalta.150,9.0,"It works, but the questions is, are you ready to deal with a drug this powerful?",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3888,1136.0,151.0,cymbalta.151,1.0,Decreased libido. ,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3889,1137.0,152.0,cymbalta.152,1.0,"When taking at night, Cymbalta caused insomnia something awful.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3890,1138.0,152.0,cymbalta.152,2.0,I would have heart palpitations and awake 3-4X a night.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3891,1139.0,152.0,cymbalta.152,3.0,My doctor switched my dosage time to morning and I noticed a world of change.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3892,1140.0,152.0,cymbalta.152,4.0,My only symptom now is sweating (clammy feeling).,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3893,1141.0,152.0,cymbalta.152,5.0,My mood is a serious one with some laughter.,0,0.0,0,1,0.0,0,0.0,0,4.0,snri
+3894,1142.0,152.0,cymbalta.152,6.0,"I wonder if anyone has figured out how to find the return of the ""fun and ""carefree"" side of themselves?",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3895,1143.0,152.0,cymbalta.152,7.0,Great drug!,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3896,1144.0,152.0,cymbalta.152,8.0,"Initially I felt as if I was ""awakened.""",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3897,1145.0,152.0,cymbalta.152,9.0,This seemed to subside.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3898,1146.0,152.0,cymbalta.152,10.0,Don't know if I am used to it or it is no longer effective?,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3899,1147.0,153.0,cymbalta.153,1.0,"HOrrible migraines but i have had migraines since early childhood,This medicine just caused more frequency and higher degree of pain with headaches,Best medicine for depression that i had ever taken and worked instantly.",1,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3900,1148.0,153.0,cymbalta.153,2.0,"I must say that i felt the happiest i had ever felt in my life except for the extreme migraines,Due to the frequency of the migraines i discontinued cymbalta ,wish i could go back on it.",1,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3901,1149.0,153.0,cymbalta.153,3.0,I did suffer some withdrawl depressive symptoms after stopping the medicines but felt better in about two weeks,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3902,1150.0,154.0,cymbalta.154,1.0,nausea/ weight loss the first month.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3903,1151.0,154.0,cymbalta.154,2.0,"After the first month, it is the the best thing that has ever happened to me.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3904,1152.0,154.0,cymbalta.154,3.0,I feel like i did before the depression ever happened.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3905,1153.0,155.0,cymbalta.155,1.0,"After weaning off Cymbalta, I lost my sense of smell.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3906,1154.0,155.0,cymbalta.155,2.0,"It's been over a year now, and I still have not regained it.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3907,1155.0,155.0,cymbalta.155,3.0,"Every now and then I get a whiff of something, but it hasn't stayed.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3908,1156.0,155.0,cymbalta.155,4.0,Why isn't this side effect discussed or indicated as a side effect?,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3909,1157.0,156.0,cymbalta.156,1.0,"Racing brain, not sleep well, dry mouth, sexual disfunction, bad memory, bad dreams, endless energy.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3910,1158.0,156.0,cymbalta.156,2.0,All medicines have side effects!,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3911,1159.0,156.0,cymbalta.156,3.0,it is how it effects the individual in different ways.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3912,1160.0,156.0,cymbalta.156,4.0,Up until now I have been taking Endep for the pain and neuropathy and Citropalapram for depression.,0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+3913,1161.0,156.0,cymbalta.156,5.0,"These drugs both had similar side effects to Cymbalta and hard to withdraw from with bad withdrawal symptoms the only difference is the Endep knocked me out at night and I slept well, only very drousy and tired during the day, sexual disfunction just the same.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3914,1162.0,156.0,cymbalta.156,6.0,So I figure in my mind that having one tablet to take and only pay for just one lot of medication ($34.20Aud) has to have a plus and only one set of side effects and withdrawal symptoms to cope with is even more a plus.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3915,1163.0,156.0,cymbalta.156,7.0,"By the way, with Citropalapram had endless energy for the first year or so then just felt worn out and tired after that.",0,0.0,1,1,0.0,0,0.0,0,4.0,snri
+3916,1164.0,156.0,cymbalta.156,8.0,"Having said that also, it saved my life as I was so bad before taking the drugs all I wanted to do was die to stop the dark depression and pain, so I think I have done well.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3917,1165.0,157.0,cymbalta.157,1.0,"sweats, weight gain, dry mouth at beginning. ",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3918,1166.0,158.0,cymbalta.158,1.0,"little sleepy at first, then dosage was increased from 30mg to 60 mg after the first week & I felt better.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3919,1167.0,158.0,cymbalta.158,2.0,"Loss of appetite, weight loss, a bit of a headache about an hour after taking it.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3920,1168.0,158.0,cymbalta.158,3.0,This med has really helped me.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3921,1169.0,158.0,cymbalta.158,4.0,I'm able to focus and this is one of the only anti-depressant meds that doesn't make me feel zoned out and spacey.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3922,1170.0,158.0,cymbalta.158,5.0,"(I've taken Wellbutrin, Lexapro and Paxil in the past with mexed results.)",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3923,1171.0,158.0,cymbalta.158,6.0,"If you can deal with the initial side effects, which seem to subside, this drug is worth it.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3924,1172.0,158.0,cymbalta.158,7.0,That's just my opinion.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3925,1173.0,158.0,cymbalta.158,8.0,"Good luck, everyone.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3926,1174.0,159.0,cymbalta.159,1.0,"initial side effects lasted a week or so - bug eyed, dizzy, nausea - just like with any anti-Dep.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3927,1175.0,159.0,cymbalta.159,2.0,"The lasting ones: decrease in appetite, change in food cravings - from carbs to sugar - down 2 sizes :) this is a weird one.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3928,1176.0,159.0,cymbalta.159,3.0,"when i would find insects and spiders in the house, i would kill them.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3929,1177.0,159.0,cymbalta.159,4.0,"now i either leave them alone, or take them outside to a spot i think they would like - i said it was weird!",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3930,1178.0,159.0,cymbalta.159,5.0,"when i forget to eat, i get the shakes - low blood sugar.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3931,1179.0,159.0,cymbalta.159,6.0,my finger pads seem wrinkly - like a person forty years older than me.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3932,1180.0,159.0,cymbalta.159,7.0,"I have gone the fruit route - i will eat 4-5 apples/oranges/pears in one sitting, no diarrhea or constipation.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3933,1181.0,159.0,cymbalta.159,8.0,"Takes care of the sugar craving - i used to eat vegies lots and hardly any fruit, now it's reversed.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3934,1182.0,159.0,cymbalta.159,9.0,Also eat less meat - kind of grosses me out now .,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3935,1183.0,159.0,cymbalta.159,10.0,"but  i crave pecans, almonds etcIncreased mood SUBSTANTIALLY - although still very reactive around menstruation.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3936,1184.0,159.0,cymbalta.159,11.0,"Sometimes feel JOY - dancing around the house, energetic, feel good about myself, most times just feel balanced, calm.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3937,1185.0,159.0,cymbalta.159,12.0,"Much improvement from the suicidal ideation, dysphoria, depression.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3938,1186.0,159.0,cymbalta.159,13.0,"bit borderline too, and obsessive negative self thoughts.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3939,1187.0,159.0,cymbalta.159,14.0,it's the FIRST antiDep i've tried where there's a POSITIVE difference!,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3940,1188.0,159.0,cymbalta.159,15.0,"From the sounds of the other posts, it doesn't have this effect on everyone.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3941,1189.0,159.0,cymbalta.159,16.0,"I would encourage you to speak to your doctor right away if some of those really bad side effects occur - this drug is so new, there's no long term studies on it, so we don't know how it reacts with different symptoms, different physiology.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3942,1190.0,159.0,cymbalta.159,17.0,"For me, i noticed within 2 days that the rumination was all but ceased.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3943,1191.0,159.0,cymbalta.159,18.0,"I've never noticed any previous AntiDep's effect until well over a month (prozac, effexor, celexa and wellbutrin combo) and none of them has actually made me feel GOOD about myself.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3944,1192.0,160.0,cymbalta.160,1.0,"SEVERE night sweats and increased sweating during the day, and somewhat difficult (but not impossible) to reach orgasm.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3945,1193.0,160.0,cymbalta.160,2.0,"I had intense headaches for the first 3 days of taking Cymbalta, but then the depression ""fog"" cleared and I felt much less weighed down by my thoughts.",1,0.0,0,0,1.0,1,0.0,0,4.0,snri
+3946,1194.0,160.0,cymbalta.160,3.0,During the first few months of taking Cymbalta (30 mg) I used to wake up at least 2X during the night to change pajamas & sheets/bedding due to intense sweating & was losing lots of sleep.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3947,1195.0,160.0,cymbalta.160,4.0,Now I don't wake up until morning but I am soaked with sweat.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3948,1196.0,160.0,cymbalta.160,5.0,"Overall, I have felt more like myself & much less depressed, but occassionally when I experience a setback, I don't dwell as much on my sad thoughts.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3949,1197.0,160.0,cymbalta.160,6.0,"Both my therapist & psychiatrist are extremely puzzled by the instense sweating, as though they're hearing of this side effect for the first time.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3950,1198.0,161.0,cymbalta.161,1.0,"some fatigue, some brief episodes of heart fibrulation, decreased sex drive, slightly less appetite.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3951,1199.0,161.0,cymbalta.161,2.0,I'm pretty happy with this drug.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3952,1200.0,161.0,cymbalta.161,3.0,My depression has lifted a lot and the obsessive thinking about my breakup has diminished greatly.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3953,1201.0,161.0,cymbalta.161,4.0,I'm feeling much more muyself.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3954,1202.0,161.0,cymbalta.161,5.0,"I would say my feelings are slightly muted, but in the normal range.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3955,1203.0,162.0,cymbalta.162,1.0,"Constipation, vivid dreams and restless sleep patterns.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3956,1204.0,162.0,cymbalta.162,2.0,Overall this med helped me with my energy levels and fatigue.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3957,1205.0,162.0,cymbalta.162,3.0,"I know longer feel tired in the afternoons, I no longer cry at the drop of a hat and I feel alert and focused.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3958,1206.0,162.0,cymbalta.162,4.0,"Prior to taking this, I was a trembling, sappy mess who could not think about holding a job.",0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+3959,1207.0,162.0,cymbalta.162,5.0,Now I am on my second interview thanks to Cymbalta,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3960,1208.0,163.0,cymbalta.163,1.0,Was just taken off Celexa because it did not do anything for me except for the horrible side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3961,1209.0,163.0,cymbalta.163,2.0,Was switched to Cymbalta.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3962,1210.0,163.0,cymbalta.163,3.0,"Have only been using 3 days, but have experienced No side effects yet-hoping thats a good sign!",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3963,1211.0,163.0,cymbalta.163,4.0,"Havent noticed the meds working yet, but no pains compared to celexa.",0,0.0,0,1,0.0,0,0.0,0,4.0,snri
+3964,1212.0,163.0,cymbalta.163,5.0,Hoping this one is better!  ,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3965,1213.0,164.0,cymbalta.164,1.0,had been terribly tired for months.,1,0.0,0,0,1.0,0,0.0,0,4.0,snri
+3966,1214.0,164.0,cymbalta.164,2.0,My doctor suggested I try taking the Cymbalta at night instead of the morning because he thought that was what may be making me tired.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3967,1215.0,164.0,cymbalta.164,3.0,"Since then, I have had moderate insomnia.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3968,1216.0,164.0,cymbalta.164,4.0,I will go back to taking it in the morning and see if it helps.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3969,1217.0,164.0,cymbalta.164,5.0,My doctor increased my dosage from 60mg to 120mg She had just went to a seminar on the study of cymbalta.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3970,1218.0,164.0,cymbalta.164,6.0,The study showed that by doulbling the dose it helps to control the appetite in some people.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3971,1219.0,164.0,cymbalta.164,7.0,"Since then, I have felt so much better.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3972,1220.0,164.0,cymbalta.164,8.0,I don't feel as tired and I have not had all of the food cravings that I usually have.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3973,1221.0,164.0,cymbalta.164,9.0,"So, I will stick with it and see how it works out.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3974,1222.0,165.0,cymbalta.165,1.0,none.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3975,1223.0,165.0,cymbalta.165,2.0,"Was great, until I changed insurance plans.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3976,1224.0,165.0,cymbalta.165,3.0,Very costly.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3977,1225.0,165.0,cymbalta.165,4.0,"Changed to inexpensive Prozac without and changes noted, except in my pocketbook.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3978,1226.0,166.0,cymbalta.166,1.0,Initially some mild headaches and vision blurring.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3979,1227.0,166.0,cymbalta.166,2.0,"Now I get mild headaches, head buzzing or light headedness if I miss a dose.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3980,1228.0,166.0,cymbalta.166,3.0,Some stomach discomfort occasionally for a few minutes right after taking it.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3981,1229.0,166.0,cymbalta.166,4.0,Often can't stop yawning about 3:30 PM daily for about an hour.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3982,1230.0,166.0,cymbalta.166,5.0,This really kicked me out of the doldrums quite quickly.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3983,1231.0,166.0,cymbalta.166,6.0,I lost weight and felt great.,1,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3984,1232.0,166.0,cymbalta.166,7.0,After 7 months I do not feel any depression or anxiety but am not sure if I even need it anymore either.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+3985,1233.0,166.0,cymbalta.166,8.0,Have gained back all of the weight I lost and have a big appetite.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3986,1234.0,166.0,cymbalta.166,9.0,I would recommend this medication - Wellbutrin didn't do a thing for me.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3987,1235.0,167.0,cymbalta.167,1.0,When I first started Cymbalta (30mg) I had a major decrease in my appetite and a lot of trouble sleeping.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3988,1236.0,167.0,cymbalta.167,2.0,By week three I felt better and was feeling less stressed and happier.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3989,1237.0,167.0,cymbalta.167,3.0,"I was without Cymbalta for about 4 days, and I felt horrible.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3990,1238.0,167.0,cymbalta.167,4.0,I was very dizzy and sick to my stomach.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3991,1239.0,167.0,cymbalta.167,5.0,I am fearful that it will be a difficult withdrawal process when the time comes to stop the medication.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+3992,1240.0,168.0,cymbalta.168,1.0,First day nausea.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3993,1241.0,168.0,cymbalta.168,2.0,"but started taking with a ginger capsule, now no problem with nausea.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3994,1242.0,168.0,cymbalta.168,3.0,"I feel happier, less ""blue"" I do have problems sleeping thru the night (I'm writing this at 4:30 am) but am hoping with continued dosage, that will subside.",1,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3995,1243.0,168.0,cymbalta.168,4.0,I have noticed decreased appetite and leg twitching (can't sit still).,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3996,1244.0,168.0,cymbalta.168,5.0,Hopefully these side effects will subside after a couple more days/weeks.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3997,1245.0,168.0,cymbalta.168,6.0,One other thing is dry mouth.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3998,1246.0,168.0,cymbalta.168,7.0,none of these side effects bad enough to discontinue drug so far. ,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+3999,1247.0,169.0,cymbalta.169,1.0,"vertigo, sweating, vivid dreams(though at times quite entertaining).",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4000,1248.0,169.0,cymbalta.169,2.0,I wanted to add some comments that I forgot.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4001,1249.0,169.0,cymbalta.169,3.0,My weight has been the same during the entire time I have been on Cymbalta.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4002,1250.0,169.0,cymbalta.169,4.0,I have had no sexual side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4003,1251.0,169.0,cymbalta.169,5.0,"I feel that it IS still working for the joint pain and somewhat for the depression, however, not as well as it was and I'd rather not increase the dosage.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4004,1252.0,169.0,cymbalta.169,6.0,"Instead my doctor has added Prozac, 10mg I can't offer any feedback on that yet, because today is the first day I have taken it.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4005,1253.0,169.0,cymbalta.169,7.0,"I have been on Prozac in the past, Lexapro-which worked great for a year then nothing, and coming off of it was horrible.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4006,1254.0,169.0,cymbalta.169,8.0,I choose to stay on Cymbalta because of it's wonderful help with my joint pain.,0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+4007,1255.0,169.0,cymbalta.169,9.0,I honestly could not function as I do without it.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4008,1256.0,169.0,cymbalta.169,10.0,I had no idea that it was used for fibromyalgia patients and the lack of pain was noticed before the help with the depression.,0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+4009,1257.0,169.0,cymbalta.169,11.0,I wish it didn't make me sweat more but it's a side effect I'll live with.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4010,1258.0,169.0,cymbalta.169,12.0,"To anyone that is trying it and experiencing some of the dizziness and nausea, I encourage you to stick it out.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4011,1259.0,169.0,cymbalta.169,13.0,It DOES get better!,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4012,1260.0,170.0,cymbalta.170,1.0,"Loose stools, gas, some fatigue soon after dose.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4013,1261.0,170.0,cymbalta.170,2.0,If I miss a dose-irritability with long and vivid dreams.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+4014,1262.0,170.0,cymbalta.170,3.0,"This medication definitely stabilizes me, but I'm concerned by how quickly my mood goes out of control with brain zaps when I go even 36 hours without a dose.",0,1.0,1,0,0.0,0,0.0,0,4.0,snri
+4015,1263.0,170.0,cymbalta.170,4.0,Withdrawal is much worse than the condition I'm treating!,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+4016,1264.0,171.0,cymbalta.171,1.0,"Constipation (1200 mg calcium gel caps is a remedy), the first day I experience,d 1 or 2 hrs of nausea first day only, dizziness has been eliminated by taking the 60 mgs at night !",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4017,1265.0,171.0,cymbalta.171,2.0,1 brain zapper after 10 months during a migraine headache which was a very sharp pain that radiated from my head and downmy back that was shocking and lasted a total of maybe 1 second.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4018,1266.0,171.0,cymbalta.171,3.0,"I have relief from major depression, anxiety, suicidal thoughts are becoming fewer, I also take 200 mg of zoloft which I find to be less affective compared to cymbalta.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4019,1267.0,171.0,cymbalta.171,4.0,"Yesterday, Christmas day began with a crying episode that I could NOT shake for several hours that included hopelessness in a major way.",0,0.0,0,0,1.0,0,0.0,0,4.0,snri
+4020,1268.0,171.0,cymbalta.171,5.0,I was Determined NOT to remain depressed so I first tried 1/2mg ativan followed by an additional dose of 60 mg of cymbalta.,0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+4021,1269.0,171.0,cymbalta.171,6.0,Gradually over 3 hrs the heavy dark shroud of miserable depression began to fall away.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4022,1270.0,171.0,cymbalta.171,7.0,It has been over 24 hrs.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4023,1271.0,171.0,cymbalta.171,8.0,NO DEPRESSION.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4024,1272.0,171.0,cymbalta.171,9.0,This was my miracle on Christmas day.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4025,1273.0,171.0,cymbalta.171,10.0,Uncertain about night and day sweats as that has been around for a decade due to menopause and a total hysterectomy.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4026,1274.0,171.0,cymbalta.171,11.0,"I sleep at night, no nightmares and my dreams are , REALLY VIVID as I am a VISUAL ARTIST.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4027,1275.0,171.0,cymbalta.171,12.0,I do wake up refreshed.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4028,1276.0,171.0,cymbalta.171,13.0,"A few times I have experienced theo peripheral shadows, 1 second, then gone but I now realize what they are and they no longer scare the hell out of me.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4029,1277.0,171.0,cymbalta.171,14.0,"I will accept the annoying side affects if cymbalta continues to keep the grim reaper, depression and anxiety, OUT of lifejourney.",1,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4030,1278.0,171.0,cymbalta.171,15.0,I look forward to each step where scientists take one further towards a better life for those who suffer.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4031,1279.0,171.0,cymbalta.171,16.0,Hopefully this forum of exchange will be a step forward in reaching the cure all miracle drug.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4032,1280.0,171.0,cymbalta.171,17.0,In the mean time take advantage of the progress that have been made.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4033,1281.0,171.0,cymbalta.171,18.0,Blessings to all of you who still suffer.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4034,1282.0,171.0,cymbalta.171,19.0,"Oh, sex life; try a roller coaster ride to work you up to it .",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4035,1283.0,172.0,cymbalta.172,1.0,"Immediately gave relief of peace, loss of depression, no more sadness, and overall terrible body pain disappeared.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4036,1284.0,172.0,cymbalta.172,2.0,I felt happy for the first time in more years than I could remember.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4037,1285.0,172.0,cymbalta.172,3.0,"But I am so tired, all I want to do with my spare time is sleep and Now I am suffering severe anxiety daily as never before that I try to treat with Clonozpam.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4038,1286.0,172.0,cymbalta.172,4.0,I am worried that the anxiety attacks will cause me to do something totally illogical and dangerous to myself.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4039,1287.0,172.0,cymbalta.172,5.0,"Don't know what to do, Don't want the depression or to have someone else step in to act ""on my best interest"" but need to resolve anxiety issues.",0,0.0,0,0,1.0,0,0.0,0,4.0,snri
+4040,1288.0,172.0,cymbalta.172,6.0,"No trouble sleeping; had been on Ambien CR whiich had topped working, but now I sleep all the time.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4041,1289.0,172.0,cymbalta.172,7.0,Is there a smaller dose than 30 mg that might lower the anxiety and sleepiness?,0,0.0,0,0,1.0,0,0.0,0,4.0,snri
+4042,1290.0,173.0,cymbalta.173,1.0,"Jaw clenching, insomnia, excessive yawning, tiredness & nausea if not taken with food.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4043,1291.0,173.0,cymbalta.173,2.0,Most of these side effects diminished markedly after 2 weeks.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4044,1292.0,173.0,cymbalta.173,3.0,I wanted to make a positive comment about Cymbalta as there is a lot of negative out there on the internet.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4045,1293.0,173.0,cymbalta.173,4.0,I noticed a major improvement in my depression after 2 weeks.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4046,1294.0,173.0,cymbalta.173,5.0,"The side effects that I experienced were not debilitating, the only one that bothers me is the waking through the night but I think that's improving now.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4047,1295.0,173.0,cymbalta.173,6.0,I do not get any negative effects if I take my dose a couple of hours late.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4048,1296.0,173.0,cymbalta.173,7.0,This is the 4th antidepressant I've tried in the past 6 months & the first to give me any relief from my depression.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4049,1297.0,173.0,cymbalta.173,8.0,"I was put off by all the negative comments, but am glad I went ahead.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4050,1298.0,173.0,cymbalta.173,9.0,I think people are more inclined to post on these sites when they've had a bad time with a drug than when things are going well.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4051,1299.0,173.0,cymbalta.173,10.0,"I gave it a 4 out of 5 as it's still early days, but I'm very hopeful; I was in a bad, bad way before Cymbalta.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4052,1300.0,174.0,cymbalta.174,1.0,went from Paxil directly to Cymbalta.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4053,1301.0,174.0,cymbalta.174,2.0,"I felt uncomfortable in my own body for weeks,but not enough to quit.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4054,1302.0,174.0,cymbalta.174,3.0,"It is a feeling difficult to describe, everyone is different, you will know it if you ever experience it.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4055,1303.0,174.0,cymbalta.174,4.0,Over the course of time.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4056,1304.0,174.0,cymbalta.174,5.0,"I gained an additional 20lbs I am fatigued, have fluid retention, my pain has broken through again and my depression has come back.",1,0.0,0,1,1.0,0,0.0,0,4.0,snri
+4057,1305.0,174.0,cymbalta.174,6.0,I am now on 90 mg My doctor suggested I try 120 mg I don't know what to do.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4058,1306.0,174.0,cymbalta.174,7.0,"To sum it up, Cymbalta is a good medicine to try if nothing else is helping and especially if you have fibro and depression.",0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+4059,1307.0,175.0,cymbalta.175,1.0,"Weight Loss, initially nausea, but the nausea subsided after ~3 weeks. ",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4060,1308.0,176.0,cymbalta.176,1.0,"Dry Mouth, chronic forgetfulness, a mental 'haze', it feels like I am peeing every liquid out of my body.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4061,1309.0,176.0,cymbalta.176,2.0,"Overall, I really feel positive about this drug, at least for myself.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4062,1310.0,176.0,cymbalta.176,3.0,"It has been powerful at curing anxiety, depression and mental clutter.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4063,1311.0,176.0,cymbalta.176,4.0,I feel as if my mind is constantly a cool calm pond.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4064,1312.0,176.0,cymbalta.176,5.0,I do however feel a blunting of my emotional life and I wish that were not the case.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4065,1313.0,176.0,cymbalta.176,6.0,"I also take trazadone with the cymbalta, does anyone have experience with these two drugs together?",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4066,1314.0,176.0,cymbalta.176,7.0,"if you do, please email me!",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4067,1315.0,176.0,cymbalta.176,8.0,I hope everyone is finding healing even if it is not through this particular drug.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4068,1316.0,177.0,cymbalta.177,1.0,"Initially; dizziness, brain zaps, weight loss, nausea.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4069,1317.0,177.0,cymbalta.177,2.0,These dissipated after a couple of months.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4070,1318.0,177.0,cymbalta.177,3.0,Now I have night sweats and my body temperature has increased.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4071,1319.0,177.0,cymbalta.177,4.0,"My weight has stablised and I am seven pounds heavier than I used to be, but I have a decreased appetite.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4072,1320.0,177.0,cymbalta.177,5.0,"As others have said, the withdrawals happen very quickly - I get pins and needles in my face and tongue (how bizzarre!)",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+4073,1321.0,177.0,cymbalta.177,6.0,within hours of missing a dose.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+4074,1322.0,177.0,cymbalta.177,7.0,I have found that this has helped my depression and anxiety very much.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4075,1323.0,177.0,cymbalta.177,8.0,"I no longer have suicidal thoughts (which i had lived with for fifteen years), I no longer am extremely anxious and negative.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4076,1324.0,177.0,cymbalta.177,9.0,It has not helped my hypersomnia - I can still sleep for up to 14 hours a day.,0,0.0,0,1,1.0,0,0.0,0,4.0,snri
+4077,1325.0,177.0,cymbalta.177,10.0,Am looking at changing my meds (I also take a small dose of Lamictal every day) as I am very unmotivated and slightly depressed at the moment but I think t could be to do with my life circumstances which aren't great right now.,0,0.0,0,1,1.0,1,0.0,0,4.0,snri
+4078,1326.0,178.0,cymbalta.178,1.0,"Constipation, lucid dreams, apathy (which is better sometimes than worrying about everything). ",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4079,1327.0,179.0,cymbalta.179,1.0,"Major weight gain, 30 lbs in 2 years.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4080,1328.0,179.0,cymbalta.179,2.0,"Works great for my depression, but caused excessive hunger leading to a 30 lb weight gain in 2 years.",1,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4081,1329.0,179.0,cymbalta.179,3.0,My doctor took me off it 4 days ago and immediatly switched me over to Wellbutrin XL the next day.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4082,1330.0,179.0,cymbalta.179,4.0,"I have been having terrible withdrawl symtoms almost immedatly after stopping the med, dizziness, headache, nausea, sweating, I went back to the doctor today and got Cymbalta 30 mg tabs (I had been on 60mg) and now are being weened gradually while still continuing the Wellbutrin XL.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+4083,1331.0,179.0,cymbalta.179,5.0,After taking the 30 mg tab this morning I already feel much better.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4084,1332.0,179.0,cymbalta.179,6.0,"Be careful coming off this, it is a very powerful drug.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4085,1333.0,180.0,cymbalta.180,1.0,"Increased sweatiness, extremely oily skin and acne, weight gain, strange dreams, alternating insomnia and then fatigue, and constipation.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4086,1334.0,180.0,cymbalta.180,2.0,"After taking Cymbalta for about 8 weeks, I felt a lot better mentally.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4087,1335.0,180.0,cymbalta.180,3.0,I recently was diagnosed with Polycystic Ovary Syndrome and Cymbalta is a terrible choice for PCOS patients as it can raise insulin levels (which causes weight gain and lots of the other side effects that are already PCOS issues).,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4088,1336.0,180.0,cymbalta.180,4.0,I have just weaned off this onto Lexapro and don't seem to have any serious side effects.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4089,1337.0,180.0,cymbalta.180,5.0,My skin is clearer and the sweatiness has subsided.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4090,1338.0,181.0,cymbalta.181,1.0,"hot sweats, regular powerful muscle aches, loss of sexual libdo, 40 lbs weight gain.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4091,1339.0,181.0,cymbalta.181,2.0,I don't know if its worth it,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4092,1340.0,182.0,cymbalta.182,1.0,"Insomnia, dry mouth, constipation, nausea.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4093,1341.0,182.0,cymbalta.182,2.0,"I had a really rough year last year which included a fmaily member dying, getting out of a bad relationship, and almost getting kicked out of school.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4094,1342.0,182.0,cymbalta.182,3.0,My doctor put me on 30mg for a week then bumped me up to 60mg which I've been on for 2 months.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4095,1343.0,182.0,cymbalta.182,4.0,It has worked wonders for me.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4096,1344.0,182.0,cymbalta.182,5.0,The best time for me to take it is around 5pm with a good meal.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4097,1345.0,182.0,cymbalta.182,6.0,This gets rid of nausea and lessens the insomnia and dry mouth.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4098,1346.0,182.0,cymbalta.182,7.0,I take a stool softener to help with the constipation.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4099,1347.0,182.0,cymbalta.182,8.0,I get to taper down to 30mg in about 3 weeks then eventually get back to normal life,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4100,1348.0,183.0,cymbalta.183,1.0,"On 60 mg, took away depression, took away anger 'Lizzie Borden' complex.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4101,1349.0,183.0,cymbalta.183,2.0,"On 120 mg 11 months later, depression has lifted and general anxiety has decreased overall, but I feel like I am always 'shaking' and 'cannot breathe', and I cannot sleep any longer than 3 hours per night.",1,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4102,1350.0,183.0,cymbalta.183,3.0,I have been taking Cymbalta (60 mg once a day) since late December 2007)  I was amazed at how quickly it began to lift my mood.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4103,1351.0,183.0,cymbalta.183,4.0,It also greatly lessened what I have heard called the 'Lizzy Borden' complex ( extreme anger and outbursts).,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4104,1352.0,183.0,cymbalta.183,5.0,"I am bi-polar, and have also taken Lamictal 100 mg once per day on and off in the past.",0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4105,1353.0,183.0,cymbalta.183,6.0,"In the past two weeks however, my mood really dropped, and I was feeling suicidal.",0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4106,1354.0,183.0,cymbalta.183,7.0,"The doctor then put me back on Lamictal and told me to stay on it, and raised my Cymbalta level to 120 mg I started taking the higher dose this past Monday (11-3-08).",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4107,1355.0,183.0,cymbalta.183,8.0,"Today is Sunday, 11-9-08)  In the past three nights, I have been experiencing insomnia.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4108,1356.0,183.0,cymbalta.183,9.0,"I am really, really shaky, nervous, a bit tense and I feel like I am having heart palpitations.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4109,1357.0,183.0,cymbalta.183,10.0,"The other night I had a very strange dream that my husband was married to my mother and he was 'dating' me, although he wasn't supposed to.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4110,1358.0,183.0,cymbalta.183,11.0,I was also pregnant in the dream!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4111,1359.0,183.0,cymbalta.183,12.0,Kind of freaked me out.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4112,1360.0,184.0,cymbalta.184,1.0,love Cymbalta.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4113,1361.0,184.0,cymbalta.184,2.0,"No negative sexual side effects, no brain zaps - but I consistently take it.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4114,1362.0,184.0,cymbalta.184,3.0,Definately not weight gain.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4115,1363.0,184.0,cymbalta.184,4.0,not sure on a decrease.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4116,1364.0,184.0,cymbalta.184,5.0,"Yes - you may have difficulty sleeping, I take Trazadone but have for years.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4117,1365.0,184.0,cymbalta.184,6.0,I did a rapid decline on my cymbalta because I lost my insurance.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4118,1366.0,184.0,cymbalta.184,7.0,I was on 60s and did a few days of 30's and quite.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4119,1367.0,184.0,cymbalta.184,8.0,I didn't have bad withdrawal.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4120,1368.0,184.0,cymbalta.184,9.0,I didn't think but about a week later I started having severe pain on my right back side.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4121,1369.0,184.0,cymbalta.184,10.0,A few days later I was in the hospital with bilateral pulmonary emboli.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4122,1370.0,184.0,cymbalta.184,11.0,"I am a low risk person (no smoking, low weight, am on birth control) but I definately believe that my PEs were a result of the rapid decline in Cymbalta.",0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4123,1371.0,184.0,cymbalta.184,12.0,I did have a body rash (Malasezia) and other symptoms of my body experiencing a pH or general shift.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4124,1372.0,184.0,cymbalta.184,13.0,I also had a pleural effusion and was hospitalized for over a day.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4125,1373.0,184.0,cymbalta.184,14.0,It was very very difficult to get my pain under control - they had me maxed out on narcotics.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4126,1374.0,184.0,cymbalta.184,15.0,It was determined that the withdrawal of Cymbalta was giving me additional muscle spasms/tinges and I went back on 30 mg of Cymbalta to help with my level 12 pain - and it worked.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4127,1375.0,184.0,cymbalta.184,16.0,Weird but true.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4128,1376.0,185.0,cymbalta.185,1.0," Despite its side effects, I find cymbalta the best choice for Depression, Anhedonia and Insomnia due to GAD.",1,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4129,1377.0,185.0,cymbalta.185,2.0,My GAD controlled my life since I couldn't handle any stressful situation but thanks to duloxetine I can have a normal life again I enjoy playing videogames/watching movies again.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4130,1378.0,185.0,cymbalta.185,3.0,I can go out with friends again without suffering extreme anxiety I can sleep at night easily and naturally Overall it's a very good drug.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4131,1379.0,185.0,cymbalta.185,4.0,"It only takes 1-2 weeks to work By the way, if you want to quit this med there is only one way: Opening pills and removing a few micro-capsules every 2 weeks (let's say 20 micro-capsules).",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4132,1380.0,185.0,cymbalta.185,5.0,You won't even notice,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4133,1381.0,186.0,cymbalta.186,1.0,"Insomnia, decreased appetite (though that's a good thing in my case; the depression had me overeating).",1,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4134,1382.0,186.0,cymbalta.186,2.0,Cymbalta has changed my life.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4135,1383.0,186.0,cymbalta.186,3.0,"I didn't realize how bad my depression was until looking back on it-I wasn't motivated to do anything, had paranoid delusions, was always achy and unwell, and was just generally unhappy.",0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4136,1384.0,186.0,cymbalta.186,4.0,"I started Cymbalta after finally dragging myself to the doctor at my mother's insistence, beginning on 30mg for one week and moving up to 60mg I noticed a difference within the first week.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4137,1385.0,186.0,cymbalta.186,5.0,"Now, it's an incredible change; I feel like I'm a *person* again.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4138,1386.0,186.0,cymbalta.186,6.0,"I have been experiencing insomnia due to it, but with 25mg of Trazodone, that's evened out wonderfully.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4139,1387.0,186.0,cymbalta.186,7.0,I'm so happy with this medicine!,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4140,1388.0,187.0,cymbalta.187,1.0,non.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4141,1389.0,187.0,cymbalta.187,2.0,non,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4142,1390.0,188.0,cymbalta.188,1.0,Possibly tiredness/sleepiness (though I've felt that way long before starting Cymbalta).,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4143,1391.0,188.0,cymbalta.188,2.0,By far the best antidepressant/antianxiety medication I've tried.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4144,1392.0,188.0,cymbalta.188,3.0,"Both my depression and anxiety have abated significantly, though there is some of both left (plus the tiredness, which I suspect could be depression-related).",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4145,1393.0,188.0,cymbalta.188,4.0,I'm already at 120mg and would like to go even higher.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4146,1394.0,188.0,cymbalta.188,5.0,"My sexual performance has improved greatly, as has my concentration and even driving skills!",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4147,1395.0,188.0,cymbalta.188,6.0,It's really interesting how the same compound affects different people in so many different ways.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4148,1396.0,188.0,cymbalta.188,7.0,I definitely recommend at least trying Cymbalta.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4149,1397.0,189.0,cymbalta.189,1.0,Weight Gain.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4150,1398.0,189.0,cymbalta.189,2.0,"Switched to Cymbalta from Effexor XR & now I have energy, spirit, and just feel GOOD.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4151,1399.0,189.0,cymbalta.189,3.0,I also take Wellbutrin & Adderall to supplement.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4152,1400.0,190.0,cymbalta.190,1.0,felt a little nausea the first day.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4153,1401.0,190.0,cymbalta.190,2.0,I have a hot flash type of feeling the first few hours after taking it.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4154,1402.0,190.0,cymbalta.190,3.0,I sweat a little more and my sex drive has decreased somewhat.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4155,1403.0,190.0,cymbalta.190,4.0,I feel amazing on cymbalta!,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4156,1404.0,190.0,cymbalta.190,5.0,I could tell a difference the first day.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4157,1405.0,190.0,cymbalta.190,6.0,By the second week when I went to the 60 mg I felt like a different person.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4158,1406.0,190.0,cymbalta.190,7.0,I have fewer panic attacks.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4159,1407.0,190.0,cymbalta.190,8.0,I don't get mad as easily as I did at my kids.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4160,1408.0,190.0,cymbalta.190,9.0,I actually get up and do house work after dinner instead of lay on the couch.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4161,1409.0,190.0,cymbalta.190,10.0,My 8 hour work day goes by so much better.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4162,1410.0,190.0,cymbalta.190,11.0,I highly recomment it to anyone.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4163,1411.0,190.0,cymbalta.190,12.0,My side effects are/were so mild if you are depressed this drug is worth trying.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4164,1412.0,190.0,cymbalta.190,13.0,Of course I haven't had to try to get off of it yet.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4165,1413.0,190.0,cymbalta.190,14.0,That might be a different story!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4166,1414.0,191.0,cymbalta.191,1.0,Slight nausea at first - but went away after a few days.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4167,1415.0,191.0,cymbalta.191,2.0,Extreme sleepiness in the evenings during the first week - no problem now.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4168,1416.0,191.0,cymbalta.191,3.0,Still have a night or two during the week when I can't sleep or wake up @ 2 a. m. I feel better than I have in a very long time!,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4169,1417.0,191.0,cymbalta.191,4.0,I have so much energy during the day and find myself laughing again.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4170,1418.0,191.0,cymbalta.191,5.0,My moods are more even and I am alot nicer to be around.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4171,1419.0,191.0,cymbalta.191,6.0,I don't explode when something stressful happens .,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4172,1420.0,191.0,cymbalta.191,7.0,"For example: my 8-year-old spilled a whole glass of coke in my car and my reaction was ""Oh well, let's clean it up.""",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4173,1421.0,191.0,cymbalta.191,8.0,Before I would have had a STROKE!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4174,1422.0,191.0,cymbalta.191,9.0,"I love this drug, but how long is it safe to take it?",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4175,1423.0,191.0,cymbalta.191,10.0,Does anyone know?,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4176,1424.0,192.0,cymbalta.192,1.0,Not many.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4177,1425.0,192.0,cymbalta.192,2.0,Suddenly stopping can cause jitters and loss of sleep.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4178,1426.0,192.0,cymbalta.192,3.0,"Likewise, starting a high dose without ramping up can cause the same thing.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4179,1427.0,192.0,cymbalta.192,4.0,These effects go away in 1-3 days.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4180,1428.0,192.0,cymbalta.192,5.0,I sometimes supplement with Lexapro 20mg if my depression or anxiety increases for more than a couple of weeks.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4181,1429.0,192.0,cymbalta.192,6.0,"After 2-3 months with the Lexapro, I cut back to just Cymbalta, which has worked better than anything else I've ever tried, with fewer side effects.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4182,1430.0,193.0,cymbalta.193,1.0,"nausea at first, but that went away.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4183,1431.0,193.0,cymbalta.193,2.0,"Lost some weight, keeps me from eating like I was.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4184,1432.0,193.0,cymbalta.193,3.0,I was already taking Wellbutrin but the depression was the worst I had ever had and doctor added the cymbalta 30 mg a day.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4185,1433.0,193.0,cymbalta.193,4.0,I had high blood pressure and migraines so Inderal was added.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4186,1434.0,193.0,cymbalta.193,5.0,"I feel like a different person, feel so much better.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4187,1435.0,193.0,cymbalta.193,6.0,Am afraid now the doctor will take me off this combination.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4188,1436.0,193.0,cymbalta.193,7.0,"Blood pressure is back to normal, cut down on the inderal to 20 mg a day.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4189,1437.0,193.0,cymbalta.193,8.0,"I have read the side effects of coming off the cymbalta, sounds really scary.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4190,1438.0,193.0,cymbalta.193,9.0,Doctor mentioned me being on the cymbalta for about a year.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4191,1439.0,193.0,cymbalta.193,10.0,Has anyone been on the cymbalta longer and with the combination of other meds that I am taking.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4192,1440.0,194.0,cymbalta.194,1.0,The first few days were like a fog.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4193,1441.0,194.0,cymbalta.194,2.0,I didn't eat much due to nausea and then it was fine.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4194,1442.0,194.0,cymbalta.194,3.0,Had a headache too.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4195,1443.0,194.0,cymbalta.194,4.0,Difficulty with reaching orgasm.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4196,1444.0,194.0,cymbalta.194,5.0,I stopped taking it cold turkey ( I actually just forgot to use it for 5 days) and suffered 0 side effects or reactions.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4197,1445.0,194.0,cymbalta.194,6.0,Originally I was put on it with a view to ceasing after 6 months but I was terrified I'd revisit the horrible depression and anxiety so I stayed on it.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4198,1446.0,195.0,cymbalta.195,1.0,Dry mouth and weightloss.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4199,1447.0,195.0,cymbalta.195,2.0,I feel full much sooner when eating than I used to.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4200,1448.0,195.0,cymbalta.195,3.0,"Much less pain, a little headache now and then.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4201,1449.0,195.0,cymbalta.195,4.0,I'm more upbeat and can think more clearly.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4202,1450.0,195.0,cymbalta.195,5.0,A GODSEND.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4203,1451.0,196.0,cymbalta.196,1.0,"At first i yawned constantly and had dry mouth but over time it stopped, and weight loss.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4204,1452.0,196.0,cymbalta.196,2.0,love love love this medicine its made a tremendous difference in my life it doesnt really do anything for my pain but helps alot for my depression and moods.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4205,1453.0,197.0,cymbalta.197,1.0,"ACCELERATED weight gain, initial night sweats, initial sleepiness.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4206,1454.0,197.0,cymbalta.197,2.0,"After trying all others, this drug has given me a sense of calm and feeling of contentedness that I never knew others lived with Unfortunately, I also experienced drastic wieght gain of 25 lbs within 6 months and it is still going.",1,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4207,1455.0,197.0,cymbalta.197,3.0,I am naturally very thin and this part is driving me crazy!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4208,1456.0,197.0,cymbalta.197,4.0,The dr. says losing all that nervous energy has slowed my metabolism(?).,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4209,1457.0,197.0,cymbalta.197,5.0,He has given me a prescription for Topomax to counter effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4210,1458.0,197.0,cymbalta.197,6.0,I would hate to stop the cymbalta but have gone up 3 pant sizes!,1,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4211,1459.0,198.0,cymbalta.198,1.0,"contipation, dry mouth. ",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4212,1460.0,199.0,cymbalta.199,1.0,"extreme ongoing and continual nausea, delayed orgasm, numb hands & feet.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4213,1461.0,199.0,cymbalta.199,2.0,"been on 120mg for 12 months, from being suicidal am now back at work full time, feeling normal again other than the side effects.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4214,1462.0,200.0,cymbalta.200,1.0,"at first had some anxiety and still have insomnia, usually after sleeping only 4 hrs.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4215,1463.0,200.0,cymbalta.200,2.0,in the past two months have had three severe colds that start with flu-like symptoms and then have severe congestion lasting a couple of weeks.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4216,1464.0,200.0,cymbalta.200,3.0,Cymbalta has definately helped me with nerve/muscle pain and with depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4217,1465.0,200.0,cymbalta.200,4.0,Concerned about the colds (3 in 2 month) and severe congestion.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4218,1466.0,200.0,cymbalta.200,5.0,I have rarely gotten any colds in the past and having 3 this Spring (06) is alarming.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4219,1467.0,200.0,cymbalta.200,6.0,Please contact me if you also have cold symptoms and you think it's from the cymbalta.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4220,1468.0,200.0,cymbalta.200,7.0,Thanks.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4221,1469.0,201.0,cymbalta.201,1.0,"flatulence, loose stools, and a really good reaction in evey day life.",1,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4222,1470.0,201.0,cymbalta.201,2.0,it rocks.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4223,1471.0,201.0,cymbalta.201,3.0,check out the BLTC Good Drug Guide.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4224,1472.0,201.0,cymbalta.201,4.0,it is a blockbuster that will need augmentation with a stronger DRI in order to reach its fullest potential with my unique chemistry.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4225,1473.0,201.0,cymbalta.201,5.0,bottom line is- it works with at least 4 weeks to get used to the new blueprint.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4226,1474.0,201.0,cymbalta.201,6.0,i highly recommend it if you are in chronic pain or EVEN- feeding off of the exogenous opoid.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4227,1475.0,201.0,cymbalta.201,7.0,Love.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4228,1476.0,202.0,cymbalta.202,1.0,Withdrawal when missed dose.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4229,1477.0,202.0,cymbalta.202,2.0,"Exhaustion, horrible anxiety, crying, unable to work or function.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4230,1478.0,202.0,cymbalta.202,3.0,Withdrawal symptoms always happened within 24 hours of missed dose.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4231,1479.0,202.0,cymbalta.202,4.0,NOT recommended to skip or stop suddenly!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4232,1480.0,202.0,cymbalta.202,5.0,Controls worst of my depression and anxiety.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4233,1481.0,202.0,cymbalta.202,6.0,It seems side effects people report depend on the reason they are taking the medication.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4234,1482.0,203.0,cymbalta.203,1.0,none. ,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4235,1483.0,204.0,cymbalta.204,1.0,"Tired, tinnitus, restless legs.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4236,1484.0,204.0,cymbalta.204,2.0,I started taking Cymbalta for depression and also pain from interstitial cystitis and vulvodynia.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4237,1485.0,204.0,cymbalta.204,3.0,"Since I am very sensitive to meds, I started by opening the capsule and pouring most of the pellets out, recapping it, and taking the small amount left.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4238,1486.0,204.0,cymbalta.204,4.0,I gradually worked up to 30 mg a day.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4239,1487.0,204.0,cymbalta.204,5.0,"I felt instantly calmer from Day 1, and had improvement of bladder urgency/frequency/spasm.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4240,1488.0,204.0,cymbalta.204,6.0,I have since reduced dose to 20 mg per day.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4241,1489.0,204.0,cymbalta.204,7.0,"I initially had exacerbation of restless legs, which went away over time as I adjusted to Cymbalta.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4242,1490.0,204.0,cymbalta.204,8.0,"I can get tired and spacey in the afternoon when it kicks in, but I gladly take the med because it has given me my life back.",1,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4243,1491.0,205.0,cymbalta.205,1.0,"initially, I was very tired for the first few weeks; no side effects after that.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4244,1492.0,205.0,cymbalta.205,2.0,It has really helped with my depression.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4245,1493.0,205.0,cymbalta.205,3.0,"I had tried St. John's Wort and Wellbutrin, but my doctors switched me to Cymbalta after a back injury.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4246,1494.0,205.0,cymbalta.205,4.0,"It doesn't really reduce the pain at all, but it helps make it easier to bear the pain.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4247,1495.0,206.0,cymbalta.206,1.0,been great for depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4248,1496.0,206.0,cymbalta.206,2.0,"I know that I cannot quit ""cold turkey"" as withdrawals are severe.",0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4249,1497.0,206.0,cymbalta.206,3.0,It is a trade off that I am satisfied with 3 years.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4250,1498.0,206.0,cymbalta.206,4.0,No longer on an emotional rollercoaster.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4251,1499.0,206.0,cymbalta.206,5.0,"When I wake up sad, I don't spiral into a full blown depression.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4252,1500.0,206.0,cymbalta.206,6.0,"If I get depressed now, it is a legitimate reason.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4253,1501.0,206.0,cymbalta.206,7.0,ie death of a friend or loved one.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4254,1502.0,206.0,cymbalta.206,8.0,I will continue on Cymbalta.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4255,1503.0,206.0,cymbalta.206,9.0,No sexual side effects!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4256,1504.0,207.0,cymbalta.207,1.0,major weight gain and constipation.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4257,1505.0,207.0,cymbalta.207,2.0,Really has helped my depression and know that I am a much happier person taking it but I HATE the weight gain and constipation.,1,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4258,1506.0,207.0,cymbalta.207,3.0,Any suggestions?,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4259,1507.0,208.0,cymbalta.208,1.0,THE ONLY SIDE EFFECTS I EXPERIENCED WAS PROBLEMS REACHING ORGASM.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4260,1508.0,208.0,cymbalta.208,2.0,"I WAS HAVING CHEST PAINS, MY BREATHING WAS SO MESSED UP THAT I WAS HYPERVENTALATING ALL THE TIME NOT TO MENTION PANIC ATTACKS.",0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4261,1509.0,208.0,cymbalta.208,3.0,THOUGHT I WAS GOING TO DIE UNTIL I STARTED TAKING CYBALTA.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4262,1510.0,208.0,cymbalta.208,4.0,"TRIED TAKING EFFEXOR, BUSPAR, ZOLOFT, TRAZADONE, XANAX AND NONE OF THEM WORKED UNTIL I STARTED TAKING CYBALTA.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4263,1511.0,208.0,cymbalta.208,5.0,WITHIN 4 DAYS IT STARTING WORKING.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4264,1512.0,208.0,cymbalta.208,6.0,"CHEST PAINS STARTED TO GO AWAY, MY BREATHING RETURNED TO NORMAL, WASNT CONSTANTLY WORRYING ABOUT MY HEALTH AND NOW AFTER 3 WEEKS OF TAKING IT I FEEL GREAT.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4265,1513.0,209.0,cymbalta.209,1.0,"Tension headaches, nausea, jittery feeling.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4266,1514.0,209.0,cymbalta.209,2.0,Immediate relief from depression on the second afternoon.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4267,1515.0,209.0,cymbalta.209,3.0,Side effects also getting better.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4268,1516.0,209.0,cymbalta.209,4.0,Completely worth it to feel better!,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4269,1517.0,210.0,cymbalta.210,1.0,"First three days nausea, mild trembling feeling, no appetite.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4270,1518.0,210.0,cymbalta.210,2.0,After about five days all of these completely disappeared.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4271,1519.0,210.0,cymbalta.210,3.0,"I have been on every anti-anxiety drug available over the last 12 years and I NEVER stay on them because I usually always gain A LOT of weight within a couple of months, and two, I am unable to orgasm.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4272,1520.0,210.0,cymbalta.210,4.0,"I workout 4 - 5 times a week hard, watch my diet, and every other drug has always made me gain.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4273,1521.0,210.0,cymbalta.210,5.0,Paxcil was the worst.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4274,1522.0,210.0,cymbalta.210,6.0,Cymbalta has been literally a miracle drug for me.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4275,1523.0,210.0,cymbalta.210,7.0,For the first two weeks I had to take xanax every now and then until the cymbalta built up in my system to fight the anxiety.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4276,1524.0,210.0,cymbalta.210,8.0,I have been on it now for five weeks and feel great.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4277,1525.0,210.0,cymbalta.210,9.0,"My mood is better, the anxiety is gone.",0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4278,1526.0,210.0,cymbalta.210,10.0,"I have my appetite back, but have not gained any weight at all.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4279,1527.0,210.0,cymbalta.210,11.0,"For the first two weeks I could not orgasm, but that has also gone away.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4280,1528.0,210.0,cymbalta.210,12.0,I could not be happier.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4281,1529.0,210.0,cymbalta.210,13.0,"I am on a drug that makes me feel great, my moods are evened out, no weight gain, and I can enjoy sex!",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4282,1530.0,210.0,cymbalta.210,14.0,Good luck to you all!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4283,1531.0,211.0,cymbalta.211,1.0,Dry mouth.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4284,1532.0,211.0,cymbalta.211,2.0,Was finally prescribed this after many years of depression.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4285,1533.0,211.0,cymbalta.211,3.0,"In that time I had been prescribed: Seroxat, Efexor, Prosac, Prothiadin, and another whose's name I no longer recall.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4286,1534.0,211.0,cymbalta.211,4.0,For me this had the lowest side effect profile of any medication I have ever had.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4287,1535.0,211.0,cymbalta.211,5.0,"I realize this will not be the same for everyone, but it has worked very effectivley for me for some years now.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4288,1536.0,212.0,cymbalta.212,1.0,was on this before and had weight loss.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4289,1537.0,212.0,cymbalta.212,2.0,i was on cymbalta a couple of years ago and thought i could live without it boy was i wrong.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4290,1538.0,212.0,cymbalta.212,3.0,my moods changed i didn't care if i ever got out of bed and i was down right miserable!,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4291,1539.0,212.0,cymbalta.212,4.0,if you stop taking this the withdrawal is awful.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4292,1540.0,212.0,cymbalta.212,5.0,"my doctor decided to put me on lexapro because when i get feeling better i think that i don't need anything and lexapro didn't have withdrawal effects, but i gained 35 pounds on it.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4293,1541.0,212.0,cymbalta.212,6.0,when i was on cymbalta before i was able to lose weight and not feel hungry all the time.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4294,1542.0,212.0,cymbalta.212,7.0,i don't think i will ever stop using cymbalta again.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4295,1543.0,212.0,cymbalta.212,8.0,looking back when i was on cymbalta before it was the happiest i have been in about 10 years.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4296,1544.0,212.0,cymbalta.212,9.0,in the past i have been on several medications and nothing worked as well as cymbalta,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4297,1545.0,213.0,cymbalta.213,1.0,"nausea about 4 hours after taking the med lasting rest of the day,sweating in the face, severe constipation.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4298,1546.0,213.0,cymbalta.213,2.0,Ihave only taken cympalta for 5 days and already I feel like a new person.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4299,1547.0,213.0,cymbalta.213,3.0,My mood and energy are better than they have been in months.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4300,1548.0,213.0,cymbalta.213,4.0,I feel like i have found my light at the end of the tunnel.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4301,1549.0,213.0,cymbalta.213,5.0,1st week taking 30 mg will be going up to 60mg in 2 days.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4302,1550.0,213.0,cymbalta.213,6.0,I take this in addition to 150mg per day of wellbutrin and this has helped every aspect of my life already!,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4303,1551.0,213.0,cymbalta.213,7.0,I LOVE IT!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4304,1552.0,214.0,cymbalta.214,1.0,Loss of appetite and weight (5 lbs in a month).,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4305,1553.0,214.0,cymbalta.214,2.0,"I didn't really have any negative side effects, or if I did, they were very mild (slight ""loosening of the stools"", which was good because I tend to be, uh, constipated all the time.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4306,1554.0,214.0,cymbalta.214,3.0,a little sleepy in the afternoon in the first few weeks.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4307,1555.0,214.0,cymbalta.214,4.0,dry mouth in the first week).,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4308,1556.0,214.0,cymbalta.214,5.0,I consider the appetite supression/weight loss and anti-constipating effect to be *good* side effects!,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4309,1557.0,214.0,cymbalta.214,6.0,Cymbalta helped my life.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4310,1558.0,214.0,cymbalta.214,7.0,"I went from having explosive mood swings, to being more easygoing and stable.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4311,1559.0,214.0,cymbalta.214,8.0,The Cymbalta is also taking care of more personal and specific issues that I feel a little embarrassed writing about.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4312,1560.0,214.0,cymbalta.214,9.0,I feel less needy and fearful of abandonment.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4313,1561.0,215.0,cymbalta.215,1.0,No initial side effects except dry mouth which went away after a while (4 weeks or so).,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4314,1562.0,215.0,cymbalta.215,2.0,Had knee surgery while on Cymbalta where it was discovered I have severe osteoarthritis.,0,0.0,0,0,0.0,0,1.0,0,5.0,snri
+4315,1563.0,215.0,cymbalta.215,3.0,I was taken off Cymbalta 6 weeks ago (per my request) and placed on another more affordable medication.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4316,1564.0,215.0,cymbalta.215,4.0,I have since discovered that I have osteoarthritis in my hands and every joint in my body hurts.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4317,1565.0,215.0,cymbalta.215,5.0,I think Cymbalta eased my osteoarthritis pain a great deal.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4318,1566.0,216.0,cymbalta.216,1.0,was sleepy had alot of stomach problems first week.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4319,1567.0,216.0,cymbalta.216,2.0,"it caused some insominia, i also felt like i was haviing brain buzz and ringing in my ears.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4320,1568.0,216.0,cymbalta.216,3.0,I have hung in there and now the side effect have gone.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4321,1569.0,216.0,cymbalta.216,4.0,I am feeling wonderful now.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4322,1570.0,216.0,cymbalta.216,5.0,I have not felt like this in years.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4323,1571.0,216.0,cymbalta.216,6.0,I am playing with my kids and smiling and laughing everyone can tell.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4324,1572.0,216.0,cymbalta.216,7.0,I am cleaning and organizing my house now.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4325,1573.0,216.0,cymbalta.216,8.0,I feel like a person.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4326,1574.0,216.0,cymbalta.216,9.0,I have to take alot of meds.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4327,1575.0,216.0,cymbalta.216,10.0,I have no insurance and my cymbalta is $185.00 a month.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4328,1576.0,216.0,cymbalta.216,11.0,"I am also on neurotin, tramadol, benazapril for my blood pressure and glyberide for my diabetes.",0,0.0,0,0,0.0,0,1.0,0,5.0,snri
+4329,1577.0,216.0,cymbalta.216,12.0,They have not caused any problems yet with the cymbalta.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4330,1578.0,216.0,cymbalta.216,13.0,My meds cost about $800.00 all togther.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4331,1579.0,216.0,cymbalta.216,14.0,It is hard to buy sometimes.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4332,1580.0,216.0,cymbalta.216,15.0,I am a homemaker and i have four little girls.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4333,1581.0,216.0,cymbalta.216,16.0,I have been so depressed for the past 2 years and have not been myslef at sll.,0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4334,1582.0,216.0,cymbalta.216,17.0,but now with the cymbalta I have started acting like my old self.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4335,1583.0,216.0,cymbalta.216,18.0,i love it.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4336,1584.0,216.0,cymbalta.216,19.0,My happy pill.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4337,1585.0,216.0,cymbalta.216,20.0,Some of the other meds I take also effects and raises serotonin levels so that may make a difference.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4338,1586.0,216.0,cymbalta.216,21.0,But whatever is going on in my brain is wonderful.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4339,1587.0,216.0,cymbalta.216,22.0,Everyone who reads this if you have any suggestions on how to get samples or discount on meds please email me at  Pray for me and everyone in that can not afford there meds.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4340,1588.0,216.0,cymbalta.216,23.0,It is a big problem i think in the economy.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4341,1589.0,216.0,cymbalta.216,24.0,Lets all remeber to pray for our country and the economy.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4342,1590.0,216.0,cymbalta.216,25.0,There is power in numbers and all our prayers can make a difference.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4343,1591.0,217.0,cymbalta.217,1.0,VERy very slight twtch in my hand or arm sometimes.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4344,1592.0,217.0,cymbalta.217,2.0,Does not happen much and is not noticable.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4345,1593.0,217.0,cymbalta.217,3.0,I was very depresed and suicidal.,0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4346,1594.0,217.0,cymbalta.217,4.0,I was on other medications but found that Cymbalta works better that anything I have taken.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4347,1595.0,217.0,cymbalta.217,5.0,and it has proven to keep me stable.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4348,1596.0,217.0,cymbalta.217,6.0,I have been on it for a year now.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4349,1597.0,218.0,cymbalta.218,1.0,Only side effect is withdrawal. ,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4350,1598.0,219.0,cymbalta.219,1.0,Little nauseaus first couple of days.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4351,1599.0,219.0,cymbalta.219,2.0,I already had all the gastro symptoms and hot flashes others have mentioned.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4352,1600.0,219.0,cymbalta.219,3.0,"Unfortunately, those symptoms have not improved.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4353,1601.0,219.0,cymbalta.219,4.0,"I am experiencing hair loss and am wondering what the cause may be-could be Cymbalta, could be my age/hormones, a vitamin I might need, winter.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4354,1602.0,219.0,cymbalta.219,5.0,30 mg worked initially then abruptly seemed to stop working after about 6 weeks/now on 60 mg I am happy to say I have not felt this good for years and years.,0,0.0,1,1,0.0,0,0.0,0,5.0,snri
+4355,1603.0,219.0,cymbalta.219,6.0,"Fibro pain greatly reduced, energy up, sleep and dreaming wonderful after many years of not much of either.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4356,1604.0,219.0,cymbalta.219,7.0,I am very enthused and interested in my life again.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4357,1605.0,219.0,cymbalta.219,8.0,"Coming off Cymbalta does sound scary, but I am trying to just enjoy feeling well for now, will cross that bridge down the road.",0,1.0,1,0,0.0,0,0.0,0,5.0,snri
+4358,1606.0,219.0,cymbalta.219,9.0,I am trying some different approaches to the thinning hair and hope I can solve it.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4359,1607.0,220.0,cymbalta.220,1.0,"At first, nausea.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4360,1608.0,220.0,cymbalta.220,2.0,"for 2 years, I've suffered from something called lymphocytic colitis (my white blood cells attack my colon), causing severe diarrhea.",1,0.0,0,0,0.0,0,1.0,0,5.0,snri
+4361,1609.0,220.0,cymbalta.220,3.0,"Pdoc & gastrodoc both think that something in Cymbalta makes it worse, but can't find anything in research.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4362,1610.0,220.0,cymbalta.220,4.0,"So I take Loperamide/Immodium daily to counteract, and it works fine if I stay away from fiber.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4363,1611.0,220.0,cymbalta.220,5.0,"I also have increased sex drive, more pronounced PMS, and odd sleep patterns.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4364,1612.0,220.0,cymbalta.220,6.0,PLEASE don't be put off by my symptoms.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4365,1613.0,220.0,cymbalta.220,7.0,"This is by far the best antidepressant I've been on, and I wouldn't trade it for the world.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4366,1614.0,220.0,cymbalta.220,8.0,"Now we've had to augment with Lamictal for regulating mood, because I'm going thu severe stress, and the combo is really helping me.",0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4367,1615.0,221.0,cymbalta.221,1.0,"First Month: Insomnia, Constipation, Nausea, Exhaustion, Severe Withdrawal with missed dose.",1,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4368,1616.0,221.0,cymbalta.221,2.0,Side effects have relented a bit into the second month.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4369,1617.0,221.0,cymbalta.221,3.0,"This drug is horrible at first, but you HAVE to stick with it.",0,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4370,1618.0,221.0,cymbalta.221,4.0,I know it's hard.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4371,1619.0,221.0,cymbalta.221,5.0,You CANNOT miss a dose or you will be sicker than you've ever been in withdrawal.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4372,1620.0,221.0,cymbalta.221,6.0,I can't even begin to describe how awful it is.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4373,1621.0,221.0,cymbalta.221,7.0,"Constipation was really bad in first month, now it comes and goes.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4374,1622.0,221.0,cymbalta.221,8.0,"I've increased my fiber through my diet -lots of fresh fruit and veggies, that seems to help.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4375,1623.0,221.0,cymbalta.221,9.0,"Nausea is pretty much gone, and my sleep pattern seems to be normalizing now.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4376,1624.0,221.0,cymbalta.221,10.0,"For the first few weeks I was on it I had intense dreams, some of them unpleasant.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4377,1625.0,221.0,cymbalta.221,11.0,"If I was able to finally get to sleep, the sleep was not good.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4378,1626.0,221.0,cymbalta.221,12.0,That has also subsided.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4379,1627.0,221.0,cymbalta.221,13.0,This drug has saved my life.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4380,1628.0,221.0,cymbalta.221,14.0,After 2 months I am feeling mentally normal again.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4381,1629.0,221.0,cymbalta.221,15.0,I am slowly getting my life back from severe depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4382,1630.0,221.0,cymbalta.221,16.0,"This is a hard drug to stick with, I was REALLY sick at first.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4383,1631.0,221.0,cymbalta.221,17.0,It really does get better.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4384,1632.0,221.0,cymbalta.221,18.0,Just DON'T miss a dose.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4385,1633.0,221.0,cymbalta.221,19.0,24 hours after missing a dose the withdrawal is really intense and you are really sick until about 3 hours after you take a dose.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4386,1634.0,221.0,cymbalta.221,20.0,"I've suffered with PMDD for years, and I always know when I am about to start when the PMDD starts up.",0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4387,1635.0,221.0,cymbalta.221,21.0,"I can get so depressed right before my period that I would be downright suicidal, cry uncontrollably, have passive aggressive tendencies, and that is gone.",0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4388,1636.0,221.0,cymbalta.221,22.0,This month I did not even know I was about to start!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4389,1637.0,221.0,cymbalta.221,23.0,"I don't know how I will ever get off this drug when the time comes, because of the withdrawals.",0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4390,1638.0,221.0,cymbalta.221,24.0,"For now it has drastically changed my life for the better, so I will just have to cross that bridge when I get there.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4391,1639.0,222.0,cymbalta.222,1.0,"First week - Nausea, dizziness, no appetite.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4392,1640.0,222.0,cymbalta.222,2.0,First month - sleeplessness.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4393,1641.0,222.0,cymbalta.222,3.0,"After that, just teeth grinding.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4394,1642.0,222.0,cymbalta.222,4.0,I take a low dose of klonapin for that.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4395,1643.0,222.0,cymbalta.222,5.0,"Sexually, I'm stronger then ever.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4396,1644.0,222.0,cymbalta.222,6.0,I know there are a lot of nay sayers out there.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4397,1645.0,222.0,cymbalta.222,7.0,I work with my doctor and trust him very much.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4398,1646.0,222.0,cymbalta.222,8.0,"I've suffered from GAD for quite a long time, and this drug works wonders.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4399,1647.0,222.0,cymbalta.222,9.0,Things that I would obsess over before no longer are a concern.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4400,1648.0,222.0,cymbalta.222,10.0,"The only issues I have, not really side effects, is that its a little harder to get out of bed in the morning, and some constipation.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4401,1649.0,222.0,cymbalta.222,11.0,"They are not side effects that ruin my life or change it in anyway, so I didn't mention them.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4402,1650.0,223.0,cymbalta.223,1.0,For the first two weeks I was very nauseous.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4403,1651.0,223.0,cymbalta.223,2.0,After the two weeks the neuropathy pain subsided and had a loss of appetite which was a good thing for me.,1,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4404,1652.0,223.0,cymbalta.223,3.0,I continue to lose weight right now I have lost thirty pounds in about 8 months.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4405,1653.0,223.0,cymbalta.223,4.0,My mood is better I now get excited about things that are good.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4406,1654.0,223.0,cymbalta.223,5.0,"I do have sleeplessness but, I am willing to deal with that in exchange for the pain, weightlose and the feeling of happiness.",1,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4407,1655.0,223.0,cymbalta.223,6.0,In the past I have taken zoloft which I could not tell that it helped with the depression.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4408,1656.0,223.0,cymbalta.223,7.0,My Doctor which me to cymbalta because of the neuropathy pain I was having.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4409,1657.0,223.0,cymbalta.223,8.0,I feel this drug has been a great help to me.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4410,1658.0,224.0,cymbalta.224,1.0,"Delayed ejaculation, vivid dreams.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4411,1659.0,224.0,cymbalta.224,2.0,I currently take 40 mg of Cymbalta a day.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4412,1660.0,224.0,cymbalta.224,3.0,It has GREATLY reduced my level of anxiety and depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4413,1661.0,224.0,cymbalta.224,4.0,"At first I had some minor sexual side effects (no problems with erection, but I did have delayed ejaculation), but those side effects disappeared after a few months.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4414,1662.0,224.0,cymbalta.224,5.0,The only side effect that I have now is extremely realistic/vivid dreams.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4415,1663.0,224.0,cymbalta.224,6.0,"The best comparison I can make about the dreams, is if a ""normal"" dream is like watching a dvd on a 13 inch screen, then a dream on Cymbalta is like going to see an IMAX movie The dreams aren't bad though.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4416,1664.0,224.0,cymbalta.224,7.0,just more interesting.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4417,1665.0,224.0,cymbalta.224,8.0,"Plus, I'm better able to remember my dreams after I wake up.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4418,1666.0,225.0,cymbalta.225,1.0,Hot flashes and restless sleep for the first 4 weeks.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4419,1667.0,225.0,cymbalta.225,2.0,"Decreased appetite (which is a plus to me), increased libido.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4420,1668.0,225.0,cymbalta.225,3.0,"I have had positive comments from family and co-workers about my overall improvement in attitude, patience, moods etc",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4421,1669.0,226.0,cymbalta.226,1.0, I feel the best I have felt in years.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4422,1670.0,226.0,cymbalta.226,2.0,I have been on anti-depressants since 1986)  I have been on this since Jan of this year and to my knowledge have no side effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4423,1671.0,226.0,cymbalta.226,3.0,"I think more clearly, sleep well, and am more alert and generally am accomplishing more than I have in several years.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4424,1672.0,227.0,cymbalta.227,1.0,"Moderate to severe dry mouth and dry eyes, occasional constipation or gastric symptoms.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4425,1673.0,227.0,cymbalta.227,2.0,No longer to enjoy the occasional glass of wine or champagne (can't tolerate any alcohol since starting Cymbalta) b/c it makes me too drowsy.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4426,1674.0,227.0,cymbalta.227,3.0,"After discussing this drug at great length with my Pdoc, reviewing the research, looking at brain scans etc, we decided this was my best option for managing PTSD symptoms associated with childhood s*xual abuse.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4427,1675.0,227.0,cymbalta.227,4.0,"I'd been on Effexor for 2 years with decent depression management, however it exacerbated my anxiety, caused sleeplessness & foggy-headedness.",0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+4428,1676.0,227.0,cymbalta.227,5.0,"Since switching to Cymbalta, my depression & anxiety are very well managed.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4429,1677.0,227.0,cymbalta.227,6.0,I do not feel drugged or cloudy.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4430,1678.0,227.0,cymbalta.227,7.0,I just feel like my self (something I never expected to return fully).,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4431,1679.0,227.0,cymbalta.227,8.0,I'm skeptical of some online reviews of withdrawal & SE's.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4432,1680.0,227.0,cymbalta.227,9.0,The research done for med is better than most by far!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4433,1681.0,227.0,cymbalta.227,10.0,Talk to your doc.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4434,1682.0,227.0,cymbalta.227,11.0,"In my experience, missing a dose has not caused any major issues other than headache or dizziness.",0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4435,1683.0,227.0,cymbalta.227,12.0,I take 60 mg per day.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4436,1684.0,227.0,cymbalta.227,13.0,My main SE is fairly intense dry mouth & dry eyes.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4437,1685.0,227.0,cymbalta.227,14.0,I don't like it.,0,0.0,0,1,0.0,0,0.0,0,5.0,snri
+4438,1686.0,227.0,cymbalta.227,15.0,"But overall, I'm so happy with Cymbalta, that I simply treat those SE's and deal with it.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4439,1687.0,227.0,cymbalta.227,16.0,Every so often I get a bout of consti,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4440,1688.0,228.0,cymbalta.228,1.0,"nausea and fatigue the first week at 30mg, but went away during next week of 60mg Nervous energy.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4441,1689.0,228.0,cymbalta.228,2.0,Worked great on depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4442,1690.0,228.0,cymbalta.228,3.0,Waiting for it to kick in fully for anxiety.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4443,1691.0,229.0,cymbalta.229,1.0,slight weight gain.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4444,1692.0,229.0,cymbalta.229,2.0,Cymbalta is great.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4445,1693.0,229.0,cymbalta.229,3.0,"My anxiety levels are down,I'm calm,mental clutter is gone,sleeping better.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4446,1694.0,229.0,cymbalta.229,4.0,Muscle pain from fibromalgia is reduced.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4447,1695.0,229.0,cymbalta.229,5.0,Depression is gone.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4448,1696.0,229.0,cymbalta.229,6.0,My out look on life is 100% better.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4449,1697.0,229.0,cymbalta.229,7.0,Positive attitude.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4450,1698.0,229.0,cymbalta.229,8.0,I'm very grateful my doctor put me on Cymbalta.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4451,1699.0,230.0,cymbalta.230,1.0,"mild nausea and stomach upset, mild headache.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4452,1700.0,230.0,cymbalta.230,2.0,"I have suffered severe pain, numbness and tingling in my left arm, severe pain in my left leg for more than 5 years.",0,0.0,0,0,0.0,0,1.0,0,5.0,snri
+4453,1701.0,230.0,cymbalta.230,3.0,Nothing else has ever relieved it.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4454,1702.0,230.0,cymbalta.230,4.0,"After 2 weeks on this drug, the pain is gone.",0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+4455,1703.0,230.0,cymbalta.230,5.0,I am also free of anxiety and my depression is lifting.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4456,1704.0,230.0,cymbalta.230,6.0,I'm like a new person.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4457,1705.0,230.0,cymbalta.230,7.0,Thank God for Cymbalta!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4458,1706.0,231.0,cymbalta.231,1.0,can't be sure since I am on many RX's but I think weight gain other than that nothing.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4459,1707.0,231.0,cymbalta.231,2.0,Saved both myself and my daughter from deep depression pretty quickly.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+4460,1.0,1.0,EffexorXR.1,1.0,Total nightmare.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4461,2.0,1.0,EffexorXR.1,2.0,This was arguably the worst period of time in my life.,0,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4462,3.0,1.0,EffexorXR.1,3.0,It made me so mentally ill I almost ended up in a psych ward.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4463,4.0,1.0,EffexorXR.1,4.0,Stay away from this if you can!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4464,5.0,1.0,EffexorXR.1,5.0,I lost weight considerably and shook all the time.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4465,6.0,1.0,EffexorXR.1,6.0,"I had terrible anxiety the whole time, the worst kind of anxiety I've ever experienced.",1,0.0,0,1,1.0,0,0.0,0,1.0,snri
+4466,7.0,1.0,EffexorXR.1,7.0,Also tardive diskenesia was becoming very prevalent.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4467,8.0,1.0,EffexorXR.1,8.0,Tobacco cravings were rampant.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4468,9.0,1.0,EffexorXR.1,9.0,"I never felt at ease or comfortable, I was constantly on edge and wanted to cry.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4469,10.0,1.0,EffexorXR.1,10.0,"Please be careful if you are taking this, o",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4470,11.0,2.0,EffexorXR.2,1.0,"Sleepy, constipated, unable to orgasm, felt ""out of body"" most of the time.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4471,12.0,2.0,EffexorXR.2,2.0,"Some improvement in mood but not worth it, at all.",0,0.0,1,0,0.0,0,0.0,0,1.0,snri
+4472,13.0,2.0,EffexorXR.2,3.0,Withdrawal is difficult and unpleasant.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4473,14.0,2.0,EffexorXR.2,4.0,Would not recommend this drug to anyone.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4474,15.0,3.0,EffexorXR.3,1.0,"Extreme irritability, weight gain and sleepless are just a few side effects of this horrible drug.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4475,16.0,3.0,EffexorXR.3,2.0,Sure it helps depression because it makes you not give a rats ass about anything!,1,0.0,1,0,1.0,1,0.0,0,1.0,snri
+4476,17.0,3.0,EffexorXR.3,3.0,"I was on 225 mg and have weaned down to 37,5.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4477,18.0,3.0,EffexorXR.3,4.0,The only way I can sum it up is to say I wish I could be put to sleep for a month or so while this gets out of my system.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4478,19.0,3.0,EffexorXR.3,5.0,Horrible Horrible Horrible,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4479,20.0,4.0,EffexorXR.4,1.0,I tried to kill myself witch mad no sense since I LOVE MY LIFE!,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4480,21.0,4.0,EffexorXR.4,2.0,"The effexor worked great at first and then slowly i started to sleep more and feel more and more depressed, I also started having weird behavior.",1,0.0,1,1,1.0,1,0.0,0,1.0,snri
+4481,22.0,4.0,EffexorXR.4,3.0,"I never tried to hurt myself before this drug, o",1,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4482,23.0,5.0,EffexorXR.5,1.0,"constipation, drastic mood swings, 100% helped my anxiety and panic.",1,0.0,1,0,1.0,1,0.0,0,1.0,snri
+4483,24.0,5.0,EffexorXR.5,2.0,didnt do much for the depression.,0,0.0,0,1,1.0,0,0.0,0,1.0,snri
+4484,25.0,5.0,EffexorXR.5,3.0,This drug is the devil.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4485,26.0,5.0,EffexorXR.5,4.0,Ever try getting off of it?,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4486,27.0,5.0,EffexorXR.5,5.0,You would think you were going through heroin withdrawals.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4487,28.0,5.0,EffexorXR.5,6.0,Im lucky I didnt die b/c I just stopped cold turkey one day and the brain zaps puking and overall feeling you get is like no other.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4488,29.0,5.0,EffexorXR.5,7.0,I will never touch an antidepressant again.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4489,30.0,5.0,EffexorXR.5,8.0,Just to think that I went through all that physical and mental anguish to get off a drug.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4490,31.0,5.0,EffexorXR.5,9.0,it could not be safe to take on a daily basis,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4491,32.0,6.0,EffexorXR.6,1.0,"Apathy, memory loss, blurred vision, insomnia, nightmares, sexul dysfunction, shivers and shakes and the list goes on.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4492,33.0,6.0,EffexorXR.6,2.0,Chronic Discontinuation Syndrome.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4493,34.0,6.0,EffexorXR.6,3.0,I was told to taper from 75mg to 37mg for 1 week and then 37mg to 0 for the next week.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4494,35.0,6.0,EffexorXR.6,4.0,"I had prior knowledge to know that this was way to fast so I took 6 weeks to taper and still suffered terribly, it was worse than my original condition and symptoms, be very careful stopping this drug too quickly or it can be PURE HELL!",0,1.0,0,1,0.0,0,0.0,0,1.0,snri
+4495,36.0,6.0,EffexorXR.6,5.0,The worst AD withdrawals I have ever experienced and I've tried heaps.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4496,37.0,6.0,EffexorXR.6,6.0,"In my opinion just don't go there, it's not worth it.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4497,38.0,7.0,EffexorXR.7,1.0,"sexual side effects, nausea, drowsiness, ""brain zaps"", dizziness, weight gain.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4498,39.0,7.0,EffexorXR.7,2.0,"The drug did what it was supposed to do, but it's the withdrawal symptoms that occur from lessening the dose, or tapering off the medicine.",0,1.0,1,0,0.0,0,0.0,0,1.0,snri
+4499,40.0,7.0,EffexorXR.7,3.0,These adverse effects are horrific and make it very difficult to function for a period of at least 2 weeks.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4500,41.0,7.0,EffexorXR.7,4.0,"While I was taking this drug, I would experience these side effects if I missed ONE dose.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4501,42.0,7.0,EffexorXR.7,5.0,"By the next morning, I would barely be able to get out of bed, had dizziness, brain zaps, nausea, headaches, excessive sweating/urination that often lead to dehydration, etc.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4502,43.0,7.0,EffexorXR.7,6.0,"When I tapered off this medication, over a period of 2 months, these effects were 10x worse and lasted for about a week each time I lowered my dose.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4503,44.0,8.0,EffexorXR.8,1.0,high blood pressure and high pulse.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4504,45.0,8.0,EffexorXR.8,2.0,"Though the literature says these are rare side effects, it happens.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4505,46.0,8.0,EffexorXR.8,3.0,"Before starting Effexor, my BP was 120/80, pulse 75.",0,0.0,0,0,0.0,0,1.0,0,1.0,snri
+4506,47.0,8.0,EffexorXR.8,4.0,"While on 225 mg Effexor, BP averaged 140/80 and pulse ranged from 85 to 105-resting rate!",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4507,48.0,8.0,EffexorXR.8,5.0,Lost 7 lbs the 3 months I was on it; must have sped up my metabolism too.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4508,49.0,8.0,EffexorXR.8,6.0,These numbers only added to my anxiety.,1,0.0,0,1,1.0,0,0.0,0,1.0,snri
+4509,50.0,9.0,EffexorXR.9,1.0,"Restlessness, anxiety, persistent thoughts of death and suicide.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4510,51.0,9.0,EffexorXR.9,2.0,The withdrawal symptoms were unbearable.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4511,52.0,9.0,EffexorXR.9,3.0,This drug should not be given to anyone.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4512,53.0,10.0,EffexorXR.10,1.0,"suicidal/homicidal hopeless thoughts, irrational broke a tooth grinding them incessantly, erratic menstrual periods, intense dreams that I could not tell from reality and could not wake from.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4513,54.0,10.0,EffexorXR.10,2.0,Sleepiness and bouts of sleeplessness extreme lethargy developed diabetes type II high blood pressure and was hospitalized twice when trying to ween off of the drug.,1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4514,55.0,10.0,EffexorXR.10,3.0,"No one ever told me even as I was seeing my psych and psychologists weekly, and my physician, that what I was experiencing could be from the drug.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4515,56.0,10.0,EffexorXR.10,4.0,They just said I was severely mentally ill and needed hospitalized and more and more medication.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4516,57.0,10.0,EffexorXR.10,5.0,At my second involuntary hospitalization I refused all psych meds and miracle of all miracles I FINALLY GOT BETTER.,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4517,58.0,10.0,EffexorXR.10,6.0,5 months drug free and no more hospitalizations ps both my psychiatrist and my psychologist dropped me during my last hospitalization.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4518,59.0,10.0,EffexorXR.10,7.0,"Said I was too severely ill for them to help me, NICE!",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4519,60.0,10.0,EffexorXR.10,8.0,But I've gotten better ever since.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4520,61.0,11.0,EffexorXR.11,1.0,"If I could go back, I would have never taken this drug.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4521,62.0,11.0,EffexorXR.11,2.0,"At first it was okay because I didn't feel as anxious as I usually did, Eventually, I began to have hand shakes and once in a while my body feels out of sync.",1,0.0,1,0,1.0,1,0.0,0,1.0,snri
+4522,63.0,11.0,EffexorXR.11,3.0,"I no have problems with anemia because I am always bleeding,Dr's have not suggested effexor as the culprit, but it is the only medicine I take and it will not go away.",1,0.0,0,0,1.0,1,0.0,0,1.0,snri
+4523,64.0,11.0,EffexorXR.11,4.0,I just keep bleeding and Noone knows why.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4524,65.0,11.0,EffexorXR.11,5.0,After attempting to wean off of this medicine it feels like you are going to die.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4525,66.0,11.0,EffexorXR.11,6.0,It does give you flu like symptoms and they last so long.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4526,67.0,11.0,EffexorXR.11,7.0,The worst part is that I began to gain a lot of weight once I went without medicine for two weeks.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4527,68.0,11.0,EffexorXR.11,8.0,I am the biggest I have ever been.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4528,69.0,11.0,EffexorXR.11,9.0,"I will give the weaning another try, but with my job and kids I am scared to.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4529,70.0,11.0,EffexorXR.11,10.0,I get so irritable and aggressive when I don't take it.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4530,71.0,11.0,EffexorXR.11,11.0,"I need to wait for the perfect timing, o",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4531,72.0,12.0,EffexorXR.12,1.0,"vision problems, the more I took it there would be vibration in my eyes, confusion.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4532,73.0,12.0,EffexorXR.12,2.0,"DO NOT TAKE THIS CRAP IT HAS RUINED MY LIFE,  CANNOT DRIVE.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4533,74.0,12.0,EffexorXR.12,3.0,FEEL NUMB ALL THE TIME.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4534,75.0,12.0,EffexorXR.12,4.0,I NOW TAKE NO MEDICATION EXCEPT FOR SLEEP.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4535,76.0,12.0,EffexorXR.12,5.0,HAD A CAT SCAN AND NOTHING SHOWED UP.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4536,77.0,12.0,EffexorXR.12,6.0,"i USED TO FEEL WORRY, ANXIETY, DEPRESSION, NOW I FEEL NOTHING BUT ANGER TO THE SO CALLED PRO THAT PERSCRIBBED THIS",0,0.0,0,1,1.0,1,0.0,0,1.0,snri
+4537,78.0,13.0,EffexorXR.13,1.0,"tired, thirsty,, wasnt helpful",1,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4538,79.0,14.0,EffexorXR.14,1.0,"Complete loss of sexual function, personality disorder, ""brain freeze"" (Google for more info); others too numerous to mention (and which I'm trying to forget!).",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4539,80.0,14.0,EffexorXR.14,2.0,I began The Drug From The Lower Pits Of Hell on the advice of my female OB/GYN who pushed it as something to help me through menopause difficulties.,0,0.0,0,0,1.0,1,0.0,0,1.0,snri
+4540,81.0,14.0,EffexorXR.14,3.0,"When I told her what it did to me, she insisted it could NOT be the drug, insultingly suggesting it was my imagination.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4541,82.0,14.0,EffexorXR.14,4.0,Of course my own research proved her theory patently untrue.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4542,83.0,14.0,EffexorXR.14,5.0,"I fired her and went back to my previous (male) GP, telling him if he didn't get me off this vile stuff I would hurt myself or someone else.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4543,84.0,14.0,EffexorXR.14,6.0,Withdrawal was DANTE'S INFERNO!,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4544,85.0,14.0,EffexorXR.14,7.0,"I suffered a ""shredding"" of my personality; paranoia to the point of being unable to leave the house; panic attacks; sensory acuteness which made normal life impossible for both me and my poor husband.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4545,86.0,14.0,EffexorXR.14,8.0,This went on for 6 months!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4546,87.0,14.0,EffexorXR.14,9.0,Do NOT believe the MDs and pharm corp. hype and lies!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4547,88.0,14.0,EffexorXR.14,10.0,FLEE!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4548,89.0,14.0,EffexorXR.14,11.0,"This stuff is responsible for untold suffering, God's grace alone got me through and back from the edge of suicide and total insanity.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4549,90.0,14.0,EffexorXR.14,12.0,I am E-Free for over 2 years now and just getting my ful,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4550,91.0,15.0,EffexorXR.15,1.0,"Horrible headaches, brain ""swishes"" or ""zapping"" when I was even a few hours late for a dose, constipation, horrible crying spells when going through withdrawal.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4551,92.0,15.0,EffexorXR.15,2.0,"Wanted to kill myself several times while on this drug, when I hadn't been suicidal before.",1,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4552,93.0,15.0,EffexorXR.15,3.0,This drug should really be banned by the FDA.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4553,94.0,15.0,EffexorXR.15,4.0,"HOW TO QUIT THIS DRUG:  Buy an over-the-counter sinus headache medicine for the zaps, and take very high doses of Omega-3s, Also, attempt to take a low dose of a drug such as Zoloft if you are able.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4554,95.0,15.0,EffexorXR.15,5.0,"Going off the drug sucks, but these things made it a lot better.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4555,96.0,16.0,EffexorXR.16,1.0,"The side effects were insomnia, night sweats, dizziness, headaches, palpitations and lower right abdominal pain.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4556,97.0,16.0,EffexorXR.16,2.0,"I am now trying to cut back and on top of all those symptoms I am very itchy, shaky and miserable.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4557,98.0,16.0,EffexorXR.16,3.0,I was prescribed 75 mg three in the morning and three at night for a total of 450 mg.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4558,99.0,16.0,EffexorXR.16,4.0,Recently found out that is above the FDA recommended dosage.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4559,100.0,16.0,EffexorXR.16,5.0,No wonder I suffered so many side effects.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4560,101.0,16.0,EffexorXR.16,6.0,Have not slept the whole time I have been on the medication.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4561,102.0,16.0,EffexorXR.16,7.0,I am trying to cut the dosage down so I can get off the medication.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4562,103.0,16.0,EffexorXR.16,8.0,Make sure you are not prescibed more then you should be taking.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4563,104.0,16.0,EffexorXR.16,9.0,I am suffering and should of not trusted the NP who prescribed the pills without first checking it out.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4564,105.0,17.0,EffexorXR.17,1.0,"Nightmares, Dizziness, Dry Mouth,Suicide thoughts, Hot flushes,Addictive.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4565,106.0,17.0,EffexorXR.17,2.0,I wish i never started taking them,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4566,107.0,18.0,EffexorXR.18,1.0,"weight gain, muscle weakness/soreness, anxiety.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4567,108.0,18.0,EffexorXR.18,2.0,I began the medication to help with my healing process.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4568,109.0,18.0,EffexorXR.18,3.0,I am a cancer survivor.,0,0.0,0,0,0.0,0,1.0,0,1.0,snri
+4569,110.0,18.0,EffexorXR.18,4.0,"During the time, my children had both left for new careers and college, hence ""empty nest syndrome"".",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4570,111.0,18.0,EffexorXR.18,5.0,"Three years later, I wanted wean off the drug with the help of my neurologist.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4571,112.0,18.0,EffexorXR.18,6.0,"To define best per my daughter, it's like getting off crack coccaine!",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4572,113.0,18.0,EffexorXR.18,7.0,I screamed at her when the microwave oven blasted the scrambled egg!,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4573,114.0,18.0,EffexorXR.18,8.0,I don't do that.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4574,115.0,18.0,EffexorXR.18,9.0,I would normally laugh.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4575,116.0,18.0,EffexorXR.18,10.0,"The same day, moments later, I had an anxiety attack.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4576,117.0,18.0,EffexorXR.18,11.0,I literally was out of control.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4577,118.0,18.0,EffexorXR.18,12.0,My daughter did not leave for work until my husband had returned home.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4578,119.0,18.0,EffexorXR.18,13.0,She did not want to leave me alone for fear of me causing myself harm.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4579,120.0,18.0,EffexorXR.18,14.0,I felt suicidal.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4580,121.0,18.0,EffexorXR.18,15.0,"I was shaking, I had tremors, my mind was confused, I had no logic to my scientific mind.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4581,122.0,18.0,EffexorXR.18,16.0,This medication does more harm then good.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4582,123.0,18.0,EffexorXR.18,17.0,DO NOT TAKE THIS MEDICATION!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4583,124.0,19.0,EffexorXR.19,1.0,for the first few weeks it helped me feel better.,0,0.0,1,0,0.0,0,0.0,0,1.0,snri
+4584,125.0,19.0,EffexorXR.19,2.0,then I began to have problems sleeping and started crying easily for no reason.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4585,126.0,19.0,EffexorXR.19,3.0,I had a very hard time coming off the med.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4586,127.0,19.0,EffexorXR.19,4.0,I was only on it for about 5 months.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4587,128.0,19.0,EffexorXR.19,5.0,"I wasn't hungry, but gained a lot of weight.",1,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4588,129.0,19.0,EffexorXR.19,6.0,I know I wasn't as active on the drug as off of it.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4589,130.0,19.0,EffexorXR.19,7.0,I would never consider taking an antidepressant again.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4590,131.0,19.0,EffexorXR.19,8.0,It was a horrible experience.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4591,132.0,19.0,EffexorXR.19,9.0,I was never warned about possible side effects of it either.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4592,133.0,20.0,EffexorXR.20,1.0,"wight gain, water retention, vivd dreams/ nightmares, crying, shaking, brain tremors or shocks, ( iseriously do not know how to adequtly describe it but it is debilitating), leg twitching, arm twitching, blurred vision, eye strain, think things hapened that really din not!, believe dreams to be true the next day, crying, memory loss, confusion, my husband has no compassion to my withdrawal symptoms.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4593,134.0,20.0,EffexorXR.20,2.0,DO NOT TAKE THIS DRUG EVER EVER EVER EVER.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4594,135.0,21.0,EffexorXR.21,1.0,"Erectile disfunction, delayed orgasm, lack of libido.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4595,136.0,21.0,EffexorXR.21,2.0,"Feel disconnected from my emotions, apathetic, no creativity or motivation, can't focus, Extremely tired, loss of appetite, slight twitching, agitated, slight abdominal pain.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4596,137.0,21.0,EffexorXR.21,3.0,"I have never been on any other antidepressant, and my doctor immediately put me on this.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4597,138.0,21.0,EffexorXR.21,4.0,"Let me tell you, _do your research first_.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4598,139.0,21.0,EffexorXR.21,5.0,"I didn't know anything about this kind of drug and dove into taking it as prescribed without a second thought, and I regret it, even after 2 days I'm hating it.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4599,140.0,21.0,EffexorXR.21,6.0,The side effects alone make my previous bouts of depression seem pleasant.,1,0.0,0,1,1.0,0,0.0,0,1.0,snri
+4600,141.0,21.0,EffexorXR.21,7.0,I'd rather have emotions.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4601,142.0,22.0,EffexorXR.22,1.0,"Weight gain, insomnia, heart pains, dizziness, suicidalness, zero sex drive, numbness.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4602,143.0,22.0,EffexorXR.22,2.0,Worst drug i've ever had the misfortune to have prescribed to me.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4603,144.0,22.0,EffexorXR.22,3.0,"Have been on it for over 6 years now, and have been trying to come off it for the last 6 months, and even with cutting back very gradually on the dose for months, it has caused dreadful side effects, feeling dizzy and like i am going to vomit all the time, feel spaced out, feel absolutely dreadful.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4604,145.0,22.0,EffexorXR.22,4.0,"Have had absolutely no sex drive whatsoever, am completely dead from the waist down, feel like it has ruined my sex drive for life, as even now i have not had it for 5 days, i still feel nothing whatsoever.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4605,146.0,22.0,EffexorXR.22,5.0,"This is the worst drug ever, i'm sure i'd be better off if I'd taken cocaine or something, as it has completely ruined my life and made it worse than ever.",0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4606,147.0,22.0,EffexorXR.22,6.0,"Avoid at all costs, even if your quack might want to ruin your life with it.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4607,148.0,23.0,EffexorXR.23,1.0,Effexor was awesome for relieving my depression!,0,0.0,1,0,1.0,1,0.0,0,1.0,snri
+4608,149.0,23.0,EffexorXR.23,2.0,"But then came the ""Weaning Off"" period!",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4609,150.0,23.0,EffexorXR.23,3.0,"OMG,  Cold sweats, vomiting, dizziness, brain zaps (with noise).",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4610,151.0,23.0,EffexorXR.23,4.0,Thank God I was pregnant or I may NEVER have forced myself through to the other side!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4611,152.0,23.0,EffexorXR.23,5.0,"If a person knew how awful the withdrawal was, they would keep searching for other answers to their depression.",0,0.0,0,0,1.0,1,0.0,0,1.0,snri
+4612,153.0,23.0,EffexorXR.23,6.0,"I love the suggestion where a person opened their capsuals & removed a certain number of ""beads"" every day.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4613,154.0,23.0,EffexorXR.23,7.0,I basically did the same thing on a day where I had a big commitment to my kids and knew I couldn't miss it.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4614,155.0,23.0,EffexorXR.23,8.0,I opened the capsual and removed most of the medication.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4615,156.0,23.0,EffexorXR.23,9.0,Put it back together & had relief from my symptoms in a few hours!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4616,157.0,23.0,EffexorXR.23,10.0,"If this drug is still going to be prescribed, a more appropriate taper method needs to be developed!",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4617,158.0,23.0,EffexorXR.23,11.0,Shame on the medical community for putting people through this type of misery!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4618,159.0,24.0,EffexorXR.24,1.0,Took first dose late yesterday morning after a late breakfast.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4619,160.0,24.0,EffexorXR.24,2.0,It knocked me out within 30 min.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4620,161.0,24.0,EffexorXR.24,3.0,& I slept 2 hours.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4621,162.0,24.0,EffexorXR.24,4.0,"After waking up, I had severe nausea & a bad headache,  Off & on that evening I was ""spacey"" and moved very slow, but I knew what was going on,  This morning, I did not hear my alarm go off for work, woke up 1 1/2 later, called boss, told her what was going on & was only late 30 min.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4622,163.0,24.0,EffexorXR.24,5.0,I am typing this slowly & I barely know what's going on.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4623,164.0,24.0,EffexorXR.24,6.0,My boss is checking on me.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4624,165.0,24.0,EffexorXR.24,7.0,"This is one strange, bad drug.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4625,166.0,24.0,EffexorXR.24,8.0,"Needless to day, I won't take another one & I hope it wears off soon, o",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4626,167.0,25.0,EffexorXR.25,1.0,"Grind teeth at night, strange dreams, tired, can not miss a single dose or I feel awful, withdrawn, moody, and have begun to see them in my stool.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4627,168.0,25.0,EffexorXR.25,2.0,"Side effects are way to extreme, E-mail me if you have experianced the same things.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4628,169.0,26.0,EffexorXR.26,1.0,Increased suicidality and suicidal ideation.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4629,170.0,26.0,EffexorXR.26,2.0,Increased memory of dreams (waking during REM cycle) and thus constant tiredness.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4630,171.0,26.0,EffexorXR.26,3.0,Change in personality .,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4631,172.0,26.0,EffexorXR.26,4.0,"increased irritability, increased agressiveness.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4632,173.0,26.0,EffexorXR.26,5.0,Withdrawing from this drug has been a nightmare.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4633,174.0,26.0,EffexorXR.26,6.0,"Forgetting one dose, and I was nautious and disoriented, with numb and tingly skin, brain shivers, crazed appetite (minimal to excessive).",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4634,175.0,26.0,EffexorXR.26,7.0,When it was decided that the side effects were minimal compared to meclobemide (Arima) and sertraline (Zoloft) my dose was upped to 300mg at the highest.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4635,176.0,26.0,EffexorXR.26,8.0,At no point did it do anything to stableise or elevate my mood.,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4636,177.0,26.0,EffexorXR.26,9.0,At no point was I warned that my personality would change and I would loose my social network.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4637,178.0,26.0,EffexorXR.26,10.0,"At no point was I informed that it *was* addictive in humans, despite non-human testing showing otherwise.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4638,179.0,26.0,EffexorXR.26,11.0,"At no point would I have taken this drug if I had known that I would miss vital days  of my final year at school, lose the respect of my employer, and loose my friends as a result of withdrawing from it after a very short period.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4639,180.0,26.0,EffexorXR.26,12.0,"I had never had difficulty withdrawing from other medications previously, and had never found myself addicted to anything, and was suprised to find such a chan",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4640,181.0,27.0,EffexorXR.27,1.0, continued.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4641,182.0,27.0,EffexorXR.27,2.0,Apparently there is a limit!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4642,183.0,27.0,EffexorXR.27,3.0,Guess I went on to long.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4643,184.0,27.0,EffexorXR.27,4.0,I eventually weaned off by opening capsules and pouring about half out.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4644,185.0,27.0,EffexorXR.27,5.0,and reassembling the capsule.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4645,186.0,27.0,EffexorXR.27,6.0,It took me about two months to get to the point where I was taking about 10 granuals every three days.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4646,187.0,27.0,EffexorXR.27,7.0,then I quit altogether.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4647,188.0,27.0,EffexorXR.27,8.0,"People are still having problems with this medication even after being off of it for 8 months or more,  Please don't take this medication.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4648,189.0,27.0,EffexorXR.27,9.0,Getting off this DRUG is a living hell.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4649,190.0,28.0,EffexorXR.28,1.0,under statement of the year SEXUAL PROBLEMS!,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4650,191.0,28.0,EffexorXR.28,2.0,Had a massive marriage breakdown 3 years ago and my illness was untreated until.,0,0.0,0,0,1.0,0,0.0,0,1.0,snri
+4651,192.0,28.0,EffexorXR.28,3.0,I put a car in to a tree and the 2nd one in a telegraph pole.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4652,193.0,28.0,EffexorXR.28,4.0,"2 months ago, started on EFFEXOR XR 75mg depression kept getting worse moved up to 150mg, more stable, dont cry any more.",0,0.0,1,0,1.0,1,0.0,0,1.0,snri
+4653,194.0,28.0,EffexorXR.28,5.0,"If you are a male and dont care about SEX anymore, ever!, then use Effexor XR ,but for me, my libido has always been excellent, even when been depressed.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4654,195.0,28.0,EffexorXR.28,6.0,"Until I used this male killing drug, just so you know, because no one really described it.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4655,196.0,28.0,EffexorXR.28,7.0,"Bipolar depression anxiety 95% erection and 95% orgasm, Heavy drinking night, 75% having an erection and 75% orgasm, Illegal drugs, Speed 85% erection and 10% orgasm, Bipolar depression anxiety 95% erection and 95% orgasm, Effexor XR 65% erection 2% orgasm even when trying for 4 hours plus!",1,0.0,0,0,1.0,0,0.0,0,1.0,snri
+4656,197.0,28.0,EffexorXR.28,8.0,"Sorry i can't even guess the female libido hit's your taking because your mind and bodies, are way more sensitive",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4657,198.0,29.0,EffexorXR.29,1.0,"I felt as if i am in hell, it was so scary that i 'd rather be depressed and anxious.",0,0.0,0,0,1.0,0,0.0,0,1.0,snri
+4658,199.0,29.0,EffexorXR.29,2.0,"I felt like as if i am watching my life from outside, unbearable pressure and headaches in the evening, non stop nausea, no appetite, hot flashes and shivering, clamsy hands, tingling on arms and legs,electric shocks, disorientated,loss of concious memory, nigtmares, fatigue, more depressed than ever,no sex drive,i felt like a zombie in hell.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4659,200.0,29.0,EffexorXR.29,3.0,"When i quit could not eat for days,nausea feeling sick.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4660,201.0,29.0,EffexorXR.29,4.0,"Dont ever take it,it is not worth it, o",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4661,202.0,30.0,EffexorXR.30,1.0,Strange itchy rash on my skin-scared for life now.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4662,203.0,30.0,EffexorXR.30,2.0,"swelling of legs and ankles, eventually entire body, bloating, constipation, loss of ""caring"".",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4663,204.0,30.0,EffexorXR.30,3.0,"no sex drive,  insane sweating, dizzyness, heart palpatations.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4664,205.0,30.0,EffexorXR.30,4.0,These all occurred gradually as the dose was upp'd and when I complained to the dr's (three) they didnt know what to do and at first denied it was the effexor- eventually weaned me down- and all smptoms disappeared.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4665,206.0,30.0,EffexorXR.30,5.0,Cost hundreds of dollars to find out this medicine was CRAP!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4666,207.0,31.0,EffexorXR.31,1.0,"Weight gain, increased appetite.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4667,208.0,31.0,EffexorXR.31,2.0,This pill did absolutely NOTHING at all for me.,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4668,209.0,31.0,EffexorXR.31,3.0,I started on 75 mg then went up to 150 mg over a period of 6 months.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4669,210.0,31.0,EffexorXR.31,4.0,I don't recommend this pill,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4670,211.0,32.0,EffexorXR.32,1.0,"tremors,dizziness,headaches,anger,fits of rage, electrical shocks throughout whole body.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4671,212.0,32.0,EffexorXR.32,2.0,DONT TAKE IT!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4672,213.0,32.0,EffexorXR.32,3.0,"it'll ruin your life,im only 19 and i've been on it for 4 years.",0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4673,214.0,32.0,EffexorXR.32,4.0,im gradually coming off of it now and i never wanna hear about it again.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4674,215.0,33.0,EffexorXR.33,1.0,Horrible drug.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4675,216.0,33.0,EffexorXR.33,2.0,Then side effects made me feel like hell.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4676,217.0,33.0,EffexorXR.33,3.0,"I wish I had never started taking it,  Terrible fatigue, malaise, asthma, lump in lower intestinal wall, sinus problems, muscles bones and joints so sore I cry.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4677,218.0,33.0,EffexorXR.33,4.0,"I feel like right side of my brain is numb, neck hurts horribly, and I'm short winded.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4678,219.0,33.0,EffexorXR.33,5.0,I pray I come out of this.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4679,220.0,33.0,EffexorXR.33,6.0,Hve been off of Effexor three and a half weeks.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4680,221.0,33.0,EffexorXR.33,7.0,"CARE ABOUT YOURSELF, DON'T TAKE IT!",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4681,222.0,34.0,EffexorXR.34,1.0,"I was on a very low dose, so I'm not sure if the fatigue and brain fog was due to the drug or the depression that proceeded it,  HOWEVER, I had experienced TERRIBLE withdrawal when coming off the drug. (These information are findings, just this )",0,1.0,0,0,0.0,0,1.0,0,1.0,snri
+4682,223.0,34.0,EffexorXR.34,2.0,"I was having painful, debilitating brain zaps, several per second, and though they gradually lessened, they lasted for months after I quit taking the drug.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4683,224.0,34.0,EffexorXR.34,3.0,This drug really didn't help either of my problems at all.,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4684,225.0,35.0,EffexorXR.35,1.0,"drowsiness, delirium, constipation, fatigue, weakness, listlessness, insomnia.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4685,226.0,35.0,EffexorXR.35,2.0,withdrawal was awful.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4686,227.0,35.0,EffexorXR.35,3.0,"had brain shocks, psychotic symptoms (heard voices, hypergraphia) cataplexic episodes.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4687,228.0,36.0,EffexorXR.36,1.0,Suicidality increased dramatically in the first three weeks.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4688,229.0,36.0,EffexorXR.36,2.0,"Then additional side effects of ""erratic behaviour"" Suicide was successful.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4689,230.0,36.0,EffexorXR.36,3.0,This drug should not be given to anyone without the doctor notifying family/friends of potential side effects.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4690,231.0,36.0,EffexorXR.36,4.0,Close monitoring of patient during initial phase of taking drug is vital.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4691,232.0,36.0,EffexorXR.36,5.0,Lives are lost on this drug.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4692,233.0,36.0,EffexorXR.36,6.0,Doctors should prescribe this drug with extreme caution.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4693,234.0,36.0,EffexorXR.36,7.0,Successful suicides result.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4694,235.0,37.0,EffexorXR.37,1.0,The withdrawls are devestating.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4695,236.0,37.0,EffexorXR.37,2.0,I can't stop taking this drug!,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4696,237.0,37.0,EffexorXR.37,3.0,"I wish I would have never started taking this horrible, horrible drug.",0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4697,238.0,38.0,EffexorXR.38,1.0,"BIG TIME BRAIN ZAPS, DRY MOUTH ,WEIGHT GAIN ,SUICIDE THOUGHTS , LEG AND ARM TINGLING, HAIR LOSS, CHEST PAINS, GAS, YOU NAME IT I FELT ALMOST ALL SIDE EFFECTS.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4698,239.0,38.0,EffexorXR.38,2.0,TOLD DOCTOR  I WANT OFF THIS.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4699,240.0,38.0,EffexorXR.38,3.0,TOLD ME I NEEDED TO STAY ON BECAUSE MY BODY MUST NEED IT TO FEEL ALL THESE SYMPTONS.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4700,241.0,38.0,EffexorXR.38,4.0,WELL NO WAY THIS IS THE DRUG FROM HELL.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4701,242.0,38.0,EffexorXR.38,5.0,"I AM WEENING MYSELF OFF NOW AND IT IS HELL I HAD TO QUIT MY JOB AND I HOPE TO GET THIS CRAP OUT OF MY SYSTEM, BEWARE!",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4702,243.0,38.0,EffexorXR.38,6.0,HOPE I GET THROUGH IT WITHOUT COMMITTING SUICIDE.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4703,244.0,38.0,EffexorXR.38,7.0,SHOULD BE OFF THE MARKET.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4704,245.0,38.0,EffexorXR.38,8.0,I EVEN ASKED MY DOCTOR IF IT WAS ADDICTIVE AND HE SAID NO.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4705,246.0,38.0,EffexorXR.38,9.0,WELL THATS A BIG FAT LIE!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4706,247.0,38.0,EffexorXR.38,10.0,AND PATIENTS SHOULD BE WARNED OF THE EFFECTS BEFORE GIVING IT TO THEM.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4707,248.0,38.0,EffexorXR.38,11.0,I NEVER WOULD HAVE TAKEN THIS .,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4708,249.0,38.0,EffexorXR.38,12.0,"IT HAS RUINED MY LIFE, BEWARE!",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4709,250.0,39.0,EffexorXR.39,1.0,"suicidal thoughts, constipation, dry mouth, lost of short term memory, etc.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4710,251.0,39.0,EffexorXR.39,2.0,MUST BE BANNED!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4711,252.0,39.0,EffexorXR.39,3.0,BETTER TAKE NATURAL MEDICATIONS,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4712,253.0,40.0,EffexorXR.40,1.0,It made me crazy.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4713,254.0,40.0,EffexorXR.40,2.0,I felt weird on this medicine and wanted to die.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4714,255.0,40.0,EffexorXR.40,3.0,I took an overdose of water pills just to see what would happen to me.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4715,256.0,40.0,EffexorXR.40,4.0,"The pills should be taken off the market, o",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4716,257.0,41.0,EffexorXR.41,1.0,Did not work at all.,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4717,258.0,41.0,EffexorXR.41,2.0,"Caused psychotic episodes, and had horrible withdrawal symptoms.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4718,259.0,41.0,EffexorXR.41,3.0,DO NOT TAKE THIS DRUG!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4719,260.0,42.0,EffexorXR.42,1.0,"sleeplessness, 'fuzzy thinking', lack of concentration, lack of memory, unrational behvaviour, extreme anger/agitation, oh ya, sweats too .",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4720,261.0,42.0,EffexorXR.42,2.0,where do i start?,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4721,262.0,42.0,EffexorXR.42,3.0,this has been a nightmare .,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4722,263.0,42.0,EffexorXR.42,4.0,i wish i had been smart enough to do research on effexor BEFORE i went on it .,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4723,264.0,42.0,EffexorXR.42,5.0,"my mood swings were extreme , yelling, cursing, swearing .",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4724,265.0,42.0,EffexorXR.42,6.0,"calling the people i love the most, the worst names i could .",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4725,266.0,42.0,EffexorXR.42,7.0,throwing things across the room in anger .,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4726,267.0,42.0,EffexorXR.42,8.0,not good at all .,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4727,268.0,42.0,EffexorXR.42,9.0,"the med made me more anxious than before , agitation, sleeplessness .",1,0.0,0,1,1.0,0,0.0,0,1.0,snri
+4728,269.0,42.0,EffexorXR.42,10.0,led to prescriptions for other meds .,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4729,270.0,42.0,EffexorXR.42,11.0,"before i knew it, i was dependent on sleep meds, and was being prescribed tranquilizer type meds too .",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4730,271.0,42.0,EffexorXR.42,12.0,"i suppose if i had not been on the effexor, i would have been clear-headed enough to know not to take anything else, but i couldn't form a coherent thought for the life of me .",1,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4731,272.0,42.0,EffexorXR.42,13.0,"i was off work for the longest time, finally got back to work and tried to wean off the med , that's when it really hit the fan .",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4732,273.0,42.0,EffexorXR.42,14.0,"in my 43 years previous, i had never had any trouble with violence or extreme anger .",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4733,274.0,42.0,EffexorXR.42,15.0,but i made up for it in the last year and half on this med,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4734,275.0,43.0,EffexorXR.43,1.0,"Weight gain ( 20 pounds in 6 months )adverse sexual side effect, loopy when trying to come off of it, threw up many times a week within an hour of taking med.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4735,276.0,43.0,EffexorXR.43,2.0,"not good due to weight gain, when coming off of it you feel OUT OF IT- sometimes I am even scared to drive a car because I feel so off.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4736,277.0,43.0,EffexorXR.43,3.0,I am now on Wellbutrin ( awesome ) but I am still on effexor and have decreased my dose which makes you feel outside of yourself.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4737,278.0,43.0,EffexorXR.43,4.0,I did not take any of the effexor yesterday as I hope to just take Wellbutrin but I am even having trouble typing these comments because I did not have a dose of effexor in the past 24 hours.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4738,279.0,43.0,EffexorXR.43,5.0,Not a good suggestion for depression. ,0,0.0,0,0,1.0,1,0.0,0,1.0,snri
+4739,280.0,44.0,EffexorXR.44,1.0,"tired all the time, no sex drive, unable to reach orgasm, didn't care about a thing, And, if you think the side effects are hell, just wait until you try and go off it,  OMG, the nightmares, the insane DIZZINESS, the brain ""SHOCKS"" .",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4740,281.0,44.0,EffexorXR.44,2.0,I wanted to die.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4741,282.0,44.0,EffexorXR.44,3.0,Took me over a month to get rid of the withdrawal.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4742,283.0,44.0,EffexorXR.44,4.0,I WOULD NEVER TAKE THIS EVIL DRUG AGAIN.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4743,284.0,44.0,EffexorXR.44,5.0,The depression wasn't as bad as the drug !,0,0.0,0,0,1.0,1,0.0,0,1.0,snri
+4744,285.0,45.0,EffexorXR.45,1.0,The drug caused me to have NO sex drive and NO emotions.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4745,286.0,45.0,EffexorXR.45,2.0,"When I should have been crying, I had no desire.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4746,287.0,45.0,EffexorXR.45,3.0,The side effects of coming off this drug are hell.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4747,288.0,45.0,EffexorXR.45,4.0,Obviously I see this is a very addictive drug as far as withdrawl symptoms.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4748,289.0,45.0,EffexorXR.45,5.0,"Even tapering the drug, I have had SEVERE dizzines and SEVERE nausea.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4749,290.0,45.0,EffexorXR.45,6.0,No one can prepare you the side effects when you decide to stop taking it.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4750,291.0,45.0,EffexorXR.45,7.0,The Effexor did work for my depression while taking Lamictal.,0,0.0,1,0,1.0,1,0.0,0,1.0,snri
+4751,292.0,45.0,EffexorXR.45,8.0,"I felt great, but needed to try another anti-depressent to help with my sex drive.",1,0.0,1,0,0.0,0,0.0,0,1.0,snri
+4752,293.0,46.0,EffexorXR.46,1.0,"loss of sex drive and ablity,dont care about anything.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4753,294.0,46.0,EffexorXR.46,2.0,i went from freaking out about every thing to couldn't care less.,1,0.0,0,0,1.0,0,0.0,0,1.0,snri
+4754,295.0,46.0,EffexorXR.46,3.0,i gained some weight but nothin to rave about.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4755,296.0,46.0,EffexorXR.46,4.0,loss of friends and made my relationship with family hard.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4756,297.0,46.0,EffexorXR.46,5.0,THE WITH DRAWS OF THE MED IS SO INTENCE.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4757,298.0,46.0,EffexorXR.46,6.0,I WANT TO ANY ONE TO PLEASE DO NO TAKE THIS VERY ADDICTING MED.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4758,299.0,46.0,EffexorXR.46,7.0,I AM STILL TRYING KICK IT.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4759,300.0,46.0,EffexorXR.46,8.0,I STARTED TO OPEN THE CAPSEL AND EMPTY OUT HALF.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4760,301.0,46.0,EffexorXR.46,9.0,"BUT OH MY GOD , THE HEAD ACHES .SENCEITIVITY TO LIGHT AND MOVEMENT.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4761,302.0,46.0,EffexorXR.46,10.0,I MOVE TO FAST AND I WANT TO HUREL.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4762,303.0,46.0,EffexorXR.46,11.0,PLEASE I MEAN PLEASE BEWARE OF THIS MED.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4763,304.0,47.0,EffexorXR.47,1.0,While on the medication I would experience painful shocks through out my body when I would miss a dose even by an hour.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4764,305.0,47.0,EffexorXR.47,2.0,"These shocks radiated from my forehead, to my teeth, and then the rest of the way down my body.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4765,306.0,47.0,EffexorXR.47,3.0,They were so bad I would involuntarily turn my head.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4766,307.0,47.0,EffexorXR.47,4.0,My depression never got better while on this.,0,0.0,0,1,1.0,0,0.0,0,1.0,snri
+4767,308.0,47.0,EffexorXR.47,5.0,I experienced weight gain and loss of sex drive.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4768,309.0,47.0,EffexorXR.47,6.0,When I finally went to the doctor and demanded to be taken off of Effexor she started to slowly decrease the dose.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4769,310.0,47.0,EffexorXR.47,7.0,Even cutting the dose in half caused me to have SEVERE shocks all day long.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4770,311.0,47.0,EffexorXR.47,8.0,When I went down to taking none the withdrawl effects were so bad.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4771,312.0,47.0,EffexorXR.47,9.0,During the first week I could not be around my 4 year old son because of extreme anger!,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4772,313.0,47.0,EffexorXR.47,10.0,For the first two weeks I could not drive and could barely leave my bed.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4773,314.0,47.0,EffexorXR.47,11.0,I constantly felt like the room was spinning.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4774,315.0,47.0,EffexorXR.47,12.0,After about six weeks the withdrawl effects decreased.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4775,316.0,47.0,EffexorXR.47,13.0,I have been off of Effexor for about nine months and I still experience withdrawl effects atleast once a week.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4776,317.0,47.0,EffexorXR.47,14.0,I swear these shock effects never go away!,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4777,318.0,47.0,EffexorXR.47,15.0,I would never recommend this medication to anyone.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4778,319.0,47.0,EffexorXR.47,16.0,It nearly ruined my life.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4779,320.0,47.0,EffexorXR.47,17.0,Please use serious caution with this medication.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4780,321.0,47.0,EffexorXR.47,18.0,"Feel free to email me, I have been through it all with Effexor.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4781,322.0,47.0,EffexorXR.47,19.0,"(Also, I am now on Elavil and it has helped me more than anything my doctor's have ever tried.)",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4782,323.0,48.0,EffexorXR.48,1.0,"Only fatigue and sexual side effects while taking it, during withdrawal I have shortness of breath, dizziness, light headedness, brain zaps, bouts of nausia, sweating, very strange dreams, some nightmares, mood swings, and lots of drowsiness.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4783,324.0,48.0,EffexorXR.48,2.0,"I know this drug has helped some people, but I only hope you know about the withdrawal before you go on it.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4784,325.0,48.0,EffexorXR.48,3.0,I trusted my doctor of 13 years and just started taking it on her recommendation.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4785,326.0,48.0,EffexorXR.48,4.0,I was only mildly depressed and had I known then what I know now about the withdrawals I never would have taken this.,0,1.0,0,0,1.0,1,0.0,0,1.0,snri
+4786,327.0,48.0,EffexorXR.48,5.0,"I have missed so much work because I can't even drive most days, let alone function in an office.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4787,328.0,48.0,EffexorXR.48,6.0,"I went from 75mg to 37.5 mg for a week, then 37.5mg every other day for 2 weeks .",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4788,329.0,48.0,EffexorXR.48,7.0,what a roller coaster that was .,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4789,330.0,48.0,EffexorXR.48,8.0,"good day, bad day, good day, etc.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4790,331.0,48.0,EffexorXR.48,9.0,I have been completely off for 3 days and have had NO improvement in my withdrawal symptoms.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4791,332.0,48.0,EffexorXR.48,10.0,I am so miserable at this stage that I'm worse off than when I started taking this by far.,0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4792,333.0,48.0,EffexorXR.48,11.0,I wish you all the best.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4793,334.0,49.0,EffexorXR.49,1.0,WORST WITHDRAWAL EVER.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4794,335.0,49.0,EffexorXR.49,2.0,"I've been on anti-depressants for at least 5years, and I've tried multiple ones but by far effexor was the worst.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4795,336.0,49.0,EffexorXR.49,3.0,Yea it helped during the time I took it.,0,0.0,1,0,0.0,0,0.0,0,1.0,snri
+4796,337.0,49.0,EffexorXR.49,4.0,"But if I missed a dose I got those ""brain zaps"", and I just felt in a fog not myself at all.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4797,338.0,49.0,EffexorXR.49,5.0,But when I came off it was the WORST experience I felt like I was in withdrawal from a hardcore drug.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4798,339.0,49.0,EffexorXR.49,6.0,"Brain zaps constantly, the shakes, sweating, nightmares, anxiety, muscle spasms, and crying spells, Don't take effexor its not worth the risk of a horrible withdrawal.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4799,340.0,49.0,EffexorXR.49,7.0,"It has a half life of 5hours, that's why you feel so crummy after missing one dose.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4800,341.0,49.0,EffexorXR.49,8.0,awful awful medication.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4801,342.0,50.0,EffexorXR.50,1.0,"Suicidal thoughts and attempts, Dreadful withdrawal-nearly ruined my life and continues to be a huge problem.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4802,343.0,50.0,EffexorXR.50,2.0,"I cannot get off this drug but i cannot stay on it either, Pure poison!",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4803,344.0,51.0,EffexorXR.51,1.0,"extreme fatigue, lack of motivation, wanting to sleep/rest all the time, sweating, hot flashes, weight gain, headaches, short term memory lapses electric shock/brain zap feelings with even 1 missed dose.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4804,345.0,51.0,EffexorXR.51,2.0,"If I could go back, there's no way I'd let a doctor push me into taking this drug.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4805,346.0,51.0,EffexorXR.51,3.0,I took zoloft for years with no problems.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4806,347.0,51.0,EffexorXR.51,4.0,"Then after two stillbirths, I let my doctor push me into switching to effexor.",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4807,348.0,51.0,EffexorXR.51,5.0,The side effects have been terrible.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri

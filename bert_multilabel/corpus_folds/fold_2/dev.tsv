@@ -1,0 +1,482 @@
+,id,comment_id,drug_id,sentence_index,sentences,ADR,WD,EF,INF,SSI,DI,Findings,others,rating,category
+1448,1449.0,212.0,lexapro.212,2.0,"I have a feeling of wellness and contentment; no anxiety attacks, no weight gain, no night sweats - i just feel like my old self - optimistic and upbeat.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+4134,1382.0,186.0,cymbalta.186,2.0,Cymbalta has changed my life.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+794,795.0,120.0,lexapro.120,2.0,I'm also on Xanax (have been for many years).,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+1029,1030.0,154.0,lexapro.154,6.0,I was actually able to overcome a long-standing fear of flying.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+8,9.0,1.0,lexapro.1,9.0,I just really want to be done with this.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1747,256.0,48.0,zoloft.48,5.0,I am more tolerating and less judgemental.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+1846,355.0,62.0,zoloft.62,8.0,I am still dizzy but a little better I also find that I will sometimes zone out.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+254,255.0,41.0,lexapro.41,9.0,"After 3 months on Lexapro and therapy, I will be switching to something else .",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+4677,218.0,33.0,EffexorXR.33,4.0,"I feel like right side of my brain is numb, neck hurts horribly, and I'm short winded.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+5304,845.0,134.0,effexorXR.134,1.0,loss of appetite.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+1983,492.0,89.0,zoloft.89,3.0,I think due to the fact the zoloft has numbed any feeling of guilt of what I'm eating.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5863,1404.0,212.0,effexorXR.212,5.0,hopefully it will not last.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+1586,95.0,16.0,zoloft.16,2.0,depression got a lot worse after just being on it for just 3 days .,0,0.0,0,1,1.0,0,0.0,0,1.0,ssri
+2067,576.0,104.0,zoloft.104,9.0,I recommend it.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+828,829.0,123.0,lexapro.123,3.0,"life saver for ""intrusive thoughts"" brought on by anxiety",0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+297,298.0,45.0,lexapro.45,5.0,Never again.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+3776,1024.0,137.0,cymbalta.137,4.0,"I've gone years and years being depressed, sometimes severe sometimes moderately.",0,0.0,0,0,1.0,0,0.0,0,4.0,snri
+1813,322.0,58.0,zoloft.58,4.0,"It did, however, fix the seratonin related imbalance, such as excessive crying and worrying.",0,0.0,1,0,1.0,1,0.0,0,2.0,ssri
+3724,972.0,129.0,cymbalta.129,3.0,I had barely slept and had lost over 6 pounds within the first week because just the thought of food would make me sick to my stomach.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+5855,1396.0,211.0,effexorXR.211,2.0,"Effexor was a LIFE saver, literally.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+3861,1109.0,147.0,cymbalta.147,8.0,"After one week on 30mg, my MD increased my dosage to 60mg This did not help me!",0,0.0,0,1,0.0,0,0.0,0,4.0,snri
+4032,1280.0,171.0,cymbalta.171,17.0,In the mean time take advantage of the progress that have been made.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+2164,673.0,117.0,zoloft.117,9.0,"i suffer from upset stomach, headache (always over my lft eye) terrible highs and lows and hot flashes.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+227,228.0,36.0,lexapro.36,3.0,"Near the end of the two weeks I could feel my frustration as a sort of dull, heavy ache in my stomach, but I couldn't do anything about it because I was basically numb, a nonsexual being.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+5365,906.0,141.0,effexorXR.141,5.0,I take another medication to help me sleep.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+5828,1369.0,206.0,effexorXR.206,4.0,I think this is the best medicine I've ever taken.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4702,243.0,38.0,EffexorXR.38,6.0,HOPE I GET THROUGH IT WITHOUT COMMITTING SUICIDE.,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4543,84.0,14.0,EffexorXR.14,6.0,Withdrawal was DANTE'S INFERNO!,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+5019,560.0,91.0,effexorXR.91,3.0,"It definitely alleviated my suicidal thoughts and after 2 months, I felt I was in a grey area rather than deep black.",0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+1553,62.0,10.0,zoloft.10,19.0,This stuff is very scary.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+2098,607.0,110.0,zoloft.110,1.0,"very low libido, no sex drive, intensified affects of alcohol tremendously, it relieved crying episodes, it helped me get my life back as far as enjoying things. ",1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+5207,748.0,117.0,effexorXR.117,9.0,"Better than wanting to OD, I suppose.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+4760,301.0,46.0,EffexorXR.46,9.0,"BUT OH MY GOD , THE HEAD ACHES .SENCEITIVITY TO LIGHT AND MOVEMENT.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4400,1648.0,222.0,cymbalta.222,10.0,"The only issues I have, not really side effects, is that its a little harder to get out of bed in the morning, and some constipation.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+2337,846.0,146.0,zoloft.146,1.0,"jittery, can't sleep, no sex drive.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+1391,1392.0,205.0,lexapro.205,4.0,My only complaints thus far are my lack of sex drive and my mood can be a little flat at times.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+23,24.0,3.0,lexapro.3,2.0,Be careful with this medication.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+2142,651.0,116.0,zoloft.116,2.0,I'm a nurse who works on nightshift.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+633,634.0,98.0,lexapro.98,4.0,I have never been on any type of AD before and feel that the doctor will give this pill to anyone who is feeling a little sad.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+3667,915.0,120.0,cymbalta.120,12.0,So mostly the weight issue is a big deal.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+33,34.0,4.0,lexapro.4,2.0,"First 10 days were HORRIBLE, like a looong panic attack with anxiety/nausea.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+4146,1394.0,188.0,cymbalta.188,5.0,"My sexual performance has improved greatly, as has my concentration and even driving skills!",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+5687,1228.0,188.0,effexorXR.188,1.0,very sleepy the first week and the first week of increased dose.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+79,80.0,12.0,lexapro.12,3.0,"When i took lexapro i walked around in a ""zombie"" like state because i would never be happy about anything, but never really sad.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+4951,492.0,77.0,EffexorXR.77,14.0,"I see the light at the end of the tunnel so to speak, Don't take it - it's very nasty and you will regret it.",0,0.0,0,0,0.0,0,0.0,1,2.0,snri
+179,180.0,28.0,lexapro.28,6.0,in addition to stopping caffeine on doctor's orders .,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1392,1393.0,205.0,lexapro.205,5.0,I have had a hard time falling asleep on this drug.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+3907,1155.0,155.0,cymbalta.155,3.0,"Every now and then I get a whiff of something, but it hasn't stayed.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+4734,275.0,43.0,EffexorXR.43,1.0,"Weight gain ( 20 pounds in 6 months )adverse sexual side effect, loopy when trying to come off of it, threw up many times a week within an hour of taking med.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+3851,1099.0,146.0,cymbalta.146,2.0,"Tried paxil, celexa, buspar, and depakote.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+5351,892.0,140.0,effexorXR.140,9.0,"HOwever, in thinking about when the pain increased, I realized that it coincided with my switch to a higher dose and XR.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+1822,331.0,59.0,zoloft.59,3.0,"Was bedridden that day, Didn't take another tab but still feeling side effects a day later.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+3805,1053.0,139.0,cymbalta.139,18.0,"Give it a fair chance, good luck.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+486,487.0,76.0,lexapro.76,12.0,"I want to go off, but get the ""brain zaps"" really bad, Email me, if you know of something that might help.",0,1.0,0,0,0.0,0,0.0,0,3.0,ssri
+5447,988.0,155.0,effexorXR.155,9.0,at least for now.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+746,747.0,113.0,lexapro.113,4.0,dont stop taking it all at once because you get really dizzy and feel sick and its not fun.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+5935,1476.0,220.0,effexorXR.220,5.0,"I've lost weight, and feel all my emotions, but don't get into negative spirals anymore.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+1869,378.0,69.0,zoloft.69,1.0,"Headaches, mood swings, grinding teeth, feeling low, loss of concentration,anger, suicidal and omicidal thoughts.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5235,776.0,122.0,effexorXR.122,6.0,"There are reports about how people get addicted to it and feel ""brain zaps"" when trying to go off.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+2372,881.0,152.0,zoloft.152,1.0,"Very sleepy, would doze off at work at my desk and during meetings.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+3705,953.0,125.0,cymbalta.125,9.0,I had a friend who also went off Cymbalta and she took Adivan to help with withdrawls and that worked for her.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+5633,1174.0,179.0,effexorXR.179,3.0,"With 300 mg, insomnia.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+683,684.0,104.0,lexapro.104,2.0,"Slowing of cognitive thoughts, constipation(mild).",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5964,1505.0,223.0,effexorXR.223,9.0,The side effects caused by missing a dose are easily managed by taking my missed dose.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+642,643.0,99.0,lexapro.99,9.0,The Lexapro alone actually seemed to increase my desire to just do nothing and want to be left alone.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5987,1528.0,227.0,effexorXR.227,6.0,I have not experienced any sexual side effects.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+1729,238.0,45.0,zoloft.45,2.0,"Bad side effects when weaned off like brain zaps, anxiety.",0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+5752,1293.0,199.0,effexorXR.199,4.0,"Effexor has worked for my depression very well, would not be alive without it.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+6006,1547.0,228.0,effexorXR.228,16.0,"Reading about the withdrawals is a little scarey, but like I said, all people are affected differently by different drugs, so I will cross that bridge if and when I get to it.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4892,433.0,68.0,EffexorXR.68,1.0,"increased sleepiness, intense weight gain.",1,0.0,0,0,0.0,0,0.0,0,2.0,snri
+5232,773.0,122.0,effexorXR.122,3.0,"Also, it used to regulate my sleep cycle to something more normal (like getting tired around 11 or 12).",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+3969,1217.0,164.0,cymbalta.164,5.0,My doctor increased my dosage from 60mg to 120mg She had just went to a seminar on the study of cymbalta.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4574,115.0,18.0,EffexorXR.18,9.0,I would normally laugh.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+5407,948.0,149.0,effexorXR.149,5.0,"I will also get the brain zaps, electrical shocks if I'm just lying in bed.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4344,1592.0,217.0,cymbalta.217,2.0,Does not happen much and is not noticable.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+3641,889.0,118.0,cymbalta.118,1.0,"decreased appetite, fatigue, maybe a little ""foggy"".",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+621,622.0,96.0,lexapro.96,3.0,"No matter what happened, I didnt seem to react.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5488,1029.0,160.0,effexorXR.160,1.0,"At the very beginning of taking Effexor XR (75 mg) I had more energy, sweaty palms, jittery legs, hot flashes.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+994,995.0,150.0,lexapro.150,5.0,"I feel like I finally know what it's like to be normal, and I'm so happy.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+5372,913.0,142.0,effexorXR.142,2.0,I will experience episodes of depression but it's manageable.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+4893,434.0,68.0,EffexorXR.68,2.0,"it helped with my depression and some with my anxiety, but i gained 35 lbs!",1,0.0,1,0,1.0,1,0.0,0,2.0,snri
+5793,1334.0,202.0,effexorXR.202,2.0,"Withdrawl over 12 weeks: diarrehea (slowly settling down), headaches immediately after dose decrease, for a few days (gne now).",0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4452,1700.0,230.0,cymbalta.230,2.0,"I have suffered severe pain, numbness and tingling in my left arm, severe pain in my left leg for more than 5 years.",0,0.0,0,0,0.0,0,1.0,0,5.0,snri
+1550,59.0,10.0,zoloft.10,16.0,I am just now starting to feel better.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+3875,1123.0,149.0,cymbalta.149,1.0,"The primary ""side effect"" for me is a CONSTANT ringing (buzz) in the ears.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+5711,1252.0,191.0,effexorXR.191,6.0,"I still get blue moods, but am able to focus and work through them.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+1786,295.0,53.0,zoloft.53,3.0,the doctor started me at 25mg up to 75mg in two months.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1116,1117.0,167.0,lexapro.167,5.0,What a difference!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+4409,1657.0,223.0,cymbalta.223,8.0,I feel this drug has been a great help to me.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+5011,552.0,89.0,effexorXR.89,1.0,"If I do not take this drug, I become severely, despondent.",0,1.0,0,0,0.0,0,0.0,0,3.0,snri
+3874,1122.0,148.0,cymbalta.148,7.0,feels like my brain is riding a wave every once in a while,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+5303,844.0,133.0,effexorXR.133,9.0,Except for the physical ones,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+5406,947.0,149.0,effexorXR.149,4.0,"It really gave me my life back somewhat, Now I feel I am extremely drowsy at times, hard to stay awake.",1,0.0,1,0,0.0,0,0.0,0,4.0,snri
+65,66.0,7.0,lexapro.7,6.0,"I can't imagine going through the withdrawal again, either, so I think I will run scared from this prescription for a while longer, o",0,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+3738,986.0,131.0,cymbalta.131,9.0,I'm now taking Wellbutrin SR and this seems to be doing the trick for me.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+1321,1322.0,193.0,lexapro.193,8.0,"He started me on 10 mg per day, and I can honestly say that I feel better than I have ever felt in my life.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+387,388.0,62.0,lexapro.62,9.0,Too nauseaus to eat anything but a few crackers or some bread.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+5513,1054.0,163.0,effexorXR.163,6.0,So far so good.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+1732,241.0,46.0,zoloft.46,1.0,"Vastly increased moodiness, extreme levels of excess energy, minor hallucinations, irritability, reduced sex drive, lasting dissociative symptoms.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+4199,1447.0,195.0,cymbalta.195,2.0,I feel full much sooner when eating than I used to.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+5095,636.0,103.0,effexorXR.103,4.0,"Apart from that, no adverse side-effects.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+199,200.0,31.0,lexapro.31,6.0,"My dentist is aghast, Stress and/or anxiety and teeth grinding can cause bone loss.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+4043,1291.0,173.0,cymbalta.173,2.0,Most of these side effects diminished markedly after 2 weeks.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+478,479.0,76.0,lexapro.76,4.0,I am struggling to learn new things.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5108,649.0,103.0,effexorXR.103,17.0,"I used to take Ativan for anxiety, but that made me absent-minded.",0,0.0,0,0,1.0,0,0.0,0,3.0,snri
+144,145.0,23.0,lexapro.23,1.0,"Reduced cognition, fatigue, addiction.",1,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+4600,141.0,21.0,EffexorXR.21,7.0,I'd rather have emotions.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+5768,1309.0,200.0,effexorXR.200,16.0,"As far as the liver problems, the Dr. told me I had a fatty liver.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5486,1027.0,159.0,effexorXR.159,6.0,"It did work well for my depression, but reading these make me wonder about other things that have been going on - like the pins & needles I attributed to some other mystery.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+718,719.0,109.0,lexapro.109,7.0,"I've also gained about 60 pounds because I became more depressed and freaked out, leading me to just give up on a healthy lifestyle as well as failing an entire semester at my university.",1,0.0,0,1,1.0,0,0.0,0,3.0,ssri
+2100,609.0,111.0,zoloft.111,2.0,It has helped me a lot more than earlier meds.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2154,663.0,116.0,zoloft.116,14.0,"I have not had to take as much lorazepam 0.5mg PRN like before, that is an improvement.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+1174,1175.0,175.0,lexapro.175,12.0,I sure hope this lasts.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+4641,182.0,27.0,EffexorXR.27,2.0,Apparently there is a limit!,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+2354,863.0,149.0,zoloft.149,4.0,I did feel that I needed to slow down and take it easy due a general sense of instability.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+2249,758.0,131.0,zoloft.131,5.0,"I also take flexeril 4 times a day and take 10mg of Ambien nightly to sleep, and a blood pressure pill daily (I am not overweight).",0,0.0,0,0,0.0,0,1.0,0,4.0,ssri
+2316,825.0,142.0,zoloft.142,6.0,"About a week later, however, the withdrawal hit and it was HORRIBLE.",0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+5074,615.0,99.0,effexorXR.99,2.0,"It has helped my depression, but I hate the weight gain, and I have a constant feeling/need to eat.",1,0.0,1,0,1.0,1,0.0,0,3.0,snri
+5873,1414.0,213.0,effexorXR.213,5.0,This time I am having the dizziness again as well as a mild headache so far; nothing I can't handle.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+501,502.0,79.0,lexapro.79,1.0,slight nausea and shakiness and feeling very anxious particularly in the morning.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+4139,1387.0,186.0,cymbalta.186,7.0,I'm so happy with this medicine!,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+1497,6.0,3.0,zoloft.3,1.0,Never experienced a panic attack until AFTER taking only 4 doses (25 mg.) of this medication.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+670,671.0,102.0,lexapro.102,5.0,"On the down side, I feel as if I'm in a fog.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5902,1443.0,216.0,effexorXR.216,2.0,Now after continued therapy and Effexor I look forward to living. ,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+2034,543.0,99.0,zoloft.99,4.0,"No sex=no good, though.And you'll probably scare your partner away anyway after they realize that you've soaked yourself, your pj's, and the sheets through with night sweats.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+4236,1484.0,204.0,cymbalta.204,2.0,I started taking Cymbalta for depression and also pain from interstitial cystitis and vulvodynia.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+3977,1225.0,165.0,cymbalta.165,4.0,"Changed to inexpensive Prozac without and changes noted, except in my pocketbook.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4777,318.0,47.0,EffexorXR.47,15.0,I would never recommend this medication to anyone.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+2211,720.0,125.0,zoloft.125,1.0,"Jittery, clenching/grinding teeth, insomnia, lack of libido.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+5291,832.0,132.0,effexorXR.132,1.0, This medication saved my life during life events that were beyond my control.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+5116,657.0,106.0,effexorXR.106,2.0,"I was diagnosed with ""double depression"".Started on 37.5 mg for about 2 weeks, no change, only very sleepy, missed worked, switched to taking at night, uppped to 75mg for a week or two, helped a little bit, I was at an extremely depressed point in my life before I started and it got me back to my ""regular"" state of derpression.",1,0.0,1,0,1.0,1,0.0,0,3.0,snri
+5553,1094.0,170.0,effexorXR.170,1.0,"intense dreams, loss of sex drive. ",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+1634,143.0,24.0,zoloft.24,3.0,I had to stop taking it.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1330,1331.0,194.0,lexapro.194,4.0,It was a relief.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+5722,1263.0,194.0,effexorXR.194,4.0,I had been on just about every antidepressant out there and none worked.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5219,760.0,120.0,effexorXR.120,2.0,"didnt get rid of my eating disorder, if anything it continued it.",0,0.0,0,1,1.0,0,0.0,0,4.0,snri
+5214,755.0,119.0,effexorXR.119,5.0,I don't ever want to stop taking it.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+1632,141.0,24.0,zoloft.24,1.0,"Excessive sweating, nervousness, sick stomach, zombie-like feeling, tiredness, etc.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+4553,94.0,15.0,EffexorXR.15,4.0,"HOW TO QUIT THIS DRUG:  Buy an over-the-counter sinus headache medicine for the zaps, and take very high doses of Omega-3s, Also, attempt to take a low dose of a drug such as Zoloft if you are able.",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+5072,613.0,98.0,effexorXR.98,2.0,i am worried about trying to cut down gradually as i read so much scary stuff about going off it,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+4110,1358.0,183.0,cymbalta.183,11.0,I was also pregnant in the dream!,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5839,1380.0,208.0,effexorXR.208,1.0,"It tool about 6 weeks to work, Now I'am driving,shopping,back in church it has really worked.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+5294,835.0,132.0,effexorXR.132,4.0,Dropped to 37.5 mg but having trouble coming completely off.,0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+5424,965.0,153.0,effexorXR.153,2.0,"Some mild effects on discontinuation but nothing too severe, although I did come off it slowly over two or three months.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+731,732.0,112.0,lexapro.112,4.0,Lack of sexual desire.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+3923,1171.0,158.0,cymbalta.158,6.0,"If you can deal with the initial side effects, which seem to subside, this drug is worth it.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+132,133.0,21.0,lexapro.21,7.0,This is the most awful feeling!,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+5160,701.0,111.0,effexorXR.111,5.0,"However, I gained 25 pounds on it and this just fueled my depression even more since I was close to being overweight before going on it.",1,0.0,0,1,1.0,0,0.0,0,3.0,snri
+2025,534.0,96.0,zoloft.96,2.0,not sure if this is going to work.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+807,808.0,121.0,lexapro.121,5.0,I had spent approximately 15-16 years taking Prozac.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+5895,1436.0,215.0,effexorXR.215,1.0,"Goofy happiness in the beginning, temporary lowering of sex drive, shakiness.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4788,329.0,48.0,EffexorXR.48,7.0,what a roller coaster that was .,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+468,469.0,73.0,lexapro.73,7.0,probably not a good idea?,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+4355,1603.0,219.0,cymbalta.219,6.0,"Fibro pain greatly reduced, energy up, sleep and dreaming wonderful after many years of not much of either.",0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+1788,297.0,53.0,zoloft.53,5.0,"I would also wake up in the mornings drained out feeling dizzy, making it real hard for me to get ready and go to work.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+5659,1200.0,181.0,effexorXR.181,9.0,I weaned slowly from 150mg to 75 to 37.5 and off.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+2227,736.0,128.0,zoloft.128,8.0,"Now that i just started back on it, i'm experiencing the usual side effects when starting(tiredness, nausea, constipation, flucuations in mood and appetite, sweating).",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+4633,174.0,26.0,EffexorXR.26,6.0,"Forgetting one dose, and I was nautious and disoriented, with numb and tingly skin, brain shivers, crazed appetite (minimal to excessive).",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+416,417.0,68.0,lexapro.68,5.0,muscle and joint pain.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+4942,483.0,77.0,EffexorXR.77,5.0,"Since taking Effexor, my life has been miserable, Can't sleep when I want to, can't stay awake when I want to, lethargic, dizzy, blurred vision, extreme fatigue, extreme increase in appetite.",1,0.0,0,0,0.0,0,0.0,0,2.0,snri
+296,297.0,45.0,lexapro.45,4.0,I would rather be depressed than totally anihilated !,1,0.0,0,0,1.0,0,0.0,0,2.0,ssri
+4639,180.0,26.0,EffexorXR.26,12.0,"I had never had difficulty withdrawing from other medications previously, and had never found myself addicted to anything, and was suprised to find such a chan",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+3807,1055.0,140.0,cymbalta.140,1.0,very tired.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+1362,1363.0,199.0,lexapro.199,1.0,"night sweats, trouble sleeping, heart racing, nervousness, weightloss but all of these gone away after a few weeks.",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+5593,1134.0,175.0,effexorXR.175,7.0,It's just not worth it to me.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+3664,912.0,120.0,cymbalta.120,9.0,"However, I am not willing to be a depressed huge woman either.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+3798,1046.0,139.0,cymbalta.139,11.0,"Get an old dog, not a puppy, an old dog that Needs you, that you can care for and that will love you back.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+5048,589.0,94.0,effexorXR.94,2.0,Now on it for three years and have gained 25 pounds.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+393,394.0,63.0,lexapro.63,2.0,I seem to be very sensitive to the SSRI's .,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+5100,641.0,103.0,effexorXR.103,9.0,And I noticed positive effects from day one.,0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+6005,1546.0,228.0,effexorXR.228,15.0,I'm hoping to be able to stay on the 75 mgs for as long as possible.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5934,1475.0,220.0,effexorXR.220,4.0,I've had a completely positive experience on this drug.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+1702,211.0,40.0,zoloft.40,2.0,I would NEVER take this medication again.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1534,43.0,9.0,zoloft.9,3.0,This is the worst drug on the market!,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+5943,1484.0,221.0,effexorXR.221,7.0,also discontinued hormone replacement therapy.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+1255,1256.0,182.0,lexapro.182,3.0,After a month back to normal (very petite).,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1623,132.0,22.0,zoloft.22,1.0,"Night terrors, Vivid dreams, Nightmares.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+2019,528.0,94.0,zoloft.94,10.0,(which was good),0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+949,950.0,141.0,lexapro.141,18.0,"I began to cut,and attempted suicide several times,I've been self harming since I was a kid.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+157,158.0,25.0,lexapro.25,4.0,She had suggested I add Lexapro to my Remeron to boost the serotonin effects.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1752,261.0,49.0,zoloft.49,3.0,My head was in an unbelievable fog.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+4287,1535.0,211.0,cymbalta.211,5.0,"I realize this will not be the same for everyone, but it has worked very effectivley for me for some years now.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4488,29.0,5.0,EffexorXR.5,7.0,I will never touch an antidepressant again.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+599,600.0,93.0,lexapro.93,8.0,"Be very careful about this drug, but it helped me immensely the first time, Be wary, but don't be completely close-minded either.",0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+373,374.0,61.0,lexapro.61,1.0,"increased anxiety, more panic attacks, uncontrollably bursting into tears.",1,0.0,0,0,1.0,0,0.0,0,2.0,ssri
+1892,401.0,75.0,zoloft.75,1.0,"Lack of sex drive, no orgasms.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+751,752.0,114.0,lexapro.114,5.0,I cut back to 5mg and started taking the medication in the evening.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+1504,13.0,4.0,zoloft.4,3.0,Think menopause is a huge factor in this.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+907,908.0,138.0,lexapro.138,2.0,I found lexapro was the best antidepressant for me.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+1606,115.0,18.0,zoloft.18,1.0,"Weight gain (20lbs), no sexual feelings at all, inability to reach orgasm, terrible night sweats, tremor in hands, headaches, feeling of, At first, I din't realize all of these side effects were related to Zoloft.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+5715,1256.0,193.0,effexorXR.193,1.0,dizziness when standing after bending down.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+999,1000.0,151.0,lexapro.151,2.0,"Aside from that, it's been all good.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+1891,400.0,74.0,zoloft.74,6.0,"Don't like that feeling of not caring about anything, though, good or bad.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+2173,682.0,118.0,zoloft.118,8.0,has worked wonders on me.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+596,597.0,93.0,lexapro.93,5.0,"to the point where school was becoming arduous, Then, when I got worse, they put me back on it, That time, however, was the most horrendous experience of my life.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+842,843.0,127.0,lexapro.127,1.0,0,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+4307,1555.0,214.0,cymbalta.214,4.0,dry mouth in the first week).,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+26,27.0,3.0,lexapro.3,5.0,"I was unable to sleep, had blurred vision, and felt sick to my stomach.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+290,291.0,44.0,lexapro.44,5.0,"One month ago at my doctor's appointment, he said that hair loss is not a side effect and to continue the Lexapro.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+544,545.0,86.0,lexapro.86,1.0,"less libido, tired always, sleep a lot, 15 mg, doesnt do much, little more relaxed about problems, maybee I go up to 17,5 mg or 20 mg and I will give it a try the next 2 months.",1,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+4009,1257.0,169.0,cymbalta.169,11.0,I wish it didn't make me sweat more but it's a side effect I'll live with.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+5602,1143.0,176.0,effexorXR.176,6.0,Thank you Venlafaxine.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5589,1130.0,175.0,effexorXR.175,3.0,I'm on 225mg a day and this drug is the only one that has ever worked for me.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+5862,1403.0,212.0,effexorXR.212,4.0,have noticed a bit of sexual delay.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+471,472.0,75.0,lexapro.75,1.0,"Had dry mouth for a few days, it might have aggravated a stomach problem I already had but I'm not sure.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5153,694.0,110.0,effexorXR.110,3.0,"It's not that I am not depressed anymore, I just don't care.",1,0.0,1,0,1.0,0,0.0,0,3.0,snri
+2259,768.0,132.0,zoloft.132,5.0,Believe me the generic vs the name brand makes a big difference.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+5456,997.0,156.0,effexorXR.156,8.0,"After reading some of these posts I am not looking forward to getting off, which doctor has suggested I do in about 6 weeks.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+705,706.0,107.0,lexapro.107,7.0,"A little concerned that loss of control with appetite will cause weight gain that will depress me, Also, brain fog may be clearing a bit.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+3712,960.0,127.0,cymbalta.127,2.0,"I started on 30mg and went up to 60mg Couldn't tolerate 60mg, it rendered me completely sleepless and with metallic taste in my mouth.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+3647,895.0,119.0,cymbalta.119,1.0,"Short term: dizziness,nausea,confusion, and headaches for about 10 days or so.",1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+881,882.0,133.0,lexapro.133,19.0,I also have noticed that I don't get so upset and rattled by other people's rudeness or nasty comments anymore.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+5425,966.0,153.0,effexorXR.153,3.0,Greatly improved my depression in a month or so after fluoxetine only gave a slight improvement.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+1034,1035.0,155.0,lexapro.155,2.0,Loss in appetite but i think it is going to work hopefully.,1,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+4460,1.0,1.0,EffexorXR.1,1.0,Total nightmare.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+2189,698.0,122.0,zoloft.122,3.0,It's a great medicine once you get past the side effects!,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+465,466.0,73.0,lexapro.73,4.0,Now my Dr. Wants me to try Lexapro.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1419,1420.0,207.0,lexapro.207,16.0,I felt like I was going through heroin withdrawls (not like I know what that is like).,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+4645,186.0,27.0,EffexorXR.27,6.0,It took me about two months to get to the point where I was taking about 10 granuals every three days.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+3682,930.0,122.0,cymbalta.122,2.0,it seems to be uneffective to me.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+1183,1184.0,177.0,lexapro.177,1.0,Weight gain; supressed sex drive; lots of sleeping.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+1610,119.0,19.0,zoloft.19,2.0,IT MADE EVERYTHING WORSE.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+5985,1526.0,227.0,effexorXR.227,4.0,I have been taking 75mg dosage for a year now and it has greatly improved my depression.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+879,880.0,133.0,lexapro.133,17.0,I also notice not worrying so much anymore about things .,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+1971,480.0,86.0,zoloft.86,19.0,I just can't go on indefinitely feeling like I was going to fall over or vomit all day.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5402,943.0,148.0,effexorXR.148,6.0,"But again, I only experience this when I forget to take the effexor.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+248,249.0,41.0,lexapro.41,3.0,Went back to see a therapist.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+5856,1397.0,211.0,effexorXR.211,3.0,"I had attempted suicide (had been on Prozac for 12 years when it quit working, which I found out is not unusual).",0,0.0,0,0,1.0,0,0.0,0,5.0,snri
+5866,1407.0,212.0,effexorXR.212,8.0,yipee.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+5554,1095.0,171.0,effexorXR.171,1.0,Loss sex drive; weight gain; night sweats; nightmares; muscle twitches and jerky when sleeping; ( miss a dose i get depression or panic attack- sometimes withdraw symptoms).,1,1.0,0,0,0.0,0,0.0,0,4.0,snri
+505,506.0,80.0,lexapro.80,1.0,"Diarrhea, inability to orgasm, loss of sexual pleasure, significant weight gain, withdrawal was not pleasant.",1,1.0,0,0,0.0,0,0.0,0,3.0,ssri
+1260,1261.0,182.0,lexapro.182,8.0,"Within a week I felt like my old self but even better, The worries, and the major (and i mean MAJOR deep dark hole depression) I experienced (especially PMS depression) is gone and has stayed gone.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1532,41.0,9.0,zoloft.9,1.0,"Made me have tremors, also made me feel like I wanted to crawl out of my skin.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+4584,125.0,19.0,EffexorXR.19,2.0,then I began to have problems sleeping and started crying easily for no reason.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+915,916.0,139.0,lexapro.139,4.0,"Then I got lazy and wasn't consistent about taking it and whenever I tried to take it again I'd deal with horrible nausea, so I weaned off.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+100,101.0,14.0,lexapro.14,10.0,"Even though I tapered down in 1/4 pill increments, the worst withdrawal symptoms happened to me after I completely stopped, Dizziness, headaches, neck pain as well as muscle stiffness throughout the body are main complaints.",0,1.0,0,0,0.0,0,0.0,0,1.0,ssri
+926,927.0,140.0,lexapro.140,4.0,"The side effects were severe, but diminished as time passed, and have become tolerable within 2-3 months.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+3643,891.0,118.0,cymbalta.118,3.0,"Not feeling much happier, but I know it takes a couple weeks for the drug to kick in completely.",0,0.0,1,0,0.0,0,0.0,0,3.0,snri
+69,70.0,10.0,lexapro.10,1.0,"Took a while to have an effect on mood obviously,but side-effects alarming:sudden migraines which I had had very infrequently before.",1,0.0,1,0,0.0,0,0.0,0,1.0,ssri
+5550,1091.0,169.0,effexorXR.169,2.0,(10 pounds).,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+3916,1164.0,156.0,cymbalta.156,8.0,"Having said that also, it saved my life as I was so bad before taking the drugs all I wanted to do was die to stop the dark depression and pain, so I think I have done well.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+1242,1243.0,180.0,lexapro.180,1.0,takes much longer to climax.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+5915,1456.0,218.0,effexorXR.218,5.0,Since the doctor said I shouldn't expect a difference for 2+ weeks.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+287,288.0,44.0,lexapro.44,2.0,I now have to brush my hair outside by the trashcan and I only wash it twice a week.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+5620,1161.0,178.0,effexorXR.178,1.0,Going on it the side effects only lasted about a week.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+354,355.0,57.0,lexapro.57,4.0,"I'm now in the last stage of withdrawal, and I'm still experiencing the fatigue and dizziness and sexual apathy.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+230,231.0,36.0,lexapro.36,6.0,Just make sure you consider whether or not they are worth it for you.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+4894,435.0,68.0,EffexorXR.68,3.0,never felt satisfied after eating.,1,0.0,0,0,0.0,0,0.0,0,2.0,snri
+5069,610.0,97.0,effexorXR.97,7.0,From what I understand getting off this drug is horrible.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+1564,73.0,12.0,zoloft.12,4.0,I felt very shakey in my hands especially in the afternoons making tying a bow or a knot very difficult.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+4237,1485.0,204.0,cymbalta.204,3.0,"Since I am very sensitive to meds, I started by opening the capsule and pouring most of the pellets out, recapping it, and taking the small amount left.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5924,1465.0,218.0,effexorXR.218,14.0,"The initial side effects are pretty big, but don't avoid this drug on that basis.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+12,13.0,2.0,lexapro.2,1.0,COMPLETELY DESTROYED SEXUALLY FUNCTIONING .,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+2117,626.0,113.0,zoloft.113,1.0,At first I had super dry mouth and wanted to sleep forever.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+315,316.0,50.0,lexapro.50,4.0,"then I lost it, The hospital told my husband I was functioning at 28% consciousness, I wrote all over my body, talked to the walls, cried HARD, and screamed ""dont touch me!""",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+3816,1064.0,141.0,cymbalta.141,1.0,"On 90 mg I had sweating at night so that my clothes are drenched, somtimes multiple times at night.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+2114,623.0,112.0,zoloft.112,7.0,Didn't have depression under control until I added Lithium 300 mg as adjunct.,0,0.0,0,1,1.0,0,0.0,0,4.0,ssri
+4955,496.0,78.0,EffexorXR.78,2.0,"It at least did something, but the amount of side effects speaks for itself.",0,0.0,0,0,0.0,0,0.0,1,2.0,snri
+2045,554.0,100.0,zoloft.100,9.0,I saw my doctor today and am going to switch drugs.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1128,1129.0,168.0,lexapro.168,7.0,My mental health has been awesome.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+567,568.0,89.0,lexapro.89,2.0,Lexapro is a good drug for anxiety.,0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+626,627.0,97.0,lexapro.97,3.0,"I am currently at 2,5)  I tried going up to 3.  and after 3 days felt like I couldn't stop moving, but was hard to focus so I did things like wash my kitchen floor etc.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+657,658.0,101.0,lexapro.101,5.0,I've only had a slight reduction in my ability to concentrate.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5437,978.0,154.0,effexorXR.154,11.0,"Definitely have more energy, but still not enough.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+1726,235.0,44.0,zoloft.44,4.0,should I up the dose or go off it?,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1738,247.0,47.0,zoloft.47,2.0,"Ongoing loss of appetite, insomnia, jittery feeling, increased anxiety and depression.",1,0.0,0,1,1.0,0,0.0,0,2.0,ssri
+350,351.0,56.0,lexapro.56,14.0,"Email me with your suggestions, Please.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+177,178.0,28.0,lexapro.28,4.0,"After a few nights of this (while feeling good during the day), the palpitations and subsequent panic were still there in the morning and continued throughout the day.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+3904,1152.0,154.0,cymbalta.154,3.0,I feel like i did before the depression ever happened.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+5460,1001.0,157.0,effexorXR.157,4.0,"I have to take Adderall XR in combination with the Effexor just to keep me awake during the day because if i don't, i absolutely can't function; I will literally just sleep all the time, to the point where it truly can disrupt my life at times.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+969,970.0,146.0,lexapro.146,1.0,"Loss of libido, Difficulty reaching orgasm, fatigue I feel tired most of the time, yawning, dry mouth,weight gain.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+3927,1175.0,159.0,cymbalta.159,2.0,"The lasting ones: decrease in appetite, change in food cravings - from carbs to sugar - down 2 sizes :) this is a weird one.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4679,220.0,33.0,EffexorXR.33,6.0,Hve been off of Effexor three and a half weeks.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+1052,1053.0,157.0,lexapro.157,9.0,"I must say I absolutly love this side effect, I cant believe its been so marked though I didnt expect it at all!",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+1803,312.0,57.0,zoloft.57,2.0,Quit counting yesterday at 100 by lunch time.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+765,766.0,115.0,lexapro.115,9.0,I felt on fire.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+4929,470.0,74.0,EffexorXR.74,13.0,"Apparently Effexor has the highest percentage of withdrawal effects, higher than Paxil, the effe",0,0.0,0,0,0.0,0,0.0,1,2.0,snri
+5791,1332.0,201.0,effexorXR.201,20.0,"Meth was no problem to quit, Effexor, well, we'll see.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+1703,212.0,40.0,zoloft.40,3.0,Zoloft withdrawal was one of the worst experiences that I ever had in my life!,0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+1832,341.0,61.0,zoloft.61,1.0,"had a very strange reaction to this drug, one which some people also seem to experience.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+4405,1653.0,223.0,cymbalta.223,4.0,My mood is better I now get excited about things that are good.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4620,161.0,24.0,EffexorXR.24,3.0,& I slept 2 hours.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+1808,317.0,57.0,zoloft.57,7.0,The last 4 days I have sleep 8-10 hours and then wanted to lay in bed another 4)  I can't take the side effects and go to work.,1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+5211,752.0,119.0,effexorXR.119,2.0,"There was some initial loss of sexual drive and difficulty achieving orgasm, which I attributed to menopause.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+1432,1433.0,208.0,lexapro.208,6.0,I don't have the night sweats or fits of rage anymore.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1630,139.0,23.0,zoloft.23,5.0,this was the worst three days of my life till I figured out the connection from Googleing it .,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+5361,902.0,141.0,effexorXR.141,1.0,"During the first week I experienced hot flashes, night sweats, insomnia.",1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4594,135.0,21.0,EffexorXR.21,1.0,"Erectile disfunction, delayed orgasm, lack of libido.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+1438,1439.0,210.0,lexapro.210,1.0,I was shaky and could not sleep.,1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+4801,342.0,50.0,EffexorXR.50,1.0,"Suicidal thoughts and attempts, Dreadful withdrawal-nearly ruined my life and continues to be a huge problem.",1,1.0,0,0,0.0,0,0.0,0,1.0,snri
+3771,1019.0,136.0,cymbalta.136,5.0,"I am almost 30 and have tried several other medications which had much worse side effects and no positive effects, such as: paxil and celexa.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+1010,1011.0,152.0,lexapro.152,10.0,"I am sleeping more deeply now, without the intense anxious dreams that I had on the drugs.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+1815,324.0,58.0,zoloft.58,6.0,"This medication caused a horrible dopamine imbalance, which current medicine can, but WILL NOT TREAT.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+1025,1026.0,154.0,lexapro.154,2.0,This drug worked very well for anxiety and mild depression.,0,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+4840,381.0,59.0,EffexorXR.59,3.0,"The doctor knew I was on Steroid inhalers and a smoker when not pregnant, but did nothing when my blood pressure skyrocketed but double my dose.",1,0.0,0,0,0.0,0,1.0,0,1.0,snri
+5413,954.0,150.0,effexorXR.150,4.0,"Right after I started Effexor XR, I noticed a big improvement in this for a couple of weeks; since then, there's some improvement, but it's not as pronounced.",0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+5249,790.0,123.0,effexorXR.123,7.0,"Sounds like horrible withdrawal, as head buzzing suggests immediate pain and mental torture.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+43,44.0,5.0,lexapro.5,4.0,I did experience relief of my depression initially with the 10mg per day dose.,0,0.0,0,1,1.0,1,0.0,0,1.0,ssri
+787,788.0,118.0,lexapro.118,4.0,"I still have down days, and am frequently moody, But, life is better with it than without it.",0,0.0,1,1,1.0,1,0.0,0,4.0,ssri
+1964,473.0,86.0,zoloft.86,12.0,It wasn't until the 3rd week that I started to feel as though I had the flu.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+3894,1142.0,152.0,cymbalta.152,6.0,"I wonder if anyone has figured out how to find the return of the ""fun and ""carefree"" side of themselves?",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4832,373.0,58.0,EffexorXR.58,2.0,"Totally numb, couldn't summon any feelings, even toward my partner.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+4662,203.0,30.0,EffexorXR.30,2.0,"swelling of legs and ankles, eventually entire body, bloating, constipation, loss of ""caring"".",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+1756,265.0,49.0,zoloft.49,7.0,If you can hang in there like other people on this forum than god bless you.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1728,237.0,45.0,zoloft.45,1.0,"Weight gain, hair loss, headaches, insomnia.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+3900,1148.0,153.0,cymbalta.153,2.0,"I must say that i felt the happiest i had ever felt in my life except for the extreme migraines,Due to the frequency of the migraines i discontinued cymbalta ,wish i could go back on it.",1,0.0,1,0,0.0,0,0.0,0,4.0,snri
+812,813.0,121.0,lexapro.121,10.0,It has become difficult to concentrate on anything or to get motivated to do anything.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+733,734.0,112.0,lexapro.112,6.0,Lexapro has certainly lifted my mood and allowed me to think clearly and comfortably.,0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+1578,87.0,14.0,zoloft.14,3.0,"I see Zoloft works for some people, it's scary to think how different we all react to this widely prescribed drug!",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+3772,1020.0,136.0,cymbalta.136,6.0,"The only current side effect I have is the night sweats and I do get ""headshocks"" as I call them, if I forget to take my pill on time.",1,1.0,0,0,0.0,0,0.0,0,3.0,snri
+5708,1249.0,191.0,effexorXR.191,3.0,"It took a LARGE daily dose to work for me, 300mg!",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4477,18.0,3.0,EffexorXR.3,4.0,The only way I can sum it up is to say I wish I could be put to sleep for a month or so while this gets out of my system.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+5204,745.0,117.0,effexorXR.117,6.0,"My current doc agrees that it's one of the hardest meds to come off of, and promises that if we taper, it will be slower than crap.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+4188,1436.0,193.0,cymbalta.193,7.0,"Blood pressure is back to normal, cut down on the inderal to 20 mg a day.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+106,107.0,16.0,lexapro.16,3.0,Felt almost euphoria going off it.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+1694,203.0,39.0,zoloft.39,4.0,"I stoped cold turkey after taking 150 ml 5 days later ended up in the ER for a suicide attempt, next day, paramedics at my house for talking suicidal thoughts, 7th day tried again spent 2 1/2 weeks in phych word.",0,1.0,0,0,0.0,0,0.0,0,2.0,ssri
+2333,842.0,145.0,zoloft.145,3.0,I haven't needed to take a Xanax in a long time.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+1209,1210.0,178.0,lexapro.178,17.0,I started taking this for my Post Partum.,0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+5801,1342.0,204.0,effexorXR.204,1.0,"loss of libido, stabilized weight, periods of heightened aggressiveness, dizziness and vertigo upon missed dose.",1,1.0,0,0,0.0,0,0.0,0,5.0,snri
+1957,466.0,86.0,zoloft.86,5.0,"Also, about a 5 lb.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+2268,777.0,135.0,zoloft.135,4.0,"Plus, in the last year, I experienced anxiety attacks more frequently which slowly created phobias I never had before.",1,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+4124,1372.0,184.0,cymbalta.184,13.0,I also had a pleural effusion and was hospitalized for over a day.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+4672,213.0,32.0,EffexorXR.32,3.0,"it'll ruin your life,im only 19 and i've been on it for 4 years.",0,0.0,0,1,0.0,0,0.0,0,1.0,snri
+4871,412.0,63.0,EffexorXR.63,3.0,"After I quit, I have started losing weight and I have gone into a sexual frenzy!",0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+1877,386.0,71.0,zoloft.71,1.0,No sex drive.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+322,323.0,52.0,lexapro.52,3.0,"I asked my phamacist, & he said it should subside.",0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+414,415.0,68.0,lexapro.68,3.0,brain fog memory loss.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5876,1417.0,213.0,effexorXR.213,8.0,"I was much easier to get along with, didn't blow things out of proportion and had a much more positive attitude about life.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+859,860.0,131.0,lexapro.131,5.0,"I have been on this in the past and gone off of it several times, but I have come to realize that this particular medicine significantly improves my life quality.",0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+5494,1035.0,160.0,effexorXR.160,7.0,I can finally talk to my best friends like I used to and I can't tell you how good that makes me feel!,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4572,113.0,18.0,EffexorXR.18,7.0,I screamed at her when the microwave oven blasted the scrambled egg!,0,1.0,0,0,0.0,0,0.0,0,1.0,snri
+4897,438.0,69.0,EffexorXR.69,1.0,BAD sweating!,1,0.0,0,0,0.0,0,0.0,0,2.0,snri
+3845,1093.0,145.0,cymbalta.145,3.0,For those people who do not understand why anyone would take these drugs with all the side effects YOU HAVE NEVER SUFFERED REAL DEPRESSION.,0,0.0,0,0,1.0,1,0.0,0,4.0,snri
+4693,234.0,36.0,EffexorXR.36,7.0,Successful suicides result.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+5605,1146.0,176.0,effexorXR.176,9.0,"I'd like to think of it as a ""last resort"" type.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+4142,1390.0,188.0,cymbalta.188,1.0,Possibly tiredness/sleepiness (though I've felt that way long before starting Cymbalta).,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+1583,92.0,15.0,zoloft.15,5.0,"-it didn't work for me, but i am bipolar.",0,0.0,0,1,1.0,0,0.0,0,1.0,ssri
+2244,753.0,130.0,zoloft.130,8.0,"So, I may need to try a different SSRI to see if it will help with the anxiety.",0,0.0,0,0,1.0,0,0.0,0,4.0,ssri
+5928,1469.0,219.0,effexorXR.219,2.0,Took med for 5 years and tapered off and was without for 18 months.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5194,735.0,115.0,effexorXR.115,5.0,"I also found that after the initial period of appetite & weight loss, my appetite went back to normal & I have since gained quite a bit of weight.",1,0.0,1,0,0.0,0,0.0,0,3.0,snri
+291,292.0,44.0,lexapro.44,6.0,My research finds that many people suffer this side effect.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1173,1174.0,175.0,lexapro.175,11.0,I have relied on Xanax to calm my panic attacks and now slowly weaning off of it due to the Lexapro!,0,0.0,0,0,1.0,1,0.0,0,5.0,ssri
+2301,810.0,139.0,zoloft.139,14.0,"For the first 3 or 4 months, I noticed a slight decrease in libido, but at this point my sex drive is back in full force plus some.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+5559,1100.0,172.0,effexorXR.172,3.0,I was never clinically diagnosed with depression or anything.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+491,492.0,78.0,lexapro.78,1.0,I'm jittery and feel like I'm going to jump out of my skin after taking my dose.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+3782,1030.0,137.0,cymbalta.137,10.0,I am hoping that my experience with this med continues and that it gets more effective as time goes on.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+135,136.0,21.0,lexapro.21,10.0,Please DO NOT TAKE THIS DRUG!,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+5442,983.0,155.0,effexorXR.155,4.0,"Generally seems to doing a good job with mood, though I'm not impressed with the sleep issues (couldn't sleep.",0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+1479,1480.0,217.0,lexapro.217,8.0,I am now able to live a normal life.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+5541,1082.0,167.0,effexorXR.167,7.0,My doc will add a mood stabilizer when I need one.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+5318,859.0,135.0,effexorXR.135,11.0,I just wish Effexor didn't stuff around with the sex drive.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+1746,255.0,48.0,zoloft.48,4.0,I only take 50mg and life is a lot nicer.,0,0.0,1,0,0.0,0,0.0,0,2.0,ssri
+5668,1209.0,182.0,effexorXR.182,5.0,I have gained about 15 lbs in 6 months.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+29,30.0,3.0,lexapro.3,8.0,Stopped the drug after 2 days and next day was feeling better.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+4583,124.0,19.0,EffexorXR.19,1.0,for the first few weeks it helped me feel better.,0,0.0,1,0,0.0,0,0.0,0,1.0,snri
+1221,1222.0,178.0,lexapro.178,29.0,So my dr has me stepping off.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1417,1418.0,207.0,lexapro.207,14.0,DO NOT DO THIS!,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+4186,1434.0,193.0,cymbalta.193,5.0,"I feel like a different person, feel so much better.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+3653,901.0,119.0,cymbalta.119,7.0,Others taken include Paxil and Lexapro.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+1451,1452.0,213.0,lexapro.213,2.0,"This has saved my life, literally.",0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+2077,586.0,105.0,zoloft.105,10.0,Both my children started laughing at her.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+1270,1271.0,185.0,lexapro.185,3.0,I DID make it to the beach!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+426,427.0,69.0,lexapro.69,2.0,"Then after a few months, more serious effects that I now believe were from the Lexapro started, like all-over itching and severe middle back pain, especially at night and upon waking in AM.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+497,498.0,78.0,lexapro.78,7.0,I feel really strange but am hoping I even out some after being on it for awhile.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+5610,1151.0,177.0,effexorXR.177,3.0,"pupils were hugely enlarged, clenching my jaw alot, suffering alot of dreaming i never use to.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+5223,764.0,121.0,effexorXR.121,4.0,"and if a dose is missed, wow, the dreams and pyschedelic 'views' the mind kicks out when eyes are closed are absolutely incredible, scary, affects you the next day, etc Who needs to go to the movies?",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+1370,1371.0,201.0,lexapro.201,1.0,"First few weeks: fatigue, dry mouth, jaw clenching, night sweats, always feeling too warm, vivid dreams, What's still with me today?",1,0.0,0,0,0.0,0,0.0,0,5.0,ssri
+3665,913.0,120.0,cymbalta.120,10.0,"The drug has helped with the depression, however the side effects are awful.",1,0.0,1,0,1.0,1,0.0,0,3.0,snri
+5671,1212.0,182.0,effexorXR.182,8.0,I did have extreme hair loss and itchiness in the beginning but that could have been due to hormones as well. ,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5446,987.0,155.0,effexorXR.155,8.0,this SNRI seems to be working .,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+1909,418.0,77.0,zoloft.77,3.0,I've been taking Zoloft for a year.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+5444,985.0,155.0,effexorXR.155,6.0,I've also lost about 30lbs 240 down to 210lbs (Not that I complaining on that one).,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+4112,1360.0,184.0,cymbalta.184,1.0,love Cymbalta.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5555,1096.0,171.0,effexorXR.171,2.0,I take Effexor with the combination of YAZ for PMDD and it has worked for the best.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+1126,1127.0,168.0,lexapro.168,5.0,"After listing all of the side effects, it may sound funny to say this, but I have loved Lexapro.",1,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+4284,1532.0,211.0,cymbalta.211,2.0,Was finally prescribed this after many years of depression.,0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+1519,28.0,6.0,zoloft.6,3.0,Also made me extremely angry.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+534,535.0,83.0,lexapro.83,5.0,"I had to go to three pharmacies before I could find one that did not cause serious side effects, Again, please be very careful when changing over to the generic of Lexapro.",0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+252,253.0,41.0,lexapro.41,7.0,"Went to 20mg after some really tough life circumstances, Side-effects were unmanageable!",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+5509,1050.0,163.0,effexorXR.163,2.0,"Withdraw symptoms of drug lasted 3 weeks and included Nausea, jolts of dizziness which included when i moved my eyes from side to side or looked at close things then afar.",0,1.0,0,0,0.0,0,0.0,0,4.0,snri
+5864,1405.0,212.0,effexorXR.212,6.0,i feel calm and well balanced.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+1038,1039.0,156.0,lexapro.156,2.0,I went off for a few days and noticed that I was able to have an orgasm again.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+4107,1355.0,183.0,cymbalta.183,8.0,"Today is Sunday, 11-9-08)  In the past three nights, I have been experiencing insomnia.",1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+61,62.0,7.0,lexapro.7,2.0,"I was given samples today and took one dose before coming to this site, where I learned that insomnia and decreased libido are serious side effects for many people; these are already major, major issues for me, By now, the first feelings of ""tightness"" in my head, dry mouth, and a little bit of jitters have begun.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+240,241.0,39.0,lexapro.39,5.0,"I eat so much less than I used to, and still can't seem to lose the weight I gained while on Lexapro.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+1878,387.0,71.0,zoloft.71,2.0,Vivid dreams/nightmares.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+893,894.0,135.0,lexapro.135,4.0,I kind of like having dreams-i never used to have them/remember them.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+1647,156.0,26.0,zoloft.26,10.0,It's just weird how certain meds work for some people and not others.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+691,692.0,106.0,lexapro.106,2.0,My brain is at a standstill.,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1897,406.0,76.0,zoloft.76,1.0,Today was my 3rd dose of Zolft (50mg).,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1061,1062.0,159.0,lexapro.159,2.0,"This helped me distract my thoughts and focus them on something more logical, like my work.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+1482,1483.0,217.0,lexapro.217,11.0,worked and continues to work like a charm!,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+1181,1182.0,176.0,lexapro.176,6.0,Looking back I didn't realize how far off from normal I had become.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1378,1379.0,201.0,lexapro.201,9.0,"By the way, my counselor says that anxiety can be an inherited trait (my grandmother is on Paxil and my mom NEEDS to be on something).",0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+4461,2.0,1.0,EffexorXR.1,2.0,This was arguably the worst period of time in my life.,0,0.0,0,0,0.0,0,0.0,0,1.0,snri
+70,71.0,10.0,lexapro.10,2.0,Very big increase in blood pressure which I had never experienced before.,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+4374,1622.0,221.0,cymbalta.221,8.0,"I've increased my fiber through my diet -lots of fresh fruit and veggies, that seems to help.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+964,965.0,145.0,lexapro.145,1.0,"grogginess, nausea, dry mouth, frequent urination.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+4395,1643.0,222.0,cymbalta.222,5.0,"Sexually, I'm stronger then ever.",0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+5563,1104.0,172.0,effexorXR.172,7.0,"I also have no health insurance at the moment, and it's pretty expensive, so I decided to quit taking it.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+1407,1408.0,207.0,lexapro.207,4.0,I was so exhausted I couldn't moved.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+561,562.0,88.0,lexapro.88,11.0,This was my first antidepressant and it worked great for a while.,0,0.0,1,0,0.0,0,0.0,0,3.0,ssri
+3642,890.0,118.0,cymbalta.118,2.0,"It's only been four days, but I'm not experiencing anything negative with this drug.",0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+5893,1434.0,214.0,effexorXR.214,9.0,I was in a bad place for about 5 years all up & i never want to go back there.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+47,48.0,5.0,lexapro.5,8.0,The feeling of wellness is gone.,0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+4636,177.0,26.0,EffexorXR.26,9.0,At no point was I warned that my personality would change and I would loose my social network.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+586,587.0,92.0,lexapro.92,4.0,"My anxiety improved slightly for a week, but this week seems to be worse than ever.",0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+4217,1465.0,200.0,cymbalta.200,4.0,Concerned about the colds (3 in 2 month) and severe congestion.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+530,531.0,83.0,lexapro.83,1.0,BEWARE.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+429,430.0,69.0,lexapro.69,5.0,"Lexapro really helps with my anger problem, especially toward my kids and husband.",0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+677,678.0,103.0,lexapro.103,3.0,I have no idea why.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+977,978.0,147.0,lexapro.147,1.0,"Drowsiness, anorgasmia (which may cause me to add or switch to Welbutrin).",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+2086,595.0,108.0,zoloft.108,2.0,The side effects were like living a second version of my personal hell.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+5596,1137.0,175.0,effexorXR.175,10.0,The nightmares are the worst for me.,0,1.0,0,0,0.0,0,0.0,0,5.0,snri
+4886,427.0,66.0,EffexorXR.66,4.0,"Am weaning off, and is going well.",0,0.0,0,0,0.0,0,0.0,1,2.0,snri
+1135,1136.0,169.0,lexapro.169,5.0,"i not fixated on stupid things that dont really matter,just got over battle with kidney cancer, ok now and loving life, people , dont sweat the little things in life that we dont have any control over, your just waisting brain cells.",0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+1592,101.0,17.0,zoloft.17,1.0,HORRID.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+472,473.0,75.0,lexapro.75,2.0,Started feeling the effects after 5 days or so .,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+5720,1261.0,194.0,effexorXR.194,2.0,This occurs almost exclusively when I am over-tired.,1,0.0,0,0,0.0,0,0.0,0,5.0,snri
+756,757.0,114.0,lexapro.114,10.0,"I am not depressed, but I feel that life is without excitement.",1,0.0,1,0,1.0,1,0.0,0,4.0,ssri
+3812,1060.0,140.0,cymbalta.140,6.0,I have been feeling really good.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+4277,1525.0,210.0,cymbalta.210,9.0,"My mood is better, the anxiety is gone.",0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+151,152.0,24.0,lexapro.24,4.0,I also found myself making a bizarre sucking motion with my mouth-possibly from the dryness?,1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+681,682.0,103.0,lexapro.103,7.0,I stopped taking it several months ago but I thought it would be good to share this experience.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+4159,1407.0,190.0,cymbalta.190,8.0,I don't get mad as easily as I did at my kids.,0,0.0,1,0,1.0,1,0.0,0,5.0,snri
+3728,976.0,130.0,cymbalta.130,3.0,Upset stomach and no appetite.,1,0.0,0,0,0.0,0,0.0,0,3.0,snri
+2029,538.0,97.0,zoloft.97,2.0,It didn't alleviate my depression or anxiety,0,0.0,0,1,1.0,0,0.0,0,3.0,ssri
+5041,582.0,93.0,effexorXR.93,12.0,i still have anxiety; no panic attacks.,0,0.0,1,0,1.0,1,0.0,0,3.0,snri
+4296,1544.0,212.0,cymbalta.212,9.0,in the past i have been on several medications and nothing worked as well as cymbalta,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+1049,1050.0,157.0,lexapro.157,6.0,And I can remember every detail of them when i wake up in the morning.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+584,585.0,92.0,lexapro.92,2.0,"I really didn't think that I was depressed, but I think since taking the Lexapro, my mood has lifted.",0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+5717,1258.0,193.0,effexorXR.193,3.0,It took 6 weeks to take full effect.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
+811,812.0,121.0,lexapro.121,9.0,"But after 10 years of taking it, I feel like my brain has become dull and numb.",1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+742,743.0,112.0,lexapro.112,15.0,I'll report again at 6 months.,0,0.0,0,0,0.0,0,0.0,1,4.0,ssri
+4557,98.0,16.0,EffexorXR.16,3.0,I was prescribed 75 mg three in the morning and three at night for a total of 450 mg.,0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+4826,367.0,56.0,EffexorXR.56,5.0,When I get nervous (which is often) my body will literally move in coordination with other people's bodies.,1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+233,234.0,37.0,lexapro.37,3.0,I couldn't get past the side effects- have no idea if it would've worked for me.,1,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+4522,63.0,11.0,EffexorXR.11,3.0,"I no have problems with anemia because I am always bleeding,Dr's have not suggested effexor as the culprit, but it is the only medicine I take and it will not go away.",1,0.0,0,0,1.0,1,0.0,0,1.0,snri
+2329,838.0,144.0,zoloft.144,2.0,Headaches for a couple of days of withdrawal.,0,1.0,0,0,0.0,0,0.0,0,4.0,ssri
+2252,761.0,131.0,zoloft.131,8.0,I would love to say Zoloft is a life saver but it only slightly helps me.,0,0.0,1,1,0.0,0,0.0,0,4.0,ssri
+5594,1135.0,175.0,effexorXR.175,8.0,"I always tell my doctor, please don't start anyone, because once they get started, they'll never be able to stop.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+2282,791.0,137.0,zoloft.137,4.0,I am sure it probably isn't doing anything for me except a crutch.,0,0.0,0,1,0.0,0,0.0,0,4.0,ssri
+1503,12.0,4.0,zoloft.4,2.0,"I was on Paxil for 12 years, but THOUGHT it was wearing off.",0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+5453,994.0,156.0,effexorXR.156,5.0,Switched to taking it right before bed so will sleep through the tired phase.,0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+415,416.0,68.0,lexapro.68,4.0,"finally attributing to lexapro, atleast at this dosage/ Very apathetic and have gained 20lbs easily.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1192,1193.0,177.0,lexapro.177,10.0,Anyone else take lexapro with a klonopin combo that seems to have funny side effects?,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+4387,1635.0,221.0,cymbalta.221,21.0,"I can get so depressed right before my period that I would be downright suicidal, cry uncontrollably, have passive aggressive tendencies, and that is gone.",0,0.0,0,0,1.0,1,0.0,0,5.0,snri
+1268,1269.0,185.0,lexapro.185,1.0,I posted back in July after I went up from 1/4 of a pill to 1/2 of a 10mg.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1434,1435.0,208.0,lexapro.208,8.0,i don't want to be on antidepressants the rest of my life.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1149,1150.0,172.0,lexapro.172,1.0,After taking this medication 2.5mg for 2 days my feelings of shock and depression are subsiding and I am feeling better.,0,0.0,1,0,1.0,1,0.0,0,5.0,ssri
+5261,802.0,125.0,effexorXR.125,4.0,I am less self-conscious to the point where I could care less and am comfortable in any social environment.,0,0.0,1,0,0.0,0,0.0,0,4.0,snri
+776,777.0,116.0,lexapro.116,1.0,Gain weigth & low sexual drive.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+93,94.0,14.0,lexapro.14,3.0,"I took this for two months, hoping that the side effects would ease.",1,0.0,0,0,0.0,0,0.0,0,1.0,ssri
+17,18.0,2.0,lexapro.2,6.0,This evil drug will not do you any good .,0,0.0,0,1,0.0,0,0.0,0,1.0,ssri
+655,656.0,101.0,lexapro.101,3.0,Prior to that I was having one or more orgasms per week with my wife of 19 years.,0,0.0,0,0,0.0,0,0.0,1,3.0,ssri
+1212,1213.0,178.0,lexapro.178,20.0,I wanted him away from me as far as possible.,0,0.0,0,0,1.0,0,0.0,0,5.0,ssri
+5284,825.0,129.0,effexorXR.129,2.0,"Over the past five years, I've tried Prozac, Celexa, and Lexapro, all with no noticeable improvement.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+1918,427.0,78.0,zoloft.78,1.0,"Lack of sexual desire, harder to reach orgasm.",1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1420,1421.0,207.0,lexapro.207,17.0,Cymbalta was just too powerful for me.,0,0.0,0,0,0.0,0,0.0,1,5.0,ssri
+1988,497.0,90.0,zoloft.90,2.0,"Has helped me with my anxiety and depression, though I still do worry alot, maybe more than before.",0,0.0,1,0,1.0,1,0.0,0,3.0,ssri
+838,839.0,126.0,lexapro.126,3.0,I did act like a jerk on it as well a few times.,1,0.0,0,0,0.0,0,0.0,0,4.0,ssri
+4252,1500.0,206.0,cymbalta.206,6.0,"If I get depressed now, it is a legitimate reason.",0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4357,1605.0,219.0,cymbalta.219,8.0,"Coming off Cymbalta does sound scary, but I am trying to just enjoy feeling well for now, will cross that bridge down the road.",0,1.0,1,0,0.0,0,0.0,0,5.0,snri
+4530,71.0,11.0,EffexorXR.11,11.0,"I need to wait for the perfect timing, o",0,0.0,0,0,0.0,0,0.0,1,1.0,snri
+371,372.0,60.0,lexapro.60,1.0,"nausea, diarrhea, sweating, head in the clouds, stoned feeling.",1,0.0,0,0,0.0,0,0.0,0,2.0,ssri
+4851,392.0,60.0,EffexorXR.60,3.0,"no desire to have sex, cannot orgasim, currently hurts to have sex.",1,0.0,0,0,0.0,0,0.0,0,1.0,snri
+5466,1007.0,157.0,effexorXR.157,10.0,"it's hell,",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+5950,1491.0,222.0,effexorXR.222,1.0,like I drank one too many cups of coffee.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+4785,326.0,48.0,EffexorXR.48,4.0,I was only mildly depressed and had I known then what I know now about the withdrawals I never would have taken this.,0,1.0,0,0,1.0,1,0.0,0,1.0,snri
+3639,887.0,117.0,cymbalta.117,5.0,I continued having the listed side effects at week 5)  Doctors are unable to explain the numbness and think it is not associated with cymbalta.,0,0.0,0,0,0.0,0,0.0,1,3.0,snri
+238,239.0,39.0,lexapro.39,3.0,I want to sue.,0,0.0,0,0,0.0,0,0.0,1,1.0,ssri
+6002,1543.0,228.0,effexorXR.228,12.0,I only had to take the xanax for the first three days on the Effexor.,0,0.0,0,0,0.0,0,0.0,1,5.0,snri
+5397,938.0,148.0,effexorXR.148,1.0,No real side effects besides a little more lethargy/sleepiness than usual.,1,0.0,0,0,0.0,0,0.0,0,4.0,snri
+538,539.0,84.0,lexapro.84,3.0,I have never had more interesting dreams than those I had on Lexipro .,1,0.0,0,0,0.0,0,0.0,0,3.0,ssri
+1770,279.0,51.0,zoloft.51,6.0,Just recently started zoloft after my husband told me he couldn't handle it anymore.,0,0.0,0,0,0.0,0,0.0,1,2.0,ssri
+1261,1262.0,182.0,lexapro.182,9.0,I can feel emotion but don't fall apart all the time and I CAN SLEEP up to 6 total hours a night.,0,0.0,1,0,0.0,0,0.0,0,5.0,ssri
+4975,516.0,79.0,EffexorXR.79,2.0,I have been completely off of Effexor for about 2 weeks now.,0,0.0,0,0,0.0,0,0.0,1,2.0,snri
+5533,1074.0,166.0,effexorXR.166,10.0,It lifted my spirits at a time when I could barely say a word for days because my mind was so blank.,0,0.0,1,0,1.0,1,0.0,0,4.0,snri
+734,735.0,112.0,lexapro.112,7.0,"It's also got me more motivated,out of my chair and into some mild exercise.",0,0.0,1,0,0.0,0,0.0,0,4.0,ssri
+5537,1078.0,167.0,effexorXR.167,3.0,"Other than that, I can't think of a side effect.",0,0.0,0,0,0.0,0,0.0,1,4.0,snri
+4323,1571.0,216.0,cymbalta.216,6.0,I am playing with my kids and smiling and laughing everyone can tell.,0,0.0,1,0,0.0,0,0.0,0,5.0,snri
