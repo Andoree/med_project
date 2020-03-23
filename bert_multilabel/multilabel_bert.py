@@ -1,0 +1,421 @@
+from datetime import datetime
+import os
+
+import pandas as pd
+import tensorflow as tf
+
+import modeling
+import optimization
+import tokenization
+from bert_multilabel.bert_preprocessing import create_examples, file_based_convert_examples_to_features, \
+    convert_examples_to_features
+
+CLASSIFICATION_LABELS = ["INF", "EF", "DI", "ADR", "others"]
+PSYTAR_TEXT_COLUMN = ["sentences"]
+
+
+def file_based_input_fn_builder(input_file, seq_length, is_training,
+                                drop_remainder):
+    """Creates an `input_fn` closure to be passed to TPUEstimator."""
+
+    name_to_features = {
+        "input_ids": tf.FixedLenFeature([seq_length], tf.int64),
+        "input_mask": tf.FixedLenFeature([seq_length], tf.int64),
+        "segment_ids": tf.FixedLenFeature([seq_length], tf.int64),
+        "label_ids": tf.FixedLenFeature([6], tf.int64),
+        "is_real_example": tf.FixedLenFeature([], tf.int64),
+    }
+
+    def _decode_record(record, name_to_features):
+        """Decodes a record to a TensorFlow example."""
+        example = tf.parse_single_example(record, name_to_features)
+
+        # tf.Example only supports tf.int64, but the TPU only supports tf.int32.
+        # So cast all int64 to int32.
+        for name in list(example.keys()):
+            t = example[name]
+            if t.dtype == tf.int64:
+                t = tf.to_int32(t)
+            example[name] = t
+
+        return example
+
+    def input_fn(params):
+        """The actual input function."""
+        batch_size = params["batch_size"]
+
+        # For training, we want a lot of parallel reading and shuffling.
+        # For eval, we want no shuffling and parallel reading doesn't matter.
+        d = tf.data.TFRecordDataset(input_file)
+        if is_training:
+            d = d.repeat()
+            d = d.shuffle(buffer_size=100)
+
+        d = d.apply(
+            tf.contrib.data.map_and_batch(
+                lambda record: _decode_record(record, name_to_features),
+                batch_size=batch_size,
+                drop_remainder=drop_remainder))
+
+        return d
+
+    return input_fn
+
+
+def create_model(bert_config, is_training, input_ids, input_mask, segment_ids,
+                 labels, num_labels, use_one_hot_embeddings):
+    """Creates a classification model."""
+    model = modeling.BertModel(
+        config=bert_config,
+        is_training=is_training,
+        input_ids=input_ids,
+        input_mask=input_mask,
+        token_type_ids=segment_ids,
+        use_one_hot_embeddings=use_one_hot_embeddings)
+
+    # In the demo, we are doing a simple classification task on the entire
+    # segment.
+    #
+    # If you want to use the token-level output, use model.get_sequence_output()
+    # instead.
+    output_layer = model.get_pooled_output()
+
+    hidden_size = output_layer.shape[-1].value
+
+    output_weights = tf.get_variable(
+        "output_weights", [num_labels, hidden_size],
+        initializer=tf.truncated_normal_initializer(stddev=0.02))
+
+    output_bias = tf.get_variable(
+        "output_bias", [num_labels], initializer=tf.zeros_initializer())
+
+    with tf.variable_scope("loss"):
+        if is_training:
+            # I.e., 0.1 dropout
+            output_layer = tf.nn.dropout(output_layer, keep_prob=0.9)
+
+        logits = tf.matmul(output_layer, output_weights, transpose_b=True)
+        logits = tf.nn.bias_add(logits, output_bias)
+
+        # probabilities = tf.nn.softmax(logits, axis=-1) ### multiclass case
+        probabilities = tf.nn.sigmoid(logits)  #### multi-label case
+
+        labels = tf.cast(labels, tf.float32)
+        tf.logging.info("num_labels:{};logits:{};labels:{}".format(num_labels, logits, labels))
+        per_example_loss = tf.nn.sigmoid_cross_entropy_with_logits(labels=labels, logits=logits)
+        loss = tf.reduce_mean(per_example_loss)
+
+        # probabilities = tf.nn.softmax(logits, axis=-1)
+        # log_probs = tf.nn.log_softmax(logits, axis=-1)
+        #
+        # one_hot_labels = tf.one_hot(labels, depth=num_labels, dtype=tf.float32)
+        #
+        # per_example_loss = -tf.reduce_sum(one_hot_labels * log_probs, axis=-1)
+        # loss = tf.reduce_mean(per_example_loss)
+
+        return (loss, per_example_loss, logits, probabilities)
+
+
+def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
+                     num_train_steps, num_warmup_steps, use_tpu,
+                     use_one_hot_embeddings):
+    """Returns `model_fn` closure for TPUEstimator."""
+
+    def model_fn(features, labels, mode, params):  # pylint: disable=unused-argument
+        """The `model_fn` for TPUEstimator."""
+
+        # tf.logging.info("*** Features ***")
+        # for name in sorted(features.keys()):
+        #    tf.logging.info("  name = %s, shape = %s" % (name, features[name].shape))
+
+        input_ids = features["input_ids"]
+        input_mask = features["input_mask"]
+        segment_ids = features["segment_ids"]
+        label_ids = features["label_ids"]
+        is_real_example = None
+        if "is_real_example" in features:
+            is_real_example = tf.cast(features["is_real_example"], dtype=tf.float32)
+        else:
+            is_real_example = tf.ones(tf.shape(label_ids), dtype=tf.float32)
+
+        is_training = (mode == tf.estimator.ModeKeys.TRAIN)
+
+        (total_loss, per_example_loss, logits, probabilities) = create_model(
+            bert_config, is_training, input_ids, input_mask, segment_ids, label_ids,
+            num_labels, use_one_hot_embeddings)
+
+        tvars = tf.trainable_variables()
+        initialized_variable_names = {}
+        scaffold_fn = None
+        if init_checkpoint:
+            (assignment_map, initialized_variable_names
+             ) = modeling.get_assignment_map_from_checkpoint(tvars, init_checkpoint)
+            if use_tpu:
+
+                def tpu_scaffold():
+                    tf.train.init_from_checkpoint(init_checkpoint, assignment_map)
+                    return tf.train.Scaffold()
+
+                scaffold_fn = tpu_scaffold
+            else:
+                tf.train.init_from_checkpoint(init_checkpoint, assignment_map)
+
+        tf.logging.info("**** Trainable Variables ****")
+        for var in tvars:
+            init_string = ""
+            if var.name in initialized_variable_names:
+                init_string = ", *INIT_FROM_CKPT*"
+            # tf.logging.info("  name = %s, shape = %s%s", var.name, var.shape,init_string)
+
+        output_spec = None
+        if mode == tf.estimator.ModeKeys.TRAIN:
+
+            train_op = optimization.create_optimizer(
+                total_loss, learning_rate, num_train_steps, num_warmup_steps, use_tpu)
+
+            output_spec = tf.estimator.EstimatorSpec(
+                mode=mode,
+                loss=total_loss,
+                train_op=train_op,
+                scaffold=scaffold_fn)
+        elif mode == tf.estimator.ModeKeys.EVAL:
+
+            def metric_fn(per_example_loss, label_ids, probabilities, is_real_example):
+
+                logits_split = tf.split(probabilities, num_labels, axis=-1)
+                label_ids_split = tf.split(label_ids, num_labels, axis=-1)
+                # metrics change to auc of every class
+                eval_dict = {}
+                for j, logits in enumerate(logits_split):
+                    label_id_ = tf.cast(label_ids_split[j], dtype=tf.int32)
+                    current_auc, update_op_auc = tf.metrics.auc(label_id_, logits)
+                    eval_dict[str(j)] = (current_auc, update_op_auc)
+                eval_dict['eval_loss'] = tf.metrics.mean(values=per_example_loss)
+                return eval_dict
+
+                ## original eval metrics
+                # predictions = tf.argmax(logits, axis=-1, output_type=tf.int32)
+                # accuracy = tf.metrics.accuracy(
+                #     labels=label_ids, predictions=predictions, weights=is_real_example)
+                # loss = tf.metrics.mean(values=per_example_loss, weights=is_real_example)
+                # return {
+                #     "eval_accuracy": accuracy,
+                #     "eval_loss": loss,
+                # }
+
+            eval_metrics = metric_fn(per_example_loss, label_ids, probabilities, is_real_example)
+            output_spec = tf.estimator.EstimatorSpec(
+                mode=mode,
+                loss=total_loss,
+                eval_metric_ops=eval_metrics,
+                scaffold=scaffold_fn)
+        else:
+            print("mode:", mode, "probabilities:", probabilities)
+            output_spec = tf.estimator.EstimatorSpec(
+                mode=mode,
+                predictions={"probabilities": probabilities},
+                scaffold=scaffold_fn)
+        return output_spec
+
+    return model_fn
+
+
+def input_fn_builder(features, seq_length, is_training, drop_remainder):
+    """Creates an `input_fn` closure to be passed to TPUEstimator."""
+
+    all_input_ids = []
+    all_input_mask = []
+    all_segment_ids = []
+    all_label_ids = []
+
+    for feature in features:
+        all_input_ids.append(feature.input_ids)
+        all_input_mask.append(feature.input_mask)
+        all_segment_ids.append(feature.segment_ids)
+        all_label_ids.append(feature.label_ids)
+
+    def input_fn(params):
+        """The actual input function."""
+        batch_size = params["batch_size"]
+
+        num_examples = len(features)
+
+        # This is for demo purposes and does NOT scale to large data sets. We do
+        # not use Dataset.from_generator() because that uses tf.py_func which is
+        # not TPU compatible. The right way to load data is with TFRecordReader.
+        d = tf.data.Dataset.from_tensor_slices({
+            "input_ids":
+                tf.constant(
+                    all_input_ids, shape=[num_examples, seq_length],
+                    dtype=tf.int32),
+            "input_mask":
+                tf.constant(
+                    all_input_mask,
+                    shape=[num_examples, seq_length],
+                    dtype=tf.int32),
+            "segment_ids":
+                tf.constant(
+                    all_segment_ids,
+                    shape=[num_examples, seq_length],
+                    dtype=tf.int32),
+            "label_ids":
+                tf.constant(all_label_ids, shape=[num_examples, len(CLASSIFICATION_LABELS)], dtype=tf.int32),
+        })
+
+        if is_training:
+            d = d.repeat()
+            d = d.shuffle(buffer_size=100)
+
+        d = d.batch(batch_size=batch_size, drop_remainder=drop_remainder)
+        return d
+
+    return input_fn
+
+
+def create_output(predictions):
+    probabilities = []
+    for (i, prediction) in enumerate(predictions):
+        preds = prediction["probabilities"]
+        probabilities.append(preds)
+    dff = pd.DataFrame(probabilities)
+    dff.columns = CLASSIFICATION_LABELS
+
+    return dff
+
+
+def main():
+    # parser = ArgumentParser()
+    # parser.add_argument("--psytar_dir", required=True)
+    # parser.add_argument("--n_splits", type=int, default=5)
+    # parser.add_argument("--output_crossval_dir", required=True)
+    # args = parser.parse_args()
+    corpus_dir = f"corpus_folds/fold_0"
+
+    train_df = pd.read_csv(os.path.join(corpus_dir, "train.csv"), encoding="utf-8")
+    test_df = pd.read_csv(os.path.join(corpus_dir, "test.csv"), encoding="utf-8")
+    dev_df = pd.read_csv(os.path.join(corpus_dir, "dev.csv"), encoding="utf-8")
+
+    ##use downloaded model, change path accordingly
+    BERT_VOCAB = './uncased_L-12_H-768_A-12/vocab.txt'
+    BERT_INIT_CHKPNT = './uncased_L-12_H-768_A-12/bert_model.ckpt'
+    BERT_CONFIG = './uncased_L-12_H-768_A-12/bert_config.json'
+
+    tokenizer = tokenization.FullTokenizer(
+        vocab_file=BERT_VOCAB, do_lower_case=True)
+
+    train_examples = create_examples(train_df)
+    # We'll set sequences to be at most 128 tokens long.
+    MAX_SEQ_LENGTH = 128
+    # Compute train and warmup steps from batch size
+    # These hyperparameters are copied from this colab notebook (https://colab.sandbox.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
+    BATCH_SIZE = 32
+    LEARNING_RATE = 2e-5
+    NUM_TRAIN_EPOCHS = 1.0
+    # Warmup is a period of time where hte learning rate
+    # is small and gradually increases--usually helps training.
+    WARMUP_PROPORTION = 0.1
+    # Model configs
+    SAVE_CHECKPOINTS_STEPS = 1000
+    SAVE_SUMMARY_STEPS = 500
+    # Compute # train and warmup steps from batch size
+    num_train_steps = int(len(train_examples) / BATCH_SIZE * NUM_TRAIN_EPOCHS)
+    num_warmup_steps = int(num_train_steps * WARMUP_PROPORTION)
+
+    train_file = os.path.join('./working', "train.tf_record")
+    # filename = Path(train_file)
+    if not os.path.exists(train_file):
+        open(train_file, 'w').close()
+
+    file_based_convert_examples_to_features(
+        train_examples, MAX_SEQ_LENGTH, tokenizer, train_file)
+    tf.logging.info("***** Running training *****")
+    tf.logging.info("  Num examples = %d", len(train_examples))
+    tf.logging.info("  Batch size = %d", BATCH_SIZE)
+    tf.logging.info("  Num steps = %d", num_train_steps)
+
+    train_input_fn = file_based_input_fn_builder(
+        input_file=train_file,
+        seq_length=MAX_SEQ_LENGTH,
+        is_training=True,
+        drop_remainder=True)
+
+    OUTPUT_DIR = "./working/output"
+    # Specify outpit directory and number of checkpoint steps to save
+    run_config = tf.estimator.RunConfig(
+        model_dir=OUTPUT_DIR,
+        save_summary_steps=SAVE_SUMMARY_STEPS,
+        keep_checkpoint_max=1,
+        save_checkpoints_steps=SAVE_CHECKPOINTS_STEPS)
+
+    bert_config = modeling.BertConfig.from_json_file(BERT_CONFIG)
+    model_fn = model_fn_builder(
+        bert_config=bert_config,
+        num_labels=len(CLASSIFICATION_LABELS),
+        init_checkpoint=BERT_INIT_CHKPNT,
+        learning_rate=LEARNING_RATE,
+        num_train_steps=num_train_steps,
+        num_warmup_steps=num_warmup_steps,
+        use_tpu=False,
+        use_one_hot_embeddings=False)
+
+    estimator = tf.estimator.Estimator(
+        model_fn=model_fn,
+        config=run_config,
+        params={"batch_size": BATCH_SIZE})
+
+    print(f'Beginning Training!')
+    current_time = datetime.now()
+    estimator.train(input_fn=train_input_fn, max_steps=num_train_steps)
+    print("Training took time ", datetime.now() - current_time)
+
+    eval_file = os.path.join('./working', "eval.tf_record")
+    # filename = Path(train_file)
+    if not os.path.exists(eval_file):
+        open(eval_file, 'w').close()
+
+    eval_examples = create_examples(dev_df)
+    file_based_convert_examples_to_features(
+        eval_examples, MAX_SEQ_LENGTH, tokenizer, eval_file)
+
+    # This tells the estimator to run through the entire set.
+    eval_steps = None
+
+    eval_drop_remainder = False
+    eval_input_fn = file_based_input_fn_builder(
+        input_file=eval_file,
+        seq_length=MAX_SEQ_LENGTH,
+        is_training=False,
+        drop_remainder=False)
+
+    result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
+
+    output_eval_file = os.path.join("./working", "eval_results.txt")
+    with tf.gfile.GFile(output_eval_file, "w") as writer:
+        tf.logging.info("***** Eval results *****")
+        for key in sorted(result.keys()):
+            tf.logging.info("  %s = %s", key, str(result[key]))
+            writer.write("%s = %s\n" % (key, str(result[key])))
+
+    test_df = test_df.reset_index(drop=True)
+    predict_examples = create_examples(test_df, False)
+
+    test_features = convert_examples_to_features(predict_examples, MAX_SEQ_LENGTH, tokenizer)
+
+    print('Beginning Predictions!')
+    current_time = datetime.now()
+
+    predict_input_fn = input_fn_builder(features=test_features, seq_length=MAX_SEQ_LENGTH, is_training=False,
+                                        drop_remainder=False)
+    predictions = estimator.predict(predict_input_fn)
+    print("Prediction took time ", datetime.now() - current_time)
+
+    output_df = create_output(predictions)
+    merged_df = pd.concat([test_df, output_df], axis=1)
+    submission = merged_df.drop(['comment_text'], axis=1)
+    submission.to_csv("sample_submission0.csv", index=False)
+
+    submission.head()
+
+
+if __name__ == '__main__':
+    main()
