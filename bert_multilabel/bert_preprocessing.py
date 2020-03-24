@@ -2,6 +2,9 @@ import collections
 import logging as logger
 import tensorflow as tf
 
+from bert_multilabel.multilabel_bert import CLASSIFICATION_LABELS
+
+
 class InputExample(object):
     """A single training/test example for simple sequence classification."""
 
@@ -142,7 +145,7 @@ def create_examples(df, labels_available=True):
         # guid = row[0]
         text_a = row["sentences"]
         if labels_available:
-            labels = row[2:]
+            labels = row[CLASSIFICATION_LABELS]
         else:
             labels = [0, 0, 0, 0, 0]
         examples.append(
