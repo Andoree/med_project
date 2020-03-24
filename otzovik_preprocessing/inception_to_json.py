@@ -12,6 +12,7 @@ import pandas as pd
 EFFICIENCY_LABEL_PATTERN = r'^(?P<status>INF|EF)\[\d+\]$'
 MULTICLASS_EFFICIENCY_PATTERN = r'^(EF\[\d+\]\|INF\[\d+\])|(INF\[\d+\]\|EF\[\d+\])$'
 DI_ADR_OTHER_PATTERN = r'^(DI|ADR|Other)\[\d+\]$'
+ALL_ANNOTATIONS_PATTERN = r'^((DI|ADR|Other|(?P<status>INF|EF))\[\d+\]\|?)+$'
 
 
 def load_sentence_texts(file_path):
@@ -55,13 +56,16 @@ def main():
     parser.add_argument('--input_folder', required=True)
     parser.add_argument('--save_to', required=True)
     parser.add_argument('--multiclass_folder', required=True, help='directory for files with multiclass sentences '
-                                                            '(sentences that have both INF and EF annotations)')
+                                                                   '(sentences that have both INF and EF annotations)')
     args = parser.parse_args()
     data = []
     multiclass_files_folder = args.multiclass_folder
     for review_folder in os.listdir(args.input_folder):
         review_id = int(review_folder.split('.')[0])
         file_path = os.path.join(args.input_folder, review_folder, 'admin.tsv')
+        if not os.path.exists(file_path):
+            stderr.write(f"FILE DOES NOT EXIST: {file_path}\n")
+            continue
         try:
             sentence_texts = load_sentence_texts(file_path=file_path)
             annotation_data = pd.read_csv(file_path, sep='\t', skip_blank_lines=True, comment='#', encoding='utf-8',
@@ -100,7 +104,19 @@ def main():
                 elif re.fullmatch(DI_ADR_OTHER_PATTERN, efficiency_annotation) or len(
                         efficiency_annotation.split('|')) == 3:
                     annotated_sentences_ids.add(sentence_id)
+                elif re.fullmatch(ALL_ANNOTATIONS_PATTERN, efficiency_annotation):
+                    m = re.fullmatch(ALL_ANNOTATIONS_PATTERN, efficiency_annotation)
+                    print(review_folder, efficiency_annotation)
+                    efficiency_label = m.group('status')
+                    effiency_sentence_flag = True
+                    annotated_sentences_ids.add(sentence_id)
+                    add_sentence_to_datalist(data=data, sentence_id=sentence_id, sentence_texts=sentence_texts,
+                                             sentences_starts=sentences_starts, sentences_ends=sentences_ends,
+                                             efficiency_label=efficiency_label, review_id=review_id)
+                    annotated_sentences_ids.add(sentence_id)
                 else:
+                    if not efficiency_annotation == '_':
+                        print("Annotation", f"{efficiency_annotation}")
                     assert efficiency_annotation == '_'
             if effiency_sentence_flag:
                 sent_ids = set(annotation_data['sentence_id'].unique())
