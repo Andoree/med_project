@@ -37,6 +37,24 @@ def load_annotation_dataframes(psytar_dir, anno_labels):
     return dataframes_dict["ADR"], dataframes_dict["WD"], dataframes_dict["DI"], dataframes_dict["SSI"]
 
 
+def count_annotated_sentences_without_entities(df):
+    """
+    For each annotation from COUNTABLE_LABELS_RANGES.keys()
+    ("ADR", "WD", "DI", "SSI") calculates counts of sentences which
+    have the annotation, but contain no entities of the annotation
+    :param df: Dataframe with <ANNOTATION> binary fields and
+    <annotation_count> fields
+    :return: Dictionary {ANNOTATION : sentence count}
+    """
+    annotated_sentences_without_entities = {}
+    for annotation_label in COUNTABLE_LABELS_RANGES.keys():
+        counter_field_name = f"{annotation_label.lower()}_count"
+        new_df = df[(df[annotation_label] == 1) & (df[counter_field_name] <= 0)]
+        annotated_sentences_without_entities[annotation_label] = new_df.shape[0]
+
+    return annotated_sentences_without_entities
+
+
 def main():
     parser = ArgumentParser()
     parser.add_argument("--save_to_csv", required=True)
@@ -64,6 +82,10 @@ def main():
     resulting_df.fillna(values, inplace=True)
     resulting_df.drop(resulting_df.tail(1).index, inplace=True)
 
+    sent_with_no_annot_dict = count_annotated_sentences_without_entities(resulting_df)
+    sent_with_no_annot_dict.update({"EF": 0, "INF": 0})
+    sent_with_no_annot_series = pd.Series(sent_with_no_annot_dict)
+
     adr_stat_df = resulting_df[resulting_df['ADR'] == 1][column_lst].sum().rename("ADR", inplace=True)
     wd_stat_df = resulting_df[resulting_df['WD'] == 1][column_lst].sum().rename("WD", inplace=True)
     di_stat_df = resulting_df[resulting_df['DI'] == 1][column_lst].sum().rename("DI", inplace=True)
@@ -76,6 +98,7 @@ def main():
     resulting_stat_df.index.name = 'Sentence label'
     sentence_labels_stat_df = sent_labeling_df.iloc[-1][['ADR', 'WD', 'DI', 'SSI', 'EF', 'INF']]
     resulting_stat_df.insert(0, 'Sentence count', sentence_labels_stat_df)
+    resulting_stat_df.insert(1, '# Sent without annotations', sent_with_no_annot_series, )
 
     resulting_stat_df = resulting_stat_df.applymap(np.int64)
 
