@@ -1,3 +1,5 @@
+import codecs
+import configparser
 from datetime import datetime
 import os
 
@@ -284,42 +286,33 @@ def create_output(predictions):
 
 
 def main():
-    # parser = ArgumentParser()
-    # parser.add_argument("--psytar_dir", required=True)
-    # parser.add_argument("--n_splits", type=int, default=5)
-    # parser.add_argument("--output_crossval_dir", required=True)
-    # args = parser.parse_args()
-    corpus_dir = f"corpus_folds/fold_0"
+    config = configparser.ConfigParser()
+    config.read_file(codecs.open("config.ini", "r", "utf-8"))
+    corpus_dir = config.get('INPUT', 'CORPUS_DIR')
+    bert_vocab = config.get('INPUT', 'BERT_VOCAB')
+    bert_init_chkpnt = config.get('INPUT', 'BERT_VOCAB')
+    bert_config = config.get('INPUT', 'BERT_VOCAB')
+    batch_size = config.getint('PARAMETERS', 'BATCH_SIZE')
+    num_train_epochs = config.getint('PARAMETERS', 'NUM_TRAIN_EPOCHS')
+    warmup_proportion = config.getfloat('PARAMETERS', 'WARMUP_PROPORTION')
+    max_seq_length = config.getint('PARAMETERS', 'MAX_SEQ_LENGTH')
+    learning_rate = config.getfloat('PARAMETERS', 'LEARNING_RATE')
+    save_checkpoints_steps = config.getint('PARAMETERS', 'SAVE_CHECKPOINTS_STEPS')
+    save_summary_steps = config.getint('PARAMETERS', 'SAVE_SUMMARY_STEPS')
+    output_dir = config.get('OUTPUT', 'OUTPUT_DIR')
 
     train_df = pd.read_csv(os.path.join(corpus_dir, "train.csv"), encoding="utf-8")
     test_df = pd.read_csv(os.path.join(corpus_dir, "test.csv"), encoding="utf-8")
     dev_df = pd.read_csv(os.path.join(corpus_dir, "dev.csv"), encoding="utf-8")
 
-    ##use downloaded model, change path accordingly
-    BERT_VOCAB = './uncased_L-12_H-768_A-12/vocab.txt'
-    BERT_INIT_CHKPNT = './uncased_L-12_H-768_A-12/bert_model.ckpt'
-    BERT_CONFIG = './uncased_L-12_H-768_A-12/bert_config.json'
-
     tokenizer = tokenization.FullTokenizer(
-        vocab_file=BERT_VOCAB, do_lower_case=True)
+        vocab_file=bert_vocab, do_lower_case=True)
 
     train_examples = create_examples(train_df)
-    # We'll set sequences to be at most 128 tokens long.
-    MAX_SEQ_LENGTH = 128
-    # Compute train and warmup steps from batch size
-    # These hyperparameters are copied from this colab notebook (https://colab.sandbox.google.com/github/tensorflow/tpu/blob/master/tools/colab/bert_finetuning_with_cloud_tpus.ipynb)
-    BATCH_SIZE = 32
-    LEARNING_RATE = 2e-5
-    NUM_TRAIN_EPOCHS = 1.0
-    # Warmup is a period of time where hte learning rate
-    # is small and gradually increases--usually helps training.
-    WARMUP_PROPORTION = 0.1
-    # Model configs
-    SAVE_CHECKPOINTS_STEPS = 1000
-    SAVE_SUMMARY_STEPS = 500
+
     # Compute # train and warmup steps from batch size
-    num_train_steps = int(len(train_examples) / BATCH_SIZE * NUM_TRAIN_EPOCHS)
-    num_warmup_steps = int(num_train_steps * WARMUP_PROPORTION)
+    num_train_steps = int(len(train_examples) / batch_size * num_train_epochs)
+    num_warmup_steps = int(num_train_steps * warmup_proportion)
 
     train_file = os.path.join('./working', "train.tf_record")
     # filename = Path(train_file)
@@ -327,32 +320,31 @@ def main():
         open(train_file, 'w').close()
 
     file_based_convert_examples_to_features(
-        train_examples, MAX_SEQ_LENGTH, tokenizer, train_file)
+        train_examples, max_seq_length, tokenizer, train_file)
     tf.logging.info("***** Running training *****")
     tf.logging.info("  Num examples = %d", len(train_examples))
-    tf.logging.info("  Batch size = %d", BATCH_SIZE)
+    tf.logging.info("  Batch size = %d", batch_size)
     tf.logging.info("  Num steps = %d", num_train_steps)
 
     train_input_fn = file_based_input_fn_builder(
         input_file=train_file,
-        seq_length=MAX_SEQ_LENGTH,
+        seq_length=max_seq_length,
         is_training=True,
         drop_remainder=True)
 
-    OUTPUT_DIR = "./working/output"
     # Specify outpit directory and number of checkpoint steps to save
     run_config = tf.estimator.RunConfig(
-        model_dir=OUTPUT_DIR,
-        save_summary_steps=SAVE_SUMMARY_STEPS,
+        model_dir=output_dir,
+        save_summary_steps=save_summary_steps,
         keep_checkpoint_max=1,
-        save_checkpoints_steps=SAVE_CHECKPOINTS_STEPS)
+        save_checkpoints_steps=save_checkpoints_steps)
 
-    bert_config = modeling.BertConfig.from_json_file(BERT_CONFIG)
+    bert_config = modeling.BertConfig.from_json_file(bert_config)
     model_fn = model_fn_builder(
         bert_config=bert_config,
         num_labels=len(CLASSIFICATION_LABELS),
-        init_checkpoint=BERT_INIT_CHKPNT,
-        learning_rate=LEARNING_RATE,
+        init_checkpoint=bert_init_chkpnt,
+        learning_rate=learning_rate,
         num_train_steps=num_train_steps,
         num_warmup_steps=num_warmup_steps,
         use_tpu=False,
@@ -361,7 +353,7 @@ def main():
     estimator = tf.estimator.Estimator(
         model_fn=model_fn,
         config=run_config,
-        params={"batch_size": BATCH_SIZE})
+        params={"batch_size": batch_size})
 
     print(f'Beginning Training!')
     current_time = datetime.now()
@@ -375,7 +367,7 @@ def main():
 
     eval_examples = create_examples(dev_df)
     file_based_convert_examples_to_features(
-        eval_examples, MAX_SEQ_LENGTH, tokenizer, eval_file)
+        eval_examples, max_seq_length, tokenizer, eval_file)
 
     # This tells the estimator to run through the entire set.
     eval_steps = None
@@ -383,7 +375,7 @@ def main():
     eval_drop_remainder = False
     eval_input_fn = file_based_input_fn_builder(
         input_file=eval_file,
-        seq_length=MAX_SEQ_LENGTH,
+        seq_length=max_seq_length,
         is_training=False,
         drop_remainder=False)
 
@@ -399,12 +391,12 @@ def main():
     test_df = test_df.reset_index(drop=True)
     predict_examples = create_examples(test_df, False)
 
-    test_features = convert_examples_to_features(predict_examples, MAX_SEQ_LENGTH, tokenizer)
+    test_features = convert_examples_to_features(predict_examples, max_seq_length, tokenizer)
 
     print('Beginning Predictions!')
     current_time = datetime.now()
 
-    predict_input_fn = input_fn_builder(features=test_features, seq_length=MAX_SEQ_LENGTH, is_training=False,
+    predict_input_fn = input_fn_builder(features=test_features, seq_length=max_seq_length, is_training=False,
                                         drop_remainder=False)
     predictions = estimator.predict(predict_input_fn)
     print("Prediction took time ", datetime.now() - current_time)
