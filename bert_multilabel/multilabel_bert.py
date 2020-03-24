@@ -300,6 +300,7 @@ def main():
     save_checkpoints_steps = config.getint('PARAMETERS', 'SAVE_CHECKPOINTS_STEPS')
     save_summary_steps = config.getint('PARAMETERS', 'SAVE_SUMMARY_STEPS')
     output_dir = config.get('OUTPUT', 'OUTPUT_DIR')
+    classification_results_file = config.get('OUTPUT', 'RESULTS_FILE')
 
     train_df = pd.read_csv(os.path.join(corpus_dir, "train.csv"), encoding="utf-8")
     test_df = pd.read_csv(os.path.join(corpus_dir, "test.csv"), encoding="utf-8")
@@ -404,7 +405,7 @@ def main():
     output_df = create_output(predictions)
     merged_df = pd.concat([test_df, output_df], axis=1)
     submission = merged_df.drop(['comment_text'], axis=1)
-    submission.to_csv("sample_submission0.csv", index=False)
+    submission.to_csv(os.path.join(output_dir, classification_results_file), index=False)
 
     submission.head()
 
