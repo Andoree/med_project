@@ -5,11 +5,11 @@ import os
 
 import pandas as pd
 import tensorflow as tf
-
+import numpy as np
 import modeling
 import optimization
 import tokenization
-from bert_multilabel.bert_preprocessing import create_examples, file_based_convert_examples_to_features, \
+from bert_preprocessing import create_examples, file_based_convert_examples_to_features, \
     convert_examples_to_features
 
 CLASSIFICATION_LABELS = ["INF", "EF", "DI", "ADR", "others"]
@@ -24,7 +24,7 @@ def file_based_input_fn_builder(input_file, seq_length, is_training,
         "input_ids": tf.FixedLenFeature([seq_length], tf.int64),
         "input_mask": tf.FixedLenFeature([seq_length], tf.int64),
         "segment_ids": tf.FixedLenFeature([seq_length], tf.int64),
-        "label_ids": tf.FixedLenFeature([6], tf.int64),
+        "label_ids": tf.FixedLenFeature([5], tf.int64),
         "is_real_example": tf.FixedLenFeature([], tf.int64),
     }
 
@@ -290,8 +290,8 @@ def main():
     config.read_file(codecs.open("config.ini", "r", "utf-8"))
     corpus_dir = config.get('INPUT', 'CORPUS_DIR')
     bert_vocab = config.get('INPUT', 'BERT_VOCAB')
-    bert_init_chkpnt = config.get('INPUT', 'BERT_VOCAB')
-    bert_config = config.get('INPUT', 'BERT_VOCAB')
+    bert_init_chkpnt = config.get('INPUT', 'BERT_INIT_CHKPNT')
+    bert_config = config.get('INPUT', 'BERT_CONFIG')
     batch_size = config.getint('PARAMETERS', 'BATCH_SIZE')
     num_train_epochs = config.getint('PARAMETERS', 'NUM_TRAIN_EPOCHS')
     warmup_proportion = config.getfloat('PARAMETERS', 'WARMUP_PROPORTION')
@@ -305,7 +305,11 @@ def main():
     train_df = pd.read_csv(os.path.join(corpus_dir, "train.csv"), encoding="utf-8")
     test_df = pd.read_csv(os.path.join(corpus_dir, "test.csv"), encoding="utf-8")
     dev_df = pd.read_csv(os.path.join(corpus_dir, "dev.csv"), encoding="utf-8")
+    train_df[CLASSIFICATION_LABELS] = train_df[CLASSIFICATION_LABELS].astype(np.int32)
+    test_df[CLASSIFICATION_LABELS] = test_df[CLASSIFICATION_LABELS].astype(np.int32)
+    dev_df[CLASSIFICATION_LABELS] = dev_df[CLASSIFICATION_LABELS].astype(np.int32)
 
+    
     tokenizer = tokenization.FullTokenizer(
         vocab_file=bert_vocab, do_lower_case=True)
 
@@ -339,7 +343,7 @@ def main():
         save_summary_steps=save_summary_steps,
         keep_checkpoint_max=1,
         save_checkpoints_steps=save_checkpoints_steps)
-
+    print("BERT CONFIG", bert_config)
     bert_config = modeling.BertConfig.from_json_file(bert_config)
     model_fn = model_fn_builder(
         bert_config=bert_config,
@@ -358,6 +362,7 @@ def main():
 
     print(f'Beginning Training!')
     current_time = datetime.now()
+    print("FN_INPUT", dir(train_input_fn))
     estimator.train(input_fn=train_input_fn, max_steps=num_train_steps)
     print("Training took time ", datetime.now() - current_time)
 
@@ -404,7 +409,7 @@ def main():
 
     output_df = create_output(predictions)
     merged_df = pd.concat([test_df, output_df], axis=1)
-    submission = merged_df.drop(['comment_text'], axis=1)
+    submission = merged_df.drop(['sentences'], axis=1)
     submission.to_csv(os.path.join(output_dir, classification_results_file), index=False)
 
     submission.head()

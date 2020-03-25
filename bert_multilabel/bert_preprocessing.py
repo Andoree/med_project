@@ -2,7 +2,8 @@ import collections
 import logging as logger
 import tensorflow as tf
 
-from bert_multilabel.multilabel_bert import CLASSIFICATION_LABELS
+# from multilabel_bert import CLASSIFICATION_LABELS
+CLASSIFICATION_LABELS = ["INF", "EF", "DI", "ADR", "others"]
 
 
 class InputExample(object):
@@ -143,9 +144,11 @@ def create_examples(df, labels_available=True):
     examples = []
     for (i, row) in enumerate(df.values):
         # guid = row[0]
-        text_a = row["sentences"]
+        text_a = row[5]
+        print("TEXT", text_a)
         if labels_available:
-            labels = row[CLASSIFICATION_LABELS]
+            labels = row[[6, 8, 9, 11, 13]]
+            print(labels)
         else:
             labels = [0, 0, 0, 0, 0]
         examples.append(
