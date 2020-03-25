@@ -309,7 +309,6 @@ def main():
     test_df[CLASSIFICATION_LABELS] = test_df[CLASSIFICATION_LABELS].astype(np.int32)
     dev_df[CLASSIFICATION_LABELS] = dev_df[CLASSIFICATION_LABELS].astype(np.int32)
 
-    
     tokenizer = tokenization.FullTokenizer(
         vocab_file=bert_vocab, do_lower_case=True)
 
