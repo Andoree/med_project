@@ -384,8 +384,16 @@ def main():
         seq_length=max_seq_length,
         is_training=False,
         drop_remainder=False)
+
+    train_spec = tf.estimator.TrainSpec(
+        estimator, train_input_fn, max_steps=num_train_steps
+    )
+    eval_spec = tf.estimator.EvalSpec(
+        estimator, eval_input_fn, steps=int(len(train_examples) / batch_size)
+    )
+
     tf.estimator.train_and_evaluate(
-        estimator, train_input_fn, eval_input_fn
+        estimator, train_spec, eval_spec
     )
     result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
 
