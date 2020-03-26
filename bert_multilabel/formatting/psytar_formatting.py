@@ -30,16 +30,16 @@ def main():
     sent_labeling_df[CLASSIFICATION_LABELS] = sent_labeling_df[CLASSIFICATION_LABELS].astype(np.int32)
     sent_labeling_df[CLASSIFICATION_LABELS] = sent_labeling_df[CLASSIFICATION_LABELS].apply(pd.to_numeric)
     sent_labeling_df = sent_labeling_df[DATAFRAME_COLUMNS]
-    train_df, test_df, _, _ = train_test_split \
-        (sent_labeling_df, sent_labeling_df, test_size=0.2, random_state=42)
+    # train_df, test_df, _, _ = train_test_split \
+    #     (sent_labeling_df, sent_labeling_df, test_size=0.2, random_state=42)
     train_df, dev_df, _, _ = train_test_split \
-        (train_df, train_df, test_size=0.1, random_state=42)
+        (sent_labeling_df, sent_labeling_df, test_size=0.1, random_state=42)
 
     train_path = os.path.join(output_dir, 'train.csv')
     dev_path = os.path.join(output_dir, 'dev.csv')
-    test_path = os.path.join(output_dir, 'test.csv')
+    # test_path = os.path.join(output_dir, 'test.csv')
     train_df.to_csv(train_path, index=False)
-    test_df.to_csv(test_path, index=False)
+    # test_df.to_csv(test_path, index=False)
     dev_df.to_csv(dev_path, index=False)
 
 
