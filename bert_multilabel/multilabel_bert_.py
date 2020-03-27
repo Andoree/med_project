@@ -148,7 +148,7 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
         threshold = float(0.5)
         prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
         acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
- 
+
         with tf.name_scope('summary'):
             tf.summary.scalar('total_loss', total_loss)
             tf.summary.scalar('accuracy', acc)
@@ -185,15 +185,15 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
             threshold = float(0.5)
             prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
             acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
-            logging_hook = tf.train.LoggingTensorHook({"loss" : total_loss,"accuracy" : acc}, every_n_iter=5)
+            logging_hook = tf.train.LoggingTensorHook({"loss": total_loss, "accuracy": acc}, every_n_iter=5)
 
             output_spec = tf.estimator.EstimatorSpec(
                 mode=mode,
                 loss=total_loss,
                 train_op=train_op,
                 scaffold=scaffold_fn,
-                evaluation_hooks = [logging_hook],
-                )
+                evaluation_hooks=[logging_hook],
+            )
         elif mode == tf.estimator.ModeKeys.EVAL:
 
             def metric_fn(per_example_loss, label_ids, probabilities, is_real_example):
@@ -224,17 +224,17 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
             threshold = float(0.5)
             prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
             acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
-            logging_hook = tf.train.LoggingTensorHook({"loss" : total_loss,"accuracy" : acc_op}, every_n_iter=2)
-            #accuracy = {"accuracy" : acc[1]}
+            logging_hook = tf.train.LoggingTensorHook({"loss": total_loss, "accuracy": acc_op}, every_n_iter=2)
+            # accuracy = {"accuracy" : acc[1]}
             eval_metrics = metric_fn(per_example_loss, label_ids, probabilities, is_real_example)
             output_spec = tf.estimator.EstimatorSpec(
                 mode=mode,
                 loss=total_loss,
                 eval_metric_ops=eval_metrics,
                 scaffold=scaffold_fn,
-                evaluation_hooks = [logging_hook]
-                )
-            #output_spec = tf.estimator.EstimatorSpec(
+                evaluation_hooks=[logging_hook]
+            )
+            # output_spec = tf.estimator.EstimatorSpec(
             #    mode=mode,
             #    loss=total_loss,
             #    eval_metric_ops=eval_metrics,
@@ -267,7 +267,7 @@ def input_fn_builder(features, seq_length, is_training, drop_remainder):
     def input_fn(params):
         """The actual input function."""
         batch_size = params["batch_size"]
-        
+
         num_examples = len(features)
 
         # This is for demo purposes and does NOT scale to large data sets. We do
@@ -328,6 +328,8 @@ def main():
     save_checkpoints_steps = config.getint('PARAMETERS', 'SAVE_CHECKPOINTS_STEPS')
     save_summary_steps = config.getint('PARAMETERS', 'SAVE_SUMMARY_STEPS')
     output_dir = config.get('OUTPUT', 'OUTPUT_DIR')
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
     classification_results_file = config.get('OUTPUT', 'RESULTS_FILE')
 
     train_df = pd.read_csv(os.path.join(corpus_dir, "train.csv"), encoding="utf-8")
@@ -345,22 +347,23 @@ def main():
     # Compute # train and warmup steps from batch size
     num_train_steps = int(len(train_examples) / batch_size * num_train_epochs)
     num_warmup_steps = int(num_train_steps * warmup_proportion)
-    num_steps_in_epoch = int(len(train_examples) / batch_size * num_train_epochs) //num_train_epochs
+    num_steps_in_epoch = int(len(train_examples) / batch_size * num_train_epochs) // num_train_epochs
     save_checkpoints_steps = num_steps_in_epoch * 5
-    train_file = os.path.join('./working', "train.tf_record")
+    train_path = os.path.join(output_dir, "train.tf_record")
+    # Ztrain_path = os.path.join('./working', "train.tf_record")
     # filename = Path(train_file)
-    if not os.path.exists(train_file):
-        open(train_file, 'w').close()
+    if not os.path.exists(train_path):
+        open(train_path, 'w').close()
 
     file_based_convert_examples_to_features(
-        train_examples, max_seq_length, tokenizer, train_file)
+        train_examples, max_seq_length, tokenizer, train_path)
     tf.logging.info("***** Running training *****")
     tf.logging.info("  Num examples = %d", len(train_examples))
     tf.logging.info("  Batch size = %d", batch_size)
     tf.logging.info("  Num steps = %d", num_train_steps)
 
     train_input_fn = file_based_input_fn_builder(
-        input_file=train_file,
+        input_file=train_path,
         seq_length=max_seq_length,
         is_training=True,
         drop_remainder=True)
@@ -389,27 +392,26 @@ def main():
         params={"batch_size": batch_size})
 
     print(f'Beginning Training!')
-    current_time = datetime.now()
     print("FN_INPUT", dir(train_input_fn))
 
     # estimator.train(input_fn=train_input_fn, max_steps=num_train_steps)
-    print("Training took time ", datetime.now() - current_time)
 
-    eval_file = os.path.join('./working', "eval.tf_record")
+    eval_path = os.path.join(output_dir, "eval.tf_record")
+    # eval_path = os.path.join('./working', "eval.tf_record")
     # filename = Path(train_file)
-    if not os.path.exists(eval_file):
-        open(eval_file, 'w').close()
+    if not os.path.exists(eval_path):
+        open(eval_path, 'w').close()
 
     eval_examples = create_examples(dev_df)
     file_based_convert_examples_to_features(
-        eval_examples, max_seq_length, tokenizer, eval_file)
+        eval_examples, max_seq_length, tokenizer, eval_path)
 
     # This tells the estimator to run through the entire set.
     eval_steps = None
 
     eval_drop_remainder = False
     eval_input_fn = file_based_input_fn_builder(
-        input_file=eval_file,
+        input_file=eval_path,
         seq_length=max_seq_length,
         is_training=False,
         drop_remainder=False)
@@ -417,8 +419,8 @@ def main():
     # hooks=[train_logging_hook]
 
     train_spec = tf.estimator.TrainSpec(
-         train_input_fn,
-         max_steps=num_train_steps,
+        train_input_fn,
+        max_steps=num_train_steps,
     )
     # hooks=[eval_logging_hook]
     eval_spec = tf.estimator.EvalSpec(
@@ -427,13 +429,15 @@ def main():
         start_delay_secs=0,
         throttle_secs=10,
     )
+    current_time = datetime.now()
     tf.estimator.train_and_evaluate(
         estimator, train_spec, eval_spec
     )
+    print("Training took time ", datetime.now() - current_time)
     result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
-
-    output_eval_file = os.path.join("./working", "eval_results.txt")
-    with tf.gfile.GFile(output_eval_file, "w") as writer:
+    eval_results_path = os.path.join(output_dir, "eval_results.txt")
+    # eval_results_path = os.path.join("./working", "eval_results.txt")
+    with tf.gfile.GFile(eval_results_path, "w") as writer:
         tf.logging.info("***** Eval results *****")
         for key in sorted(result.keys()):
             tf.logging.info("  %s = %s", key, str(result[key]))
