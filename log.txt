@@ -1,0 +1,1448 @@
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/dist-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/optimization.py:87: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From multilabel_bert_.py:339: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From multilabel_bert_.py:339: The name tf.logging.INFO is deprecated. Please use tf.compat.v1.logging.INFO instead.
+
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/tokenization.py:125: The name tf.gfile.GFile is deprecated. Please use tf.io.gfile.GFile instead.
+
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/bert_preprocessing.py:262: The name tf.python_io.TFRecordWriter is deprecated. Please use tf.io.TFRecordWriter instead.
+
+WARNING:tensorflow:From multilabel_bert_.py:357: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+INFO:tensorflow:***** Running training *****
+INFO:tensorflow:  Num examples = 5408
+INFO:tensorflow:  Batch size = 16
+INFO:tensorflow:  Num steps = 23660
+WARNING:tensorflow:From multilabel_bert_.py:24: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+INFO:tensorflow:Using config: {'_model_dir': 'working/output', '_tf_random_seed': None, '_save_summary_steps': 500, '_save_checkpoints_steps': 1690, '_save_checkpoints_secs': None, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_keep_checkpoint_max': 1, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f2eceb78c50>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Not using Distribute Coordinator.
+INFO:tensorflow:Running training and evaluation locally (non-distributed).
+INFO:tensorflow:Start train and evaluate loop. The evaluate will happen after every checkpoint. Checkpoint frequency is determined based on RunConfig arguments: save_checkpoints_steps 1690 or save_checkpoints_secs None.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From multilabel_bert_.py:60: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/data/python/ops/batching.py:273: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+WARNING:tensorflow:From multilabel_bert_.py:33: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+WARNING:tensorflow:From multilabel_bert_.py:40: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+INFO:tensorflow:Calling model_fn.
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/modeling.py:171: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/modeling.py:409: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/modeling.py:490: The name tf.assert_less_equal is deprecated. Please use tf.compat.v1.assert_less_equal instead.
+
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/modeling.py:358: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/modeling.py:671: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(16, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(16, 5), dtype=float32)
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From multilabel_bert_.py:150: The name tf.metrics.accuracy is deprecated. Please use tf.compat.v1.metrics.accuracy instead.
+
+WARNING:tensorflow:From multilabel_bert_.py:153: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From multilabel_bert_.py:170: The name tf.train.init_from_checkpoint is deprecated. Please use tf.compat.v1.train.init_from_checkpoint instead.
+
+INFO:tensorflow:**** Trainable Variables ****
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/optimization.py:27: The name tf.train.get_or_create_global_step is deprecated. Please use tf.compat.v1.train.get_or_create_global_step instead.
+
+WARNING:tensorflow:From /home/tlenusik/review_classification/bert/optimization.py:32: The name tf.train.polynomial_decay is deprecated. Please use tf.compat.v1.train.polynomial_decay instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/keras/optimizer_v2/learning_rate_schedule.py:409: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+WARNING:tensorflow:From multilabel_bert_.py:188: The name tf.train.LoggingTensorHook is deprecated. Please use tf.estimator.LoggingTensorHook instead.
+
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:00:01.879813: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-03-27 16:00:01.887936: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-03-27 16:00:01.970743: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:00:01.971621: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5f1d640 executing computations on platform CUDA. Devices:
+2020-03-27 16:00:01.971683: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-03-27 16:00:01.991148: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3493035000 Hz
+2020-03-27 16:00:01.992489: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0xb097200 executing computations on platform Host. Devices:
+2020-03-27 16:00:01.992520: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-03-27 16:00:01.992840: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:00:01.993857: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:00:01.994349: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:00:01.995464: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:00:01.996566: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:00:01.996879: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:00:01.998174: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:00:01.999219: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:00:02.001769: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:00:02.001963: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:00:02.002833: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:00:02.003569: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:00:02.003619: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:00:02.004861: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:00:02.004877: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:00:02.004884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:00:02.005016: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:00:02.005828: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:00:02.006580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-0
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:1066: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+2020-03-27 16:00:05.138991: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 0 into working/output/model.ckpt.
+2020-03-27 16:00:23.990550: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+INFO:tensorflow:loss = 0.71792364, step = 0
+INFO:tensorflow:global_step/sec: 2.6693
+INFO:tensorflow:loss = 0.48704553, step = 100 (37.463 sec)
+INFO:tensorflow:global_step/sec: 3.44847
+INFO:tensorflow:loss = 0.3816116, step = 200 (28.998 sec)
+INFO:tensorflow:global_step/sec: 3.44156
+INFO:tensorflow:loss = 0.3219567, step = 300 (29.057 sec)
+INFO:tensorflow:global_step/sec: 3.43685
+INFO:tensorflow:loss = 0.36139014, step = 400 (29.096 sec)
+INFO:tensorflow:global_step/sec: 2.99014
+INFO:tensorflow:loss = 0.39290607, step = 500 (33.443 sec)
+INFO:tensorflow:global_step/sec: 3.43337
+INFO:tensorflow:loss = 0.33372417, step = 600 (29.126 sec)
+INFO:tensorflow:global_step/sec: 3.43324
+INFO:tensorflow:loss = 0.25593182, step = 700 (29.127 sec)
+INFO:tensorflow:global_step/sec: 3.43238
+INFO:tensorflow:loss = 0.2574494, step = 800 (29.134 sec)
+INFO:tensorflow:global_step/sec: 3.43238
+INFO:tensorflow:loss = 0.22183776, step = 900 (29.134 sec)
+INFO:tensorflow:global_step/sec: 3.42965
+INFO:tensorflow:loss = 0.22317743, step = 1000 (29.157 sec)
+INFO:tensorflow:global_step/sec: 3.43015
+INFO:tensorflow:loss = 0.13843009, step = 1100 (29.153 sec)
+INFO:tensorflow:global_step/sec: 3.42966
+INFO:tensorflow:loss = 0.24396174, step = 1200 (29.157 sec)
+INFO:tensorflow:global_step/sec: 3.43025
+INFO:tensorflow:loss = 0.31345496, step = 1300 (29.152 sec)
+INFO:tensorflow:global_step/sec: 3.42905
+INFO:tensorflow:loss = 0.23360857, step = 1400 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.42986
+INFO:tensorflow:loss = 0.21070366, step = 1500 (29.156 sec)
+INFO:tensorflow:global_step/sec: 3.42851
+INFO:tensorflow:loss = 0.29308122, step = 1600 (29.167 sec)
+INFO:tensorflow:Saving checkpoints for 1690 into working/output/model.ckpt.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+WARNING:tensorflow:From multilabel_bert_.py:207: The name tf.metrics.auc is deprecated. Please use tf.compat.v1.metrics.auc instead.
+
+WARNING:tensorflow:From multilabel_bert_.py:209: The name tf.metrics.mean is deprecated. Please use tf.compat.v1.metrics.mean instead.
+
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T16:08:54Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:08:54.844791: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:08:54.845258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:08:54.845313: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:08:54.845328: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:08:54.845340: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:08:54.845352: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:08:54.845375: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:08:54.845387: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:08:54.845399: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:08:54.845475: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:08:54.845922: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:08:54.846288: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:08:54.846312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:08:54.846318: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:08:54.846323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:08:54.846411: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:08:54.846840: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:08:54.847235: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-1690
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.8875, loss = 0.27909023
+INFO:tensorflow:accuracy = 0.91875, loss = 0.13657895 (0.630 sec)
+INFO:tensorflow:accuracy = 0.925, loss = 0.13655576 (0.148 sec)
+INFO:tensorflow:accuracy = 0.921875, loss = 0.29431266 (0.148 sec)
+INFO:tensorflow:accuracy = 0.915, loss = 0.24434248 (0.147 sec)
+INFO:tensorflow:accuracy = 0.91041666, loss = 0.26102036 (0.149 sec)
+INFO:tensorflow:accuracy = 0.8964286, loss = 0.4717876 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90625, loss = 0.12323221 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90416664, loss = 0.33927312 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90125, loss = 0.2811626 (0.148 sec)
+INFO:tensorflow:accuracy = 0.8909091, loss = 0.5529546 (0.148 sec)
+INFO:tensorflow:accuracy = 0.8979167, loss = 0.09752404 (0.147 sec)
+INFO:tensorflow:accuracy = 0.89807695, loss = 0.2961655 (0.148 sec)
+INFO:tensorflow:accuracy = 0.8982143, loss = 0.17203681 (0.148 sec)
+INFO:tensorflow:accuracy = 0.89916664, loss = 0.24982807 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9, loss = 0.1639314 (0.147 sec)
+INFO:tensorflow:accuracy = 0.9014706, loss = 0.14640549 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9, loss = 0.23031771 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9026316, loss = 0.18261123 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-16:08:59
+INFO:tensorflow:Saving dict for global step 1690: 0 = 0.92588896, 1 = 0.8079636, 2 = 0.9165646, 3 = 0.95370233, 4 = 0.91021276, eval_loss = 0.2666373, global_step = 1690, loss = 0.2673368
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 1690: working/output/model.ckpt-1690
+INFO:tensorflow:global_step/sec: 2.45541
+INFO:tensorflow:loss = 0.10237155, step = 1700 (40.726 sec)
+INFO:tensorflow:global_step/sec: 3.43248
+INFO:tensorflow:loss = 0.09608186, step = 1800 (29.133 sec)
+INFO:tensorflow:global_step/sec: 3.43034
+INFO:tensorflow:loss = 0.09619166, step = 1900 (29.152 sec)
+INFO:tensorflow:global_step/sec: 3.43046
+INFO:tensorflow:loss = 0.099818386, step = 2000 (29.150 sec)
+INFO:tensorflow:global_step/sec: 3.42986
+INFO:tensorflow:loss = 0.2340935, step = 2100 (29.156 sec)
+INFO:tensorflow:global_step/sec: 3.43
+INFO:tensorflow:loss = 0.06378527, step = 2200 (29.155 sec)
+INFO:tensorflow:global_step/sec: 3.42867
+INFO:tensorflow:loss = 0.17932917, step = 2300 (29.166 sec)
+INFO:tensorflow:global_step/sec: 3.42871
+INFO:tensorflow:loss = 0.08701475, step = 2400 (29.165 sec)
+INFO:tensorflow:global_step/sec: 3.42895
+INFO:tensorflow:loss = 0.24583307, step = 2500 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.4296
+INFO:tensorflow:loss = 0.04780357, step = 2600 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.42928
+INFO:tensorflow:loss = 0.106682286, step = 2700 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42919
+INFO:tensorflow:loss = 0.06691326, step = 2800 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42891
+INFO:tensorflow:loss = 0.06732941, step = 2900 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42807
+INFO:tensorflow:loss = 0.08191766, step = 3000 (29.171 sec)
+INFO:tensorflow:global_step/sec: 3.43028
+INFO:tensorflow:loss = 0.08479542, step = 3100 (29.152 sec)
+INFO:tensorflow:global_step/sec: 3.43049
+INFO:tensorflow:loss = 0.043050043, step = 3200 (29.150 sec)
+INFO:tensorflow:global_step/sec: 3.429
+INFO:tensorflow:loss = 0.07674979, step = 3300 (29.163 sec)
+INFO:tensorflow:Saving checkpoints for 3380 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T16:17:18Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:17:19.191961: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:17:19.192416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:17:19.192460: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:17:19.192473: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:17:19.192483: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:17:19.192493: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:17:19.192503: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:17:19.192513: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:17:19.192523: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:17:19.192591: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:17:19.193020: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:17:19.193390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:17:19.193416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:17:19.193431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:17:19.193437: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:17:19.193525: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:17:19.193956: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:17:19.194333: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-3380
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9, loss = 0.26543278
+INFO:tensorflow:accuracy = 0.91875, loss = 0.21357735 (0.612 sec)
+INFO:tensorflow:accuracy = 0.9291667, loss = 0.20138602 (0.149 sec)
+INFO:tensorflow:accuracy = 0.921875, loss = 0.45387143 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9175, loss = 0.19017899 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91875, loss = 0.26345205 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91071427, loss = 0.59092325 (0.149 sec)
+INFO:tensorflow:accuracy = 0.915625, loss = 0.15672688 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.50853574 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.37712878 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9022727, loss = 0.8247259 (0.149 sec)
+INFO:tensorflow:accuracy = 0.909375, loss = 0.063475646 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9067308, loss = 0.46445245 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9080357, loss = 0.2817084 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9075, loss = 0.33807546 (0.150 sec)
+INFO:tensorflow:accuracy = 0.91015625, loss = 0.17579532 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9102941, loss = 0.32751045 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91180557, loss = 0.19819544 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9144737, loss = 0.19015333 (0.149 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-16:17:24
+INFO:tensorflow:Saving dict for global step 3380: 0 = 0.89828694, 1 = 0.8183626, 2 = 0.91701466, 3 = 0.93938285, 4 = 0.89667845, eval_loss = 0.34286198, global_step = 3380, loss = 0.34162053
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 3380: working/output/model.ckpt-3380
+INFO:tensorflow:global_step/sec: 2.50946
+INFO:tensorflow:loss = 0.014616189, step = 3400 (39.849 sec)
+INFO:tensorflow:global_step/sec: 3.43207
+INFO:tensorflow:loss = 0.036927383, step = 3500 (29.137 sec)
+INFO:tensorflow:global_step/sec: 3.43058
+INFO:tensorflow:loss = 0.05450951, step = 3600 (29.150 sec)
+INFO:tensorflow:global_step/sec: 3.42956
+INFO:tensorflow:loss = 0.010722942, step = 3700 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.43054
+INFO:tensorflow:loss = 0.01949508, step = 3800 (29.150 sec)
+INFO:tensorflow:global_step/sec: 3.42944
+INFO:tensorflow:loss = 0.07105232, step = 3900 (29.159 sec)
+INFO:tensorflow:global_step/sec: 3.43027
+INFO:tensorflow:loss = 0.008454001, step = 4000 (29.152 sec)
+INFO:tensorflow:global_step/sec: 3.42935
+INFO:tensorflow:loss = 0.03176285, step = 4100 (29.160 sec)
+INFO:tensorflow:global_step/sec: 3.42861
+INFO:tensorflow:loss = 0.11233884, step = 4200 (29.166 sec)
+INFO:tensorflow:global_step/sec: 3.42809
+INFO:tensorflow:loss = 0.01952889, step = 4300 (29.171 sec)
+INFO:tensorflow:global_step/sec: 3.42874
+INFO:tensorflow:loss = 0.045620278, step = 4400 (29.165 sec)
+INFO:tensorflow:global_step/sec: 3.42828
+INFO:tensorflow:loss = 0.008309347, step = 4500 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42929
+INFO:tensorflow:loss = 0.047368586, step = 4600 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42888
+INFO:tensorflow:loss = 0.020740854, step = 4700 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42914
+INFO:tensorflow:loss = 0.003665711, step = 4800 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.43091
+INFO:tensorflow:loss = 0.020257115, step = 4900 (29.147 sec)
+INFO:tensorflow:global_step/sec: 3.4276
+INFO:tensorflow:loss = 0.007693918, step = 5000 (29.175 sec)
+INFO:tensorflow:Saving checkpoints for 5070 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T16:25:42Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:25:42.865497: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:25:42.865937: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:25:42.865983: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:25:42.865995: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:25:42.866005: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:25:42.866015: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:25:42.866025: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:25:42.866035: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:25:42.866045: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:25:42.866116: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:25:42.866546: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:25:42.866923: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:25:42.866949: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:25:42.866955: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:25:42.866961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:25:42.867050: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:25:42.867482: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:25:42.867875: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-5070
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9125, loss = 0.3235076
+INFO:tensorflow:accuracy = 0.93125, loss = 0.1885772 (0.642 sec)
+INFO:tensorflow:accuracy = 0.9375, loss = 0.24037747 (0.148 sec)
+INFO:tensorflow:accuracy = 0.925, loss = 0.62268525 (0.149 sec)
+INFO:tensorflow:accuracy = 0.915, loss = 0.37740484 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91875, loss = 0.33705455 (0.147 sec)
+INFO:tensorflow:accuracy = 0.9071429, loss = 0.7738001 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.16470377 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.50723696 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91, loss = 0.6133385 (0.148 sec)
+INFO:tensorflow:accuracy = 0.8988636, loss = 1.2351676 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90416664, loss = 0.12075995 (0.148 sec)
+INFO:tensorflow:accuracy = 0.89903843, loss = 0.8316518 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90089285, loss = 0.36481696 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9025, loss = 0.3589651 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90546876, loss = 0.22932033 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9073529, loss = 0.30683076 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90833336, loss = 0.30350456 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9111842, loss = 0.22679675 (0.149 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-16:25:47
+INFO:tensorflow:Saving dict for global step 5070: 0 = 0.9103102, 1 = 0.8776827, 2 = 0.89217305, 3 = 0.93373865, 4 = 0.8764952, eval_loss = 0.45767495, global_step = 5070, loss = 0.45793495
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 5070: working/output/model.ckpt-5070
+INFO:tensorflow:global_step/sec: 2.49241
+INFO:tensorflow:loss = 0.0064619826, step = 5100 (40.122 sec)
+INFO:tensorflow:global_step/sec: 3.42976
+INFO:tensorflow:loss = 0.06754753, step = 5200 (29.156 sec)
+INFO:tensorflow:global_step/sec: 3.42963
+INFO:tensorflow:loss = 0.0058879917, step = 5300 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.42959
+INFO:tensorflow:loss = 0.0020984884, step = 5400 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.42723
+INFO:tensorflow:loss = 0.009859656, step = 5500 (29.178 sec)
+INFO:tensorflow:global_step/sec: 3.42886
+INFO:tensorflow:loss = 0.009008521, step = 5600 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.4295
+INFO:tensorflow:loss = 0.013680778, step = 5700 (29.159 sec)
+INFO:tensorflow:global_step/sec: 3.42782
+INFO:tensorflow:loss = 0.0056494996, step = 5800 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.42882
+INFO:tensorflow:loss = 0.0016440621, step = 5900 (29.165 sec)
+INFO:tensorflow:global_step/sec: 3.42918
+INFO:tensorflow:loss = 0.0034454234, step = 6000 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42869
+INFO:tensorflow:loss = 0.0033550814, step = 6100 (29.166 sec)
+INFO:tensorflow:global_step/sec: 3.42854
+INFO:tensorflow:loss = 0.0014449926, step = 6200 (29.167 sec)
+INFO:tensorflow:global_step/sec: 3.42743
+INFO:tensorflow:loss = 0.020142172, step = 6300 (29.176 sec)
+INFO:tensorflow:global_step/sec: 3.42767
+INFO:tensorflow:loss = 0.0034742155, step = 6400 (29.174 sec)
+INFO:tensorflow:global_step/sec: 3.42672
+INFO:tensorflow:loss = 0.0021452315, step = 6500 (29.182 sec)
+INFO:tensorflow:global_step/sec: 3.42782
+INFO:tensorflow:loss = 0.0013334577, step = 6600 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.42646
+INFO:tensorflow:loss = 0.0012618343, step = 6700 (29.185 sec)
+INFO:tensorflow:Saving checkpoints for 6760 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T16:34:06Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:34:06.753558: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:34:06.754003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:34:06.754062: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:34:06.754076: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:34:06.754087: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:34:06.754098: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:34:06.754108: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:34:06.754119: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:34:06.754130: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:34:06.754199: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:34:06.754620: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:34:06.754992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:34:06.755019: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:34:06.755025: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:34:06.755029: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:34:06.755117: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:34:06.755540: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:34:06.755911: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-6760
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9625, loss = 0.19656657
+INFO:tensorflow:accuracy = 0.925, loss = 0.38462162 (0.621 sec)
+INFO:tensorflow:accuracy = 0.93333334, loss = 0.30726212 (0.148 sec)
+INFO:tensorflow:accuracy = 0.921875, loss = 0.56795144 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9175, loss = 0.32633826 (0.148 sec)
+INFO:tensorflow:accuracy = 0.92083335, loss = 0.34708852 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9089286, loss = 0.84891164 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9109375, loss = 0.22467141 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90416664, loss = 0.6285488 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9025, loss = 0.5440249 (0.149 sec)
+INFO:tensorflow:accuracy = 0.8863636, loss = 1.6641953 (0.149 sec)
+INFO:tensorflow:accuracy = 0.89270836, loss = 0.12956282 (0.148 sec)
+INFO:tensorflow:accuracy = 0.88846153, loss = 0.7760586 (0.150 sec)
+INFO:tensorflow:accuracy = 0.89107144, loss = 0.4594523 (0.148 sec)
+INFO:tensorflow:accuracy = 0.8908333, loss = 0.58916646 (0.148 sec)
+INFO:tensorflow:accuracy = 0.89453125, loss = 0.23493457 (0.148 sec)
+INFO:tensorflow:accuracy = 0.89485294, loss = 0.5290822 (0.148 sec)
+INFO:tensorflow:accuracy = 0.8979167, loss = 0.29554495 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9, loss = 0.35719383 (0.149 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-16:34:11
+INFO:tensorflow:Saving dict for global step 6760: 0 = 0.9103642, 1 = 0.8317459, 2 = 0.90197766, 3 = 0.8982396, 4 = 0.86498225, eval_loss = 0.4994018, global_step = 6760, loss = 0.49675676
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 6760: working/output/model.ckpt-6760
+INFO:tensorflow:global_step/sec: 2.49426
+INFO:tensorflow:loss = 0.040027518, step = 6800 (40.092 sec)
+INFO:tensorflow:global_step/sec: 3.43022
+INFO:tensorflow:loss = 0.0008074973, step = 6900 (29.152 sec)
+INFO:tensorflow:global_step/sec: 3.43001
+INFO:tensorflow:loss = 0.039784886, step = 7000 (29.154 sec)
+INFO:tensorflow:global_step/sec: 3.42951
+INFO:tensorflow:loss = 0.0017947846, step = 7100 (29.159 sec)
+INFO:tensorflow:global_step/sec: 3.42774
+INFO:tensorflow:loss = 0.0015025367, step = 7200 (29.174 sec)
+INFO:tensorflow:global_step/sec: 3.42829
+INFO:tensorflow:loss = 0.00096479617, step = 7300 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42758
+INFO:tensorflow:loss = 0.002457526, step = 7400 (29.175 sec)
+INFO:tensorflow:global_step/sec: 3.42755
+INFO:tensorflow:loss = 0.0011394544, step = 7500 (29.175 sec)
+INFO:tensorflow:global_step/sec: 3.42778
+INFO:tensorflow:loss = 0.004297687, step = 7600 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.42736
+INFO:tensorflow:loss = 0.0029352163, step = 7700 (29.177 sec)
+INFO:tensorflow:global_step/sec: 3.42741
+INFO:tensorflow:loss = 0.0007909293, step = 7800 (29.176 sec)
+INFO:tensorflow:global_step/sec: 3.42785
+INFO:tensorflow:loss = 0.00046188402, step = 7900 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.42851
+INFO:tensorflow:loss = 0.0015455903, step = 8000 (29.167 sec)
+INFO:tensorflow:global_step/sec: 3.42959
+INFO:tensorflow:loss = 0.0010808498, step = 8100 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.42901
+INFO:tensorflow:loss = 0.0012412377, step = 8200 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.42858
+INFO:tensorflow:loss = 0.0009888358, step = 8300 (29.167 sec)
+INFO:tensorflow:global_step/sec: 3.42741
+INFO:tensorflow:loss = 0.0015904575, step = 8400 (29.176 sec)
+INFO:tensorflow:Saving checkpoints for 8450 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T16:42:30Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:42:30.729914: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:42:30.730366: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:42:30.730409: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:42:30.730421: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:42:30.730431: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:42:30.730441: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:42:30.730451: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:42:30.730461: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:42:30.730471: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:42:30.730540: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:42:30.731053: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:42:30.731438: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:42:30.731465: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:42:30.731471: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:42:30.731476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:42:30.731569: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:42:30.732004: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:42:30.732387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-8450
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.925, loss = 0.30347723
+INFO:tensorflow:accuracy = 0.9375, loss = 0.22035965 (0.640 sec)
+INFO:tensorflow:accuracy = 0.94166666, loss = 0.23122053 (0.155 sec)
+INFO:tensorflow:accuracy = 0.928125, loss = 0.7645578 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9225, loss = 0.39350012 (0.148 sec)
+INFO:tensorflow:accuracy = 0.925, loss = 0.38716316 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91785717, loss = 0.6624943 (0.148 sec)
+INFO:tensorflow:accuracy = 0.925, loss = 0.09615728 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91944444, loss = 0.66299236 (0.150 sec)
+INFO:tensorflow:accuracy = 0.92, loss = 0.44034657 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9079546, loss = 1.4086313 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.11665678 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9096154, loss = 0.75483996 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90982145, loss = 0.52369964 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9116667, loss = 0.4333171 (0.149 sec)
+INFO:tensorflow:accuracy = 0.915625, loss = 0.15940699 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91544116, loss = 0.4931253 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91805553, loss = 0.25746349 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91907895, loss = 0.3050602 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-16:42:35
+INFO:tensorflow:Saving dict for global step 8450: 0 = 0.872743, 1 = 0.84485775, 2 = 0.89356524, 3 = 0.8835208, 4 = 0.87322104, eval_loss = 0.5258276, global_step = 8450, loss = 0.5264945
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 8450: working/output/model.ckpt-8450
+INFO:tensorflow:global_step/sec: 2.48863
+INFO:tensorflow:loss = 0.0004750329, step = 8500 (40.183 sec)
+INFO:tensorflow:global_step/sec: 3.43057
+INFO:tensorflow:loss = 0.0006187346, step = 8600 (29.150 sec)
+INFO:tensorflow:global_step/sec: 3.43156
+INFO:tensorflow:loss = 0.0011164682, step = 8700 (29.141 sec)
+INFO:tensorflow:global_step/sec: 3.42924
+INFO:tensorflow:loss = 0.042268634, step = 8800 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42962
+INFO:tensorflow:loss = 0.0016151933, step = 8900 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.42917
+INFO:tensorflow:loss = 0.0006761039, step = 9000 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42975
+INFO:tensorflow:loss = 0.00087728613, step = 9100 (29.157 sec)
+INFO:tensorflow:global_step/sec: 3.42826
+INFO:tensorflow:loss = 0.002986807, step = 9200 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42915
+INFO:tensorflow:loss = 0.022666726, step = 9300 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42939
+INFO:tensorflow:loss = 0.0009516872, step = 9400 (29.160 sec)
+INFO:tensorflow:global_step/sec: 3.4286
+INFO:tensorflow:loss = 0.0010523645, step = 9500 (29.166 sec)
+INFO:tensorflow:global_step/sec: 3.42881
+INFO:tensorflow:loss = 0.012013204, step = 9600 (29.165 sec)
+INFO:tensorflow:global_step/sec: 3.42921
+INFO:tensorflow:loss = 0.00043369224, step = 9700 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42901
+INFO:tensorflow:loss = 0.00046940165, step = 9800 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.42755
+INFO:tensorflow:loss = 0.00092156447, step = 9900 (29.175 sec)
+INFO:tensorflow:global_step/sec: 3.42839
+INFO:tensorflow:loss = 0.09899874, step = 10000 (29.168 sec)
+INFO:tensorflow:global_step/sec: 3.42894
+INFO:tensorflow:loss = 0.00037821135, step = 10100 (29.164 sec)
+INFO:tensorflow:Saving checkpoints for 10140 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T16:50:54Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:50:54.400122: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:50:54.400579: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:50:54.400622: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:50:54.400634: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:50:54.400645: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:50:54.400655: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:50:54.400665: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:50:54.400675: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:50:54.400686: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:50:54.400754: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:50:54.401185: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:50:54.401557: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:50:54.401583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:50:54.401589: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:50:54.401594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:50:54.401684: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:50:54.402117: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:50:54.402508: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-10140
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.95, loss = 0.1654788
+INFO:tensorflow:accuracy = 0.95625, loss = 0.2574603 (0.638 sec)
+INFO:tensorflow:accuracy = 0.95416665, loss = 0.32624567 (0.154 sec)
+INFO:tensorflow:accuracy = 0.940625, loss = 0.6432029 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9475, loss = 0.123348475 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9458333, loss = 0.40963045 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9375, loss = 0.74042565 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9328125, loss = 0.43650818 (0.149 sec)
+INFO:tensorflow:accuracy = 0.92638886, loss = 0.8569106 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9225, loss = 0.66291034 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9068182, loss = 1.798591 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.04360762 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9096154, loss = 0.79889524 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91160715, loss = 0.44192433 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9091667, loss = 0.7838743 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91015625, loss = 0.40856394 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9110294, loss = 0.541711 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91180557, loss = 0.5331827 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.43151966 (0.149 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-16:50:59
+INFO:tensorflow:Saving dict for global step 10140: 0 = 0.8895498, 1 = 0.7874368, 2 = 0.8834125, 3 = 0.8723956, 4 = 0.8554255, eval_loss = 0.5812628, global_step = 10140, loss = 0.58286756
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 10140: working/output/model.ckpt-10140
+INFO:tensorflow:global_step/sec: 2.50005
+INFO:tensorflow:loss = 0.0003494387, step = 10200 (39.999 sec)
+INFO:tensorflow:global_step/sec: 3.43181
+INFO:tensorflow:loss = 0.0004347049, step = 10300 (29.139 sec)
+INFO:tensorflow:global_step/sec: 3.43106
+INFO:tensorflow:loss = 0.17265041, step = 10400 (29.145 sec)
+INFO:tensorflow:global_step/sec: 3.43136
+INFO:tensorflow:loss = 0.0006487062, step = 10500 (29.143 sec)
+INFO:tensorflow:global_step/sec: 3.43092
+INFO:tensorflow:loss = 0.0014831626, step = 10600 (29.147 sec)
+INFO:tensorflow:global_step/sec: 3.42681
+INFO:tensorflow:loss = 0.00042558293, step = 10700 (29.182 sec)
+INFO:tensorflow:global_step/sec: 3.42924
+INFO:tensorflow:loss = 0.0004884866, step = 10800 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.43011
+INFO:tensorflow:loss = 0.0012832131, step = 10900 (29.154 sec)
+INFO:tensorflow:global_step/sec: 3.43098
+INFO:tensorflow:loss = 0.0027629493, step = 11000 (29.146 sec)
+INFO:tensorflow:global_step/sec: 3.4298
+INFO:tensorflow:loss = 0.00043651694, step = 11100 (29.156 sec)
+INFO:tensorflow:global_step/sec: 3.4291
+INFO:tensorflow:loss = 0.000355872, step = 11200 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42668
+INFO:tensorflow:loss = 0.0003012553, step = 11300 (29.183 sec)
+INFO:tensorflow:global_step/sec: 3.42993
+INFO:tensorflow:loss = 0.057909537, step = 11400 (29.155 sec)
+INFO:tensorflow:global_step/sec: 3.42938
+INFO:tensorflow:loss = 0.00024964585, step = 11500 (29.160 sec)
+INFO:tensorflow:global_step/sec: 3.42959
+INFO:tensorflow:loss = 0.00021048538, step = 11600 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.429
+INFO:tensorflow:loss = 0.01352145, step = 11700 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.42819
+INFO:tensorflow:loss = 0.00054569606, step = 11800 (29.170 sec)
+INFO:tensorflow:Saving checkpoints for 11830 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T16:59:17Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 16:59:17.909767: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:59:17.910220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 16:59:17.910270: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 16:59:17.910284: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 16:59:17.910295: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 16:59:17.910306: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 16:59:17.910316: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 16:59:17.910328: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 16:59:17.910339: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 16:59:17.910407: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:59:17.910836: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:59:17.911227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 16:59:17.911254: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 16:59:17.911260: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 16:59:17.911265: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 16:59:17.911354: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:59:17.911798: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 16:59:17.912196: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-11830
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.95, loss = 0.31247813
+INFO:tensorflow:accuracy = 0.95625, loss = 0.25976086 (0.641 sec)
+INFO:tensorflow:accuracy = 0.95416665, loss = 0.2850207 (0.154 sec)
+INFO:tensorflow:accuracy = 0.9375, loss = 0.88119125 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9325, loss = 0.42260724 (0.148 sec)
+INFO:tensorflow:accuracy = 0.93541664, loss = 0.41882053 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9267857, loss = 0.8326389 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9265625, loss = 0.41710553 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9222222, loss = 0.7285874 (0.149 sec)
+INFO:tensorflow:accuracy = 0.92125, loss = 0.59177154 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9068182, loss = 1.482671 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.08882521 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9096154, loss = 0.73938847 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90982145, loss = 0.51175064 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91, loss = 0.63930833 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.2131643 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9132353, loss = 0.5250303 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91597223, loss = 0.26329923 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9177632, loss = 0.35825223 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-16:59:22
+INFO:tensorflow:Saving dict for global step 11830: 0 = 0.8626589, 1 = 0.8372017, 2 = 0.892179, 3 = 0.8701997, 4 = 0.8729374, eval_loss = 0.56390125, global_step = 11830, loss = 0.5670072
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 11830: working/output/model.ckpt-11830
+INFO:tensorflow:global_step/sec: 2.50594
+INFO:tensorflow:loss = 0.00034313108, step = 11900 (39.905 sec)
+INFO:tensorflow:global_step/sec: 3.43275
+INFO:tensorflow:loss = 0.00031485918, step = 12000 (29.131 sec)
+INFO:tensorflow:global_step/sec: 3.42977
+INFO:tensorflow:loss = 0.00078631873, step = 12100 (29.156 sec)
+INFO:tensorflow:global_step/sec: 3.43057
+INFO:tensorflow:loss = 0.00088805985, step = 12200 (29.150 sec)
+INFO:tensorflow:global_step/sec: 3.42788
+INFO:tensorflow:loss = 0.00029161834, step = 12300 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.42732
+INFO:tensorflow:loss = 0.00015951907, step = 12400 (29.178 sec)
+INFO:tensorflow:global_step/sec: 3.42817
+INFO:tensorflow:loss = 0.00036333952, step = 12500 (29.170 sec)
+INFO:tensorflow:global_step/sec: 3.42815
+INFO:tensorflow:loss = 0.0003352461, step = 12600 (29.170 sec)
+INFO:tensorflow:global_step/sec: 3.42927
+INFO:tensorflow:loss = 0.00022746107, step = 12700 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42898
+INFO:tensorflow:loss = 0.00015629471, step = 12800 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.42775
+INFO:tensorflow:loss = 0.00028165174, step = 12900 (29.174 sec)
+INFO:tensorflow:global_step/sec: 3.4281
+INFO:tensorflow:loss = 0.00046655047, step = 13000 (29.171 sec)
+INFO:tensorflow:global_step/sec: 3.42908
+INFO:tensorflow:loss = 0.0004385879, step = 13100 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42689
+INFO:tensorflow:loss = 0.00026559728, step = 13200 (29.181 sec)
+INFO:tensorflow:global_step/sec: 3.428
+INFO:tensorflow:loss = 0.00017275845, step = 13300 (29.172 sec)
+INFO:tensorflow:global_step/sec: 3.43132
+INFO:tensorflow:loss = 0.00026803178, step = 13400 (29.143 sec)
+INFO:tensorflow:global_step/sec: 3.42729
+INFO:tensorflow:loss = 0.00026084686, step = 13500 (29.178 sec)
+INFO:tensorflow:Saving checkpoints for 13520 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:07:41Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:07:41.480629: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:07:41.481083: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:07:41.481128: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:07:41.481141: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:07:41.481151: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:07:41.481161: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:07:41.481182: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:07:41.481192: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:07:41.481203: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:07:41.481270: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:07:41.481700: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:07:41.482068: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:07:41.482094: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:07:41.482100: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:07:41.482104: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:07:41.482194: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:07:41.482625: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:07:41.483013: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-13520
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.95, loss = 0.30035284
+INFO:tensorflow:accuracy = 0.95625, loss = 0.2702121 (0.625 sec)
+INFO:tensorflow:accuracy = 0.95416665, loss = 0.37653098 (0.147 sec)
+INFO:tensorflow:accuracy = 0.94375, loss = 0.7398052 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9325, loss = 0.6635289 (0.148 sec)
+INFO:tensorflow:accuracy = 0.93333334, loss = 0.4608338 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9267857, loss = 0.82002527 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9234375, loss = 0.7018754 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91944444, loss = 0.8306896 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9175, loss = 0.80297405 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9022727, loss = 1.915127 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90833336, loss = 0.15301065 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9009615, loss = 1.2609254 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90178573, loss = 0.5213815 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9, loss = 0.7894542 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90234375, loss = 0.42478785 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9051471, loss = 0.39499196 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9076389, loss = 0.32231283 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9092105, loss = 0.36212903 (0.149 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:07:46
+INFO:tensorflow:Saving dict for global step 13520: 0 = 0.8536738, 1 = 0.84057754, 2 = 0.890049, 3 = 0.8778221, 4 = 0.8573109, eval_loss = 0.6583354, global_step = 13520, loss = 0.6588507
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 13520: working/output/model.ckpt-13520
+INFO:tensorflow:global_step/sec: 2.51174
+INFO:tensorflow:loss = 0.00022895767, step = 13600 (39.813 sec)
+INFO:tensorflow:global_step/sec: 3.42969
+INFO:tensorflow:loss = 0.00020980711, step = 13700 (29.157 sec)
+INFO:tensorflow:global_step/sec: 3.43129
+INFO:tensorflow:loss = 0.00031379814, step = 13800 (29.144 sec)
+INFO:tensorflow:global_step/sec: 3.42911
+INFO:tensorflow:loss = 0.00018154776, step = 13900 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42922
+INFO:tensorflow:loss = 0.00024161386, step = 14000 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42916
+INFO:tensorflow:loss = 0.02657476, step = 14100 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42847
+INFO:tensorflow:loss = 0.00015794081, step = 14200 (29.168 sec)
+INFO:tensorflow:global_step/sec: 3.42985
+INFO:tensorflow:loss = 0.00022497, step = 14300 (29.156 sec)
+INFO:tensorflow:global_step/sec: 3.42929
+INFO:tensorflow:loss = 0.00025482374, step = 14400 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42796
+INFO:tensorflow:loss = 0.00029102858, step = 14500 (29.172 sec)
+INFO:tensorflow:global_step/sec: 3.42807
+INFO:tensorflow:loss = 0.0023394092, step = 14600 (29.171 sec)
+INFO:tensorflow:global_step/sec: 3.42884
+INFO:tensorflow:loss = 0.00014058921, step = 14700 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42773
+INFO:tensorflow:loss = 0.00032234206, step = 14800 (29.174 sec)
+INFO:tensorflow:global_step/sec: 3.42812
+INFO:tensorflow:loss = 0.0002837888, step = 14900 (29.170 sec)
+INFO:tensorflow:global_step/sec: 3.43021
+INFO:tensorflow:loss = 0.00015006312, step = 15000 (29.153 sec)
+INFO:tensorflow:global_step/sec: 3.42905
+INFO:tensorflow:loss = 0.00019560326, step = 15100 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.42808
+INFO:tensorflow:loss = 0.00015329683, step = 15200 (29.171 sec)
+INFO:tensorflow:Saving checkpoints for 15210 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:16:04Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:16:05.123666: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:16:05.124138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:16:05.124188: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:16:05.124202: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:16:05.124214: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:16:05.124225: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:16:05.124236: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:16:05.124247: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:16:05.124260: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:16:05.124330: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:16:05.124756: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:16:05.125122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:16:05.125147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:16:05.125163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:16:05.125168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:16:05.125257: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:16:05.125685: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:16:05.126060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-15210
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9375, loss = 0.46844324
+INFO:tensorflow:accuracy = 0.95, loss = 0.23690137 (0.644 sec)
+INFO:tensorflow:accuracy = 0.95, loss = 0.3549863 (0.154 sec)
+INFO:tensorflow:accuracy = 0.940625, loss = 0.7143385 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9375, loss = 0.28137666 (0.148 sec)
+INFO:tensorflow:accuracy = 0.93541664, loss = 0.5716321 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9285714, loss = 0.7749587 (0.149 sec)
+INFO:tensorflow:accuracy = 0.93125, loss = 0.27613467 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9236111, loss = 0.9387239 (0.148 sec)
+INFO:tensorflow:accuracy = 0.92125, loss = 0.83553016 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9079546, loss = 1.6946316 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9145833, loss = 0.08355677 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.8391287 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91339284, loss = 0.49224362 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91083336, loss = 0.6882166 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.38015544 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9132353, loss = 0.55660677 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9152778, loss = 0.41560236 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9177632, loss = 0.2689111 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:16:10
+INFO:tensorflow:Saving dict for global step 15210: 0 = 0.88169575, 1 = 0.7740536, 2 = 0.88650864, 3 = 0.89009076, 4 = 0.86960995, eval_loss = 0.6209441, global_step = 15210, loss = 0.6222475
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 15210: working/output/model.ckpt-15210
+INFO:tensorflow:global_step/sec: 2.49938
+INFO:tensorflow:loss = 0.000187254, step = 15300 (40.010 sec)
+INFO:tensorflow:global_step/sec: 3.43122
+INFO:tensorflow:loss = 0.00013365333, step = 15400 (29.144 sec)
+INFO:tensorflow:global_step/sec: 3.43011
+INFO:tensorflow:loss = 0.00018457629, step = 15500 (29.154 sec)
+INFO:tensorflow:global_step/sec: 3.43087
+INFO:tensorflow:loss = 0.044611394, step = 15600 (29.147 sec)
+INFO:tensorflow:global_step/sec: 3.42928
+INFO:tensorflow:loss = 0.0001559937, step = 15700 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42994
+INFO:tensorflow:loss = 0.00028885645, step = 15800 (29.155 sec)
+INFO:tensorflow:global_step/sec: 3.42868
+INFO:tensorflow:loss = 0.0002638961, step = 15900 (29.166 sec)
+INFO:tensorflow:global_step/sec: 3.42901
+INFO:tensorflow:loss = 0.0001794555, step = 16000 (29.163 sec)
+INFO:tensorflow:global_step/sec: 3.42859
+INFO:tensorflow:loss = 0.0003456865, step = 16100 (29.167 sec)
+INFO:tensorflow:global_step/sec: 3.4285
+INFO:tensorflow:loss = 0.00019738199, step = 16200 (29.167 sec)
+INFO:tensorflow:global_step/sec: 3.4275
+INFO:tensorflow:loss = 0.00018123191, step = 16300 (29.176 sec)
+INFO:tensorflow:global_step/sec: 3.43082
+INFO:tensorflow:loss = 0.0008182369, step = 16400 (29.148 sec)
+INFO:tensorflow:global_step/sec: 3.4289
+INFO:tensorflow:loss = 0.00018704816, step = 16500 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42889
+INFO:tensorflow:loss = 9.942455e-05, step = 16600 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42643
+INFO:tensorflow:loss = 0.00055735034, step = 16700 (29.185 sec)
+INFO:tensorflow:global_step/sec: 3.42982
+INFO:tensorflow:loss = 0.00020721694, step = 16800 (29.156 sec)
+INFO:tensorflow:Saving checkpoints for 16900 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:24:28Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:24:28.883613: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:24:28.884060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:24:28.884104: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:24:28.884116: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:24:28.884126: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:24:28.884136: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:24:28.884146: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:24:28.884155: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:24:28.884166: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:24:28.884234: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:24:28.884664: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:24:28.885033: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:24:28.885060: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:24:28.885066: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:24:28.885071: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:24:28.885160: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:24:28.885591: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:24:28.885970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-16900
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9375, loss = 0.5189222
+INFO:tensorflow:accuracy = 0.95625, loss = 0.16946495 (0.619 sec)
+INFO:tensorflow:accuracy = 0.95416665, loss = 0.3565713 (0.148 sec)
+INFO:tensorflow:accuracy = 0.934375, loss = 0.8592514 (0.148 sec)
+INFO:tensorflow:accuracy = 0.925, loss = 0.47072655 (0.148 sec)
+INFO:tensorflow:accuracy = 0.925, loss = 0.51568127 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9142857, loss = 1.0258316 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9203125, loss = 0.21921496 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9152778, loss = 0.9883188 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91125, loss = 0.97043914 (0.149 sec)
+INFO:tensorflow:accuracy = 0.89772725, loss = 1.8665154 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90416664, loss = 0.04105828 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90384614, loss = 0.88214886 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9053571, loss = 0.6483705 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90416664, loss = 0.72052014 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9085938, loss = 0.18513972 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90955883, loss = 0.6022508 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91180557, loss = 0.45103484 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91513157, loss = 0.25717002 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:24:33
+INFO:tensorflow:Saving dict for global step 16900: 0 = 0.8581987, 1 = 0.76886916, 2 = 0.8802923, 3 = 0.88070786, 4 = 0.8696218, eval_loss = 0.6657375, global_step = 16900, loss = 0.66634065
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 16900: working/output/model.ckpt-16900
+INFO:tensorflow:global_step/sec: 2.49626
+INFO:tensorflow:loss = 0.00020799557, step = 16900 (40.060 sec)
+INFO:tensorflow:global_step/sec: 3.4302
+INFO:tensorflow:loss = 0.0001071773, step = 17000 (29.153 sec)
+INFO:tensorflow:global_step/sec: 3.43068
+INFO:tensorflow:loss = 0.00012949671, step = 17100 (29.149 sec)
+INFO:tensorflow:global_step/sec: 3.42886
+INFO:tensorflow:loss = 0.00030082342, step = 17200 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42932
+INFO:tensorflow:loss = 0.00015668203, step = 17300 (29.160 sec)
+INFO:tensorflow:global_step/sec: 3.42794
+INFO:tensorflow:loss = 0.00018263652, step = 17400 (29.172 sec)
+INFO:tensorflow:global_step/sec: 3.43048
+INFO:tensorflow:loss = 0.00010840436, step = 17500 (29.150 sec)
+INFO:tensorflow:global_step/sec: 3.42926
+INFO:tensorflow:loss = 9.724224e-05, step = 17600 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.43001
+INFO:tensorflow:loss = 0.00047694534, step = 17700 (29.154 sec)
+INFO:tensorflow:global_step/sec: 3.42802
+INFO:tensorflow:loss = 0.00014318016, step = 17800 (29.171 sec)
+INFO:tensorflow:global_step/sec: 3.42788
+INFO:tensorflow:loss = 0.00012897202, step = 17900 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.42808
+INFO:tensorflow:loss = 0.00014785405, step = 18000 (29.171 sec)
+INFO:tensorflow:global_step/sec: 3.42818
+INFO:tensorflow:loss = 0.00015023809, step = 18100 (29.170 sec)
+INFO:tensorflow:global_step/sec: 3.42946
+INFO:tensorflow:loss = 0.000116767864, step = 18200 (29.159 sec)
+INFO:tensorflow:global_step/sec: 3.4283
+INFO:tensorflow:loss = 0.00017069675, step = 18300 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42728
+INFO:tensorflow:loss = 0.0007583776, step = 18400 (29.178 sec)
+INFO:tensorflow:global_step/sec: 3.42808
+INFO:tensorflow:loss = 0.00012620936, step = 18500 (29.171 sec)
+INFO:tensorflow:Saving checkpoints for 18590 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:32:52Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:32:52.557715: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:32:52.558165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:32:52.558229: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:32:52.558243: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:32:52.558254: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:32:52.558265: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:32:52.558277: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:32:52.558288: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:32:52.558299: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:32:52.558368: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:32:52.558793: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:32:52.559178: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:32:52.559205: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:32:52.559211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:32:52.559216: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:32:52.559305: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:32:52.559733: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:32:52.560106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-18590
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9375, loss = 0.26510733
+INFO:tensorflow:accuracy = 0.9625, loss = 0.10602836 (0.635 sec)
+INFO:tensorflow:accuracy = 0.9583333, loss = 0.37644774 (0.148 sec)
+INFO:tensorflow:accuracy = 0.94375, loss = 0.78928787 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9375, loss = 0.54240274 (0.148 sec)
+INFO:tensorflow:accuracy = 0.93958336, loss = 0.4523546 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9285714, loss = 0.94604003 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9296875, loss = 0.3460478 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9236111, loss = 1.0698546 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9175, loss = 0.8891808 (0.148 sec)
+INFO:tensorflow:accuracy = 0.90340906, loss = 1.9219866 (0.148 sec)
+INFO:tensorflow:accuracy = 0.909375, loss = 0.09133892 (0.150 sec)
+INFO:tensorflow:accuracy = 0.9076923, loss = 0.8323137 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9080357, loss = 0.67822075 (0.149 sec)
+INFO:tensorflow:accuracy = 0.90833336, loss = 0.59211296 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9117187, loss = 0.32240757 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9125, loss = 0.6424278 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9145833, loss = 0.46965617 (0.150 sec)
+INFO:tensorflow:accuracy = 0.91644734, loss = 0.30427784 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:32:57
+INFO:tensorflow:Saving dict for global step 18590: 0 = 0.87637365, 1 = 0.77248615, 2 = 0.88337046, 3 = 0.8826497, 4 = 0.87148345, eval_loss = 0.6563689, global_step = 18590, loss = 0.65724623
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 18590: working/output/model.ckpt-18590
+INFO:tensorflow:global_step/sec: 2.49963
+INFO:tensorflow:loss = 7.9729056e-05, step = 18600 (40.006 sec)
+INFO:tensorflow:global_step/sec: 3.43095
+INFO:tensorflow:loss = 0.00013677732, step = 18700 (29.146 sec)
+INFO:tensorflow:global_step/sec: 3.43035
+INFO:tensorflow:loss = 0.000100042285, step = 18800 (29.151 sec)
+INFO:tensorflow:global_step/sec: 3.42958
+INFO:tensorflow:loss = 0.00017740742, step = 18900 (29.158 sec)
+INFO:tensorflow:global_step/sec: 3.42885
+INFO:tensorflow:loss = 0.00017907712, step = 19000 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.4293
+INFO:tensorflow:loss = 0.00013384284, step = 19100 (29.160 sec)
+INFO:tensorflow:global_step/sec: 3.42929
+INFO:tensorflow:loss = 0.0001322258, step = 19200 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42892
+INFO:tensorflow:loss = 0.00013034079, step = 19300 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42914
+INFO:tensorflow:loss = 0.00015564845, step = 19400 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.4285
+INFO:tensorflow:loss = 9.983547e-05, step = 19500 (29.167 sec)
+INFO:tensorflow:global_step/sec: 3.42889
+INFO:tensorflow:loss = 9.817686e-05, step = 19600 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42787
+INFO:tensorflow:loss = 0.000113269125, step = 19700 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.4304
+INFO:tensorflow:loss = 0.0001356014, step = 19800 (29.151 sec)
+INFO:tensorflow:global_step/sec: 3.42738
+INFO:tensorflow:loss = 6.895949e-05, step = 19900 (29.177 sec)
+INFO:tensorflow:global_step/sec: 3.42894
+INFO:tensorflow:loss = 9.6836986e-05, step = 20000 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42872
+INFO:tensorflow:loss = 0.00013359303, step = 20100 (29.165 sec)
+INFO:tensorflow:global_step/sec: 3.42963
+INFO:tensorflow:loss = 8.264855e-05, step = 20200 (29.158 sec)
+INFO:tensorflow:Saving checkpoints for 20280 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:41:15Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:41:16.175365: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:41:16.175837: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:41:16.175888: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:41:16.175903: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:41:16.175915: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:41:16.175928: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:41:16.175940: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:41:16.175952: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:41:16.175965: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:41:16.176042: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:41:16.176484: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:41:16.176854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:41:16.176880: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:41:16.176886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:41:16.176890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:41:16.176980: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:41:16.177413: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:41:16.177793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-20280
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9625, loss = 0.20522816
+INFO:tensorflow:accuracy = 0.96875, loss = 0.21213949 (0.628 sec)
+INFO:tensorflow:accuracy = 0.9625, loss = 0.38949305 (0.148 sec)
+INFO:tensorflow:accuracy = 0.946875, loss = 0.90755254 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9425, loss = 0.36879605 (0.148 sec)
+INFO:tensorflow:accuracy = 0.94375, loss = 0.46800637 (0.150 sec)
+INFO:tensorflow:accuracy = 0.93035716, loss = 1.0142639 (0.149 sec)
+INFO:tensorflow:accuracy = 0.934375, loss = 0.17405607 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9291667, loss = 0.94367677 (0.148 sec)
+INFO:tensorflow:accuracy = 0.92625, loss = 0.8377031 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91136366, loss = 2.0443435 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91875, loss = 0.00056398887 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91346157, loss = 1.0624694 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9142857, loss = 0.61247206 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91333336, loss = 0.773983 (0.149 sec)
+INFO:tensorflow:accuracy = 0.915625, loss = 0.39305875 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9161765, loss = 0.59887487 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91805553, loss = 0.465036 (0.149 sec)
+INFO:tensorflow:accuracy = 0.92105263, loss = 0.27380866 (0.149 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:41:21
+INFO:tensorflow:Saving dict for global step 20280: 0 = 0.8711484, 1 = 0.7742345, 2 = 0.88680273, 3 = 0.8737023, 4 = 0.87100476, eval_loss = 0.6472647, global_step = 20280, loss = 0.64772266
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 20280: working/output/model.ckpt-20280
+INFO:tensorflow:global_step/sec: 2.50351
+INFO:tensorflow:loss = 0.00012295789, step = 20300 (39.944 sec)
+INFO:tensorflow:global_step/sec: 3.42939
+INFO:tensorflow:loss = 6.8922214e-05, step = 20400 (29.160 sec)
+INFO:tensorflow:global_step/sec: 3.42824
+INFO:tensorflow:loss = 0.00011838748, step = 20500 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42811
+INFO:tensorflow:loss = 0.00012898818, step = 20600 (29.171 sec)
+INFO:tensorflow:global_step/sec: 3.42813
+INFO:tensorflow:loss = 0.000121611774, step = 20700 (29.170 sec)
+INFO:tensorflow:global_step/sec: 3.42763
+INFO:tensorflow:loss = 8.051157e-05, step = 20800 (29.175 sec)
+INFO:tensorflow:global_step/sec: 3.42951
+INFO:tensorflow:loss = 0.0001476401, step = 20900 (29.159 sec)
+INFO:tensorflow:global_step/sec: 3.42881
+INFO:tensorflow:loss = 0.000116702344, step = 21000 (29.165 sec)
+INFO:tensorflow:global_step/sec: 3.4291
+INFO:tensorflow:loss = 0.00014047037, step = 21100 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.428
+INFO:tensorflow:loss = 9.984042e-05, step = 21200 (29.172 sec)
+INFO:tensorflow:global_step/sec: 3.42829
+INFO:tensorflow:loss = 6.333691e-05, step = 21300 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42885
+INFO:tensorflow:loss = 0.00010369681, step = 21400 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42884
+INFO:tensorflow:loss = 6.592483e-05, step = 21500 (29.164 sec)
+INFO:tensorflow:global_step/sec: 3.42967
+INFO:tensorflow:loss = 0.00016031582, step = 21600 (29.157 sec)
+INFO:tensorflow:global_step/sec: 3.42948
+INFO:tensorflow:loss = 0.000103059065, step = 21700 (29.159 sec)
+INFO:tensorflow:global_step/sec: 3.42918
+INFO:tensorflow:loss = 0.00011040198, step = 21800 (29.161 sec)
+INFO:tensorflow:global_step/sec: 3.42903
+INFO:tensorflow:loss = 8.554413e-05, step = 21900 (29.163 sec)
+INFO:tensorflow:Saving checkpoints for 21970 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:49:39Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:49:40.173069: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:49:40.173521: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:49:40.173567: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:49:40.173580: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:49:40.173591: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:49:40.173601: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:49:40.173611: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:49:40.173621: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:49:40.173632: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:49:40.173702: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:49:40.174132: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:49:40.174500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:49:40.174526: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:49:40.174532: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:49:40.174537: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:49:40.174627: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:49:40.175081: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:49:40.175469: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-21970
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.95, loss = 0.25067228
+INFO:tensorflow:accuracy = 0.95625, loss = 0.15515491 (0.620 sec)
+INFO:tensorflow:accuracy = 0.95416665, loss = 0.3803135 (0.148 sec)
+INFO:tensorflow:accuracy = 0.940625, loss = 0.8027128 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9375, loss = 0.46482104 (0.148 sec)
+INFO:tensorflow:accuracy = 0.93958336, loss = 0.47893643 (0.149 sec)
+INFO:tensorflow:accuracy = 0.93035716, loss = 0.8640915 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9375, loss = 0.12288932 (0.148 sec)
+INFO:tensorflow:accuracy = 0.93194443, loss = 1.0413868 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9275, loss = 0.8774619 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91136366, loss = 2.0508745 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9166667, loss = 0.070720986 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91442305, loss = 0.98442173 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9142857, loss = 0.61483383 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9116667, loss = 0.82316464 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9140625, loss = 0.3604763 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9147059, loss = 0.65873736 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9166667, loss = 0.4429443 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91842103, loss = 0.30290794 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:49:45
+INFO:tensorflow:Saving dict for global step 21970: 0 = 0.8805106, 1 = 0.7725766, 2 = 0.88563263, 3 = 0.8725953, 4 = 0.869604, eval_loss = 0.65554416, global_step = 21970, loss = 0.65627223
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 21970: working/output/model.ckpt-21970
+INFO:tensorflow:global_step/sec: 2.48358
+INFO:tensorflow:loss = 9.145044e-05, step = 22000 (40.265 sec)
+INFO:tensorflow:global_step/sec: 3.43119
+INFO:tensorflow:loss = 7.6732955e-05, step = 22100 (29.144 sec)
+INFO:tensorflow:global_step/sec: 3.42977
+INFO:tensorflow:loss = 7.323341e-05, step = 22200 (29.157 sec)
+INFO:tensorflow:global_step/sec: 3.42831
+INFO:tensorflow:loss = 8.698339e-05, step = 22300 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.43032
+INFO:tensorflow:loss = 0.0001153164, step = 22400 (29.152 sec)
+INFO:tensorflow:global_step/sec: 3.42712
+INFO:tensorflow:loss = 9.502026e-05, step = 22500 (29.179 sec)
+INFO:tensorflow:global_step/sec: 3.42942
+INFO:tensorflow:loss = 9.864035e-05, step = 22600 (29.160 sec)
+INFO:tensorflow:global_step/sec: 3.43003
+INFO:tensorflow:loss = 0.00013078593, step = 22700 (29.154 sec)
+INFO:tensorflow:global_step/sec: 3.42909
+INFO:tensorflow:loss = 0.000105706844, step = 22800 (29.162 sec)
+INFO:tensorflow:global_step/sec: 3.42832
+INFO:tensorflow:loss = 0.00016719053, step = 22900 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42978
+INFO:tensorflow:loss = 0.00013551718, step = 23000 (29.156 sec)
+INFO:tensorflow:global_step/sec: 3.42834
+INFO:tensorflow:loss = 9.351806e-05, step = 23100 (29.169 sec)
+INFO:tensorflow:global_step/sec: 3.42772
+INFO:tensorflow:loss = 0.0001223248, step = 23200 (29.174 sec)
+INFO:tensorflow:global_step/sec: 3.4288
+INFO:tensorflow:loss = 0.00011268444, step = 23300 (29.165 sec)
+INFO:tensorflow:global_step/sec: 3.42779
+INFO:tensorflow:loss = 6.839885e-05, step = 23400 (29.173 sec)
+INFO:tensorflow:global_step/sec: 3.42863
+INFO:tensorflow:loss = 0.00012586867, step = 23500 (29.166 sec)
+INFO:tensorflow:global_step/sec: 3.42807
+INFO:tensorflow:loss = 7.97721e-05, step = 23600 (29.171 sec)
+INFO:tensorflow:Saving checkpoints for 23660 into working/output/model.ckpt.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:58:03Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:58:03.967870: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:03.968323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:58:03.968368: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:58:03.968381: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:58:03.968391: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:58:03.968401: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:58:03.968411: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:58:03.968420: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:58:03.968430: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:58:03.968499: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:03.968930: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:03.969299: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:58:03.969323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:58:03.969329: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:58:03.969334: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:58:03.969424: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:03.969856: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:03.970235: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-23660
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9375, loss = 0.30248952
+INFO:tensorflow:accuracy = 0.95, loss = 0.19564846 (0.669 sec)
+INFO:tensorflow:accuracy = 0.95, loss = 0.36073795 (0.153 sec)
+INFO:tensorflow:accuracy = 0.940625, loss = 0.81043273 (0.148 sec)
+INFO:tensorflow:accuracy = 0.94, loss = 0.36384442 (0.148 sec)
+INFO:tensorflow:accuracy = 0.94166666, loss = 0.47462407 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9285714, loss = 0.92749375 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9359375, loss = 0.11729314 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9305556, loss = 1.0227524 (0.148 sec)
+INFO:tensorflow:accuracy = 0.92625, loss = 0.87329465 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91136366, loss = 1.9634151 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91875, loss = 0.010239146 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91634613, loss = 0.993454 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9160714, loss = 0.5917848 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9141667, loss = 0.74646395 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9164063, loss = 0.36524147 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9169118, loss = 0.65500546 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91944444, loss = 0.3940825 (0.149 sec)
+INFO:tensorflow:accuracy = 0.92171055, loss = 0.28259128 (0.149 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:58:08
+INFO:tensorflow:Saving dict for global step 23660: 0 = 0.8837536, 1 = 0.77583194, 2 = 0.88130033, 3 = 0.87301266, 4 = 0.87632984, eval_loss = 0.64054, global_step = 23660, loss = 0.6408623
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 23660: working/output/model.ckpt-23660
+INFO:tensorflow:Loss for final step: 8.685598e-05.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2020-03-27T17:58:12Z
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:58:12.750689: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:12.751156: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:58:12.751203: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:58:12.751216: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:58:12.751226: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:58:12.751236: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:58:12.751245: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:58:12.751255: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:58:12.751266: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:58:12.751336: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:12.751767: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:12.752135: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:58:12.752161: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:58:12.752166: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:58:12.752171: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:58:12.752261: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:12.752693: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:12.753080: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-23660
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:accuracy = 0.9375, loss = 0.30248952
+INFO:tensorflow:accuracy = 0.95, loss = 0.19564846 (0.627 sec)
+INFO:tensorflow:accuracy = 0.95, loss = 0.36073795 (0.148 sec)
+INFO:tensorflow:accuracy = 0.940625, loss = 0.81043273 (0.148 sec)
+INFO:tensorflow:accuracy = 0.94, loss = 0.36384442 (0.149 sec)
+INFO:tensorflow:accuracy = 0.94166666, loss = 0.47462407 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9285714, loss = 0.92749375 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9359375, loss = 0.11729314 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9305556, loss = 1.0227524 (0.148 sec)
+INFO:tensorflow:accuracy = 0.92625, loss = 0.87329465 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91136366, loss = 1.9634151 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91875, loss = 0.010239146 (0.148 sec)
+INFO:tensorflow:accuracy = 0.91634613, loss = 0.993454 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9160714, loss = 0.5917848 (0.148 sec)
+INFO:tensorflow:accuracy = 0.9141667, loss = 0.74646395 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9164063, loss = 0.36524147 (0.149 sec)
+INFO:tensorflow:accuracy = 0.9169118, loss = 0.65500546 (0.149 sec)
+INFO:tensorflow:accuracy = 0.91944444, loss = 0.3940825 (0.148 sec)
+INFO:tensorflow:accuracy = 0.92171055, loss = 0.28259128 (0.148 sec)
+INFO:tensorflow:Finished evaluation at 2020-03-27-17:58:17
+INFO:tensorflow:Saving dict for global step 23660: 0 = 0.8837536, 1 = 0.77583194, 2 = 0.88130033, 3 = 0.87301266, 4 = 0.87632984, eval_loss = 0.64054, global_step = 23660, loss = 0.6408623
+INFO:tensorflow:Saving 'checkpoint_path' summary for global step 23660: working/output/model.ckpt-23660
+INFO:tensorflow:***** Eval results *****
+INFO:tensorflow:  0 = 0.8837536
+INFO:tensorflow:  1 = 0.77583194
+INFO:tensorflow:  2 = 0.88130033
+INFO:tensorflow:  3 = 0.87301266
+INFO:tensorflow:  4 = 0.87632984
+INFO:tensorflow:  eval_loss = 0.64054
+INFO:tensorflow:  global_step = 23660
+INFO:tensorflow:  loss = 0.6408623
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:num_labels:5;logits:Tensor("loss/BiasAdd:0", shape=(?, 5), dtype=float32);labels:Tensor("loss/Cast:0", shape=(?, 5), dtype=float32)
+INFO:tensorflow:**** Trainable Variables ****
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Graph was finalized.
+2020-03-27 17:58:20.472659: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:20.473113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.6325
+pciBusID: 0000:42:00.0
+2020-03-27 17:58:20.473157: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudart.so.10.0
+2020-03-27 17:58:20.473169: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcublas.so.10.0
+2020-03-27 17:58:20.473179: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcufft.so.10.0
+2020-03-27 17:58:20.473188: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcurand.so.10.0
+2020-03-27 17:58:20.473198: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusolver.so.10.0
+2020-03-27 17:58:20.473208: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcusparse.so.10.0
+2020-03-27 17:58:20.473228: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcudnn.so.7
+2020-03-27 17:58:20.473299: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:20.473731: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:20.474108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2020-03-27 17:58:20.474134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-27 17:58:20.474140: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2020-03-27 17:58:20.474145: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2020-03-27 17:58:20.474234: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:20.474684: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:1005] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-27 17:58:20.475097: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 8200 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:42:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from working/output/model.ckpt-23660
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.

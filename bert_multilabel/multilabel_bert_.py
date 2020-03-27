@@ -144,9 +144,14 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
         (total_loss, per_example_loss, logits, probabilities) = create_model(
             bert_config, is_training, input_ids, input_mask, segment_ids, label_ids,
             num_labels, use_one_hot_embeddings)
-        
+        prediction = tf.cast(probabilities, tf.float32)
+        threshold = float(0.5)
+        prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
+        acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
+ 
         with tf.name_scope('summary'):
             tf.summary.scalar('total_loss', total_loss)
+            tf.summary.scalar('accuracy', acc)
 
         tvars = tf.trainable_variables()
         initialized_variable_names = {}
@@ -176,12 +181,19 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
 
             train_op = optimization.create_optimizer(
                 total_loss, learning_rate, num_train_steps, num_warmup_steps, use_tpu)
+            prediction = tf.cast(probabilities, tf.float32)
+            threshold = float(0.5)
+            prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
+            acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
+            logging_hook = tf.train.LoggingTensorHook({"loss" : total_loss,"accuracy" : acc}, every_n_iter=5)
 
             output_spec = tf.estimator.EstimatorSpec(
                 mode=mode,
                 loss=total_loss,
                 train_op=train_op,
-                scaffold=scaffold_fn)
+                scaffold=scaffold_fn,
+                evaluation_hooks = [logging_hook],
+                )
         elif mode == tf.estimator.ModeKeys.EVAL:
 
             def metric_fn(per_example_loss, label_ids, probabilities, is_real_example):
@@ -208,11 +220,25 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
                 # }
 
             eval_metrics = metric_fn(per_example_loss, label_ids, probabilities, is_real_example)
+            prediction = tf.cast(probabilities, tf.float32)
+            threshold = float(0.5)
+            prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
+            acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
+            logging_hook = tf.train.LoggingTensorHook({"loss" : total_loss,"accuracy" : acc_op}, every_n_iter=2)
+            #accuracy = {"accuracy" : acc[1]}
+            eval_metrics = metric_fn(per_example_loss, label_ids, probabilities, is_real_example)
             output_spec = tf.estimator.EstimatorSpec(
                 mode=mode,
                 loss=total_loss,
                 eval_metric_ops=eval_metrics,
-                scaffold=scaffold_fn)
+                scaffold=scaffold_fn,
+                evaluation_hooks = [logging_hook]
+                )
+            #output_spec = tf.estimator.EstimatorSpec(
+            #    mode=mode,
+            #    loss=total_loss,
+            #    eval_metric_ops=eval_metrics,
+            #    scaffold=scaffold_fn)
         else:
             print("mode:", mode, "probabilities:", probabilities)
             output_spec = tf.estimator.EstimatorSpec(
@@ -310,7 +336,7 @@ def main():
     train_df[CLASSIFICATION_LABELS] = train_df[CLASSIFICATION_LABELS].astype(np.int32)
     test_df[CLASSIFICATION_LABELS] = test_df[CLASSIFICATION_LABELS].astype(np.int32)
     dev_df[CLASSIFICATION_LABELS] = dev_df[CLASSIFICATION_LABELS].astype(np.int32)
-
+    tf.logging.set_verbosity(tf.logging.INFO)
     tokenizer = tokenization.FullTokenizer(
         vocab_file=bert_vocab, do_lower_case=True)
 
@@ -319,7 +345,8 @@ def main():
     # Compute # train and warmup steps from batch size
     num_train_steps = int(len(train_examples) / batch_size * num_train_epochs)
     num_warmup_steps = int(num_train_steps * warmup_proportion)
-
+    num_steps_in_epoch = int(len(train_examples) / batch_size * num_train_epochs) //num_train_epochs
+    save_checkpoints_steps = num_steps_in_epoch * 5
     train_file = os.path.join('./working', "train.tf_record")
     # filename = Path(train_file)
     if not os.path.exists(train_file):
@@ -386,35 +413,23 @@ def main():
         seq_length=max_seq_length,
         is_training=False,
         drop_remainder=False)
-    train_tensors_to_log = {
-        "total_loss": "summary/total_loss",
-    }
-    eval_tensors_to_log = {
-        "total_loss": "summary/total_loss",
-    }
 
-    train_logging_hook = tf.train.LoggingTensorHook(tensors=train_tensors_to_log, every_n_iter=10)
-    eval_logging_hook = tf.train.LoggingTensorHook(tensors=eval_tensors_to_log, every_n_iter=10)
-
-
+    # hooks=[train_logging_hook]
 
     train_spec = tf.estimator.TrainSpec(
          train_input_fn,
          max_steps=num_train_steps,
-         hooks=[train_logging_hook]
     )
-    print("HERE_1")
+    # hooks=[eval_logging_hook]
     eval_spec = tf.estimator.EvalSpec(
         eval_input_fn,
-        steps=num_train_epochs,
-        hooks=[eval_logging_hook]
-
+        steps=None,
+        start_delay_secs=0,
+        throttle_secs=10,
     )
-    print("HERE_2")
     tf.estimator.train_and_evaluate(
         estimator, train_spec, eval_spec
     )
-    print("HERE_3")
     result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
 
     output_eval_file = os.path.join("./working", "eval_results.txt")
