@@ -129,7 +129,6 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
         # tf.logging.info("*** Features ***")
         # for name in sorted(features.keys()):
         #    tf.logging.info("  name = %s, shape = %s" % (name, features[name].shape))
-
         input_ids = features["input_ids"]
         input_mask = features["input_mask"]
         segment_ids = features["segment_ids"]
@@ -145,6 +144,9 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
         (total_loss, per_example_loss, logits, probabilities) = create_model(
             bert_config, is_training, input_ids, input_mask, segment_ids, label_ids,
             num_labels, use_one_hot_embeddings)
+        
+        with tf.name_scope('summary'):
+            tf.summary.scalar('total_loss', total_loss)
 
         tvars = tf.trainable_variables()
         initialized_variable_names = {}
@@ -239,7 +241,7 @@ def input_fn_builder(features, seq_length, is_training, drop_remainder):
     def input_fn(params):
         """The actual input function."""
         batch_size = params["batch_size"]
-
+        
         num_examples = len(features)
 
         # This is for demo purposes and does NOT scale to large data sets. We do
@@ -384,17 +386,35 @@ def main():
         seq_length=max_seq_length,
         is_training=False,
         drop_remainder=False)
+    train_tensors_to_log = {
+        "total_loss": "summary/total_loss",
+    }
+    eval_tensors_to_log = {
+        "total_loss": "summary/total_loss",
+    }
+
+    train_logging_hook = tf.train.LoggingTensorHook(tensors=train_tensors_to_log, every_n_iter=10)
+    eval_logging_hook = tf.train.LoggingTensorHook(tensors=eval_tensors_to_log, every_n_iter=10)
+
+
 
     train_spec = tf.estimator.TrainSpec(
-        estimator, train_input_fn, max_steps=num_train_steps
+         train_input_fn,
+         max_steps=num_train_steps,
+         hooks=[train_logging_hook]
     )
+    print("HERE_1")
     eval_spec = tf.estimator.EvalSpec(
-        estimator, eval_input_fn, steps=int(len(train_examples) / batch_size)
-    )
+        eval_input_fn,
+        steps=num_train_epochs,
+        hooks=[eval_logging_hook]
 
+    )
+    print("HERE_2")
     tf.estimator.train_and_evaluate(
         estimator, train_spec, eval_spec
     )
+    print("HERE_3")
     result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
 
     output_eval_file = os.path.join("./working", "eval_results.txt")
