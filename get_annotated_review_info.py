@@ -88,7 +88,8 @@ def main():
 
             except json.decoder.JSONDecodeError:
                 pass
-
+        diff =  annotated_reviews_ids.difference(set(review_id_lst))
+        print(f"absent ids:\n{diff}")
         review_data_df = pd.DataFrame.from_dict({"id": review_id_lst, "category": category_3_lst,
                                                  "rating": rating_lst, "product_name": product_name_lst})
         review_data_df.to_csv(args.save_to, encoding="utf-8", index=False)
