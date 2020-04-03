@@ -84,7 +84,7 @@ def main():
                         review_has_annotated_sent_flag = True
                     else:
                         not_annotated_sentences_ids.add(sentence_id)
-            if review_has_annotated_sent_flag:
+            if review_has_annotated_sent_flag and len(not_annotated_sentences_ids) > 0:
                 not_annot_sent_id = random.choice(tuple(not_annotated_sentences_ids))
                 sent_dict = get_sentence_dict(efficiency_annotation="NEUTRAL",
                                               review_id=review_id, sentence_id=not_annot_sent_id,
