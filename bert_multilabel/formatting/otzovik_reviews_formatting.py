@@ -8,7 +8,7 @@ from otzovik_preprocessing.inception_to_json import load_sentence_texts
 import pandas as pd
 import random
 
-ANNOTATION_LABELS_LIST = ["EF", "INF", "ADR", "DI", "Other"]
+ANNOTATION_LABELS_LIST = ["EF", "INF", "ADR", "DI", "Finding"]
 
 
 def is_sentence_annotated(efficiency_annotation):
@@ -18,8 +18,7 @@ def is_sentence_annotated(efficiency_annotation):
     return False
 
 
-def get_sentence_dict(efficiency_annotation, review_id, sentence_id, sentence_texts, sentences_starts,
-                      sentences_ends, ):
+def get_sentence_dict(efficiency_annotation, review_id, sentence_id, sentence_texts,  ):
     sent_dict = {}
     sent_dict['sentences'] = sentence_texts[sentence_id]
     for label in ANNOTATION_LABELS_LIST:
@@ -31,9 +30,6 @@ def get_sentence_dict(efficiency_annotation, review_id, sentence_id, sentence_te
     sent_dict['annotation'] = efficiency_annotation
     sent_dict['review_id'] = review_id
     sent_dict['sentence_id'] = sentence_id
-    sent_dict['sent_start'] = sentences_starts[sentence_id]
-    sent_dict['sent_end'] = sentences_ends[sentence_id]
-
     return sent_dict
 
 
@@ -65,8 +61,6 @@ def main():
             annotation_data['sentence_id'] = annotation_data.token_id.apply(lambda tid: int(tid.split('-')[0]))
             annotation_data['start'] = annotation_data.token_span.apply(lambda tid: int(tid.split('-')[0]))
             annotation_data['end'] = annotation_data.token_span.apply(lambda tid: int(tid.split('-')[1]))
-            sentences_starts = annotation_data.groupby('sentence_id')['start'].min()
-            sentences_ends = annotation_data.groupby('sentence_id')['end'].max()
             review_dict = {}
             not_annotated_sentences_ids = set()
             review_has_annotated_sent_flag = False
@@ -80,8 +74,7 @@ def main():
                         sent_dict = get_sentence_dict(efficiency_annotation=efficiency_annotation,
                                                       review_id=review_id, sentence_id=sentence_id,
                                                       sentence_texts=sentence_texts,
-                                                      sentences_starts=sentences_starts,
-                                                      sentences_ends=sentences_ends)
+                                                    )
                         review_dict[sentence_id] = sent_dict
                         review_has_annotated_sent_flag = True
                     else:
@@ -90,9 +83,7 @@ def main():
                 not_annot_sent_id = random.choice(tuple(not_annotated_sentences_ids))
                 sent_dict = get_sentence_dict(efficiency_annotation="NEUTRAL",
                                               review_id=review_id, sentence_id=not_annot_sent_id,
-                                              sentence_texts=sentence_texts,
-                                              sentences_starts=sentences_starts,
-                                              sentences_ends=sentences_ends)
+                                              sentence_texts=sentence_texts,)
                 review_dict[not_annot_sent_id] = sent_dict
 
             sentences.extend(review_dict.values())
