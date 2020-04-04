@@ -2,7 +2,7 @@ import os
 from argparse import ArgumentParser
 from sys import stderr
 
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, KFold
 
 from otzovik_preprocessing.inception_to_json import load_sentence_texts
 import pandas as pd
@@ -38,9 +38,11 @@ def get_sentence_dict(efficiency_annotation, review_id, sentence_id, sentence_te
 
 
 def main():
+    random.seed(42)
     parser = ArgumentParser()
     parser.add_argument("--reviews_dir", required=True)
     parser.add_argument("--output_dir", required=True)
+    parser.add_argument("--n_splits", type=int, default=5)
     args = parser.parse_args()
     reviews_dir = args.reviews_dir
     output_dir = args.output_dir
@@ -103,17 +105,34 @@ def main():
 
     sentences_df = pd.DataFrame.from_records(sentences)
     sentences_df.rename(columns={"Other": "others"}, inplace=True)
-    train_df, test_df, _, _ = train_test_split \
-        (sentences_df, sentences_df, test_size=0.2, random_state=42)
-    train_df, dev_df, _, _ = train_test_split \
-        (train_df, train_df, test_size=0.1, random_state=42)
+    kf = KFold(n_splits=args.n_splits)
+    for ind, (train_index, test_index) in enumerate(kf.split(sentences)):
+        print(f"Creating split {ind}")
+        train_df, test_df= sentences_df.iloc[train_index,:], sentences_df.iloc[test_index, :]
+        print(ind, train_index, test_index)
+        fold_directory = os.path.join(output_dir, f'fold_{ind}/')
+        if not os.path.exists(fold_directory):
+            os.makedirs(fold_directory)
+        train_df, dev_df, _, _ = \
+            train_test_split(train_df, train_df, test_size=0.1, random_state=42)
+        train_path = os.path.join(fold_directory, 'train.csv')
+        dev_path = os.path.join(fold_directory, 'dev.csv')
+        test_path = os.path.join(fold_directory, 'test.csv')
 
-    train_path = os.path.join(output_dir, 'train.csv')
-    dev_path = os.path.join(output_dir, 'dev.csv')
-    test_path = os.path.join(output_dir, 'test.csv')
-    train_df.to_csv(train_path, index=False)
-    test_df.to_csv(test_path, index=False)
-    dev_df.to_csv(dev_path, index=False)
+        train_df.to_csv(train_path, index=False)
+        test_df.to_csv(test_path, index=False)
+        dev_df.to_csv(dev_path, index=False)
+
+    # train_df, test_df, _, _ = train_test_split \
+    #     (sentences_df, sentences_df, test_size=0.2, random_state=42)
+    #
+    # train_df, dev_df, _, _ = train_test_split \
+    #     (train_df, train_df, test_size=0.1, random_state=42)
+    #
+    # train_path = os.path.join(output_dir, 'train.csv')
+    # dev_path = os.path.join(output_dir, 'dev.csv')
+    # test_path = os.path.join(output_dir, 'test.csv')
+
 
 
 if __name__ == '__main__':
