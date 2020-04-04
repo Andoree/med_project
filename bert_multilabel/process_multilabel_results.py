@@ -32,9 +32,9 @@ def get_label_scores(input_dir, label):
             pred_label_df = results_df[predicted_label_col_name].apply(lambda prob: 1 if prob >= 0.5 else 0)
             score = metric(true_label_df, pred_label_df)
             metric_fold_name = f"{metric_name}, fold {fold_number}"
-            label_scores[metric_fold_name] = score
+            label_scores[metric_fold_name] = np.round(score, decimals=3)
             fold_scores.append(score)
-        label_scores[f"Avg. {metric_name}"] = np.mean(fold_scores)
+        label_scores[f"Avg. {metric_name}"] = np.round(np.mean(fold_scores), decimals=3)
     return label_scores
 
 
