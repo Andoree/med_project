@@ -683,7 +683,7 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
                 train_op=train_op,
                 evaluation_hooks=[logging_hook],
                 scaffold_fn=scaffold_fn, )
-        if mode == tf.estimator.ModeKeys.EVAL or mode == tf.estimator.ModeKeys.TRAIN:
+        if mode == tf.estimator.ModeKeys.EVAL:
 
             def metric_fn(per_example_loss, label_ids, logits, is_real_example):
                 predictions = tf.argmax(logits, axis=-1, output_type=tf.int32)
@@ -695,11 +695,14 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
                     "eval_loss": loss,
                 }
 
-            prediction = tf.cast(probabilities, tf.float32)
-            threshold = float(0.5)
-            prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
-            acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
-            logging_hook = tf.train.LoggingTensorHook({"loss": total_loss, "accuracy": acc_op}, every_n_iter=2)
+            # prediction = tf.cast(probabilities, tf.float32)
+            # threshold = float(0.5)
+            # prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
+            # acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
+            predictions = tf.argmax(logits, axis=-1, output_type=tf.int32)
+            accuracy = tf.metrics.accuracy(labels=label_ids, predictions=predictions, weights=is_real_example)
+
+            logging_hook = tf.train.LoggingTensorHook({"loss": total_loss, "accuracy": accuracy}, every_n_iter=2)
 
             eval_metrics = (metric_fn,
                             [per_example_loss, label_ids, logits, is_real_example])
