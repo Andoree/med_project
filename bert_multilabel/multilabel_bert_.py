@@ -12,7 +12,7 @@ import tokenization
 from bert_preprocessing import create_examples, file_based_convert_examples_to_features, \
     convert_examples_to_features
 
-CLASSIFICATION_LABELS = ["INF", "EF", "DI", "ADR", "others"]
+CLASSIFICATION_LABELS = ["EF", "INF", "ADR", "DI", "Findings"]
 PSYTAR_TEXT_COLUMN = ["sentences"]
 
 
@@ -185,14 +185,14 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
             threshold = float(0.5)
             prediction = tf.cast(tf.greater(prediction, threshold), tf.int64)
             acc, acc_op = tf.metrics.accuracy(label_ids, prediction)
-            logging_hook = tf.train.LoggingTensorHook({"loss": total_loss, "accuracy": acc}, every_n_iter=5)
+            logging_hook = tf.train.LoggingTensorHook({"loss": total_loss, "accuracy": acc_op}, every_n_iter=10)
 
             output_spec = tf.estimator.EstimatorSpec(
                 mode=mode,
                 loss=total_loss,
                 train_op=train_op,
                 scaffold=scaffold_fn,
-                evaluation_hooks=[logging_hook],
+                training_hooks=[logging_hook],
             )
         elif mode == tf.estimator.ModeKeys.EVAL:
 
@@ -308,7 +308,8 @@ def create_output(predictions):
         preds = prediction["probabilities"]
         probabilities.append(preds)
     dff = pd.DataFrame(probabilities)
-    dff.columns = CLASSIFICATION_LABELS
+    result_columns = [f"p_{label}" for label in CLASSIFICATION_LABELS]
+    dff.columns = result_columns
 
     return dff
 
@@ -341,14 +342,16 @@ def main():
     tf.logging.set_verbosity(tf.logging.INFO)
     tokenizer = tokenization.FullTokenizer(
         vocab_file=bert_vocab, do_lower_case=True)
-
+    print("TRAIN", train_df)
+    print("DEV", dev_df)
+    print("TEST", test_df)
     train_examples = create_examples(train_df)
-
+    print(test_df)
     # Compute # train and warmup steps from batch size
     num_train_steps = int(len(train_examples) / batch_size * num_train_epochs)
     num_warmup_steps = int(num_train_steps * warmup_proportion)
     num_steps_in_epoch = int(len(train_examples) / batch_size * num_train_epochs) // num_train_epochs
-    save_checkpoints_steps = num_steps_in_epoch * 5
+    save_checkpoints_steps = num_steps_in_epoch
     train_path = os.path.join(output_dir, "train.tf_record")
     # Ztrain_path = os.path.join('./working', "train.tf_record")
     # filename = Path(train_file)
@@ -455,10 +458,12 @@ def main():
                                         drop_remainder=False)
     predictions = estimator.predict(predict_input_fn)
     print("Prediction took time ", datetime.now() - current_time)
-
     output_df = create_output(predictions)
+    print(output_df)
     merged_df = pd.concat([test_df, output_df], axis=1)
+    print('MERGED', merged_df)
     submission = merged_df.drop(['sentences'], axis=1)
+    print("SUBMISSION", submission)
     submission.to_csv(os.path.join(output_dir, classification_results_file), index=False)
 
     submission.head()

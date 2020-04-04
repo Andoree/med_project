@@ -145,7 +145,7 @@ def create_examples(df, labels_available=True):
     for (i, row) in enumerate(df.values):
         # guid = row[0]
         text_a = row[0]
-        
+        print(text_a) 
         if labels_available:
             labels = row[[1, 2, 3, 4, 5]]
         else:
