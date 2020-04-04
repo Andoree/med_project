@@ -7,8 +7,8 @@ from sklearn.model_selection import KFold, train_test_split
 
 from PsyTar.psytar_statistics import DI_FIILTERED_VALUES
 
-CLASSIFICATION_LABELS = ["EF", "INF", "ADR", "DI", "others"]
-DATAFRAME_COLUMNS = ["sentences", "EF", "INF", "ADR", "DI", "others", "drug_id", "sentence_index"]
+CLASSIFICATION_LABELS = ["EF", "INF", "ADR", "DI", "Findings"]
+DATAFRAME_COLUMNS = ["sentences", "EF", "INF", "ADR", "DI", "Findings", "drug_id", "sentence_index"]
 
 
 def main():
