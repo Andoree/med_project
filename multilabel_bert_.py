@@ -12,7 +12,7 @@ import tokenization
 from bert_preprocessing import create_examples, file_based_convert_examples_to_features, \
     convert_examples_to_features
 
-CLASSIFICATION_LABELS = ["INF", "EF", "DI", "ADR", "others"]
+CLASSIFICATION_LABELS = ["EF", "INF", "ADR", "DI", "Findings"]
 PSYTAR_TEXT_COLUMN = ["sentences"]
 
 
@@ -308,7 +308,8 @@ def create_output(predictions):
         preds = prediction["probabilities"]
         probabilities.append(preds)
     dff = pd.DataFrame(probabilities)
-    dff.columns = CLASSIFICATION_LABELS
+    result_columns = [f"p_{label}" for label in CLASSIFICATION_LABELS]
+    dff.columns = result_columns
 
     return dff
 
@@ -341,9 +342,11 @@ def main():
     tf.logging.set_verbosity(tf.logging.INFO)
     tokenizer = tokenization.FullTokenizer(
         vocab_file=bert_vocab, do_lower_case=True)
-
+    print("TRAIN", train_df)
+    print("DEV", dev_df)
+    print("TEST", test_df)
     train_examples = create_examples(train_df)
-
+    print(test_df)
     # Compute # train and warmup steps from batch size
     num_train_steps = int(len(train_examples) / batch_size * num_train_epochs)
     num_warmup_steps = int(num_train_steps * warmup_proportion)
@@ -455,10 +458,12 @@ def main():
                                         drop_remainder=False)
     predictions = estimator.predict(predict_input_fn)
     print("Prediction took time ", datetime.now() - current_time)
-
     output_df = create_output(predictions)
+    print(output_df)
     merged_df = pd.concat([test_df, output_df], axis=1)
+    print('MERGED', merged_df)
     submission = merged_df.drop(['sentences'], axis=1)
+    print("SUBMISSION", submission)
     submission.to_csv(os.path.join(output_dir, classification_results_file), index=False)
 
     submission.head()
