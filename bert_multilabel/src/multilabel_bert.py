@@ -362,7 +362,8 @@ def main():
     print(f'Beginning Training!')
     current_time = datetime.now()
     print("FN_INPUT", dir(train_input_fn))
-    estimator.train(input_fn=train_input_fn, max_steps=num_train_steps)
+
+    # estimator.train(input_fn=train_input_fn, max_steps=num_train_steps)
     print("Training took time ", datetime.now() - current_time)
 
     eval_file = os.path.join('./working', "eval.tf_record")
@@ -383,7 +384,9 @@ def main():
         seq_length=max_seq_length,
         is_training=False,
         drop_remainder=False)
-
+    tf.estimator.train_and_evaluate(
+        estimator, train_input_fn, eval_input_fn
+    )
     result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
 
     output_eval_file = os.path.join("./working", "eval_results.txt")

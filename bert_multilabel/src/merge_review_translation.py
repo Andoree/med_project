@@ -4,9 +4,9 @@ import pandas as pd
 
 
 def main():
-    translation_path = r"otzovik_csvs_translated/fold_0/dev.csv"
-    original_data_path = r"otzovik_csvs/fold_0/dev.csv"
-    output_dir = r"otzovik_csvs_translated_merged/fold_0/"
+    translation_path = r"../otzovik_csvs_translated/fold_0/dev.csv"
+    original_data_path = r"../otzovik_csvs/fold_0/dev.csv"
+    output_dir = r"../otzovik_csvs_translated_merged/fold_0/"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     output_fname = r"dev.csv"

@@ -3,13 +3,13 @@ import pandas as pd
 
 
 def main():
-    id_eng_text_mapping_csv_path = r"otzovik_csvs_translated_merged/all_reviews.csv"
-    output_dir = r"otzovik_csvs_translated_merged/fold_4"
+    id_eng_text_mapping_csv_path = r"../otzovik_csvs_translated_merged/all_reviews.csv"
+    output_dir = r"../otzovik_csvs_translated_merged/fold_4"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     output_fname = r"test.csv"
     output_path = os.path.join(output_dir, output_fname)
-    reviews_path = r"otzovik_csvs/fold_4/test.csv"
+    reviews_path = r"../otzovik_csvs/fold_4/test.csv"
 
     id_eng_text_df = pd.read_csv(id_eng_text_mapping_csv_path, encoding="utf-8")
     id_eng_text_df.rename(inplace=True, columns={"sentences": "eng_sentences"})

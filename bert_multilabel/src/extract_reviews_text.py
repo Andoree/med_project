@@ -4,8 +4,8 @@ import pandas as pd
 
 
 def main():
-    input_csv_path = r"otzovik_csvs/fold_4/dev.csv"
-    output_dir = r'otzovik_csvs_texts/fold_4'
+    input_csv_path = r"../otzovik_csvs/fold_4/dev.csv"
+    output_dir = r'../otzovik_csvs_texts/fold_4'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     output_fname = 'dev.csv'
