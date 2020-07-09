@@ -88,11 +88,7 @@ def main():
 
             sentences.extend(review_dict.values())
         except pd.errors.ParserError as err:
-            err_msg = str(err)
-            if err_msg == 'Too many columns specified: expected 7 and found 6':
-                stderr.write(f'File is not properly annotated: {file_path}\n')
-            else:
-                stderr.write(f'{err_msg}\n')
+            pass
 
     sentences_df = pd.DataFrame.from_records(sentences)
     sentences_df.rename(columns={"Other": "others"}, inplace=True)
