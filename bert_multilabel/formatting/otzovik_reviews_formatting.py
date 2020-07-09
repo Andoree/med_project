@@ -96,33 +96,40 @@ def main():
 
     sentences_df = pd.DataFrame.from_records(sentences)
     sentences_df.rename(columns={"Other": "others"}, inplace=True)
-    kf = KFold(n_splits=args.n_splits)
-    for ind, (train_index, test_index) in enumerate(kf.split(sentences)):
-        print(f"Creating split {ind}")
-        train_df, test_df= sentences_df.iloc[train_index,:], sentences_df.iloc[test_index, :]
-        print(ind, train_index, test_index)
-        fold_directory = os.path.join(output_dir, f'fold_{ind}/')
-        if not os.path.exists(fold_directory):
-            os.makedirs(fold_directory)
-        train_df, dev_df, _, _ = \
-            train_test_split(train_df, train_df, test_size=0.1, random_state=42)
-        train_path = os.path.join(fold_directory, 'train.csv')
-        dev_path = os.path.join(fold_directory, 'dev.csv')
-        test_path = os.path.join(fold_directory, 'test.csv')
+    num_splits = args.n_splits
+    if num_splits > 1:
+        kf = KFold(n_splits=num_splits)
+        for ind, (train_index, test_index) in enumerate(kf.split(sentences)):
+            print(f"Creating fold {ind}")
+            train_df, test_df= sentences_df.iloc[train_index,:], sentences_df.iloc[test_index, :]
+            print(f"Fold {ind} created. Test indices:{test_index[0]} : {test_index[1]}")
+            fold_directory = os.path.join(output_dir, f'fold_{ind}/')
+            if not os.path.exists(fold_directory):
+                os.makedirs(fold_directory)
+            train_df, dev_df, _, _ = \
+                train_test_split(train_df, train_df, test_size=0.1, random_state=42)
+            train_path = os.path.join(fold_directory, 'train.csv')
+            dev_path = os.path.join(fold_directory, 'dev.csv')
+            test_path = os.path.join(fold_directory, 'test.csv')
 
+            train_df.to_csv(train_path, index=False)
+            test_df.to_csv(test_path, index=False)
+            dev_df.to_csv(dev_path, index=False)
+    elif num_splits == 1:
+        train_df, test_df, _, _ = train_test_split \
+            (sentences_df, sentences_df, test_size=0.2, random_state=42)
+
+        train_df, dev_df, _, _ = train_test_split \
+            (train_df, train_df, test_size=0.1, random_state=42)
+
+        train_path = os.path.join(output_dir, 'train.csv')
+        dev_path = os.path.join(output_dir, 'dev.csv')
+        test_path = os.path.join(output_dir, 'test.csv')
         train_df.to_csv(train_path, index=False)
         test_df.to_csv(test_path, index=False)
         dev_df.to_csv(dev_path, index=False)
-
-    # train_df, test_df, _, _ = train_test_split \
-    #     (sentences_df, sentences_df, test_size=0.2, random_state=42)
-    #
-    # train_df, dev_df, _, _ = train_test_split \
-    #     (train_df, train_df, test_size=0.1, random_state=42)
-    #
-    # train_path = os.path.join(output_dir, 'train.csv')
-    # dev_path = os.path.join(output_dir, 'dev.csv')
-    # test_path = os.path.join(output_dir, 'test.csv')
+    else:
+        raise Exception(f"Invalid n_splits: {num_splits}")
 
 
 
