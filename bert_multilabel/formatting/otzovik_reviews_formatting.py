@@ -4,7 +4,7 @@ from sys import stderr
 
 from sklearn.model_selection import train_test_split, KFold
 
-from otzovik_preprocessing.inception_to_json import load_sentence_texts
+from bert_multilabel.formatting.inception_to_json import load_sentence_texts
 import pandas as pd
 import random
 
