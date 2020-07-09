@@ -102,7 +102,7 @@ def main():
         for ind, (train_index, test_index) in enumerate(kf.split(sentences)):
             print(f"Creating fold {ind}")
             train_df, test_df= sentences_df.iloc[train_index,:], sentences_df.iloc[test_index, :]
-            print(f"Fold {ind} created. Test indices:{test_index[0]} : {test_index[1]}")
+            print(f"Fold {ind} created. Test indices {test_index[0]} : {test_index[1]}.")
             fold_directory = os.path.join(output_dir, f'fold_{ind}/')
             if not os.path.exists(fold_directory):
                 os.makedirs(fold_directory)
