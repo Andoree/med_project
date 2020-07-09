@@ -1,0 +1,182 @@
+sentences,EF,INF,ADR,DI,Finding,annotation,review_id,sentence_id
+"On the third day, she got better and recovered.",1,0,0,0,0,EF[2],807999,6
+"Upset enough that I decided here to write a review because it helps slow and does not help in the abyss, including ruining my weekend that I planned not to lie, obsazeny viruses, and does not even have a great time.",0,1,0,0,0,INF[1],2385506,7
+"In the world there are two ways to fight the flu and the vaccine, of course, drugs are relenza and Tamiflu.",0,0,0,0,1,Finding[1],2903297,7
+"An effective, immune response increases almost from the first day of use, the effect is the correct course appointment lasts 2-3 months.",1,0,0,0,0,EF[1],565283,2
+"It started around the middle of the package... The child all day ""is on the ears"", it is impossible to calm down, about sleep in the afternoon forgot (although always put to sleep in the afternoon, fell asleep without problems), constant running around the house, jumping from the sofa to the floor, somersaults, etc. The whole day the child passed in the rhythm of a rocket, and I was nervous: ""don't jump-you'll break your neck, stop jumping and everything like that.""",0,0,1,0,1,ADR[3]|Finding[2],2424525,4
+"Although it helped my friend a lot, the child actually became less ill.",1,0,0,0,0,EF[4],1730783,12
+"I was prescribed by their doctor, ordered to take 3 times a day after meals, with the words that this drug is very effective against a sore throat.",0,0,0,1,0,DI[4],2522797,3
+"Immunostimulators, such as "" Viferon are based on the human interferon recombinant alpha-2B, which is not fully understood.",0,0,0,0,0,NEUTRAL,608779,12
+Whether it helped from insomnia - No!,0,1,0,1,0,INF[2]|DI[5],755139,9
+"It happened to me during pregnancy to get a runny nose and the only drug that can be pregnant was grippferon, because there is no chemistry in it.",0,0,0,1,0,DI[4],2499624,4
+"On the first day of use, I drank 5 tablets, woke up at night and had a bad dream.",0,0,1,0,0,ADR[3],2472239,1
+"From a sore throat, tracheitis immediately begins.",0,0,0,1,0,DI[5],643275,2
+It felt like oganism itself was winning the sore.,0,0,0,0,0,NEUTRAL,273783,9
+"I came and drank one bag, but it didn't help.",0,1,0,0,0,INF[3],2522012,4
+This is a good remedy for the virus.,1,0,0,0,0,EF[5],2510045,3
+The tonsils were white.,0,0,1,0,0,ADR[3],267729,4
+( Overall impression : I won't drink them again!,0,0,0,0,0,NEUTRAL,800450,6
+"As a result, we found out that the baby had not just Ari, but some viral disease that had not identified and was being treated for symptoms of the common cold.",0,0,0,1,1,DI[1]|Finding[6],6430802,12
+"The manual says, you need to prevent to give one pill a day, but it is possible to give with other anti-viral drugs.",0,0,0,1,0,DI[5],2497493,5
+Begin to use it as soon as itching all takes place over 3-4 days.,1,0,0,1,0,EF[2]|DI[1],2705356,8
+How was the sleep problems remained.,0,1,0,1,0,INF[1]|DI[2],2537351,5
+There is a measuring spoon and everything is written in the instructions.,0,0,0,0,0,NEUTRAL,2550136,5
+They are sold strictly according to a psychiatrist's prescription.,0,0,0,0,0,NEUTRAL,818785,5
+"I want to warn fans of herbal medicines, because barboval contains phenobarbital, which is addictive (worse than narcotic drugs).",0,0,1,0,0,ADR[4],2404812,7
+"Acyclovir tablets (herpevir - the same, only cheaper) are indicated for shingles - a disease caused by the herpes virus of the third type.",0,0,0,1,0,DI[2],2445572,5
+"I started trying to repeat some words, imitations of animals.",1,0,0,0,0,EF[1],609740,6
+I had to refuse.,0,0,0,0,0,NEUTRAL,594103,6
+"I will immediately note that the price of this miracle ointment is about 300 rubles, unlike my usual acyclovir, which is almost 10 times cheaper.",0,0,0,0,0,NEUTRAL,2523468,2
+"Now a week and a half Wake up at night drenched in sweat, in the pool.",0,0,1,0,0,ADR[2],2196209,8
+"And only after that, in exactly one hour, I got rid of the rash !",0,0,1,0,0,ADR[1],2818054,6
+"Zero effect, didn't help at all, no swelling, no runny nose not removed.",0,1,0,1,0,INF[2]|DI[3],2390747,2
+Although the child ceased to complain that sometimes drives the leg.,1,0,0,0,0,EF[4],2543301,5
+"I don't recommend this drug, it's not cheap, but the effect is zero.",0,1,0,0,0,INF[1],614513,7
+I bought this drug without a prescription for 250 rubles(the average price for anti-radiation drug for that matter).,0,0,0,0,0,NEUTRAL,755139,5
+"After reading a lot of reviews about allergic reactions, I decided to take half a tablet of Amixin.",0,0,0,0,1,Finding[2],2674524,1
+"The second time I got sick with SARS: With constant contact for an hour with a cold, I was afraid to get infected.",0,0,0,1,0,DI[3],834566,6
+"Just think-an absolutely ineffective drug (based solely on the placebo effect and the fact that viral respiratory infections pass by themselves, over time - and patients associate this with the action of Amizon) became the best-selling in the Russian Federation for 2014 and 2013!",0,1,0,1,0,INF[3]|DI[2],2421119,5
+"After applying these candles, the child began to have diarrhea!!!!",0,0,1,0,0,ADR[3],1068061,4
+"The second day I take it, it doesn't get easier.",0,1,0,0,0,INF[3],2696309,2
+"After taking the drug in a couple of hours, the head clears up and the temperature disappears.",1,0,0,1,0,EF[4]|DI[3],2507228,11
+"As I was told, the thing is not dangerous, but it should be treated.",0,0,0,0,0,NEUTRAL,591856,5
+Many moms face a diagnosis of OCD (delayed speech development).,0,0,0,1,0,DI[4],938978,1
+"Then she started to literally cram me this fenistil, referring to the fact that acyclovir is less effective and now fenistil is in great demand as it helps well.",1,0,0,0,0,EF[6],2490571,6
+"It is an excellent addition to the complex treatment of colds, including folk remedies, allowing you to refrain from harmful to the stomach products containing various chemicals.",0,0,0,1,0,DI[3],910656,5
+"And for 2 months now, they have no health problems.",0,0,0,0,0,NEUTRAL,421364,12
+The temperature dropped from 37.3 to 36.8 in three hours.,1,0,0,1,0,EF[4]|DI[5],2698684,11
+We both did inhalations at the same time and in my opinion it was inhalations that helped us get rid of colds and sore throats.,1,0,0,1,0,EF[3]|DI[1],2465822,10
+"Good day to all the time of day) winter is coming, and with it the flu epidemic, and we need to decide now on prevention, and perhaps on its treatment.",0,0,0,1,0,DI[2],2445928,1
+"At the beginning of 2015, my condition worsened.",0,0,0,0,0,NEUTRAL,2763304,4
+"But, as they say:"" one thing you treat, and another... "" I Started to sleep poorly because of stress, because I never left my home for a long period.",0,0,0,1,0,DI[7],940903,2
+"There is also an ointment with the same name, but it is less effective than tablets, except that they are used in a complex.",0,0,0,0,0,NEUTRAL,2412180,4
+"I apply this ointment as soon as I feel a little weak, and I feel much better in the morning.",1,0,0,1,0,EF[3]|DI[2],2450361,9
+"I usually take a long time to fall asleep, but with her, it's quick.",0,0,0,1,0,DI[1],2665872,6
+He just started choking.,0,0,1,0,0,ADR[4],2439532,5
+Helped.,1,0,0,0,0,EF[1],613806,5
+"I took the child to strengthen the immune system ... because his pediatrician advised us, I didn't even taste it.",0,0,0,1,0,DI[1],2541923,2
+Good day to all.,0,0,0,0,0,NEUTRAL,2551330,1
+"When I came to the pharmacy, I wanted to buy a completely different remedy for the common cold, it was not on sale and the pharmacist offered me an analog of the same Xylometazoline, only produced under the trade name xymelin"""".""",0,0,0,1,0,DI[1],2379159,1
+"In my case, this drug is absolutely useless.",0,1,0,0,0,INF[2],899066,8
+I slept soundly all night without waking up.,1,0,0,1,0,EF[7]|DI[1],747352,4
+"Last fall, I decided to try Ratiopharm Echinacea""tablets for prevention.""",0,0,0,1,0,DI[1],2443835,2
+And we have caused the temperature to rise to 40!!!,0,0,1,0,0,ADR[2],2309597,2
+"The child is 1 year and 8 months old, does not speak at all.",0,0,0,1,0,DI[3],609740,2
+"immediately after the first reception, the child had spots on his face, and then began to increase.",0,0,1,0,0,ADR[2],3121591,2
+"My mother drank the medicine for 2 days, of course there was improvement, but I had to go to buy more.",1,0,0,0,0,EF[8],807999,5
+There were no side effects when taking it.,0,0,0,0,0,NEUTRAL,565283,3
+"Because the flu shot only symptoms, treatment nor canceled.",1,0,0,0,0,EF[2],874652,8
+"Oh, and were we all this time, Atrovent has helped us take a wheezing within 5 days, we were discharged with inflamed nosoglotku, ve flowed into the bronchi and threatened another hospital resort.",1,0,0,1,0,EF[10]|DI[7],4893288,8
+SARS was not strong (it took 2 months.,0,0,0,0,1,Finding[5],652119,7
+"For a long time acyclovir was treated with mayazmi + tablets, fenestil generally had edema and allergies.",0,0,1,0,0,ADR[2],2501540,3
+"And only recently, closer to two years old, he began to speak again (this was just a complication on the Central nervous system).",0,0,0,0,1,Finding[3],2525808,6
+"The child has a terrible cough, bronchitis.",0,0,1,0,0,ADR[2],240878,12
+"I prescribed everything, as always: heavy drinking, bed rest, symptomatic treatment (from a runny nose, from a high temperature, and so on), was given a sick leave, and finally the doctor said that it would not be bad to drink cyclopherone course.",0,0,0,1,0,DI[5],1394389,3
+As soon as I stopped - immediately SARS.,0,1,0,1,0,INF[4]|DI[2],4194932,3
+Peony tincture was prescribed in a complex for the treatment of vegetative-vascular dystonia.,0,0,0,1,0,DI[1],818395,1
+"They help to remove the temperature, my fever receded in just 20 minutes.",1,0,0,1,0,EF[3]|DI[7],2515768,4
+"After looking at the composition and reading the annation to the drug, I took it.",0,0,0,0,0,NEUTRAL,2439706,4
+So now I decided to use it for prevention for myself and children.,0,0,0,1,0,DI[1],2499624,7
+"The third time: Because I already knew for sure that this drug does not help, at the first symptoms of the disease, I bought a package for the purpose of experiment and drank according to the scheme.",0,0,0,0,0,NEUTRAL,834566,10
+I have enough when sores appear to take tablets for 2 days as herpes does not leave a trace.,1,0,0,1,0,EF[4]|DI[2],2412180,5
+this is despite the fact that I have never been allergic to anything.,0,0,0,0,1,Finding[2],796835,3
+"Thus, it was already possible to understand that such a drug can only harm me, which happened as a result.",0,0,0,0,0,NEUTRAL,2656049,6
+In General sit full nose snot in the throat shit and looks at me this canister zloschastnyy ( the General impression : and me not impressed,0,1,1,1,0,INF[2]|ADR[4]|DI[1],265385,4
+"I started with 15 drops, and then I had to drink 20 or more... I don't like this effect at all.",0,0,0,0,0,NEUTRAL,2399213,9
+"Valerian tincture of the Ukrainian pharmaceutical factory viola"" is produced in glass bottles of 25 ml volume.""",0,0,0,0,0,NEUTRAL,2731456,1
+Hello everyone!,0,0,0,0,0,NEUTRAL,2719942,1
+I started drinking recently.,0,0,0,0,0,NEUTRAL,1037212,1
+"However, this syringe is very hard to see the numbers, the markings are dim.",0,0,0,0,0,NEUTRAL,905423,5
+"Although the drug includes paracetamol with caffeine, it seems to be a good remedy... But it all depends on the specific case.",0,0,0,0,0,NEUTRAL,2395998,3
+"My husband is ill with SARS, they bought ingavirin at the pharmacy.",0,0,0,1,0,DI[3],1325273,1
+The first was Allokin punctured 3 shots and forgot about herpes for 6 months.,1,0,0,1,0,EF[9]|DI[6],2653511,2
+"It's not cheap, and the effect is zero.",0,1,0,0,0,INF[1],815444,13
+It breaks through nasal congestion and fixes this effect for a long time.,1,0,0,1,0,EF[3]|DI[2],2540419,7
+The migraine didn't go away for a week.,0,0,1,0,0,ADR[5],2196209,6
+The drug can also be used as a prophylaxis during acute respiratory infections.,0,0,0,1,1,DI[3]|Finding[5],421364,14
+"The child did not sleep properly during the day for 20-30 minutes, constantly shouted, did not lie quietly, constantly waved her arms and legs, as if running somewhere.",0,0,1,0,0,ADR[3],9008199,7
+"A good tool, convenient dispenser, suitable not only for washing but also for irrigation of the nose, for example, when the air is very dry.",1,0,0,0,0,EF[1],794482,5
+"If there is no time for illness, then at the first signs of a cold, I advise you to use this tool.",0,0,0,1,0,DI[3],805573,3
+"As soon as I felt that I was beginning to get sick, usually my nose starts to itch, I often sneeze and have a sore throat, then immediately I put these candles on.",0,0,0,1,0,DI[2],5801040,7
+It became even more irritated.,0,1,0,1,0,INF[2]|DI[4],2733509,11
+"Given to children for prevention, I note that gave two kids at the same time, but no result.",0,0,0,1,0,DI[3],655105,5
+But I noticed one strange thing: in the morning after this drug I have swollen upper eyelids on the eyes and very heavy head.,0,0,1,0,0,ADR[2],2399213,7
+"Believe me, I tested it 4 times already (it's only about the illness of a daughter), and he helped me perfectly.",1,0,0,0,0,EF[7],4074238,12
+"The effect of them is quite long-lasting, especially if, in addition to treatment, you change your lifestyle : be outdoors more often, get enough sleep, eat properly, and eliminate stress as much as possible (all these factors affect the immune system).",0,0,0,0,1,Finding[4],607716,12
+"But to my surprise, there was a rash all over my body, perhaps it is due to the wrong dosage.",0,0,1,0,0,ADR[4],2421166,5
+I can't breathe at all.,0,0,0,1,0,DI[2],650293,2
+Took Encephabol about a month.,0,0,0,0,0,NEUTRAL,2407197,2
+"I read in the instructions that this drug has a side effect in the form of depression, apparently I have it and showed up.",0,0,0,1,0,DI[3],747352,8
+But we were taking against a herpetic infection.,0,0,0,1,0,DI[9],6430802,28
+Overall impression: Helps with viral diseases RATING 4 NOTE,0,0,0,1,0,DI[1],934850,8
+"I even took it several times a day - about 3 times, probably, but the medication helped me cope with my emotions.",1,0,0,1,0,EF[10]|DI[8],822352,8
+"Overall impression: Expensive, painful for the child-zero effect!",0,1,0,0,0,INF[3],886355,13
+Overall impression : a Good antiviral drug RATING 4 NOTE,0,0,0,0,0,NEUTRAL,612471,5
+"My dad always has Korvaldin in the refrigerator, he often suffers from insomnia, so I decided to try this medicine so that my heart does not hurt and sleep is normalized.",0,0,0,1,0,DI[7],2399213,2
+"Then there was apparently an addiction of the body to the drug, I began to fall asleep worse and worse.",1,1,0,1,0,INF[3]|EF[6]|DI[4],594839,3
+The first two times we were prescribed by a doctor when we were ill and for prevention during an epidemic of viral diseases.,0,0,0,1,0,DI[2],2718592,2
+"In the morning I felt unwell, in the pharmacy I changed my favorite Anaferon, choosing Kagocel.",0,0,0,1,0,DI[3],2439190,1
+It gave me a terrible headache.,0,0,1,0,0,ADR[1],3206706,5
+"), or remedies from the pharmacy for a runny nose, cough, and sore throat.",0,0,0,1,0,DI[2],6425181,6
+"I used the instructions for the entire autumn-winter period and to my joy did not get sick even in a light form, although at work and in General in the district, every second went with a runny nose and cough.",1,0,0,0,1,EF[1]|Finding[5],1213978,6
+"Donormil is, according to Wikipedia, a sedative and treatment for insomnia.",0,0,0,1,0,DI[4],755139,1
+"I advertised him that the pacifier is never given, but did not think to ask, what exactly is it treated, when told that he was sick, relying on skilled personnel, but in vain.",0,1,0,1,0,INF[2]|DI[4],2460904,2
+"When the eldest daughter went to kindergarten, I was sick very often and therefore, after the summer, the autumn colds decided propeity her Anaferon, as prevention, as at that time even she did not get sick.",0,0,0,1,0,DI[2],653736,1
+"The bags are produced in 2 pieces, when the separation which they break, and the content strives to be scattered.",0,0,0,0,0,NEUTRAL,899066,4
+"Denormal is not addictive, well tolerated.",0,0,0,0,1,Finding[4],942280,9
+"Getting it ""down"" and having its own problems with sleep and nerves, I had a balance, I would say that he helped me to remove nervous tension, calms down a bit.",1,0,1,1,0,EF[2]|ADR[1]|DI[3],2439706,8
+"sprinkled with small ulcers from head to foot, especially the face.",0,0,1,0,0,ADR[1],796835,2
+"Besides, I noticed when flying my Tonzilgon from the throat, then parallel it becomes softer cough.",0,0,0,1,0,DI[4],643275,13
+"Generally awful, for the three months for the first time faced with such a perfectly healthy child raised immunity so that he now spotted went through 4 days.",0,0,1,0,0,ADR[2],1313970,2
+"Valerian tincture is used as an instructed, to reduce the processes of excitation in the Central nervous system.",0,0,0,1,0,DI[2],647288,1
+Lavomax life-threatening!!,0,0,0,0,0,NEUTRAL,2818054,7
+"This winter, my baby was teething and high fever, which does not stray, went to the hospital.",0,0,0,1,0,DI[1],1263039,1
+Now is the time of year that cold at any time.,0,0,0,1,0,DI[1],2518701,6
+"After taking the first pill, I thought what the effect is, (probably worked self-hypnosis), waking up on the second day realized that I became worse and the disease continues to gain momentum.",0,1,0,0,0,INF[3],806166,6
+Son had a tablet at night for about a month.,0,0,0,0,0,NEUTRAL,822352,3
+Usage time: many times,0,0,0,0,0,NEUTRAL,2491250,8
+"I don't know if it works as a prophylactic or not, but it works as a treatment, although of course it is not as effective as antibiotics))) What a minus-a small shelf life (((Stored only in the refrigerator and after opening the drops are only valid for 30 days (((and when closed, the shelf life is 2 years!",0,0,0,1,0,DI[3],2389162,3
+"One package is enough for 2-3 hours to eliminate and relieve symptoms, relieves runny nose and nasal congestion, reduces swelling of the mucous membrane.",1,0,0,1,0,EF[3]|DI[1],2410173,6
+My favorite flavor in all cold powders is lemon.,0,0,0,1,0,DI[1],2477731,3
+It is recommended to take it as a preventive measure or at an early stage of the disease.,0,0,0,1,0,DI[3],603416,4
+Once I had a chance to make the mistake of trying to be treated kagocel from the flu.,0,0,0,1,0,DI[1],2428403,1
+"I bought a package at the pharmacy, the price is quite reasonable.",0,0,0,0,0,NEUTRAL,2869916,4
+It's been a long time since you had a serious fever.,1,0,0,1,0,EF[1]|DI[2],2436411,4
+"So even I do not know how to evaluate the drug correctly, it did not give me a result, although it helped my friends.",0,0,0,0,0,NEUTRAL,618094,8
+"At this time, the child did not hold the head well, we were almost 4 months old.",0,0,0,1,0,DI[7],9008199,4
+"Since I have a constant problem with a virus like herpes on my lips, I have been looking for an effective remedy for many years that would quickly get rid of this trouble.",0,0,0,1,0,DI[4],2705356,1
+External symptoms passed literally in 2-3 days.,1,0,0,0,0,EF[1],2543328,3
+"I did, the first time my throat got red, I was dripping Nasoferon.",0,0,0,1,0,DI[2],252735,7
+"At the moment, new symptoms of ARVI are being added every day - from a sore throat to chest pain, coughing with difficult-to-separate phlegm and rhinitis.#Text=and This is on the 5th day of admission!!",0,1,0,1,0,INF[7]|DI[6],4194932,11
+"Unfortunately, it didn't give any results, and two weeks later we got sick.",0,1,0,0,0,INF[2],217439,4
+"So far, it helps.",1,0,0,0,0,EF[3],2451820,8
+"More than once this ointment helped out in such periods, and of course during a cold helped to stop the course of the disease and the spread of infection, which is especially important for me, as a person with a weak immune system.",1,0,0,1,0,EF[5]|DI[1],910656,3
+For a long time I had a temperature of 37-37.5.,0,0,0,1,0,DI[5],655424,1
+"Quite widespread, 99% of the world's population is ill for their entire life.",0,0,0,0,0,NEUTRAL,2450448,2
+"My two-year-old daughter is constantly ill with ENT diseases, acute respiratory infections, sinusitis, otitis.",0,0,0,1,0,DI[3],2546207,1
+"The virus did not go away, as it turned out that it was not treated at all, the immune system did not rise a bit, just the opposite... I started to get cold all the time, throat, runny nose, never had this before... In addition, problems with the stomach began, constipation, bile stasis, cholecystitis and in addition to everything else, gastritis... People, it's just hard!!!",0,1,1,0,0,INF[2]|ADR[3],2015980,2
+"The next day no power, could barely walk.",0,0,1,0,0,ADR[8],108315,6
+"Within the hour in areas where recent injections (course of injections) swollen red bubbles, like the rash-hives (apparently the inflamed areas, where they were made injections, were sensitive).",0,0,1,0,1,ADR[4]|Finding[6],183478,3
+"Many pharmacies sell it, I don't think it will be very difficult to find it.",0,0,0,0,0,NEUTRAL,2446305,13
+"And I personally do not advise you to spend a lot of money on this drug, it's just pointless.",0,0,0,0,0,NEUTRAL,944009,9
+The whole complex of treatment worked well.,1,0,0,0,0,EF[2],2718482,11
+"Maybe the virus didn't respond to cyclopheron, maybe it did, but I didn't notice it.",0,1,0,0,0,INF[4],1394389,20
+"In the morning, I was like a cucumber, but weakened.",1,0,0,0,0,EF[5],874652,7
+"For the second time in the fall, SARS began to fall ill.",0,0,0,1,0,DI[1],1394389,1
+"Valerian tincture at the pharmacy was bought literally for a penny, up to 10 UAH.",0,0,0,0,0,NEUTRAL,2551970,3
+"And, to be honest, it didn't help me.",0,1,0,0,0,INF[3],2445928,7
+"Somehow my nervous system was completely shattered, and my VSD was aggravated, insomnia bothered me, and the doctor prescribed me Bellataminal""tablets as a sleeping pill.""""",0,0,0,1,0,DI[5],2459114,1
+"At the pharmacy, the pharmacist advised my mother to take this sleeping pill.",0,0,0,0,0,NEUTRAL,151880,1
+"The manifestation of the disease was frequent obstructive bronchitis, sometimes turning into pneumonia.",0,0,0,1,0,DI[6],421364,2
+"2 days of temperature hell held, on the 3rd day 37.4, then 37, then the temperature fell and the intoxication began terrible!",1,1,1,1,0,EF[1]|INF[7]|ADR[8]|DI[4],901487,5
+"I took 4 more pills, and by the evening, by the time of the performance, I already felt like a full-fledged person.",0,0,0,0,0,NEUTRAL,7433765,23
+"Spray ""Grippferon "" really good active remedy for colds in my personal opinion.""",0,0,0,1,0,DI[4],2446305,1
+"As soon as my husband sees signs of a cold, he constantly buys himself an ""Amizon.""",0,0,0,1,0,DI[3],2535409,4
+Overall impression: did not fit,0,0,0,0,0,NEUTRAL,172744,2
+"Two hours later, he woke up with a wild yell.",0,0,1,0,0,ADR[2],1268796,6
+"I used this drug for difficult nasal breathing, dryness in the nose and the presence of crusts in it.",0,0,0,1,0,DI[1],2533802,6
+"Maybe the doctor had no right to prescribe it, maybe there are some other reasons, I don't know.",0,0,0,0,0,NEUTRAL,1394389,24
+I used it to my child in the winter for a viral disease.,0,0,0,1,0,DI[3],2658071,1
+"As the last time I began to notice that I'm nervous a lot, I snap at everyone, at night I suffer from insomnia.",0,0,0,1,0,DI[7],76765,1
+Sometimes it makes you sick to use it.,0,0,1,0,0,ADR[2],2738498,8
+"I drank the entire course, all 3 records, and I didn't notice any special improvements, and I also had a sore throat.",0,1,1,0,0,INF[7]|ADR[8],944009,4
