@@ -126,11 +126,7 @@ def main():
                                          sentences_starts=sentences_starts, sentences_ends=sentences_ends,
                                          efficiency_label='NEUTRAL', review_id=review_id)
         except pd.errors.ParserError as err:
-            err_msg = str(err)
-            if err_msg == 'Too many columns specified: expected 7 and found 6':
-                stderr.write(f'File is not properly annotated: {file_path}\n')
-            else:
-                stderr.write(f'{err_msg}\n')
+            pass
 
     with open(args.save_to, 'w', encoding='utf-8') as output:
         serialized_data = json.dumps(data, ensure_ascii=False)
