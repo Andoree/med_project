@@ -1,0 +1,15 @@
+O
+B-ADR
+I-ADR
+B-DI
+I-DI
+B-Drugclass
+I-Drugclass
+B-Drugform
+I-Drugform
+B-Drugname
+I-Drugname
+B-Finding
+I-Finding
+B-Other
+I-Other
