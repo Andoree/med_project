@@ -65,6 +65,8 @@ def main():
     args = parser.parse_args()
     input_path = args.input_path
     output_path = args.output_path
+    # input_path = r'lemm_entities.tsv'
+    # output_path = r'entities_statistics.tsv'
 
     header = ['lemma', 'frequency', 'labels', 'POS', 'frequent_forms', 'Disease-related']
     entities_lemms = {}
@@ -73,7 +75,7 @@ def main():
             attrs = line.strip().split('\t')
             if len(attrs) == 3:
                 lemmatized_token_pos = attrs[0]
-                token = attrs[1]
+                token = attrs[1].strip()
                 lemmatized_words_pos = lemmatized_token_pos.split()
                 lemmatized_token = '~'.join([x.split('_')[0] for x in lemmatized_words_pos])
                 pos = '~'.join([x.split('_')[1] for x in lemmatized_words_pos])
