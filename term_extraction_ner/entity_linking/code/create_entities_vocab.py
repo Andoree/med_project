@@ -22,7 +22,6 @@ def main():
     entity_lemmas = stats_df['lemma'].apply(lambda lemma: ' '.join(lemma.split('~')))
     with codecs.open(output_path, 'w+', encoding='utf-8') as output_file:
         for lemma in entity_lemmas.values:
-            print(lemma)
             output_file.write(f"{lemma}\n")
 
 
