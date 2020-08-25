@@ -15,7 +15,7 @@ def main():
     input_meddra_path = args.input_meddra_path
     output_path = args.output_path
     output_dir = os.path.dirname(output_path)
-    if not os.path.exists(output_dir):
+    if not os.path.exists(output_dir) and not output_dir == '':
         os.makedirs(output_dir)
 
     meddra_df = pd.read_csv(input_meddra_path, sep='\t')
