@@ -46,7 +46,6 @@ def main():
                 sense_term = sense.text
                 sense_dictionary = {
                     'sense_term': sense_term.lower(),
-                    'synset_id': synset_id,
                     'sense_id': sense_id
                 }
                 medical_senses.append(sense_dictionary)
