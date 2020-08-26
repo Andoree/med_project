@@ -18,17 +18,15 @@ def main():
     if not os.path.exists(output_dir) and not output_dir == '':
         os.makedirs(output_dir)
     data_df = pd.read_csv(input_tsv_path, sep='\t')
-    data_df.rename(columns={"lemma" : "text"}, inplace=True)
+    data_df.rename(columns={"lemma": "text"}, inplace=True)
     texts = data_df["text"].values
     records = []
     for text in texts:
-        records.append({"text" : text})
+        records.append({"text": text})
 
     with codecs.open(output_path, 'w+', encoding="utf-8") as output_file:
-        output_file.write(
-            '[' +
-            ',\n'.join(json.dumps(i) for i in records) +
-            ']\n')
+        for entity_dict in records:
+            output_file.write(f"{json.dumps(entity_dict)}\n")
 
 
 if __name__ == '__main__':
