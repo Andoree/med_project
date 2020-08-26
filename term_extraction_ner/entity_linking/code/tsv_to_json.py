@@ -19,6 +19,7 @@ def main():
         os.makedirs(output_dir)
     data_df = pd.read_csv(input_tsv_path, sep='\t')
     data_df.rename(columns={"lemma": "text"}, inplace=True)
+    data_df['text'] = data_df['text'].apply(lambda x: ' '.join(x.split('~')))
     texts = data_df["text"].values
     records = []
     for text in texts:
