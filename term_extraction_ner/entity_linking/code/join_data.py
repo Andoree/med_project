@@ -10,7 +10,7 @@ def main():
     parser.add_argument('--input_tsv_1', )
     parser.add_argument('--input_tsv_2', )
     parser.add_argument('--output_path', )
-    parser.add_argument('--join_column', required=True)
+    parser.add_argument('--join_column', nargs='+', required=True)
     args = parser.parse_args()
 
     input_tsv_1 = args.input_tsv_1
@@ -19,11 +19,13 @@ def main():
     output_dir = os.path.dirname(output_path)
     if not os.path.exists(output_dir) and not output_dir == '':
         os.makedirs(output_dir)
-    join_column = args.join_column
+    join_column_1 = args.join_column[0]
+    join_column_2 = args.join_column[1]
 
     data_df_1 = pd.read_csv(input_tsv_1, sep='\t', )
     data_df_2 = pd.read_csv(input_tsv_2, sep='\t', )
-    merged_df = data_df_1.join(data_df_2, how='inner', on=join_column)
+    data_df_2.rename(columns={join_column_2: join_column_1}, inplace=True)
+    merged_df = data_df_1.join(data_df_2, how='inner', on=join_column_1)
     merged_df.to_csv(output_path, sep='\t')
 
 
