@@ -11,7 +11,7 @@ def main():
                         default=r'../wordnet/synset_relations.N.xml')
     parser.add_argument('--synsets',
                         default=r'../wordnet/synsets.N.xml')
-    parser.add_argument('--output_path', default=r'../wordnet/wordnet_med_senses_id_first.tsv')
+    parser.add_argument('--output_path', default=r'../wordnet/wordnet_med_senses.tsv')
     args = parser.parse_args()
     synset_relations = args.synset_relations
     synsets_path = args.synsets
@@ -45,9 +45,8 @@ def main():
                 sense_id = sense.get('id')
                 sense_term = sense.text
                 sense_dictionary = {
-                    'sense_id': sense_id,
                     'sense_term': sense_term.lower(),
-
+                    'sense_id': sense_id
                 }
                 medical_senses.append(sense_dictionary)
     senses_df = pd.DataFrame.from_records(medical_senses)

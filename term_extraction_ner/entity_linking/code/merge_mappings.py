@@ -19,7 +19,7 @@ def main():
     parser.add_argument('--corpora_names', nargs='+', required=True)
     args = parser.parse_args()
 
-    input_tsvs = args.input_tsv
+    input_tsvs = args.input_tsvs
     corpora_names = args.corpora_names
     output_path = args.output_path
     assert len(corpora_names) == len(input_tsvs)
@@ -33,15 +33,16 @@ def main():
         input_tsv_path = input_tsvs[i]
         id_name = CORPUS_ID_MAPPING[corpus_name]
         mapping_df = pd.read_csv(input_tsv_path, sep='\t')
-        mapping_df = mapping_df[['entity', 'mapping_tokens', 'mapping_concpt_ids', 'mapping_distances']]
-        mapping_df.rename(columns={'entity': 'entity', 'mapping_tokens': f'{corpus_name}_term',
+        if ['entity', 'mapping_tokens', 'mapping_concpt_ids', 'mapping_distances'] == list(mapping_df.columns):
+            mapping_df = mapping_df[['entity', 'mapping_tokens', 'mapping_concpt_ids', 'mapping_distances']]
+            mapping_df.rename(columns={'entity': 'entity', 'mapping_tokens': f'{corpus_name}_term',
                                    'mapping_concpt_ids': f'{corpus_name}_{id_name}',
                                    'mapping_distances': f"{corpus_name}_distance"}, inplace=True)
-        mapping_df.to_csv(output_path, sep='\t', index=False)
+        mapping_df.to_csv(input_tsv_path, sep='\t', index=False)
         print(corpus_name, mapping_df.shape)
         dataframes_list.append(mapping_df)
-
-    result_df = pd.concat(dataframes_list, axis=1, join='inner')
+    result_df = pd.concat(dataframes_list, axis=1,join='inner')
+    result_df = result_df.loc[:,~result_df.columns.duplicated()]
     result_df.to_csv(output_path, sep='\t', index=False)
 
 

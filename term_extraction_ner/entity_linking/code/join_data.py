@@ -5,6 +5,11 @@ from argparse import ArgumentParser
 import pandas as pd
 
 
+YES_NO_DICT = {
+    'yes' : 'no',
+    'no' : 'yes'
+}
+
 def main():
     parser = ArgumentParser()
     parser.add_argument('--input_tsv_1', )
@@ -25,8 +30,14 @@ def main():
     data_df_1 = pd.read_csv(input_tsv_1, sep='\t', )
     data_df_2 = pd.read_csv(input_tsv_2, sep='\t', )
     data_df_2.rename(columns={join_column_2: join_column_1}, inplace=True)
-    merged_df = data_df_1.join(data_df_2, how='inner', on=join_column_1)
-    merged_df.to_csv(output_path, sep='\t')
+    data_df_1[join_column_1] = data_df_1[join_column_1].apply(lambda x: '~'.join(x.split()))
+    data_df_1[join_column_1] = data_df_1[join_column_1].astype(str)
+    data_df_2[join_column_1] = data_df_2[join_column_1].astype(str)
+   
+    merged_df = data_df_1.merge(data_df_2, on=[join_column_1])
+    merged_df.rename(columns={'Disease-related' : 'disease_related'}, inplace=True)
+    merged_df['disease_related'] = merged_df['disease_related'].apply(lambda x: YES_NO_DICT[x])
+    merged_df.to_csv(output_path, sep='\t', index=False)
 
 
 if __name__ == '__main__':

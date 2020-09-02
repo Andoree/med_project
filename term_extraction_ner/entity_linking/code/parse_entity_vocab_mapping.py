@@ -32,9 +32,9 @@ def main():
                 cand_tokens.append(candidate_token)
                 cand_concept_ids.append(candidate_concept_id)
                 cand_distances.append(candidate_distance)
-            entity_cand_tokens_str = ','.join(cand_tokens)
-            entity_cand_concpt_ids = ','.join(cand_concept_ids)
-            entity_cand_distances = ','.join(cand_distances)
+            entity_cand_tokens_str = ','.join(cand_tokens[:1])
+            entity_cand_concpt_ids = ','.join(cand_concept_ids[:1])
+            entity_cand_distances = ','.join(cand_distances[:1])
             entity_dict = {'entity': entity_token,
                            'mapping_tokens': entity_cand_tokens_str,
                            'mapping_concpt_ids': entity_cand_concpt_ids,
