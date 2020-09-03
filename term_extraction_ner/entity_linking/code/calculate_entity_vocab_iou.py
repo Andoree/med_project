@@ -29,12 +29,9 @@ def calculate_row_columns_iou(row, entity_column,
     """
     
     entity_token = row[entity_column]
-    print(entity_token)
     vocab_token = row[vocab_column]
-    print(vocab_token)
-    print('--')
     lemm_vocab_token = vocab_to_lemm_dict[vocab_token]
-    iou_score = pairwise_iou_metric(entity_token, lemm_vocab_token)
+    iou_score = pairwise_iou_metric(entity_token.split(), lemm_vocab_token.split())
     return iou_score
 
 
