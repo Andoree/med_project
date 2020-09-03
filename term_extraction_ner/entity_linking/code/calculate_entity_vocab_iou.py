@@ -57,16 +57,10 @@ def main():
     output_dir = os.path.dirname(output_path)
     if not os.path.exists(output_dir) and output_dir != '':
         os.makedirs(output_dir)
-    vocab_list = []
-    with codecs.open(vocab_path, 'r', encoding='utf-8') as inp_file:
-        for line in inp_file:
-            token = line.split('\t')[1].strip()
-            vocab_list.append(token)
-    lemm_vocab_list = []
-    with codecs.open(lemm_vocab_path, 'r', encoding='utf-8') as inp_file:
-        for line in inp_file:
-            token = line.split('\t')[1].strip()
-            lemm_vocab_list.append(token)
+    vocab_df = pd.read_csv(vocab_path, sep='\t', header=None, names=['id', 'concept'])
+    vocab_list = vocab_df.concept.values()
+    lemm_vocab_df = pd.read_csv(lemm_vocab_path, sep='\t', header=None, names=['id', 'concept'])
+    lemm_vocab_list = lemm_vocab_df.concept.values()
     assert len(vocab_list) == len(lemm_vocab_list)
     vocab_to_lemm_dict = {vocab_list[i]: lemm_vocab_list[i]
                           for i in range(len(vocab_list))}
