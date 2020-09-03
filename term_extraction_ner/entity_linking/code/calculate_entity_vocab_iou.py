@@ -27,8 +27,12 @@ def calculate_row_columns_iou(row, entity_column,
     :return: IoU score for the values of two columns listed
     in <column_names> of dataframe's <row>
     """
+    
     entity_token = row[entity_column]
+    print(entity_token)
     vocab_token = row[vocab_column]
+    print(vocab_token)
+    print('--')
     lemm_vocab_token = vocab_to_lemm_dict[vocab_token]
     iou_score = pairwise_iou_metric(entity_token, lemm_vocab_token)
     return iou_score
@@ -54,14 +58,14 @@ def main():
     if not os.path.exists(output_dir) and output_dir != '':
         os.makedirs(output_dir)
     vocab_list = []
-    with codecs.open(vocab_path, 'w', encoding='utf-8') as inp_file:
+    with codecs.open(vocab_path, 'r', encoding='utf-8') as inp_file:
         for line in inp_file:
-            token = line.split()[1].strip()
+            token = line.split('\t')[1].strip()
             vocab_list.append(token)
     lemm_vocab_list = []
-    with codecs.open(lemm_vocab_path, 'w', encoding='utf-8') as inp_file:
+    with codecs.open(lemm_vocab_path, 'r', encoding='utf-8') as inp_file:
         for line in inp_file:
-            token = line.split()[1].strip()
+            token = line.split('\t')[1].strip()
             lemm_vocab_list.append(token)
     assert len(vocab_list) == len(lemm_vocab_list)
     vocab_to_lemm_dict = {vocab_list[i]: lemm_vocab_list[i]
