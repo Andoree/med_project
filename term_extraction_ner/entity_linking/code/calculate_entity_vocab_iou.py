@@ -5,6 +5,8 @@ from typing import List
 
 import pandas as pd
 
+from term_extraction_ner.entities_statistics.code.lemmatize_entities import list_replace
+
 
 def strip_list(token: str, strip_tokens: List[str]):
     """
@@ -67,15 +69,12 @@ def main():
     if not os.path.exists(output_dir) and output_dir != '':
         os.makedirs(output_dir)
     vocab_df = pd.read_csv(vocab_path, sep='\t', header=None, names=['id', 'concept'])
-    vocab_df.concept = vocab_df.concept.apply(lambda x: strip_list(x, ['"', ' ']))
+    vocab_df.concept = vocab_df.concept.apply(lambda x: list_replace(search='"', replacement='', text=x))
+    vocab_df.concept = vocab_df.concept.apply(lambda x: x.strip())
     vocab_list = vocab_df.concept.values
     lemm_vocab_df = pd.read_csv(lemm_vocab_path, sep='\t', header=None, names=['id', 'concept'])
     lemm_vocab_list = lemm_vocab_df.concept.values
     assert len(vocab_list) == len(lemm_vocab_list)
-    #print(len(vocab_list))
-    #print(len(lemm_vocab_list))
-    #print(vocab_list[:10])
-    #print(lemm_vocab_list[:10])
     vocab_to_lemm_dict = {vocab_list[i]: lemm_vocab_list[i]
                           for i in range(len(vocab_list))}
     entity_vocab_mapping_df = pd.read_csv(input_path, sep='\t')
