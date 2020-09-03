@@ -6,6 +6,18 @@ from typing import List
 import pandas as pd
 
 
+def strip_list(token: str, strip_tokens: List[str]):
+    """
+    :param token: Token to get applied strip
+    :param strip_tokens: List of strip tokens. There tokens are
+    in the same ordet they are in the list.
+    :return: Stripped token
+    """
+    for strip_t in strip_tokens:
+        token = strip_t.strip(strip_t)
+    return token
+
+
 def pairwise_iou_metric(data_1: List, data_2: List):
     """
     Calculates intersection over union (IoU) for two data lists.
@@ -27,7 +39,7 @@ def calculate_row_columns_iou(row, entity_column,
     :return: IoU score for the values of two columns listed
     in <column_names> of dataframe's <row>
     """
-    
+
     entity_token = row[entity_column]
     vocab_token = row[vocab_column]
     lemm_vocab_token = vocab_to_lemm_dict[vocab_token]
@@ -55,6 +67,7 @@ def main():
     if not os.path.exists(output_dir) and output_dir != '':
         os.makedirs(output_dir)
     vocab_df = pd.read_csv(vocab_path, sep='\t', header=None, names=['id', 'concept'])
+    vocab_df.concept = vocab_df.concept.apply(lambda x: strip_list(x, ['"', ' ']))
     vocab_list = vocab_df.concept.values()
     lemm_vocab_df = pd.read_csv(lemm_vocab_path, sep='\t', header=None, names=['id', 'concept'])
     lemm_vocab_list = lemm_vocab_df.concept.values()
