@@ -14,7 +14,7 @@ def strip_list(token: str, strip_tokens: List[str]):
     :return: Stripped token
     """
     for strip_t in strip_tokens:
-        token = strip_t.strip(strip_t)
+        token = token.strip(strip_t)
     return token
 
 
@@ -68,13 +68,16 @@ def main():
         os.makedirs(output_dir)
     vocab_df = pd.read_csv(vocab_path, sep='\t', header=None, names=['id', 'concept'])
     vocab_df.concept = vocab_df.concept.apply(lambda x: strip_list(x, ['"', ' ']))
-    vocab_list = vocab_df.concept.values()
+    vocab_list = vocab_df.concept.values
     lemm_vocab_df = pd.read_csv(lemm_vocab_path, sep='\t', header=None, names=['id', 'concept'])
-    lemm_vocab_list = lemm_vocab_df.concept.values()
+    lemm_vocab_list = lemm_vocab_df.concept.values
     assert len(vocab_list) == len(lemm_vocab_list)
+    #print(len(vocab_list))
+    #print(len(lemm_vocab_list))
+    #print(vocab_list[:10])
+    #print(lemm_vocab_list[:10])
     vocab_to_lemm_dict = {vocab_list[i]: lemm_vocab_list[i]
                           for i in range(len(vocab_list))}
-
     entity_vocab_mapping_df = pd.read_csv(input_path, sep='\t')
     iou_column_name = f'{entity_column}_{vocab_column}_iou'
     entity_vocab_mapping_df[iou_column_name] = entity_vocab_mapping_df.apply(
