@@ -18,18 +18,18 @@ def main():
         os.makedirs(output_dir)
     groups_df = pd.read_csv(groups_path, sep='|', header=None,
                             names=['Semantic Group Abbrev', 'Semantic Group Name', 'TUI', 'Full Semantic Type Name'])
-    vocab_df = pd.read_csv(vocab_path, sep='|', )
-    merged_df = pd.DataFrame.join(groups_df, vocab_df, on="TUI")
+    vocab_df = pd.read_csv(vocab_path, sep='\t', )
+    merged_df = pd.DataFrame.merge(groups_df, vocab_df, on="TUI")
     filtered_merged_df = merged_df[
         ['CUI', 'TUI', 'Semantic Group Abbrev', 'SCUI', 'STR', 'Full Semantic Type Name',
          'Semantic Group Name']]
     filtered_merged_df.rename(
         columns={'Semantic Group Abbrev': 'semantic_group', 'CUI': 'umls_cui',
-                 'Semantic Group': 'semantic_group_title', 'SCUI': 'meshrus_cui',
-                 'Full Semantic Type Name': 'semantic_type_title',
-                 'TUI': 'semantic_type', 'STR': 'term'})
+                 'Semantic Group': 'semantic_group_name', 'SCUI': 'meshrus_cui',
+                 'Full Semantic Type Name': 'semantic_type_name',
+                 'TUI': 'semantic_type', 'STR': 'term', 'Semantic Group Name' : 'semantic_group_name'}, inplace=True)
     print(filtered_merged_df.head())
-    filtered_merged_df.to_csv(output_path, sep='|', index=None)
+    filtered_merged_df.to_csv(output_path, sep='\t', index=None)
 
 
 if __name__ == '__main__':
