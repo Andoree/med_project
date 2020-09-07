@@ -19,7 +19,7 @@ def single_word_to_symbolic_trigrams(word: str) -> List[str]:
     return trigrams_list
 
 
-def token_to_trigram_counter(token) -> Counter[str:int]:
+def token_to_trigram_counter(token):
     """
     :param token: Ngram. Sequence of words divided by whitespaces.
     :return: Counter with token's trigram frequencies
@@ -46,7 +46,7 @@ def calculate_symbolic_trigram_iou(token_1: str, token_2: str):
     intersection = token_1_counter_multiset & token_2_counter_multiset
     union = token_1_counter_multiset.copy()
     union.update(token_2_counter_multiset)
-    iou_value = len(list(intersection.elements())) / len(list(union.elements()))
+    iou_value = 2 * len(list(intersection.elements())) / len(list(union.elements()))
     return iou_value
 
 
@@ -65,7 +65,7 @@ def token_words_iou_metric(token_1: str, token_2: str):
 
 
 def calculate_row_columns_iou(row, iou_metric, entity_column: str,
-                              vocab_column: str, vocab_to_lemm_dict: Dict[str:str]):
+                              vocab_column: str, vocab_to_lemm_dict: Dict[str,str]):
     """
     :param row: Pandas.Series
     :param iou_metric: Function that takes two tokens and returns a
@@ -84,3 +84,10 @@ def calculate_row_columns_iou(row, iou_metric, entity_column: str,
     lemm_vocab_token = vocab_to_lemm_dict[vocab_token]
     iou_score = iou_metric(entity_token, lemm_vocab_token)
     return iou_score
+
+
+def list_replace(search, replacement, text):
+    search = [el for el in search if el in text]
+    for c in search:
+        text = text.replace(c, replacement)
+    return text

@@ -4,10 +4,9 @@ from typing import List
 
 import pandas as pd
 
-from term_extraction_ner.entities_statistics.code.lemmatize_entities import list_replace
-from term_extraction_ner.entity_linking.code.iou.symbolic_trigram_iou import calculate_symbolic_trigram_iou
 
-from term_extraction_ner.entity_linking.code.iou.iou_utils import token_words_iou_metric, calculate_row_columns_iou
+from iou_utils import token_words_iou_metric, calculate_row_columns_iou, list_replace, \
+calculate_symbolic_trigram_iou, token_words_iou_metric
 
 
 def strip_list(token: str, strip_tokens: List[str]):
