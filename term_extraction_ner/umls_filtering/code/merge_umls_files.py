@@ -8,15 +8,13 @@ def main():
     parser = ArgumentParser()
     parser.add_argument('--groups_file', required=True)
     parser.add_argument('--vocab_path', required=True)
-    parser.add_argument('--keep_columns', nargs='+', required=True)
-    parser.add_argument('--column_name_mapping_file', required=True)
+    parser.add_argument('--keep_columns_file', required=True)
     parser.add_argument('--output_path', required=True)
     args = parser.parse_args()
 
     groups_path = args.groups_file
     vocab_path = args.vocab_path
-    keep_columns_list = args.keep_columns
-    column_name_mapping_path = args.column_name_mapping_file
+    column_name_mapping_path = args.keep_columns_file
     output_path = args.output_path
     output_dir = os.path.dirname(output_path)
     if not os.path.exists(output_dir) and not output_dir == '':
@@ -29,7 +27,7 @@ def main():
             rename_from = attrs[0]
             rename_to = attrs[1]
             column_rename_map[rename_from] = rename_to
-
+    keep_columns_list = list(column_rename_map.keys())
     groups_df = pd.read_csv(groups_path, sep='|', header=None,
                             names=['Semantic Group Abbrev', 'Semantic Group Name', 'TUI', 'Full Semantic Type Name'])
     vocab_df = pd.read_csv(vocab_path, sep='\t', )
