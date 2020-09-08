@@ -1,8 +1,8 @@
-Semantic Group Abbrev|semantic_group
 CUI|umls_cui
-CODE|ru_meddra_code
-Full Semantic Type Name|semantic_type_name
 TUI|semantic_type
+Semantic Group Abbrev|semantic_group
+CODE|ru_meddra_code
 STR|term
 TTY|term_type
+Full Semantic Type Name|semantic_type_name
 Semantic Group Name|semantic_group_name
