@@ -1,6 +1,5 @@
 Semantic Group Abbrev|semantic_group
 CUI|umls_cui
-Semantic Group|semantic_group_name
 SCUI|meddra_rus_cui
 Full Semantic Type Name|semantic_type_name
 TUI|semantic_type
