@@ -1,0 +1,8 @@
+Semantic Group Abbrev|semantic_group
+CUI|umls_cui
+Semantic Group|semantic_group_name
+SCUI|meshrus_cui
+Full Semantic Type Name|semantic_type_name
+TUI|semantic_type
+STR|term
+Semantic Group Name|semantic_group_name
