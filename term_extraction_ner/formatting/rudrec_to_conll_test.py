@@ -122,9 +122,11 @@ def process_fulldoc_as_json(input_file, filename, output_file, counter):
                 preprocessed_text = preprocessed_text.strip()
                 sentenized_text = sent_tokenize(preprocessed_text, language='russian')
                 if len(sentenized_text) > 0:
-                    counter += 1
                     for sentence in sentenized_text:
+                        sentence = sentence.replace('\n', ' ')
                         words = word_tokenize(sentence, language='russian')
+                        if len(words) > 0:
+                            counter += 1
                         for word in words:
                             output_file.write(f"{word}\tO\n")
                         output_file.write('\n')
@@ -146,9 +148,11 @@ def process_jsondoc_linewise(input_file, filename, output_file, counter):
                     preprocessed_text = preprocessed_text.strip()
                     sentenized_text = sent_tokenize(preprocessed_text, language='russian')
                     if len(sentenized_text) > 0:
-                        counter += 1
                         for sentence in sentenized_text:
+                            sentence = sentence.replace('\n', ' ')
                             words = word_tokenize(sentence, language='russian')
+                            if len(words) > 0:
+                                counter += 1
                             for word in words:
                                 output_file.write(f"{word}\tO\n")
                             output_file.write('\n')
@@ -164,7 +168,7 @@ def process_jsondoc_linewise(input_file, filename, output_file, counter):
 
 
 def main():
-    corpus_directory = r"RuDReC/"
+    corpus_directory = r"../RuDReC/"
     output_path = 'data_test.txt'
     counter_path = 'COUNTER.TXT'
     k = 0
