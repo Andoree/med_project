@@ -107,13 +107,13 @@ def clean_text(text):
     return text
 
 
-def process_fulldoc_as_json(input_file, filename, output_file):
+def process_fulldoc_as_json(input_file, filename, output_file, counter):
     file_text = input_file.read()
     docs = json.loads(file_text)
     i = 0
     for doc in docs:
         i += 1
-        if i % 1000 == 0:
+        if i % 5000 == 0:
             print(filename, i)
         for text_field in TEXT_COLUMNS[filename]:
             document_text = doc[text_field]
@@ -121,16 +121,17 @@ def process_fulldoc_as_json(input_file, filename, output_file):
                 preprocessed_text = clean_text(document_text)
                 preprocessed_text = preprocessed_text.strip()
                 sentenized_text = sent_tokenize(preprocessed_text, language='russian')
-                print(sentenized_text)
                 if len(sentenized_text) > 0:
+                    counter += 1
                     for sentence in sentenized_text:
                         words = word_tokenize(sentence, language='russian')
                         for word in words:
                             output_file.write(f"{word}\tO\n")
                         output_file.write('\n')
+    return counter
 
 
-def process_jsondoc_linewise(input_file, filename, output_file):
+def process_jsondoc_linewise(input_file, filename, output_file, counter):
     for line in input_file:
         try:
             line = line.strip('\n,')
@@ -145,6 +146,7 @@ def process_jsondoc_linewise(input_file, filename, output_file):
                     preprocessed_text = preprocessed_text.strip()
                     sentenized_text = sent_tokenize(preprocessed_text, language='russian')
                     if len(sentenized_text) > 0:
+                        counter += 1
                         for sentence in sentenized_text:
                             words = word_tokenize(sentence, language='russian')
                             for word in words:
@@ -158,11 +160,14 @@ def process_jsondoc_linewise(input_file, filename, output_file):
             print("Type error")
             print(e)
             print(line)
+    return counter
 
 
 def main():
     corpus_directory = r"RuDReC/"
     output_path = 'data_test.txt'
+    counter_path = 'COUNTER.TXT'
+    k = 0
     with codecs.open(output_path, "w+", encoding="utf-8") as output_file:
         for filename in os.listdir(corpus_directory):
             print(filename)
@@ -173,9 +178,11 @@ def main():
             file_path = os.path.join(corpus_directory, filename)
             with codecs.open(file_path, "r", encoding="utf-8") as inp:
                 if PROCESS_AS_JSON_DOC[filename]:
-                    process_fulldoc_as_json(input_file=inp, filename=filename, output_file=output_file)
+                    k = process_fulldoc_as_json(input_file=inp, filename=filename, output_file=output_file, counter=k)
                 else:
-                    process_jsondoc_linewise(input_file=inp, filename=filename, output_file=output_file)
+                    k = process_jsondoc_linewise(input_file=inp, filename=filename, output_file=output_file, counter=k)
+    with codecs.open(counter_path, "w+", encoding="utf-8") as output_file:
+        output_file.write(f"num docs: {k}")
 
 
 if __name__ == '__main__':
