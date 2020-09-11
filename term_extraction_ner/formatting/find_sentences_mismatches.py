@@ -2,6 +2,7 @@ import codecs
 
 
 def check_sentences_matching(biobert_sentence, rudrec_sentence):
+    biobert_sentence = biobert_sentence.replace('[UNK]', '')
     if biobert_sentence != rudrec_sentence:
         print("MISMATCH:")
         print(f"Biobert: |{biobert_sentence}|")
