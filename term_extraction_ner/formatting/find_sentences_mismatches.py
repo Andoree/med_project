@@ -2,7 +2,8 @@ import codecs
 
 
 def check_sentences_matching(biobert_sentence, rudrec_sentence):
-    biobert_sentence = biobert_sentence.replace('[UNK]', '')
+    biobert_sentence = biobert_sentence.replace('[UNK]', '').replace("'", "")[:150]
+    rudrec_sentence = rudrec_sentence.replace('`', '').replace("'", "")[:150]
     if biobert_sentence != rudrec_sentence:
         print("MISMATCH:")
         print(f"Biobert: |{biobert_sentence}|")
@@ -22,14 +23,18 @@ def main():
         previous_rudrec = None
         previous_biobert = None
         i = 1
+        j = 0
         while biobert_sentence is not None and rudrec_sentence is not None:
-            if i < 1000:
+            if i < 100000000000:
                 if check_sentences_matching(biobert_sentence=biobert_sentence, rudrec_sentence=rudrec_sentence):
                     print('Previous biobert', previous_biobert)
                     print('Previous rudrec', previous_rudrec)
-                    biobert_sentence = biobert_file.readline().strip()
-                    if not check_sentences_matching(biobert_sentence=biobert_sentence, rudrec_sentence=rudrec_sentence):
-                        raise Exception("EXCEPTION")
+                    j += 1
+                    if j > 10:
+                        break
+                    #biobert_sentence = biobert_file.readline().strip()
+                    #if not check_sentences_matching(biobert_sentence=biobert_sentence, rudrec_sentence=rudrec_sentence):
+                    #    raise Exception("EXCEPTION")
             else:
                 break
             i += 1
