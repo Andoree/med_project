@@ -111,7 +111,7 @@ def jsondoc_linewise_to_json(input_file, filename, output_file):
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument('--rudrec_dir', default=r'RuDReC/')
+    parser.add_argument('--rudrec_dir', default=r'../RuDReC/')
     parser.add_argument('--output_path', default=r'data_test.json')
     args = parser.parse_args()
 
