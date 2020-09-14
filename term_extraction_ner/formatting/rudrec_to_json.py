@@ -5,7 +5,7 @@ import os
 from argparse import ArgumentParser
 from json import JSONDecodeError
 
-from term_extraction_ner.formatting.rudrec_to_conll import clean_text, TEXT_COLUMNS
+from term_extraction_ner.formatting.rudrec_to_conll import clean_text, TEXT_COLUMNS, PROCESS_AS_JSON_DOC
 
 
 def get_rudrec_doc_id(doc, filename):
