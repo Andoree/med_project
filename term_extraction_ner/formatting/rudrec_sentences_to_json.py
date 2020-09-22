@@ -115,8 +115,8 @@ def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global
 def main():
     parser = ArgumentParser()
     parser.add_argument('--rudrec_dir', default=r'../RuDReC')
-    parser.add_argument('--output_path', default=r'data_test.json')
-    parser.add_argument('--id_map_path', default='url_mapping/rudrec_id_mapping_url.txt')
+    parser.add_argument('--output_path', default=r'data_test_with_ids.json')
+    parser.add_argument('--id_map_path', default='url_mapping/rudrec_id_mapping_url_global_ids.txt')
     args = parser.parse_args()
 
     corpus_directory = args.rudrec_dir
