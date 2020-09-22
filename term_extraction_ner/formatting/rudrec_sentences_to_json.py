@@ -54,22 +54,23 @@ def fulldoc_to_json(input_file, filename, output_file, map_file, global_id):
                 preprocessed_text = preprocessed_text.strip()
                 old_doc_id, new_doc_id = get_rudrec_doc_id(doc, filename, doc_id=i)
                 sentenized_text = sent_tokenize(preprocessed_text, language='russian')
-
+                if new_doc_id is not None:
+                    if old_doc_id != new_doc_id:
+                        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
                 if len(sentenized_text) > 0:
                     for sentence_id, sentence in enumerate(sentenized_text):
                         global_id += 1
                         sentence = sentence.replace('\n', ' ')
-                        if new_doc_id is not None:
-                            if old_doc_id != new_doc_id:
-                                map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
-                            json_entry = {
-                                "doc_id": new_doc_id,
-                                "sentence_id": sentence_id,
-                                "text": sentence,
-                            }
-                            json.dump(json_entry, output_file, ensure_ascii=False)
-                            output_file.write("\n")
+
+                        json_entry = {
+                            "doc_id": new_doc_id,
+                            "sentence_id": sentence_id,
+                            "text": sentence,
+                        }
+                        json.dump(json_entry, output_file, ensure_ascii=False)
+                        output_file.write("\n")
     return global_id
+
 
 def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global_id):
     for i, line in enumerate(input_file):
@@ -86,22 +87,21 @@ def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global
                     preprocessed_text = preprocessed_text.strip()
                     old_doc_id, new_doc_id = get_rudrec_doc_id(doc, filename, doc_id=i)
                     sentenized_text = sent_tokenize(preprocessed_text, language='russian')
-
+                    if new_doc_id is not None:
+                        if old_doc_id != new_doc_id:
+                            map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
                     if len(sentenized_text) > 0:
                         for sentence_id, sentence in enumerate(sentenized_text):
                             global_id += 1
                             sentence = sentence.replace('\n', ' ')
-                            if new_doc_id is not None:
-                                if old_doc_id != new_doc_id:
-                                    map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
-                                json_entry = {
-                                    "global_id" : global_id,
-                                    "doc_id": new_doc_id,
-                                    "sentence_id": sentence_id,
-                                    "text": sentence,
-                                }
-                                json.dump(json_entry, output_file, ensure_ascii=False)
-                                output_file.write("\n")
+                            json_entry = {
+                                "global_id": global_id,
+                                "doc_id": new_doc_id,
+                                "sentence_id": sentence_id,
+                                "text": sentence,
+                            }
+                            json.dump(json_entry, output_file, ensure_ascii=False)
+                            output_file.write("\n")
         except JSONDecodeError as e:
             print(e)
             print(line)
@@ -111,6 +111,7 @@ def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global
             print(e)
             print(line)
     return global_id
+
 
 def main():
     parser = ArgumentParser()
