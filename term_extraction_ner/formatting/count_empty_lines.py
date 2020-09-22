@@ -14,15 +14,21 @@ def main():
     if not os.path.exists(output_dir) and not output_dir == '':
         os.makedirs(output_dir)
 
-    with codecs.open(file_path, 'r', encoding='utf-8') as inp_file:
+    with codecs.open(file_path, 'r', encoding='utf-8') as inp_file, \
+            codecs.open(output_path, 'w+', encoding='utf-8') as output_file:
         i = 0
+        previous_line = 'aa'
         for j, line in enumerate(inp_file):
+
             line = line.strip()
+            if line == previous_line:
+                output_file.write(f"EMPTY STRING: {i}, {j}, {line}")
             if line == "":
                 i += 1
-        with codecs.open(output_path, 'w+', encoding='utf-8') as output_file:
-            output_file.write(f"empty lines: {i}\n"
-                              f"all lines: {j + 1}\n")
+            previous_line = line
+        output_file.write(f"empty lines: {i}\n"
+                          f"all lines: {j + 1}\n")
+
 
 if __name__ == '__main__':
     main()
