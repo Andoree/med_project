@@ -84,6 +84,7 @@ def fulldoc_to_json(input_file, filename, output_file, map_file, global_id):
                 #    if old_doc_id != new_doc_id:
                 #        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
                 new_doc = get_rudrec_doc_attributes(doc, filename, )
+                new_doc["filename"] = filename
                 delete_newlines_from_doc(new_doc)
                 if len(sentenized_text) > 0:
                     for sentence_id, sentence in enumerate(sentenized_text):
@@ -120,6 +121,7 @@ def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global
                     #    if old_doc_id != new_doc_id:
                     #        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
                     new_doc = get_rudrec_doc_attributes(doc, filename, )
+                    new_doc["filename"] = filename
                     delete_newlines_from_doc(new_doc)
                     if len(sentenized_text) > 0:
                         for sentence_id, sentence in enumerate(sentenized_text):
@@ -150,7 +152,7 @@ def main():
     parser = ArgumentParser()
     parser.add_argument('--rudrec_dir', default=r'../RuDReC')
     parser.add_argument('--output_path', default=r'data_test_with_orig_docs.json')
-    parser.add_argument('--id_map_path', default='url_mapping/rudrec_id_mapping_url_global_ids.txt')
+    parser.add_argument('--id_map_path', default='url_mapping/rudrec_id_None')
     args = parser.parse_args()
 
     corpus_directory = args.rudrec_dir
