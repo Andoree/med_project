@@ -65,8 +65,9 @@ def get_rudrec_doc_id(doc, filename, doc_id):
 def delete_newlines_from_doc(doc):
     for key in doc.keys():
         old_value = doc[key]
-        new_value = old_value.replace('\n', ' ')
-        doc[key] = new_value
+        if  old_value is not None:
+            new_value = old_value.replace('\n', ' ')
+            doc[key] = new_value
 
 
 def fulldoc_to_json(input_file, filename, output_file, map_file, global_id):
