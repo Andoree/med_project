@@ -83,12 +83,12 @@ def fulldoc_to_json(input_file, filename, output_file, map_file, global_id):
                 # if new_doc_id is not None:
                 #    if old_doc_id != new_doc_id:
                 #        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
+                new_doc = get_rudrec_doc_attributes(doc, filename, )
+                delete_newlines_from_doc(new_doc)
                 if len(sentenized_text) > 0:
                     for sentence_id, sentence in enumerate(sentenized_text):
                         global_id += 1
                         sentence = sentence.replace('\n', ' ')
-                        new_doc = get_rudrec_doc_attributes(doc, filename,)
-                        delete_newlines_from_doc(new_doc)
                         new_doc['sentence_id'] = sentence_id
                         new_doc['sentence'] = sentence
                         # json_entry = {
@@ -119,12 +119,12 @@ def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global
                     #if new_doc_id is not None:
                     #    if old_doc_id != new_doc_id:
                     #        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
+                    new_doc = get_rudrec_doc_attributes(doc, filename, )
+                    delete_newlines_from_doc(new_doc)
                     if len(sentenized_text) > 0:
                         for sentence_id, sentence in enumerate(sentenized_text):
                             # global_id += 1
                             sentence = sentence.replace('\n', ' ')
-                            new_doc = get_rudrec_doc_attributes(doc, filename, )
-                            delete_newlines_from_doc(new_doc)
                             new_doc['sentence_id'] = sentence_id
                             new_doc['sentence'] = sentence
                             # json_entry = {
