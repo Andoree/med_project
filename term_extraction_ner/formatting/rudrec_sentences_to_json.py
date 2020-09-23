@@ -9,6 +9,25 @@ from nltk import sent_tokenize
 from rudrec_to_conll import clean_text, TEXT_COLUMNS, PROCESS_AS_JSON_DOC
 
 
+def get_rudrec_doc_attributes(doc, filename, ):
+    attributes = {}
+    if filename == "all_reviews_texts.txt":
+        doc_url = doc["url"]
+        attributes["url"] = doc_url
+    elif filename == "comments.json":
+        attributes["id"] = doc["id"]
+        attributes["url"] = doc["url"]
+    elif filename == "consumers_drugs_reviews.json":
+        attributes = doc
+    elif filename == "doctors_drugs_reviews.json":
+        attributes = doc
+    elif filename == "spr-ru.txt":
+        attributes = doc
+    else:
+        raise Exception("Invalid filename in get_rudrec_doc_id function")
+    return attributes
+
+
 def get_rudrec_doc_id(doc, filename, doc_id):
     if filename == "all_reviews_texts.txt":
         doc_url = doc["url"]
@@ -43,6 +62,13 @@ def get_rudrec_doc_id(doc, filename, doc_id):
     return old_doc_id, new_doc_id
 
 
+def delete_newlines_from_doc(doc):
+    for key in doc.keys():
+        old_value = doc[key]
+        new_value = old_value.replace('\n', ' ')
+        doc[key] = new_value
+
+
 def fulldoc_to_json(input_file, filename, output_file, map_file, global_id):
     file_text = input_file.read()
     docs = json.loads(file_text)
@@ -52,22 +78,25 @@ def fulldoc_to_json(input_file, filename, output_file, map_file, global_id):
             if document_text is not None:
                 preprocessed_text = clean_text(document_text)
                 preprocessed_text = preprocessed_text.strip()
-                old_doc_id, new_doc_id = get_rudrec_doc_id(doc, filename, doc_id=i)
+                # old_doc_id, new_doc_id = get_rudrec_doc_id(doc, filename, doc_id=i)
                 sentenized_text = sent_tokenize(preprocessed_text, language='russian')
-                if new_doc_id is not None:
-                    if old_doc_id != new_doc_id:
-                        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
+                # if new_doc_id is not None:
+                #    if old_doc_id != new_doc_id:
+                #        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
                 if len(sentenized_text) > 0:
                     for sentence_id, sentence in enumerate(sentenized_text):
                         global_id += 1
                         sentence = sentence.replace('\n', ' ')
-
-                        json_entry = {
-                            "doc_id": new_doc_id,
-                            "sentence_id": sentence_id,
-                            "text": sentence,
-                        }
-                        json.dump(json_entry, output_file, ensure_ascii=False)
+                        new_doc = get_rudrec_doc_attributes(doc, filename,)
+                        delete_newlines_from_doc(new_doc)
+                        new_doc['sentence_id'] = sentence_id
+                        new_doc['sentence'] = sentence
+                        # json_entry = {
+                        #     "doc_id": new_doc_id,
+                        #     "sentence_id": sentence_id,
+                        #     "text": sentence,
+                        # }
+                        json.dump(new_doc, output_file, ensure_ascii=False)
                         output_file.write("\n")
     return global_id
 
@@ -85,22 +114,26 @@ def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global
                 if document_text is not None:
                     preprocessed_text = clean_text(document_text)
                     preprocessed_text = preprocessed_text.strip()
-                    old_doc_id, new_doc_id = get_rudrec_doc_id(doc, filename, doc_id=i)
+                    #old_doc_id, new_doc_id = get_rudrec_doc_id(doc, filename, doc_id=i)
                     sentenized_text = sent_tokenize(preprocessed_text, language='russian')
-                    if new_doc_id is not None:
-                        if old_doc_id != new_doc_id:
-                            map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
+                    #if new_doc_id is not None:
+                    #    if old_doc_id != new_doc_id:
+                    #        map_file.write(f"{old_doc_id}\t{new_doc_id}\n")
                     if len(sentenized_text) > 0:
                         for sentence_id, sentence in enumerate(sentenized_text):
-                            global_id += 1
+                            # global_id += 1
                             sentence = sentence.replace('\n', ' ')
-                            json_entry = {
-                                "global_id": global_id,
-                                "doc_id": new_doc_id,
-                                "sentence_id": sentence_id,
-                                "text": sentence,
-                            }
-                            json.dump(json_entry, output_file, ensure_ascii=False)
+                            new_doc = get_rudrec_doc_attributes(doc, filename, )
+                            delete_newlines_from_doc(new_doc)
+                            new_doc['sentence_id'] = sentence_id
+                            new_doc['sentence'] = sentence
+                            # json_entry = {
+                            #     "global_id": global_id,
+                            #     "doc_id": new_doc_id,
+                            #     "sentence_id": sentence_id,
+                            #     "text": sentence,
+                            # }
+                            json.dump(new_doc, output_file, ensure_ascii=False)
                             output_file.write("\n")
         except JSONDecodeError as e:
             print(e)
@@ -116,7 +149,7 @@ def jsondoc_linewise_to_json(input_file, filename, output_file, map_file, global
 def main():
     parser = ArgumentParser()
     parser.add_argument('--rudrec_dir', default=r'../RuDReC')
-    parser.add_argument('--output_path', default=r'data_test_with_ids.json')
+    parser.add_argument('--output_path', default=r'data_test_with_orig_docs.json')
     parser.add_argument('--id_map_path', default='url_mapping/rudrec_id_mapping_url_global_ids.txt')
     args = parser.parse_args()
 
