@@ -26,8 +26,10 @@ def main():
     nltk.download("stopwords")
     stop_words_list = set(stopwords.words("russian"))
     print(f"Before filtering: {entities_df.shape[0]} rows")
-    entities_df = entities_df[entities_df[column_name].isin(stop_words_list)]
+    entities_df = entities_df[~entities_df[column_name].isin(stop_words_list)]
     print(f"After filtering: {entities_df.shape[0]} rows")
+    excluded_df = entities_df[entities_df[column_name].isin(stop_words_list)]
+    print("Excluded entities:\n", excluded_df)
     entities_df.to_csv(output_path, '\t', index=False)
 
 
