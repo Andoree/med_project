@@ -5,11 +5,11 @@ from xml.etree import ElementTree
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument('--wn_senses', default=r'../wordnet_meddra/wordnet_meddra_intersection.tsv')
+    parser.add_argument('--wn_senses', default=r'../wordnet_meddra/wordnet_lemm_meddra_intersection.tsv')
     parser.add_argument('--wn_synsets',
                         default=r'../wordnet/synsets.N.xml')
     parser.add_argument('--meddra_path',
-                        default=r'../vocabs/vocabs_w_metadata/ru_meddra_vocab.tsv')
+                        default=r'../vocabs/vocabs_w_metadata/lemmatized_ru_meddra_vocab.tsv')
     parser.add_argument('--output_path', default=r'../wordnet_meddra/wn_senses_not_in_meddra.tsv')
     args = parser.parse_args()
 
@@ -24,10 +24,10 @@ def main():
     wn_senses_df = pd.read_csv(senses_path, sep='\t', encoding="utf-8")
     meddra_df = pd.read_csv(meddra_path, sep='\t', encoding="utf-8")
     wn_senses_df["sense_term"] = wn_senses_df["sense_term"].apply(lambda x: x.lower())
-    meddra_df["term"] = meddra_df["term"].apply(lambda x: x.lower())
+    meddra_df["lemm_term"] = meddra_df["lemm_term"].apply(lambda x: x.lower())
 
     wn_synsets_from_meddra_set = set(wn_senses_df.synset_id.values)
-    meddra_terms_set = set(meddra_df.term.values)
+    meddra_terms_set = set(meddra_df.lemm_term.values)
     # wn_senses_from_meddra_set = set(wn_senses_df.sense_id.values)
 
     tree = ElementTree.parse(synsets_path)
