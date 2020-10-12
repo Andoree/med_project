@@ -1,4 +1,14 @@
 synset_id	sense_id	sense_term	umls_cui	semantic_type	semantic_group	ru_meddra_code	term	term_type	semantic_type_name	semantic_group_name	lemm_term
+124412-A	124412-A-168463	метастатический	C0036525	T169	CONC	10027474	Метастатический	OL	Functional Concept	Concepts & Ideas	метастатический
+6481-A	6481-A-729516	врожденный	C1744681	T080	CONC	10010307	Врожденный	OL	Qualitative Concept	Concepts & Ideas	врожденный
+9402-A	9402-A-121752	астматический	C0004096	T047	DISO	10003565	Астматический	LLT	Disease or Syndrome	Disorders	астматический
+9407-A	9407-A-135990	гипертонический	C0857121	T033	DISO	10020800	Гипертонический	LLT	Finding	Disorders	гипертонический
+110638-A	110638-A-141563	лихорадочный	C0015967	T184	DISO	10073718	Лихорадочный	LLT	Sign or Symptom	Disorders	лихорадочный
+4740-A	4740-A-115887	диабетический	C0241863	T033	DISO	10012641	Диабетический	LLT	Finding	Disorders	диабетический
+5137-V	5137-V-714421	прервать беременность	C0854468	T033	DISO	10000209	Прерванная беременность	LLT	Finding	Disorders	прервать беременность
+5137-V	5137-V-714421	прервать беременность	C0854468	T033	DISO	10000209	Прерванная беременность	PT	Finding	Disorders	прервать беременность
+151774-V	151774-V-745429	приковать к постель	C0741453	T033	DISO	10048948	Прикованный к постели	LLT	Finding	Disorders	приковать к постель
+151774-V	151774-V-745429	приковать к постель	C0741453	T033	DISO	10048948	Прикованный к постели	PT	Finding	Disorders	приковать к постель
 9457-N	9457-N-167629	дерматоз	C0037274	T047	DISO	10048768	Дерматоз	LLT	Disease or Syndrome	Disorders	дерматоз
 9457-N	9457-N-167629	дерматоз	C0037274	T047	DISO	10048768	Дерматоз	PT	Disease or Syndrome	Disorders	дерматоз
 9457-N	9457-N-200031	заболевание кожа	C0037274	T047	DISO	10040831	Заболевание кожи	LLT	Disease or Syndrome	Disorders	заболевание кожа
