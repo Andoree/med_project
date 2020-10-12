@@ -6,10 +6,10 @@ import pandas as pd
 def main():
     parser = ArgumentParser()
     parser.add_argument('--wordnet_path',
-                        default=r'../wordnet_meddra/wordnet_med_senses_synsets.tsv')
+                        default=r'../wordnet_meddra/all_wordnet_med_senses_synsets.tsv')
     parser.add_argument('--meddra_path',
                         default=r'../vocabs/vocabs_w_metadata/lemmatized_ru_meddra_vocab.tsv')
-    parser.add_argument('--output_path', default=r'../wordnet_meddra/wordnet_lemm_meddra_intersection.tsv')
+    parser.add_argument('--output_path', default=r'../wordnet_meddra/all_terms_wordnet_lemm_meddra_intersection.tsv')
     args = parser.parse_args()
 
     wordnet_path = args.wordnet_path
