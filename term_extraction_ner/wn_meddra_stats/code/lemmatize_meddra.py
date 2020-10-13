@@ -3,8 +3,7 @@ from argparse import ArgumentParser
 
 import pandas as pd
 
-from lemmatize_entities import load_pipeline, process_udpipe
-from term_extraction_ner.entities_statistics.code.lemmatize_entities import unify_sym
+from entities_statistics.code.lemmatize_entities import load_pipeline, process_udpipe, unify_sym
 
 
 def main():
@@ -25,6 +24,10 @@ def main():
     meddra_df = pd.read_csv(meddra_path, sep='\t', encoding="utf-8")
     meddra_df["lemm_term"] = meddra_df["term"].apply(
         lambda x: ' '.join(process_udpipe(process_pipeline, text=unify_sym(x), keep_pos=False)))
+    meddra_df["lemm_term"] = meddra_df["lemm_term"].apply(lambda x: x.replace(' - ', '-'))
+    meddra_df["lemm_term"] = meddra_df["lemm_term"].apply(lambda x: x.replace(' -', '-'))
+    meddra_df["lemm_term"] = meddra_df["lemm_term"].apply(lambda x: x.replace('- ', '-'))
+    meddra_df.to_csv(output_path, sep='\t', index=False)
 
 
 if __name__ == '__main__':
