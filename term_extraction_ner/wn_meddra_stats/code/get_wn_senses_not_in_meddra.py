@@ -40,6 +40,8 @@ def main():
     # all_wordnet_med_terms_set = set(wn_med_full_df.sense_term.values)
     wn_filtered_senses_df = wn_med_full_df[wn_med_full_df.synset_id_no_pos.isin(wn_synsets_from_meddra_set)]
     wn_filtered_senses_df = wn_filtered_senses_df[~wn_filtered_senses_df.sense_term.isin(meddra_terms_set)]
+    wn_filtered_senses_df.drop(columns=["synset_id_no_pos"], axis=1, inplace=True)
+    assert len(set(wn_filtered_senses_df.sense_term).intersection(meddra_terms_set)) == 0
     print("result")
     print(wn_filtered_senses_df)
     print(f"Wn senses in meddra: {len(intersection_senses_df.sense_id.unique())}")

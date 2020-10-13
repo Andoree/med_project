@@ -34,7 +34,7 @@ def main():
     print(f"Term joined: {wn_meddra_joined_by_term_df.shape[0]}")
     print(f"Lemm joined: {wn_meddra_joined_by_lemma_df.shape[0]}")
     joined_df = pd.concat([wn_meddra_joined_by_lemma_df, wn_meddra_joined_by_term_df]).drop_duplicates()
-    # todo: создать новый столбец, откусив -N, -V, -A
+
     senses_whose_synsets_intersect_meddra_set = set(joined_df.synset_id_no_pos.values)
     all_senses_whose_synsets_intersect_meddra_df = wordnet_df[
         wordnet_df.synset_id_no_pos.isin(senses_whose_synsets_intersect_meddra_set)]
@@ -43,7 +43,7 @@ def main():
     print(f"Intersection unique senses: {len(set(all_senses_whose_synsets_intersect_meddra_df.sense_id.values))}")
     print(f"Intersection unique synsets: {len(set(all_senses_whose_synsets_intersect_meddra_df.synset_id.values))}")
     print(f"Intersection unique synsets no pos: {len(set(all_senses_whose_synsets_intersect_meddra_df.synset_id_no_pos.values))}")
-    all_senses_whose_synsets_intersect_meddra_df.drop(columns=["synset_id_no_pos"])
+    all_senses_whose_synsets_intersect_meddra_df.drop(columns=["synset_id_no_pos"], axis=1, inplace=True)
     all_senses_whose_synsets_intersect_meddra_df.to_csv(output_path, sep='\t', encoding="utf-8", index=False)
 
 
