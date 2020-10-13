@@ -23,7 +23,6 @@ def main():
     synset_relations_list = args.synset_relations
     synsets_paths_list = args.synsets
     synset_ids_list = args.synset_id
-    print('ddd', synset_ids_list)
     output_path = args.output_path
     output_dir = os.path.dirname(output_path)
     if not os.path.exists(output_dir) and not output_dir == '':
