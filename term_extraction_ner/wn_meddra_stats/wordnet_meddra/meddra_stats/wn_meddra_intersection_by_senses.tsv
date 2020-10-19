@@ -1,123 +1,13 @@
 synset_id	sense_id	sense_term	umls_cui	semantic_type	semantic_group	ru_meddra_code	term	term_type	semantic_type_name	semantic_group_name	lemm_term
 124412-A	124412-A-168463	метастатический	C0036525	T169	CONC	10027474	метастатический	OL	Functional Concept	Concepts & Ideas	метастатический
 6481-A	6481-A-729516	врожденный	C1744681	T080	CONC	10010307	врожденный	OL	Qualitative Concept	Concepts & Ideas	врожденный
-9407-A	9407-A-135990	гипертонический	C0857121	T033	DISO	10020800	гипертонический	LLT	Finding	Disorders	гипертонический
-4740-A	4740-A-115887	диабетический	C0241863	T033	DISO	10012641	диабетический	LLT	Finding	Disorders	диабетический
-154946-N	154946-N-735222	нарушение сон	C0037317	T184	DISO	10040997	нарушения сна	OL	Sign or Symptom	Disorders	нарушение сон
-154946-N	154946-N-735222	нарушение сон	C0037317	T184	DISO	10040995	нарушение сна	LLT	Sign or Symptom	Disorders	нарушение сон
-2635-N	2635-N-182531	злоупотребление наркотик	C0524661	T048	DISO	10028718	злоупотребление наркотиками	LLT	Mental or Behavioral Dysfunction	Disorders	злоупотребление наркотик
-144833-N	144833-N-716081	нейроциркуляторный дистония	C2242543	T047	DISO	10067886	нейроциркуляторная дистония	LLT	Disease or Syndrome	Disorders	нейроциркуляторный дистония
 6481-N	6481-N-215146	врожденный нарушение	C0242354	T047	DISO	10013191	врожденное нарушение	OL	Disease or Syndrome	Disorders	врожденный нарушение
-118096-N	118096-N-151999	рубцевание	C0008767	T046	DISO	10039589	рубцевание	LLT	Pathologic Function	Disorders	рубцевание
-131335-N	131335-N-182692	заикание	C0038506	T048	DISO	10042266	заикание	LLT	Mental or Behavioral Dysfunction	Disorders	заикание
 4955-N	4955-N-104871	кишечный инфекция	C0178238	T047	DISO	10022678	кишечные инфекции	HT	Disease or Syndrome	Disorders	кишечный инфекция
-9491-N	9491-N-217331	шизофренический психоз	C0848257	T048	DISO	10039643	шизофренические психозы	LLT	Mental or Behavioral Dysfunction	Disorders	шизофренический психоз
-130761-N	130761-N-690912	имбецил	C0026351	T048	DISO	10021408	имбецил	LLT	Mental or Behavioral Dysfunction	Disorders	имбецил
-144031-N	144031-N-680298	аутизм	C0004352	T048	DISO	10003805	аутизм	LLT	Mental or Behavioral Dysfunction	Disorders	аутизм
-3949-N	3949-N-188703	психический нарушение	C0277577	T048	DISO	10037183	психическое нарушение	LLT	Mental or Behavioral Dysfunction	Disorders	психический нарушение
 3949-N	3949-N-188709	психический отклонение	C0858950	T048	DISO	10027343	психическое отклонение	OL	Mental or Behavioral Dysfunction	Disorders	психический отклонение
-3949-N	3949-N-110241	психический расстройство	C0277577	T048	DISO	10037181	психическое расстройство	OL	Mental or Behavioral Dysfunction	Disorders	психический расстройство
-5801-N	5801-N-118414	нарушение интеллект	C0235199	T033	DISO	10022515	нарушение интеллекта	LLT	Finding	Disorders	нарушение интеллект
-5802-N	5802-N-217540	умственный неполноценность	C0026106	T048	DISO	10016314	умственная неполноценность	LLT	Mental or Behavioral Dysfunction	Disorders	умственный неполноценность
-5802-N	5802-N-201826	имбецильность	C0541729	T033	DISO	10021409	имбецильность	LLT	Finding	Disorders	имбецильность
-5802-N	5802-N-113379	умственный отсталость	C0917816	T048	DISO	10027351	умственная отсталость	LLT	Mental or Behavioral Dysfunction	Disorders	умственный отсталость
-5802-N	5802-N-217552	идиотия	C0020796	T048	DISO	10021218	идиотия	LLT	Mental or Behavioral Dysfunction	Disorders	идиотия
-5802-N	5802-N-213982	задержка умственный развитие	C0025362	T048	DISO	10027378	задержка умственного развития	LLT	Mental or Behavioral Dysfunction	Disorders	задержка умственный развитие
-5802-N	5802-N-119859	дебильность	C0542093	T033	DISO	10027976	дебильность	LLT	Finding	Disorders	дебильность
-7394-N	7394-N-700683	полиартрит	C0234948	T047	DISO	10036033	полиартрит	LLT	Disease or Syndrome	Disorders	полиартрит
-7394-N	7394-N-700683	полиартрит	C0234948	T047	DISO	10036032	полиартрит	LLT	Disease or Syndrome	Disorders	полиартрит
-7394-N	7394-N-700683	полиартрит	C0581346	T047	DISO	10018076	полиартрит	LLT	Disease or Syndrome	Disorders	полиартрит
-7394-N	7394-N-700683	полиартрит	C0581346	T047	DISO	10062429	полиартрит	LLT	Disease or Syndrome	Disorders	полиартрит
-5390-N	5390-N-120132	хирургический вмешательство	C0549433	T033	DISO	10048451	хирургическое вмешательство	LLT	Finding	Disorders	хирургический вмешательство
-10134-N	10134-N-123628	припадок	C0234972	T047	DISO	10010924	припадки	LLT	Disease or Syndrome	Disorders	припадок
 111388-N	111388-N-692196	резкий боль	C0235048	T033	DISO	10041199	резкая боль	OL	Finding	Disorders	резкий боль
 142786-N	142786-N-669634	посттравматический синдром	C0949042	T037	DISO	10052068	посттравматический синдром	OL	Injury or Poisoning	Disorders	посттравматический синдром
 137794-N	137794-N-202517	боль в голова	C0424698	T033	DISO	10043428	боли в голове	OL	Finding	Disorders	боль в голова
-7393-N	7393-N-124858	атеросклероз	C0004153	T047	DISO	10003601	атеросклероз	LLT	Disease or Syndrome	Disorders	атеросклероз
-135771-N	135771-N-732523	провал в память	C4324510	T048	DISO	10079176	провалы в памяти	LLT	Mental or Behavioral Dysfunction	Disorders	провал в память
-135771-N	135771-N-196630	потеря память	C0751295	T184	DISO	10027178	потеря памяти	LLT	Sign or Symptom	Disorders	потеря память
-135771-N	135771-N-196630	потеря память	C0751295	T184	DISO	10024871	потеря памяти	LLT	Sign or Symptom	Disorders	потеря память
-135771-N	135771-N-196630	потеря память	C0751295	T184	DISO	10027176	потеря памяти	LLT	Sign or Symptom	Disorders	потеря память
-143084-N	143084-N-139382	искривление позвоночник	C0037932	T033	DISO	10011648	искривление позвоночника	LLT	Finding	Disorders	искривление позвоночник
 136162-N	136162-N-195619	сердечный недостаточность	C0392173	T047	DISO	10019291	сердечная недостаточность	OL	Disease or Syndrome	Disorders	сердечный недостаточность
-110398-N	110398-N-669630	истерический невроз	C0086441	T048	DISO	10021163	истерический невроз	LLT	Mental or Behavioral Dysfunction	Disorders	истерический невроз
-110398-N	110398-N-139461	истерия	C0020701	T048	DISO	10021154	истерия	LLT	Mental or Behavioral Dysfunction	Disorders	истерия
-9484-N	9484-N-119357	инсульт	C1263853	T047	DISO	10078352	инсульт	LLT	Disease or Syndrome	Disorders	инсульт
-133567-N	133567-N-755313	укачивание в транспорт	C0007297	T047	DISO	10007215	укачивание в транспорте	LLT	Disease or Syndrome	Disorders	укачивание в транспорт
-141543-N	141543-N-111573	слабоумие	C0860630	T048	DISO	10012264	слабоумие	LLT	Mental or Behavioral Dysfunction	Disorders	слабоумие
-9612-N	9612-N-685011	искусственный вентиляция	C0554804	T061	PROC	10003541	искусственная вентиляция	LLT	Therapeutic or Preventive Procedure	Procedures	искусственный вентиляция
 6961-N	6961-N-107251	нарушение зрение	C0042790	T033	DISO	10013266	нарушение зрения	OL	Finding	Disorders	нарушение зрение
 6961-N	6961-N-107251	нарушение зрение	C0042790	T033	DISO	10047518	нарушения зрения	HG	Finding	Disorders	нарушение зрение
-6961-N	6961-N-115557	потеря зрение	C3665346	T184	DISO	10047522	потеря зрения	LLT	Sign or Symptom	Disorders	потеря зрение
-120996-N	120996-N-163266	тромб	C0302148	T046	DISO	10009667	тромб	LLT	Pathologic Function	Disorders	тромб
-120996-N	120996-N-163266	тромб	C0302148	T046	DISO	10080924	тромб	LLT	Pathologic Function	Disorders	тромб
-5882-N	5882-N-116103	паразитарный заболевание	C0030499	T047	DISO	10065086	паразитарное заболевание	LLT	Disease or Syndrome	Disorders	паразитарный заболевание
-10054-N	10054-N-118232	детский церебральный паралич	C0392549	T047	DISO	10021740	детский церебральный паралич	LLT	Disease or Syndrome	Disorders	детский церебральный паралич
-112698-N	112698-N-146180	парша	C0040254	T047	DISO	10016269	парша	LLT	Disease or Syndrome	Disorders	парша
-9856-N	9856-N-179028	экг	C1623258	T060	PROC	10014084	экг	LLT	Diagnostic Procedure	Procedures	экг
-116984-N	116984-N-729851	стреляющий боль	C0278146	T184	DISO	10050007	стреляющая боль	LLT	Sign or Symptom	Disorders	стреляющий боль
-117985-N	117985-N-725984	маниакальный состояние	C0564408	T033	DISO	10026752	маниакальное состояние	LLT	Finding	Disorders	маниакальный состояние
-136615-N	136615-N-188050	морской болезнь	C0036494	T047	DISO	10039773	морская болезнь	LLT	Disease or Syndrome	Disorders	морской болезнь
-6044-N	6044-N-110643	ревматизм	C0035435	T047	DISO	10039070	ревматизм	LLT	Disease or Syndrome	Disorders	ревматизм
-6044-N	6044-N-110643	ревматизм	C0035435	T047	DISO	10039068	ревматизм	LLT	Disease or Syndrome	Disorders	ревматизм
-9014-N	9014-N-188170	гнойный инфекция	C3249881	T047	DISO	10075828	гнойная инфекция	LLT	Disease or Syndrome	Disorders	гнойный инфекция
-616-N	616-N-103678	заболевание	C0221423	T184	DISO	10080284	заболевание	LLT	Sign or Symptom	Disorders	заболевание
-111615-N	111615-N-103678	заболевание	C0221423	T184	DISO	10080284	заболевание	LLT	Sign or Symptom	Disorders	заболевание
-616-N	616-N-101075	болезнь	C0221423	T184	DISO	10040658	болезнь	LLT	Sign or Symptom	Disorders	болезнь
-143344-N	143344-N-673697	целлюлит	C0424624	T033	DISO	10065339	целлюлит	LLT	Finding	Disorders	целлюлит
-4521-N	4521-N-179824	ревакцинация	C2713304	T061	PROC	10069591	ревакцинация	LLT	Therapeutic or Preventive Procedure	Procedures	ревакцинация
-4780-N	4780-N-104369	интоксикация	C0728899	T033	DISO	10022727	интоксикация	LLT	Finding	Disorders	интоксикация
-2046-N	2046-N-762253	заражение вирус	C1698630	T047	DISO	10065957	заражение вирусом	LLT	Disease or Syndrome	Disorders	заражение вирус
-112452-N	112452-N-132748	авитаминоз	C0376286	T047	DISO	10003862	авитаминоз	LLT	Disease or Syndrome	Disorders	авитаминоз
-151334-N	151334-N-116183	инсулин	C0202098	T059	PROC	10022468	инсулин	LLT	Laboratory Procedure	Procedures	инсулин
-7513-N	7513-N-104193	иммунология	C0152036	T091	OCCU	10021503	иммунология	LLT	Biomedical Occupation or Discipline	Occupations	иммунология
-125387-N	125387-N-170220	бородавка	C0043037	T047	DISO	10047320	бородавка	LLT	Disease or Syndrome	Disorders	бородавка
-125387-N	125387-N-170220	бородавка	C3665596	T191	DISO	10047828	бородавки	LLT	Neoplastic Process	Disorders	бородавка
-125387-N	125387-N-170220	бородавка	C3665596	T191	DISO	10047825	бородавка	LLT	Neoplastic Process	Disorders	бородавка
-3338-N	3338-N-168313	таежный энцефалит	C0015632	T047	DISO	10056421	таежный энцефалит	LLT	Disease or Syndrome	Disorders	таежный энцефалит
-110367-N	110367-N-736569	жидкий стул	C2129214	T184	DISO	10024840	жидкий стул	LLT	Sign or Symptom	Disorders	жидкий стул
-4779-N	4779-N-215882	вставка зуб	C1536137	T058	PROC	10064101	вставка зубов	LLT	Health Care Activity	Procedures	вставка зуб
-142357-N	142357-N-216601	депрессивный расстройство	C0011581	T048	DISO	10012401	депрессивные расстройства	HT	Mental or Behavioral Dysfunction	Disorders	депрессивный расстройство
-142357-N	142357-N-216601	депрессивный расстройство	C0011581	T048	DISO	10012399	депрессивное расстройство	LLT	Mental or Behavioral Dysfunction	Disorders	депрессивный расстройство
-110237-N	110237-N-720069	болевой ощущение	C0234238	T184	DISO	10000424	болевые ощущения	LLT	Sign or Symptom	Disorders	болевой ощущение
-8804-N	8804-N-116629	простуда	C0009443	T047	DISO	10019192	простуда	LLT	Disease or Syndrome	Disorders	простуда
-8804-N	8804-N-116629	простуда	C0009443	T047	DISO	10009851	простуда	LLT	Disease or Syndrome	Disorders	простуда
-137887-N	137887-N-116629	простуда	C0009443	T047	DISO	10019192	простуда	LLT	Disease or Syndrome	Disorders	простуда
-137887-N	137887-N-116629	простуда	C0009443	T047	DISO	10009851	простуда	LLT	Disease or Syndrome	Disorders	простуда
 109068-N	109068-N-122318	аллергический состояние	C0851444	T047	DISO	10001708	аллергические состояния	HG	Disease or Syndrome	Disorders	аллергический состояние
-109068-N	109068-N-100390	аллергический реакция	C1527304	T046	DISO	10001718	аллергическая реакция	LLT	Pathologic Function	Disorders	аллергический реакция
-124454-N	124454-N-135700	высыпание	C0302295	T046	DISO	10015138	высыпание	LLT	Pathologic Function	Disorders	высыпание
-109334-N	109334-N-150452	прыщ	C0542346	T184	DISO	10035048	прыщ	LLT	Sign or Symptom	Disorders	прыщ
-109334-N	109334-N-150452	прыщ	C0542346	T184	DISO	10035049	прыщи	LLT	Sign or Symptom	Disorders	прыщ
-8216-N	8216-N-107202	наркоз	C0234447	T048	DISO	10059784	наркоз	LLT	Mental or Behavioral Dysfunction	Disorders	наркоз
-124017-N	124017-N-136060	глист	C0018893	T204	LIVB	10063126	глисты	LLT	Eukaryote	Living Beings	глист
-150035-N	150035-N-730046	свиной грипп	C0276357	T047	DISO	10069500	свиной грипп	LLT	Disease or Syndrome	Disorders	свиной грипп
-111428-N	111428-N-752058	перевязка рана	C0178388	T061	PROC	10048034	перевязка раны	LLT	Therapeutic or Preventive Procedure	Procedures	перевязка рана
-119526-N	119526-N-712018	колющий боль	C0423603	T033	DISO	10036662	колющая боль	LLT	Finding	Disorders	колющий боль
-126321-N	126321-N-167941	изжога	C0018834	T184	DISO	10019326	изжога	LLT	Sign or Symptom	Disorders	изжога
-138079-N	138079-N-203255	подтяжка лицо	C4324692	T061	PROC	10079506	подтяжка лица	LLT	Therapeutic or Preventive Procedure	Procedures	подтяжка лицо
-141530-N	141530-N-213950	парацетамол	C0373527	T059	PROC	10033762	парацетамол	LLT	Laboratory Procedure	Procedures	парацетамол
-148386-N	148386-N-720120	ощущение тяжесть	C0581912	T033	DISO	10040000	ощущение тяжести	LLT	Finding	Disorders	ощущение тяжесть
-132281-N	132281-N-184746	дисбактериоз	C1536021	T047	DISO	10064389	дисбактериоз	LLT	Disease or Syndrome	Disorders	дисбактериоз
-129698-N	129698-N-729786	лечебный ванна	C1504484	T061	PROC	10063405	лечебные ванны	LLT	Therapeutic or Preventive Procedure	Procedures	лечебный ванна
-114693-N	114693-N-140503	конвульсия	C0234972	T047	DISO	10010907	конвульсии	LLT	Disease or Syndrome	Disorders	конвульсия
-114693-N	114693-N-123458	судорога	C0026821	T184	DISO	10011285	судорога	LLT	Sign or Symptom	Disorders	судорога
-114693-N	114693-N-123458	судорога	C0026821	T184	DISO	10011293	судороги	LLT	Sign or Symptom	Disorders	судорога
-9050-N	9050-N-117626	кофеин	C0202348	T059	PROC	10006927	кофеин	LLT	Laboratory Procedure	Procedures	кофеин
-8776-N	8776-N-116383	отит	C0029877	T047	DISO	10033071	отит	LLT	Disease or Syndrome	Disorders	отит
-141880-N	141880-N-214958	метеоризм	C1291077	T184	DISO	10027493	метеоризм	LLT	Sign or Symptom	Disorders	метеоризм
-137570-N	137570-N-201733	плоскостопие	C0016202	T190	DISO	10067707	плоскостопие	LLT	Anatomical Abnormality	Disorders	плоскостопие
-137570-N	137570-N-201733	плоскостопие	C0016202	T190	DISO	10016762	плоскостопие	LLT	Anatomical Abnormality	Disorders	плоскостопие
-137570-N	137570-N-201733	плоскостопие	C0016202	T190	DISO	10016763	плоскостопие	LLT	Anatomical Abnormality	Disorders	плоскостопие
-108841-N	108841-N-124940	чесотка	C0036262	T047	DISO	10039511	чесотка	LLT	Disease or Syndrome	Disorders	чесотка
-112828-N	112828-N-150677	радикулит	C0034544	T047	DISO	10061928	радикулит	LLT	Disease or Syndrome	Disorders	радикулит
-109552-N	109552-N-157149	цинга	C0036474	T047	DISO	10039768	цинга	LLT	Disease or Syndrome	Disorders	цинга
-9224-N	9224-N-691496	острый инфекция дыхательный путь	C4759838	T047	DISO	10066740	острая инфекция дыхательных путей	LLT	Disease or Syndrome	Disorders	острый инфекция дыхательный путь
-9224-N	9224-N-182511	острый инфекция верхний дыхательный путь	C0264222	T047	DISO	10066679	острая инфекция верхних дыхательных путей	LLT	Disease or Syndrome	Disorders	острый инфекция верхний дыхательный путь
-137887-N	137887-N-202773	лихорадка на губа	C0019345	T047	DISO	10009865	лихорадка на губах	LLT	Disease or Syndrome	Disorders	лихорадка на губа
-5802-N	5802-N-108061	олигофрения	C0549491	T033	DISO	10030299	олигофрения	LLT	Finding	Disorders	олигофрение
-147153-N	147153-N-711953	анорексия	C0003123	T047	DISO	10002646	анорексия	LLT	Disease or Syndrome	Disorders	анорексий
-122264-N	122264-N-689970	колика	C0232488	T033	DISO	10009881	колика	LLT	Finding	Disorders	колик
-110633-N	110633-N-141582	лишай	C0023643	T047	DISO	10024426	лишай	LLT	Disease or Syndrome	Disorders	лишать
-135848-N	135848-N-741562	деформирующий артроз	C0877682	T047	DISO	10049623	деформирующий артроз	LLT	Disease or Syndrome	Disorders	деформируть артроз
-136755-N	136755-N-197835	эмболия	C1704212	T033	DISO	10014516	эмболия	OL	Finding	Disorders	эмболий

@@ -8,8 +8,9 @@ def main():
     parser.add_argument('--wordnet_path',
                         default=r'../wordnet_meddra/all_wordnet_med_senses_synsets.tsv')
     parser.add_argument('--meddra_path',
-                        default=r'../vocabs/vocabs_w_metadata/lemmatized_ru_meddra_vocab.tsv')
-    parser.add_argument('--output_path', default=r'../wordnet_meddra/all_terms_wordnet_lemm_meddra_intersection.tsv')
+                        default=r'../vocabs/vocabs_w_metadata/pt_llt_lemmatized_ru_meddra_vocab.tsv')
+    parser.add_argument('--output_path',
+                        default=r'../wordnet_meddra/wn_pt_lltmeddra_intersection/pt_llt_wordnet_lemm_meddra_intersection.tsv')
     args = parser.parse_args()
 
     wordnet_path = args.wordnet_path
@@ -42,10 +43,10 @@ def main():
     print(f"Intersection size: {all_senses_whose_synsets_intersect_meddra_df.shape[0]}")
     print(f"Intersection unique senses: {len(set(all_senses_whose_synsets_intersect_meddra_df.sense_id.values))}")
     print(f"Intersection unique synsets: {len(set(all_senses_whose_synsets_intersect_meddra_df.synset_id.values))}")
-    print(f"Intersection unique synsets no pos: {len(set(all_senses_whose_synsets_intersect_meddra_df.synset_id_no_pos.values))}")
+    print(
+        f"Intersection unique synsets no pos: {len(set(all_senses_whose_synsets_intersect_meddra_df.synset_id_no_pos.values))}")
     all_senses_whose_synsets_intersect_meddra_df.drop(columns=["synset_id_no_pos"], axis=1, inplace=True)
     all_senses_whose_synsets_intersect_meddra_df.to_csv(output_path, sep='\t', encoding="utf-8", index=False)
-
 
 
 if __name__ == '__main__':

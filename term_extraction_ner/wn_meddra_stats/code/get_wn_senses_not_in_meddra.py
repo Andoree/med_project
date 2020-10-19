@@ -7,12 +7,13 @@ from xml.etree import ElementTree
 def main():
     parser = ArgumentParser()
     parser.add_argument('--wn_meddra_intersection',
-                        default=r'../wordnet_meddra/all_terms_wordnet_lemm_meddra_intersection.tsv')
+                        default=r'../wordnet_meddra/wn_pt_lltmeddra_intersection/pt_llt_wordnet_lemm_meddra_intersection.tsv')
     parser.add_argument('--wn_med_full',
                         default=r'../wordnet_meddra/all_wordnet_med_senses_synsets.tsv')
     parser.add_argument('--meddra_path',
-                        default=r'../vocabs/vocabs_w_metadata/lemmatized_ru_meddra_vocab.tsv')
-    parser.add_argument('--output_path', default=r'../wordnet_meddra/wn_senses_not_in_meddra.tsv')
+                        default=r'../vocabs/vocabs_w_metadata/pt_llt_lemmatized_ru_meddra_vocab.tsv')
+    parser.add_argument('--output_path',
+                        default=r'../wordnet_meddra/wn_pt_lltmeddra_intersection/pt_llt_wn_senses_not_in_meddra.tsv')
     args = parser.parse_args()
 
     wn_meddra_intersection_path = args.wn_meddra_intersection
