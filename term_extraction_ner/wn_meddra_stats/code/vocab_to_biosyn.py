@@ -6,12 +6,13 @@ import pandas as pd
 def main():
     parser = ArgumentParser()
     parser.add_argument('--vocab_path',
-                        default=r'../vocabs/vocabs_w_metadata/pt_llt_lemmatized_ru_meddra_vocab.tsv')
+                        default=r'../wordnet_meddra/wn_pt_lltmeddra_intersection/pt_llt_wordnet_lemm_meddra_intersection.tsv')
+    # default=r'../vocabs/vocabs_w_metadata/pt_llt_lemmatized_ru_meddra_vocab.tsv')
     parser.add_argument('--keep_columns', nargs='+', default=["term", "umls_cui"])
     parser.add_argument('--minus_one_columns', type=int, nargs='+', default=[0, 2, 3, 5])
     parser.add_argument('--none_columns', type=int, nargs='+', default=[1, 4, 6, 8])
     parser.add_argument('--output_path',
-                        default=r'../wordnet_meddra/meddra_biosyn/meddra_biosyn_filtered.tsv')
+                        default=r'../wordnet_meddra/meddra_biosyn/wn_meddra_intersection_biosyn_filtered.tsv')
     args = parser.parse_args()
 
     vocab_path = args.vocab_path
@@ -41,7 +42,6 @@ def main():
     print(output_df.shape[0])
     print(len(output_df.umls_cui.unique()))
     output_df.to_csv(output_path, sep='|', encoding="utf-8", index=False)
-
 
 
 if __name__ == '__main__':

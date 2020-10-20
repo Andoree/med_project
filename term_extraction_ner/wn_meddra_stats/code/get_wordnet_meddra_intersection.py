@@ -8,15 +8,22 @@ def main():
     parser.add_argument('--wordnet_path',
                         default=r'../wordnet_meddra/all_wordnet_med_senses_synsets.tsv')
     parser.add_argument('--meddra_path',
-                        default=r'../vocabs/vocabs_w_metadata/pt_llt_lemmatized_ru_meddra_vocab.tsv')
-    parser.add_argument('--output_path',
-                        default=r'../wordnet_meddra/wn_pt_lltmeddra_intersection/pt_llt_wordnet_lemm_meddra_intersection.tsv')
+                        default=r'../vocabs/vocabs_w_metadata/lemmatized_ru_meddra_vocab.tsv')
+    parser.add_argument('--output_senses_path',
+                        default=r'../wordnet_meddra/wn_meddra_intersection/all_senses_wordnet_lemm_meddra_intersection.tsv')
+    parser.add_argument('--output_intersection_path',
+                        default=r'../wordnet_meddra/wn_meddra_intersection/wordnet_lemm_meddra_intersection.tsv')
+
     args = parser.parse_args()
 
     wordnet_path = args.wordnet_path
     meddra_path = args.meddra_path
-    output_path = args.output_path
-    output_dir = os.path.dirname(output_path)
+    output_senses_path = args.output_senses_path
+    output_dir = os.path.dirname(output_senses_path)
+    if not os.path.exists(output_dir) and output_dir != '':
+        os.makedirs(output_dir)
+    output_intersection_path = args.output_intersection_path
+    output_dir = os.path.dirname(output_intersection_path)
     if not os.path.exists(output_dir) and output_dir != '':
         os.makedirs(output_dir)
 
@@ -35,6 +42,7 @@ def main():
     print(f"Term joined: {wn_meddra_joined_by_term_df.shape[0]}")
     print(f"Lemm joined: {wn_meddra_joined_by_lemma_df.shape[0]}")
     joined_df = pd.concat([wn_meddra_joined_by_lemma_df, wn_meddra_joined_by_term_df]).drop_duplicates()
+    joined_df.to_csv(output_intersection_path, sep='\t', index=False)
 
     senses_whose_synsets_intersect_meddra_set = set(joined_df.synset_id_no_pos.values)
     all_senses_whose_synsets_intersect_meddra_df = wordnet_df[
@@ -46,7 +54,7 @@ def main():
     print(
         f"Intersection unique synsets no pos: {len(set(all_senses_whose_synsets_intersect_meddra_df.synset_id_no_pos.values))}")
     all_senses_whose_synsets_intersect_meddra_df.drop(columns=["synset_id_no_pos"], axis=1, inplace=True)
-    all_senses_whose_synsets_intersect_meddra_df.to_csv(output_path, sep='\t', encoding="utf-8", index=False)
+    all_senses_whose_synsets_intersect_meddra_df.to_csv(output_senses_path, sep='\t', encoding="utf-8", index=False)
 
 
 if __name__ == '__main__':
