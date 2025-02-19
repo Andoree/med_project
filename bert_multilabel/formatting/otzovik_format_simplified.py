@@ -47,12 +47,13 @@ def concat_review_sentences_get_label(review_dict):
     assert max(sent_ids) == len(review_dict)
     sentences = []
     review_label = "noADR"
-    for key in range(len(review_dict)):
+    for key in range(1, len(review_dict) + 1):
         sentences.append(review_dict[key].strip())
         sent_label = review_dict[key]["label"]
         assert sent_label in ("ADR", "noADR")
         if sent_label == "ADR":
             review_label = "ADR"
+    assert len(sentences) == len(review_dict)
 
     return ' '.join(sentences), review_label
 
