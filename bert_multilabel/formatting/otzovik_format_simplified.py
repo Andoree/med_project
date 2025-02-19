@@ -43,8 +43,8 @@ def get_sentence_dict(efficiency_annotation, review_id, sentence_id, sentence_te
 
 def concat_review_sentences_get_label(review_dict):
     sent_ids = tuple(review_dict.keys())
-    assert min(sent_ids) == 0
-    assert max(sent_ids) == len(review_dict) - 1
+    assert min(sent_ids) == 1
+    assert max(sent_ids) == len(review_dict)
     sentences = []
     review_label = "noADR"
     for key in range(len(review_dict)):
@@ -120,7 +120,8 @@ def main():
             pass
 
     sentences_df = pd.DataFrame.from_records(sentences)
-    sentences_df.rename(columns={"Other": "others"}, inplace=True)
+
+    # sentences_df.rename(columns={"Other": "others"}, inplace=True)
     num_splits = args.n_splits
     if num_splits > 1:
         kf = KFold(n_splits=num_splits)
@@ -141,6 +142,9 @@ def main():
             test_df.to_csv(test_path, index=False)
             dev_df.to_csv(dev_path, index=False)
     elif num_splits == 1:
+        output_sentences_path = os.path.join(output_dir, "all_rudrec_adr.csv")
+        sentences_df.to_csv(output_sentences_path, index=False)
+
         train_df, test_df, _, _ = train_test_split \
             (sentences_df, sentences_df, test_size=0.2, random_state=42)
 
