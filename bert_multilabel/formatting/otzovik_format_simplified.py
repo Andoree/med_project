@@ -33,7 +33,7 @@ def get_sentence_dict(efficiency_annotation, review_id, sentence_id, sentence_te
 
     sent_dict['text'] = sentence_texts[sentence_id]
     sent_dict["label"] = "ADR" if "ADR" in efficiency_annotation else "noADR"
-    sent_dict["id"] = f"{sentence_id}_{review_id}"
+    sent_dict["id"] = f"{review_id}_{sentence_id}"
     sent_dict["type"] = "sentence"
 
 
