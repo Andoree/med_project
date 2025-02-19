@@ -48,7 +48,7 @@ def concat_review_sentences_get_label(review_dict):
     sentences = []
     review_label = "noADR"
     for key in range(1, len(review_dict) + 1):
-        sentences.append(review_dict[key].strip())
+        sentences.append(review_dict[key]["text"].strip())
         sent_label = review_dict[key]["label"]
         assert sent_label in ("ADR", "noADR")
         if sent_label == "ADR":
