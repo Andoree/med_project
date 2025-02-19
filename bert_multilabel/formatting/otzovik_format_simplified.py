@@ -143,8 +143,9 @@ def main():
             test_df.to_csv(test_path, index=False)
             dev_df.to_csv(dev_path, index=False)
     elif num_splits == 1:
+        COLUMNS = ["id", "text", "label", "type"]
         output_sentences_path = os.path.join(output_dir, "all_rudrec_adr.csv")
-        sentences_df.to_csv(output_sentences_path, index=False)
+        sentences_df[COLUMNS].to_csv(output_sentences_path, index=False)
 
         train_df, test_df, _, _ = train_test_split \
             (sentences_df, sentences_df, test_size=0.2, random_state=42)
@@ -155,9 +156,9 @@ def main():
         train_path = os.path.join(output_dir, 'train.csv')
         dev_path = os.path.join(output_dir, 'dev.csv')
         test_path = os.path.join(output_dir, 'test.csv')
-        train_df.to_csv(train_path, index=False)
-        test_df.to_csv(test_path, index=False)
-        dev_df.to_csv(dev_path, index=False)
+        train_df[COLUMNS].to_csv(train_path, index=False)
+        test_df[COLUMNS].to_csv(test_path, index=False)
+        dev_df[COLUMNS].to_csv(dev_path, index=False)
     else:
         raise Exception(f"Invalid n_splits: {num_splits}")
 
